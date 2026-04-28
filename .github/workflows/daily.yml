@@ -1,0 +1,32 @@
+name: daily-update
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 패키지 설치
+        run: pip install requests beautifulsoup4 lxml
+
+      - name: 크롤러 실행
+        run: python crawler.py
+
+      - name: 결과 커밋
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add reports/ data/
+          git diff --staged --quiet || git commit -m "daily update $(date +'%Y-%m-%d')"
+          git push
