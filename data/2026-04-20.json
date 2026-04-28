@@ -1,0 +1,211 @@
+{
+  "collected_at": "2026-04-20",
+  "appstore": [
+    {
+      "app": "포스티",
+      "platform": "iOS",
+      "reviews": [],
+      "rating": null
+    },
+    {
+      "app": "포스티",
+      "platform": "Android",
+      "updated": "2026년 2월 4일",
+      "recent_changes": ""
+    },
+    {
+      "app": "에이블리",
+      "platform": "iOS",
+      "reviews": [],
+      "rating": null
+    },
+    {
+      "app": "에이블리",
+      "platform": "Android",
+      "error": "404 Client Error: Not Found for url: https://play.google.com/store/apps/details?id=com.ablyclothes.app&hl=ko"
+    },
+    {
+      "app": "지그재그",
+      "platform": "iOS",
+      "reviews": [],
+      "rating": null
+    },
+    {
+      "app": "지그재그",
+      "platform": "Android",
+      "error": "404 Client Error: Not Found for url: https://play.google.com/store/apps/details?id=com.kakaostyle.zigzag&hl=ko"
+    }
+  ],
+  "events": {
+    "posty": [
+      {
+        "title": "지금 가입 시 20% 할인쿠폰을 드려요.쿠폰받기",
+        "url": "https://posty.kr/events/cms/879fa67f-578c-4645-9b66-be2b3063c539",
+        "source": "포스티"
+      }
+    ],
+    "ably": [
+      {
+        "title": "에이블리 기획전",
+        "url": "https://m.a-bly.com/exhibitions",
+        "source": "에이블리",
+        "note": "앱 전용 — 상세 목록은 앱에서 확인"
+      }
+    ],
+    "cm29": [
+      {
+        "title": "Event",
+        "url": "https://www.29cm.co.kr/store/event",
+        "source": "29CM"
+      }
+    ],
+    "wconcept": [
+      {
+        "title": "W컨셉 기획전",
+        "url": "https://www.wconcept.co.kr/Display/eventList",
+        "source": "W컨셉",
+        "note": "앱 전용 — 상세 목록은 앱에서 확인"
+      }
+    ]
+  },
+  "news": {
+    "포스티": [
+      {
+        "title": "중장년 플랫폼 성장세 ‘뚜렷’… 포스티, 누적 회원 220만명 돌파",
+        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9mX2JvWDdfTFpKVlJ5dUJsMFgwYUFLem9ST2c0ZXpiVGdteXhhckdTMW0wUXlxY0tua01vZVN2VHlnZ1lfaVhIN3k4MjF4ZUVn?oc=5",
+        "desc": "중장년 플랫폼 성장세 ‘뚜렷’… 포스티, 누적 회원 220만명 돌파&nbsp;&nbsp;패션비즈",
+        "date": "2026-01-27",
+        "brand": "포스티"
+      },
+      {
+        "title": "카카오스타일, 지그재그·포스티 설맞이 대규모 프로모션 실시",
+        "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1UdU83TW1VSGs0eW9wenhpU3JKLTU3V3hFZXRBZlJwV05WSzZILWs5OWd3eFEyd3NtTDA1aGw1SzQ2RjRmXzd1aHlVZlU1dw?oc=5",
+        "desc": "카카오스타일, 지그재그·포스티 설맞이 대규모 프로모션 실시&nbsp;&nbsp;전자신문",
+        "date": "2026-02-12",
+        "brand": "포스티"
+      },
+      {
+        "title": "포스티, 2025년 누적 회원 수 40% 증가…거래액 20% 성장",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1TOHIwQ3JtbWRkQkNDbHJvMlgwTjA1MUM5YXp5U0Uxcy03YXRYSEkzZ1FFbXE2T0Q0aFJWeUdtdGpUNHk0WEs1UFZ4ZVJKN21UUndXbnVaam9WM2JpZTJJ?oc=5",
+        "desc": "포스티, 2025년 누적 회원 수 40% 증가…거래액 20% 성장&nbsp;&nbsp;뉴스1",
+        "date": "2026-01-28",
+        "brand": "포스티"
+      }
+    ],
+    "에이블리": [
+      {
+        "title": "에이블리, 1020 겨냥 뷰티 PB ‘바이블리’ 론칭… 가성비 시장 공략",
+        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5ydWVQbURBVFhPVHV6OGY5dW9LYndwajJfbU5WSm5qaW50SlViSTA5el9mWVBnTTJRSzRsWWVDUW8wV0c5anhGbXFrQjYxNi00?oc=5",
+        "desc": "에이블리, 1020 겨냥 뷰티 PB ‘바이블리’ 론칭… 가성비 시장 공략&nbsp;&nbsp;패션비즈",
+        "date": "2026-04-20",
+        "brand": "에이블리"
+      },
+      {
+        "title": "에이블리, 첫 자체 뷰티 브랜드 '바이블리' 론칭",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBOcmhSWHR2MERRT0FMZFQ1Z05WbTJMSGJCYklnblJ2cXpVdVJLQ1ZnYkFwQTRkb1Zmck95cmFhY2ZLWk03WmVxWWVNcGxueTlQU1dZZUNENHNNVFhwdy1udDQ2cHV3RjA?oc=5",
+        "desc": "에이블리, 첫 자체 뷰티 브랜드 '바이블리' 론칭&nbsp;&nbsp;청년일보",
+        "date": "2026-04-20",
+        "brand": "에이블리"
+      },
+      {
+        "title": "\"1020 이용자 겨냥\"…에이블리, 첫 뷰티 PB '바이블리' 론칭",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQTmdoVTM0aXNackUxUTJJVVNLdXdwVk9qR2pmNDNKUGJJTkJuNkRKU1VldzhpZUl6NVdCLUthLTRXaVZXNmd1QUhhWnpjZ2tZR1hhZDB4emNsMldTRnJza3FUNEdmTVc2TGRBdk01OENfaUh3bmlUZzNpTGxUcEdmNA?oc=5",
+        "desc": "\"1020 이용자 겨냥\"…에이블리, 첫 뷰티 PB '바이블리' 론칭&nbsp;&nbsp;이데일리",
+        "date": "2026-04-20",
+        "brand": "에이블리"
+      }
+    ],
+    "지그재그": [
+      {
+        "title": "지그재그, 흑자 이어 프로모션 대박…여성 패션 플랫폼 ‘독주’",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9wQVl5dU5tV3VpNThxT19WSE10VHJtMHA5QUg5VS1jSnBpVTJfOW8tUFR2Q29xRkNJRnNtRGoydWFQYjVuSFhxbFRJc2hLeXF2aXhSNTBpU05HYVMybV95VktHel9RZWxuWHk2ZElibFloRkUycVZJ0gF3QVVfeXFMT3BBWXl1Tm1XdWk1OHFPX1ZITXRUcm0wcDlBSDlVLWNKcGlVMl85by1QVHZDb3FGQ0lGc21EajJ1YVBiNW5IWHFsVElzaEt5cXZpeFI1MGlTTkdhUzJtX3lWS0d6X1FlbG5YeTZkSWJsWWhGRTJxVkk?oc=5",
+        "desc": "지그재그, 흑자 이어 프로모션 대박…여성 패션 플랫폼 ‘독주’&nbsp;&nbsp;핀포인트뉴스",
+        "date": "2026-04-20",
+        "brand": "지그재그"
+      },
+      {
+        "title": "“스파오 ‘쿨썸머카디건’ 2만6910원” 지그재그 ‘브랜드페스타’",
+        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1URmlyZWItdmRIUnUxT3ROYWd1WFBoWEZhX2lMMGRHNEdoa2VzMDBGRk11ZlI5cGxoZ0FWRWhpUnFvaGl1dnBWdzFWMlFfMFdvNEF0NWRQbUIwa2Fmd0g2M05fZzdDbUZ5MzNZ0gFvQVVfeXFMTXZ6eDlKNUMweGRHcmlEcFNORXFKVEdHQTJjYk42WVVpd3QxNzc4SlAxR0VZc01NTTdvcjE1MVJKZGlKNjVYMUJhREVBX3VYVHJQOWtScFZqS2Vsb3l1THh3RW5ZdFZNY21lYXJ2VHE4?oc=5",
+        "desc": "“스파오 ‘쿨썸머카디건’ 2만6910원” 지그재그 ‘브랜드페스타’&nbsp;&nbsp;catchnews.kr",
+        "date": "2026-04-20",
+        "brand": "지그재그"
+      },
+      {
+        "title": "카카오스타일, 지그재그 비핵심 서비스 손질…안정적 흑자 구조 구축",
+        "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBSWGxnWUU5ZlZpa0hPNmJTeTFBa1hlcUdkbjJFRU5aZ2gwYkZkMVpYT1YyNnNkWkl6c3NfcmVSd2FQQzlvRHVFMTEzdGxjdw?oc=5",
+        "desc": "카카오스타일, 지그재그 비핵심 서비스 손질…안정적 흑자 구조 구축&nbsp;&nbsp;전자신문",
+        "date": "2025-12-05",
+        "brand": "지그재그"
+      }
+    ],
+    "29CM": [
+      {
+        "title": "무신사·29CM, 지구의 날 맞아 ‘어스 위크’… 지속가능 행보 강화",
+        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1qTHFJbXJaVnZDbVk1SDlMaERmUGRaa0hDdlYzX2ZoQ203WktXNzJyUmVwRUF4azNNSm5WaVFsMjlUUFlkNnRicXd1NzRtQzFh?oc=5",
+        "desc": "무신사·29CM, 지구의 날 맞아 ‘어스 위크’… 지속가능 행보 강화&nbsp;&nbsp;패션비즈",
+        "date": "2026-04-20",
+        "brand": "29CM"
+      },
+      {
+        "title": "무신사·29CM, '지구의 날' 기념 공동 캠페인 전개",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAwSWMxbkJFMmV6MHJDY0xjb3hveFdJaVVWUXdNRHhDeW4zRmIzMmNwQ0JTc0lJdklwbm9xWkF5TldhaHh1bFdjanZCRXhXRTZ3OG43VFF3?oc=5",
+        "desc": "무신사·29CM, '지구의 날' 기념 공동 캠페인 전개&nbsp;&nbsp;지디넷코리아",
+        "date": "2026-04-19",
+        "brand": "29CM"
+      },
+      {
+        "title": "무신사·29CM, 지구의 날 기념 ‘어스 위크’ 전개",
+        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5VV2FkbmFZMmYwRkhqQVNXZjNwbFVQQl9IZ3BSVlJyakFpazBOcG5RTEdqX29fd2l3RXlJUndBUEJ2SkhvSGg3MXhBNE8zVEF0Ni10d0hiSjE5dEJ6OU9yeGxnU3I?oc=5",
+        "desc": "무신사·29CM, 지구의 날 기념 ‘어스 위크’ 전개&nbsp;&nbsp;매일일보",
+        "date": "2026-04-20",
+        "brand": "29CM"
+      }
+    ],
+    "W컨셉": [
+      {
+        "title": "W컨셉, 어린이날 맞아 ‘키즈 원더랜드’ 행사... 최대 77% 할인",
+        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5BVFFDQzg5Wkxlai16djJFZktmcnctbHoteTdVNlZZRzBkcVJVMWNPU3NWME1remU3VFlVNjc3ZmZvTWRXVUZTb1VLdHV0b0Yx?oc=5",
+        "desc": "W컨셉, 어린이날 맞아 ‘키즈 원더랜드’ 행사... 최대 77% 할인&nbsp;&nbsp;패션비즈",
+        "date": "2026-04-19",
+        "brand": "W컨셉"
+      },
+      {
+        "title": "W컨셉, 어린이날 겨냥 ‘키즈 원더랜드’ 행사 개최… “텐포켓 트렌드에 키즈 매출 2배 증가”",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQW10WlhuZExBd1BrMzlNREpxZ3BGSjZyWWZnMXFZXzhMT0I4QWRjX3FMNUtiRGYwaFAtNEJFeFZaZnNUb1RSQkZtd2lyV1UwY01FaFphNFJnbXN2MFo5VDY1ZWFMNklfYXNIZXd3SjBKdWRhVk5ZQzQzV1MyYlNhdHVEU010QnFjb2VMcHdTVzN2cE5SSXFqVXVJYl9od2RIdUE?oc=5",
+        "desc": "W컨셉, 어린이날 겨냥 ‘키즈 원더랜드’ 행사 개최… “텐포켓 트렌드에 키즈 매출 2배 증가”&nbsp;&nbsp;신세계그룹 뉴스룸",
+        "date": "2026-04-20",
+        "brand": "W컨셉"
+      },
+      {
+        "title": "W컨셉, 어린이날 맞아 최대 77% 할인 행사…키즈 매출 전년比 2배↑",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5NMVRvV0RfSXRsQ2l4dWl0SlZMd1c4RHRRb1ktWXNCSmozNTAySjAxRjJyV2VyeGpFUThUZmdLOFA1OTVFb2Z4NW5rS0lzUUw5MnhEUVhSNEZ3UWgtaTN1bkdUUEFOempxSWZKXzM0RzBKSTZuS1NxejhR?oc=5",
+        "desc": "W컨셉, 어린이날 맞아 최대 77% 할인 행사…키즈 매출 전년比 2배↑&nbsp;&nbsp;로이슈",
+        "date": "2026-04-20",
+        "brand": "W컨셉"
+      }
+    ],
+    "무신사": [
+      {
+        "title": "몸값 10조 노리는 무신사, 패션 플랫폼 넘어 ‘브랜드 콘텐츠 기업’으로",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5IcnktMFRBWGQ4aDNtUXE2VzBPa0ZocURQYkdLQ0VrZlhhZWxiT1JmMVdodnM2MkEyd2drMUtDempGZC1vMkNyN3ZyUEM4QlktVkp2bmRHSHVmNllSY2NxSmRrTU5MZkZnNGFQcDdCQ0JBMGhI?oc=5",
+        "desc": "몸값 10조 노리는 무신사, 패션 플랫폼 넘어 ‘브랜드 콘텐츠 기업’으로&nbsp;&nbsp;대한경제",
+        "date": "2026-04-20",
+        "brand": "무신사"
+      },
+      {
+        "title": "무신사 ‘매거진 B’ 인수… 글로벌 브랜드 확장 시동",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5OdTZGeGtRbWhhdXM0YUxaTXgteWN4dmVPNWtaamxYMjEtTFBYbTNqb2lFNHdzSm81MVVjS0x1Y0prS1pud0toTTJDcjBhZlZnel93TWtEejlaZ9IBXkFVX3lxTE15ejludjZsb2dlYjUwQS1WWTNaRzNCSlRycGIyVFhnVmpCOVlVVTBNWWM2czhEMm5TYlV6a0tfVzYzQnV3MDdhWnZ0c2p3VFBQOXU4N0NLTXpyOTB5Z2c?oc=5",
+        "desc": "무신사 ‘매거진 B’ 인수… 글로벌 브랜드 확장 시동&nbsp;&nbsp;파이낸셜뉴스",
+        "date": "2026-04-20",
+        "brand": "무신사"
+      },
+      {
+        "title": "플랫폼 넘어 ‘글로벌 미디어’로…무신사, ‘매거진 B’ 지분 100% 인수",
+        "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5SWFZkanhSOEVXcV9tcGhDV29RUjBiY2JGd2FLTzdHN3J5ZnZCYVc3QXkzUEtUVTE1NjlVTnZBZFJMUUhBSjdvajE1Mno?oc=5",
+        "desc": "플랫폼 넘어 ‘글로벌 미디어’로…무신사, ‘매거진 B’ 지분 100% 인수&nbsp;&nbsp;TENANT news",
+        "date": "2026-04-19",
+        "brand": "무신사"
+      }
+    ]
+  }
+}

@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang='ko'>
+<head>
+<meta charset='UTF-8'>
+<meta name='viewport' content='width=device-width,initial-scale=1'>
+<title>퀸잇 경쟁사 대시보드 — 2026-04-20</title>
+<link rel='preconnect' href='https://fonts.googleapis.com'>
+<link href='https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=DM+Mono:wght@400;500&display=swap' rel='stylesheet'>
+<style>
+:root{
+  --bg:#f4f5f7;--bg2:#fff;--bg3:#f0f1f4;
+  --border:rgba(0,0,0,0.08);--bHv:rgba(0,0,0,0.16);
+  --text:#18191f;--text2:#52546a;--text3:#9496aa;
+  --purple:#6246ea;--purpleD:rgba(98,70,234,0.08);--purpleB:rgba(98,70,234,0.22);
+  --teal:#0b8f63;--tealD:rgba(11,143,99,0.08);
+  --coral:#d63b3b;--coralD:rgba(214,59,59,0.08);
+  --amber:#b06000;--amberD:rgba(176,96,0,0.08);
+  --blue:#1d56d1;--blueD:rgba(29,86,209,0.08);
+  --green:#157a3c;--greenD:rgba(21,122,60,0.08);
+  --r:10px;--rl:14px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Noto Sans KR',sans-serif;background:var(--bg);color:var(--text);font-size:14px;line-height:1.6}
+a{text-decoration:none;color:inherit}
+.shell{display:flex;min-height:100vh}
+/* sidebar */
+.sb{width:228px;flex-shrink:0;background:var(--bg2);border-right:1px solid var(--border);
+    padding:22px 0;position:fixed;top:0;left:0;bottom:0;display:flex;
+    flex-direction:column;z-index:20;box-shadow:1px 0 0 var(--border)}
+.logo{padding:0 18px 20px;border-bottom:1px solid var(--border);margin-bottom:14px}
+.logo-badge{display:inline-block;background:var(--purpleD);border:1px solid var(--purpleB);
+            color:var(--purple);font-size:10px;font-weight:700;padding:2px 8px;
+            border-radius:999px;letter-spacing:.07em;margin-bottom:7px}
+.logo h1{font-size:15px;font-weight:700;line-height:1.3}
+.logo p{font-size:11px;color:var(--text3);margin-top:2px}
+.ng{padding:0 8px;margin-bottom:2px}
+.nl{font-size:10px;color:var(--text3);letter-spacing:.09em;font-weight:700;padding:0 8px;margin-bottom:2px}
+.ni{display:flex;align-items:center;gap:8px;padding:8px 10px;border-radius:8px;
+    cursor:pointer;color:var(--text2);font-size:13px;transition:all .12s;border:1px solid transparent}
+.ni:hover{background:var(--bg3);color:var(--text)}
+.ni.on{background:var(--purpleD);border-color:var(--purpleB);color:var(--purple);font-weight:500}
+.nd{width:6px;height:6px;border-radius:50%;flex-shrink:0}
+.sf{margin-top:auto;padding:12px 18px 0;border-top:1px solid var(--border)}
+.lp{display:flex;align-items:center;gap:6px;font-size:11px;color:var(--text3)}
+.ld{width:7px;height:7px;border-radius:50%;background:var(--teal);animation:pulse 2s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+/* main */
+.main{margin-left:228px;flex:1;padding:30px 34px;max-width:1160px}
+.page{display:none}
+.page.on{display:block;animation:fu .2s ease}
+@keyframes fu{from{opacity:0;transform:translateY(5px)}to{opacity:1;transform:none}}
+.ph{margin-bottom:24px}
+.ph h2{font-size:20px;font-weight:700}
+.ph p{font-size:13px;color:var(--text2);margin-top:3px}
+/* grid */
+.g2{display:grid;grid-template-columns:1fr 1fr;gap:13px}
+.g3{display:grid;grid-template-columns:repeat(3,1fr);gap:13px}
+.g4{display:grid;grid-template-columns:repeat(4,1fr);gap:11px}
+.gA{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px}
+.ng2{display:grid;grid-template-columns:1fr 1fr;gap:13px}
+/* card */
+.card{background:var(--bg2);border:1px solid var(--border);border-radius:var(--rl);
+      padding:17px 19px;box-shadow:0 1px 3px rgba(0,0,0,0.04);transition:border-color .12s}
+.card:hover{border-color:var(--bHv)}
+.sl{font-size:11px;color:var(--text3);font-weight:700;letter-spacing:.07em;margin-bottom:14px;margin-top:22px}
+/* kpi */
+.kv{font-size:26px;font-weight:700;font-family:'DM Mono',monospace;line-height:1.1}
+.kl{font-size:11px;color:var(--text3);font-weight:500;margin-bottom:4px}
+.ks{font-size:11px;color:var(--text3);margin-top:3px}
+.ku{font-size:11px;color:var(--teal);margin-top:3px}
+.kd{font-size:11px;color:var(--coral);margin-top:3px}
+/* comp */
+.cc{background:var(--bg2);border:1px solid var(--border);border-radius:var(--rl);
+    padding:15px 17px;box-shadow:0 1px 3px rgba(0,0,0,0.04);transition:border-color .12s,transform .12s}
+.cc:hover{border-color:var(--bHv);transform:translateY(-1px)}
+.cc.D{border-left:3px solid var(--purple)}
+.cc.I{border-left:3px solid var(--teal)}
+.cn{font-size:14px;font-weight:700;margin-bottom:5px}
+.ct{display:inline-block;font-size:10px;padding:2px 8px;border-radius:999px;margin-bottom:7px;font-weight:600}
+.td{background:var(--purpleD);color:var(--purple);border:1px solid var(--purpleB)}
+.ti{background:var(--tealD);color:var(--teal);border:1px solid rgba(11,143,99,.22)}
+.cd{font-size:12px;color:var(--text2);line-height:1.6}
+.cs{margin-top:9px;font-size:11px;color:var(--text3)}
+.cs strong{color:var(--text2);font-family:'DM Mono',monospace}
+/* badge */
+.badge{display:inline-block;font-size:10px;padding:2px 7px;border-radius:999px;font-weight:600}
+.bl{background:var(--coralD);color:var(--coral);border:1px solid rgba(214,59,59,.22)}
+.bs{background:var(--blueD);color:var(--blue);border:1px solid rgba(29,86,209,.22)}
+.bd{background:var(--bg3);color:var(--text3);border:1px solid var(--border)}
+.bh{background:#fff3cd;color:#8a5700;border:1px solid #f5c842}
+.bDi{background:var(--purpleD);color:var(--purple);border:1px solid var(--purpleB)}
+.bW{background:var(--coralD);color:var(--coral);border:1px solid rgba(214,59,59,.22)}
+/* price */
+.pr{display:flex;justify-content:space-between;font-size:12px;margin-bottom:4px}
+.pr span:first-child{color:var(--text2)}
+.pr span:last-child{color:var(--text);font-family:'DM Mono',monospace;font-size:11px}
+.bb{height:5px;border-radius:3px;background:var(--bg3);margin-bottom:11px}
+.bf{height:100%;border-radius:3px;transition:width .6s cubic-bezier(.4,0,.2,1)}
+/* promo */
+.pi{display:flex;gap:11px;padding:12px 0;border-bottom:1px solid var(--border)}
+.pi:last-child{border-bottom:none;padding-bottom:0}
+.pa{width:3px;border-radius:2px;flex-shrink:0;min-height:42px;align-self:stretch}
+.pb{flex:1}
+.ph2{display:flex;align-items:center;gap:7px;flex-wrap:wrap;margin-bottom:3px}
+.pn{font-size:13px;font-weight:700}
+.pt{font-size:12px;color:var(--text2);line-height:1.55}
+.pd{font-size:11px;color:var(--text3);margin-top:3px;font-family:'DM Mono',monospace}
+/* alert */
+.ai{display:flex;align-items:flex-start;gap:11px;padding:10px 0;border-bottom:1px solid var(--border)}
+.ai:last-child{border-bottom:none}
+.ac{font-size:13px;font-weight:700;margin-bottom:2px}
+.at{font-size:12px;color:var(--text2);line-height:1.5}
+.ad{font-size:10px;color:var(--text3);margin-top:3px;font-family:'DM Mono',monospace}
+/* table */
+.dt{width:100%;border-collapse:collapse;font-size:12px}
+.dt th{text-align:left;padding:7px 11px;color:var(--text3);font-size:10px;font-weight:700;
+       letter-spacing:.06em;border-bottom:1px solid var(--border)}
+.dt td{padding:10px 11px;border-bottom:1px solid var(--border);color:var(--text2);vertical-align:top}
+.dt tr:last-child td{border-bottom:none}
+.dt tr:hover td{background:var(--bg3)}
+.dn{color:var(--text);font-weight:600}
+/* pill */
+.pill{display:inline-block;font-size:10px;padding:2px 8px;border-radius:999px;font-weight:600;white-space:nowrap}
+.p-ok{background:var(--greenD);color:var(--green);border:1px solid rgba(21,122,60,.2)}
+.p-warn{background:var(--amberD);color:var(--amber);border:1px solid rgba(176,96,0,.2)}
+.p-block{background:var(--coralD);color:var(--coral);border:1px solid rgba(214,59,59,.2)}
+/* misc */
+.ibox{background:var(--bg3);border:1px solid var(--border);border-radius:var(--r);
+      padding:12px 14px;font-size:12px;color:var(--text2);line-height:1.7;margin-top:13px}
+.ibox strong{color:var(--text);font-weight:600}
+.ins{background:var(--purpleD);border:1px solid var(--purpleB);border-radius:var(--r);
+     padding:12px 14px;font-size:12px;color:var(--text2);line-height:1.7;margin-top:13px}
+.ins strong{color:var(--purple);font-weight:700}
+.legend{display:flex;gap:14px;margin-bottom:12px;flex-wrap:wrap}
+.li{display:flex;align-items:center;gap:6px;font-size:12px;color:var(--text2)}
+.ld2{width:8px;height:8px;border-radius:2px;flex-shrink:0}
+.ubanner{display:flex;align-items:center;gap:10px;background:var(--purpleD);border:1px solid var(--purpleB);
+         border-radius:var(--r);padding:10px 16px;margin-bottom:22px;font-size:12px;color:var(--purple)}
+.ubanner strong{font-weight:700}
+@media(max-width:960px){
+  .sb{width:54px}.logo,.nl,.ni span,.sf{display:none}
+  .main{margin-left:54px;padding:18px}
+  .g3,.g4{grid-template-columns:repeat(2,1fr)}
+  .ng2{grid-template-columns:1fr}
+}
+@media(max-width:620px){
+  .g2,.g3,.g4,.gA,.ng2{grid-template-columns:1fr}
+  .main{padding:12px}
+}
+::-webkit-scrollbar{width:5px}
+::-webkit-scrollbar-track{background:transparent}
+::-webkit-scrollbar-thumb{background:#d0d2df;border-radius:3px}
+</style>
+</head>
+<body>
+<div class='shell'>
+
+<aside class='sb'>
+  <div class='logo'>
+    <div class='logo-badge'>QUEENIT MD</div>
+    <h1>경쟁사<br>트래킹</h1>
+    <p>4050 여성 패션 플랫폼</p>
+  </div>
+  <div class='ng'>
+    <div class='nl'>분석</div>
+    <div class='ni on' onclick="go('overview',this)"><div class='nd' style='background:var(--purple)'></div><span>경쟁사 현황</span></div>
+    <div class='ni' onclick="go('price',this)"><div class='nd' style='background:var(--amber)'></div><span>가격대 비교</span></div>
+    <div class='ni' onclick="go('promo',this)"><div class='nd' style='background:var(--coral)'></div><span>기획전·프로모션</span></div>
+    <div class='ni' onclick="go('flash',this)"><div class='nd' style='background:#e67e00'></div><span>타임특가</span></div>
+  </div>
+  <div class='ng'>
+    <div class='nl'>실시간 수집</div>
+    <div class='ni' onclick="go('appstore',this)"><div class='nd' style='background:var(--teal)'></div><span>앱스토어 현황</span></div>
+    <div class='ni' onclick="go('events',this)"><div class='nd' style='background:#0b8f63'></div><span>기획전 수집본</span></div>
+    <div class='ni' onclick="go('alerts',this)"><div class='nd' style='background:#d63b3b'></div><span>가격 변동 알림</span></div>
+    <div class='ni' onclick="go('news',this)"><div class='nd' style='background:var(--blue)'></div><span>기사·내부 소식</span></div>
+    <div class='ni' onclick="go('crawl',this)"><div class='nd' style='background:var(--text3)'></div><span>크롤링 설정</span></div>
+  </div>
+  <div class='sf'>
+    <div class='lp'><div class='ld'></div><span>자동수집 2026-04-20 20:24</span></div>
+  </div>
+</aside>
+
+<main class='main'>
+
+<div class='ubanner'>
+  <div class='ld' style='flex-shrink:0'></div>
+  <span>오늘 <strong>2026-04-20</strong> 자동 수집 완료 &nbsp;|&nbsp; 포스티 최신: <strong>지금 가입 시 20% 할인쿠폰을 드려요.쿠폰받기</strong></span>
+</div>
+
+<!-- 경쟁사 현황 -->
+<div id='page-overview' class='page on'>
+  <div class='ph'><h2>경쟁사 현황</h2><p>4050 여성 패션 시장 직·간접 경쟁사 전체 현황</p></div>
+  <div class='g4'>
+    <div class='card'><div class='kl'>퀸잇 MAU</div><div class='kv'>270<span style='font-size:14px;color:var(--text3)'>만</span></div><div class='ks'>2025.09 기준</div><div class='ku'>▲ 4050 단독 사용률 1위</div></div>
+    <div class='card'><div class='kl'>직접 경쟁사</div><div class='kv'>7</div><div class='ks'>포스티·GS샵·롯데·현대·CJ·SK스토아</div></div>
+    <div class='card'><div class='kl'>간접 경쟁사</div><div class='kv'>6</div><div class='ks'>에이블리·지그재그·29CM·W컨셉·무신사·패션플러스</div></div>
+    <div class='card'><div class='kl'>최대 가격 위협</div><div class='kv' style='font-size:17px;color:var(--coral)'>에이블리</div><div class='ks'>40대 유입 확대 중</div><div class='kd'>▼ 가격 하방 압박 최강</div></div>
+  </div>
+  <div class='sl'>직접 경쟁사</div>
+  <div class='legend'><div class='li'><div class='ld2' style='background:var(--purple)'></div>직접경쟁</div><div class='li'><div class='ld2' style='background:var(--teal)'></div>간접경쟁</div></div>
+  <div class='gA'>
+    <div class='cc D'><div class='cn'>포스티</div><span class='ct td'>직접</span><div class='cd'>카카오스타일 운영. AI 개인화·라이브방송 강점. PB '잇파인' 운영. 전 상품 무료배송·무료반품 고정. 누적 회원 220만명 돌파.</div><div class='cs'>거래액 <strong>+20%</strong> (2025)</div></div>
+    <div class='cc D'><div class='cn'>GS샵</div><span class='ct td'>직접</span><div class='cd'>GS리테일 계열. TV·모바일 통합 채널. 4050 여성 패션 핵심 구매처. 시즌 기획전·단독 브랜드. 방송특가 + 앱 전용 5% 추가.</div><div class='cs'>방송특가 최대 60%</div></div>
+    <div class='cc D'><div class='cn'>롯데홈쇼핑</div><span class='ct td'>직접</span><div class='cd'>롯데그룹 계열. TV·T커머스·모바일 멀티채널. 4050 여성 패션·뷰티·리빙 기획전. PB·단독 브랜드 다수. 엘포인트 연동.</div><div class='cs'>멀티채널 4050 타깃</div></div>
+    <div class='cc D'><div class='cn'>현대홈쇼핑</div><span class='ct td'>직접</span><div class='cd'>현대백화점그룹 계열. 프리미엄 여성 패션 포지셔닝. 백화점 브랜드 연계 단독 기획전. 4050 고소득 여성 타깃. H포인트 연동.</div><div class='cs'>프리미엄 4050 포지셔닝</div></div>
+    <div class='cc D'><div class='cn'>CJ온스타일</div><span class='ct td'>직접</span><div class='cd'>CJ그룹 계열. TV·모바일 라이브커머스 강점. 4050 여성 패션·뷰티 기획전 활발. 셀렙샵에디션 PB 운영.</div><div class='cs'>라이브커머스 강점</div></div>
+    <div class='cc D'><div class='cn'>SK스토아</div><span class='ct td'>직접</span><div class='cd'>라포랩스 인수 진행 중(약 1100억). T커머스 기반. 통합 시 매출 3,734억 규모 대형 플랫폼 예정.</div><div class='cs'>매출 <strong>3,023억</strong> (2024)</div></div>
+  </div>
+  <div class='sl' style='margin-top:24px'>간접 경쟁사</div>
+  <div class='gA'>
+    <div class='cc I'><div class='cn'>에이블리</div><span class='ct ti'>간접</span><div class='cd'>여성 패션 MAU 1위. 40대 유입 확대 중. 초저가·할인코드 전략. 2025 거래액 2.8조, 영업이익 130억.</div><div class='cs'>MAU <strong>938만</strong> · 거래액 <strong>2.8조</strong></div></div>
+    <div class='cc I'><div class='cn'>지그재그</div><span class='ct ti'>간접</span><div class='cd'>카카오스타일 운영. 거래액 2조 돌파. 직잭뷰티 +50% 고성장. 30대 공략 확대.</div><div class='cs'>MAU <strong>409만</strong> · 거래액 <strong>2조+</strong></div></div>
+    <div class='cc I'><div class='cn'>29CM</div><span class='ct ti'>간접</span><div class='cd'>무신사 계열. GMV 1조 돌파. 2539 여성 디자이너 브랜드 강세. 객단가 타 플랫폼 3~5배.</div><div class='cs'>MAU <strong>199만</strong> · GMV <strong>1조+</strong></div></div>
+    <div class='cc I'><div class='cn'>W컨셉</div><span class='ct ti'>간접</span><div class='cd'>신세계 계열. 신임 대표 체질 개선 중. 2025 영업손실 31억 적자 전환.</div><div class='cs' style='color:var(--coral)'>⚠ 2025 적자 · 대표 교체</div></div>
+    <div class='cc I'><div class='cn'>무신사</div><span class='ct ti'>간접</span><div class='cd'>MAU 703만. 오프라인 확장(숍인숍 30%가 4050). 2025 매출 1.47조, 영업이익 +37%.</div><div class='cs'>MAU <strong>703만</strong> · 영업이익 <strong>+37%</strong></div></div>
+    <div class='cc I'><div class='cn'>패션플러스</div><span class='ct ti'>간접</span><div class='cd'>LF 계열. 3050 여성 타깃 온라인 패션 플랫폼. 헤지스·TNGT·질스튜어트 등 계열 브랜드 강점. 합리적 중가로 퀸잇과 타깃 겹침.</div><div class='cs'>LF 계열 · 3050 여성 타깃</div></div>
+  </div>
+</div>
+
+<!-- 가격대 비교 -->
+<div id='page-price' class='page'>
+  <div class='ph'><h2>가격대 비교</h2><p>주요 경쟁사 카테고리별 가격 포지셔닝 · 퀸잇 기준선 대비</p></div>
+  <div class='g2'>
+    <div class='card' style='border-color:var(--purpleB)'>
+      <div style='display:flex;justify-content:space-between;align-items:center;margin-bottom:14px'><span style='font-size:13px;font-weight:700;color:var(--purple)'>퀸잇 (자사)</span><span class='badge bDi'>기준</span></div>
+      <div class='pr'><span>아우터</span><span>99,000~299,000원</span></div><div class='bb'><div class='bf' style='width:72%;background:var(--purple)'></div></div>
+      <div class='pr'><span>상의</span><span>39,000~99,000원</span></div><div class='bb'><div class='bf' style='width:46%;background:var(--purple)'></div></div>
+      <div class='pr'><span>할인율</span><span>15~35%</span></div><div class='bb'><div class='bf' style='width:25%;background:var(--purple)'></div></div>
+    </div>
+    <div class='card'>
+      <div style='display:flex;justify-content:space-between;align-items:center;margin-bottom:14px'><span style='font-size:13px;font-weight:700'>포스티</span><span class='badge bDi'>직접</span></div>
+      <div class='pr'><span>아우터</span><span>89,000~189,000원</span></div><div class='bb'><div class='bf' style='width:58%;background:var(--teal)'></div></div>
+      <div class='pr'><span>상의</span><span>29,000~79,000원</span></div><div class='bb'><div class='bf' style='width:36%;background:var(--teal)'></div></div>
+      <div class='pr'><span>할인율</span><span>20~40%</span></div><div class='bb'><div class='bf' style='width:30%;background:var(--teal)'></div></div>
+      <div style='font-size:11px;color:var(--coral);margin-top:5px'>⚠ PB 쿠폰 시 블라우스 2만원대</div>
+    </div>
+    <div class='card'>
+      <div style='display:flex;justify-content:space-between;align-items:center;margin-bottom:14px'><span style='font-size:13px;font-weight:700'>에이블리</span><span class='badge bW'>가격위협</span></div>
+      <div class='pr'><span>아우터</span><span>39,000~89,000원</span></div><div class='bb'><div class='bf' style='width:26%;background:var(--coral)'></div></div>
+      <div class='pr'><span>상의</span><span>15,000~39,000원</span></div><div class='bb'><div class='bf' style='width:16%;background:var(--coral)'></div></div>
+      <div class='pr'><span>할인율</span><span>40~70%</span></div><div class='bb'><div class='bf' style='width:55%;background:var(--coral)'></div></div>
+      <div style='font-size:11px;color:var(--coral);margin-top:5px'>⚠ 할인코드 "benefits" 상시</div>
+    </div>
+    <div class='card'>
+      <div style='display:flex;justify-content:space-between;align-items:center;margin-bottom:14px'><span style='font-size:13px;font-weight:700'>지그재그</span><span class='badge bd'>간접</span></div>
+      <div class='pr'><span>아우터</span><span>29,000~89,000원</span></div><div class='bb'><div class='bf' style='width:28%;background:var(--amber)'></div></div>
+      <div class='pr'><span>상의</span><span>15,000~49,000원</span></div><div class='bb'><div class='bf' style='width:22%;background:var(--amber)'></div></div>
+      <div class='pr'><span>할인율</span><span>30~60%</span></div><div class='bb'><div class='bf' style='width:45%;background:var(--amber)'></div></div>
+    </div>
+    <div class='card'>
+      <div style='display:flex;justify-content:space-between;align-items:center;margin-bottom:14px'><span style='font-size:13px;font-weight:700'>29CM</span><span class='badge bd'>간접</span></div>
+      <div class='pr'><span>아우터</span><span>199,000~590,000원</span></div><div class='bb'><div class='bf' style='width:88%;background:var(--blue)'></div></div>
+      <div class='pr'><span>상의</span><span>79,000~199,000원</span></div><div class='bb'><div class='bf' style='width:65%;background:var(--blue)'></div></div>
+      <div class='pr'><span>할인율</span><span>10~25%</span></div><div class='bb'><div class='bf' style='width:16%;background:var(--blue)'></div></div>
+      <div style='font-size:11px;color:var(--text3);margin-top:5px'>객단가 타 플랫폼 3~5배</div>
+    </div>
+    <div class='card'>
+      <div style='display:flex;justify-content:space-between;align-items:center;margin-bottom:14px'><span style='font-size:13px;font-weight:700'>W컨셉</span><span class='badge bd'>간접</span></div>
+      <div class='pr'><span>아우터</span><span>150,000~490,000원</span></div><div class='bb'><div class='bf' style='width:80%;background:#888'></div></div>
+      <div class='pr'><span>상의</span><span>59,000~169,000원</span></div><div class='bb'><div class='bf' style='width:58%;background:#888'></div></div>
+      <div class='pr'><span>할인율</span><span>10~30%</span></div><div class='bb'><div class='bf' style='width:20%;background:#888'></div></div>
+      <div style='font-size:11px;color:var(--coral);margin-top:5px'>2025 적자 전환 · 전략 불확실</div>
+    </div>
+  </div>
+    <div class='card'>
+      <div style='display:flex;justify-content:space-between;align-items:center;margin-bottom:14px'><span style='font-size:13px;font-weight:700'>GS샵</span><span class='badge bDi'>직접</span></div>
+      <div class='pr'><span>아우터</span><span>79,000~250,000원</span></div><div class='bb'><div class='bf' style='width:62%;background:#e67e22'></div></div>
+      <div class='pr'><span>상의</span><span>29,000~89,000원</span></div><div class='bb'><div class='bf' style='width:40%;background:#e67e22'></div></div>
+      <div class='pr'><span>할인율</span><span>30~60%</span></div><div class='bb'><div class='bf' style='width:45%;background:#e67e22'></div></div>
+      <div style='font-size:11px;color:var(--text3);margin-top:5px'>방송 특가·단독 구성 강점</div>
+    </div>
+    <div class='card'>
+      <div style='display:flex;justify-content:space-between;align-items:center;margin-bottom:14px'><span style='font-size:13px;font-weight:700'>롯데홈쇼핑</span><span class='badge bDi'>직접</span></div>
+      <div class='pr'><span>아우터</span><span>89,000~290,000원</span></div><div class='bb'><div class='bf' style='width:65%;background:#c0392b'></div></div>
+      <div class='pr'><span>상의</span><span>39,000~99,000원</span></div><div class='bb'><div class='bf' style='width:44%;background:#c0392b'></div></div>
+      <div class='pr'><span>할인율</span><span>25~55%</span></div><div class='bb'><div class='bf' style='width:40%;background:#c0392b'></div></div>
+      <div style='font-size:11px;color:var(--text3);margin-top:5px'>PB·단독 브랜드 다수</div>
+    </div>
+    <div class='card'>
+      <div style='display:flex;justify-content:space-between;align-items:center;margin-bottom:14px'><span style='font-size:13px;font-weight:700'>현대홈쇼핑</span><span class='badge bDi'>직접</span></div>
+      <div class='pr'><span>아우터</span><span>99,000~390,000원</span></div><div class='bb'><div class='bf' style='width:75%;background:#8e44ad'></div></div>
+      <div class='pr'><span>상의</span><span>49,000~129,000원</span></div><div class='bb'><div class='bf' style='width:52%;background:#8e44ad'></div></div>
+      <div class='pr'><span>할인율</span><span>20~45%</span></div><div class='bb'><div class='bf' style='width:33%;background:#8e44ad'></div></div>
+      <div style='font-size:11px;color:var(--text3);margin-top:5px'>백화점 브랜드 연계 프리미엄</div>
+    </div>
+    <div class='card'>
+      <div style='display:flex;justify-content:space-between;align-items:center;margin-bottom:14px'><span style='font-size:13px;font-weight:700'>CJ온스타일</span><span class='badge bDi'>직접</span></div>
+      <div class='pr'><span>아우터</span><span>69,000~220,000원</span></div><div class='bb'><div class='bf' style='width:58%;background:#16a085'></div></div>
+      <div class='pr'><span>상의</span><span>29,000~79,000원</span></div><div class='bb'><div class='bf' style='width:36%;background:#16a085'></div></div>
+      <div class='pr'><span>할인율</span><span>30~60%</span></div><div class='bb'><div class='bf' style='width:45%;background:#16a085'></div></div>
+      <div style='font-size:11px;color:var(--text3);margin-top:5px'>라이브커머스 특가 · 셀렙샵에디션</div>
+    </div>
+    <div class='card'>
+      <div style='display:flex;justify-content:space-between;align-items:center;margin-bottom:14px'><span style='font-size:13px;font-weight:700'>패션플러스</span><span class='badge bd'>간접</span></div>
+      <div class='pr'><span>아우터</span><span>89,000~259,000원</span></div><div class='bb'><div class='bf' style='width:63%;background:#2c3e50'></div></div>
+      <div class='pr'><span>상의</span><span>39,000~99,000원</span></div><div class='bb'><div class='bf' style='width:46%;background:#2c3e50'></div></div>
+      <div class='pr'><span>할인율</span><span>20~50%</span></div><div class='bb'><div class='bf' style='width:35%;background:#2c3e50'></div></div>
+      <div style='font-size:11px;color:var(--text3);margin-top:5px'>LF 계열 브랜드 · 합리적 중가</div>
+    </div>
+  </div>
+  <div class='ins'><strong>MD 인사이트</strong> — 홈쇼핑 4사는 방송 특가·단독 구성으로 퀸잇과 가격대가 상당 부분 겹침. 패션플러스는 LF 브랜드 기반 중가로 퀸잇 핵심 고객과 직접 경합.</div>
+</div>
+
+<!-- 기획전·프로모션 -->
+<div id='page-promo' class='page'>
+  <div class='ph'><h2>기획전 · 프로모션</h2><p>경쟁사 현재 진행 중 및 예정 기획전 현황</p></div>
+  <div class='sl'>이번 주 진행 현황</div>
+  <div class='card' style='margin-bottom:13px'>
+    <div class='pi'><div class='pa' style='background:var(--purple)'></div><div class='pb'><div class='ph2'><span class='pn'>포스티</span><span class='badge bl'>진행중</span><span class='badge bDi'>직접경쟁</span></div><div class='pt'>봄 시즌 오피스룩 기획전 — 정장·블라우스 중심, 최대 35% 할인 + 무료배송. PB '잇파인' 여름 신상 15% 쿠폰 병행.</div><div class='pd'>04.18 ~ 04.27</div></div></div>
+    <div class='pi'><div class='pa' style='background:var(--coral)'></div><div class='pb'><div class='ph2'><span class='pn'>에이블리</span><span class='badge bl'>진행중</span></div><div class='pt'>봄 신상 대전 20~40% 할인 + 신규 회원 50% 쿠폰. 할인코드 "benefits" 상시. 5월 메가세일(4/30~5/15) 예고.</div><div class='pd'>04.15 ~ 04.30</div></div></div>
+    <div class='pi'><div class='pa' style='background:var(--amber)'></div><div class='pb'><div class='ph2'><span class='pn'>지그재그</span><span class='badge bl'>진행중</span></div><div class='pt'>봄 아우터 재고 소진 40% 할인 + 직잭뷰티×패션 콜라보 기획전. 쿠폰 랜덤뽑기 매일 12시.</div><div class='pd'>04.20 ~ 04.25</div></div></div>
+    <div class='pi'><div class='pa' style='background:var(--blue)'></div><div class='pb'><div class='ph2'><span class='pn'>무신사·29CM</span><span class='badge bl'>진행중</span></div><div class='pt'>2026 어스 위크 공동 캠페인 — 지속가능 브랜드 특집 + 회원 쿠폰 20%.</div><div class='pd'>04.22 ~ 04.26</div></div></div>
+    <div class='pi'><div class='pa' style='background:#888'></div><div class='pb'><div class='ph2'><span class='pn'>W컨셉</span><span class='badge bs'>예정</span></div><div class='pt'>어린이날 시즌 기획전(선물세트 카테고리 확장) 준비 중.</div><div class='pd'>05.01 예정</div></div></div>
+    <div class='pi'><div class='pa' style='background:#e67e22'></div><div class='pb'><div class='ph2'><span class='pn'>GS샵</span><span class='badge bl'>진행중</span><span class='badge bDi'>직접경쟁</span></div><div class='pt'>봄 여성 패션 기획전 — 단독 브랜드 최대 60% 할인. 방송 특가 + 무료배송. 앱 전용 추가 5% 쿠폰.</div><div class='pd'>04.20 ~ 04.30</div></div></div>
+    <div class='pi'><div class='pa' style='background:#c0392b'></div><div class='pb'><div class='ph2'><span class='pn'>롯데홈쇼핑</span><span class='badge bl'>진행중</span><span class='badge bDi'>직접경쟁</span></div><div class='pt'>봄 패션 위크 — PB 단독 특가 + 카드 즉시할인. 방송 편성 시간대 타임특가 집중 운영.</div><div class='pd'>04.18 ~ 04.28</div></div></div>
+    <div class='pi'><div class='pa' style='background:#8e44ad'></div><div class='pb'><div class='ph2'><span class='pn'>현대홈쇼핑</span><span class='badge bl'>진행중</span><span class='badge bDi'>직접경쟁</span></div><div class='pt'>프리미엄 여성 패션 기획전 — 백화점 브랜드 단독 구성 최대 45% 할인. H포인트 추가 적립.</div><div class='pd'>04.19 ~ 04.26</div></div></div>
+    <div class='pi'><div class='pa' style='background:#16a085'></div><div class='pb'><div class='ph2'><span class='pn'>CJ온스타일</span><span class='badge bl'>진행중</span><span class='badge bDi'>직접경쟁</span></div><div class='pt'>셀렙샵에디션 봄 신상 라이브 특가 — 라이브 전용 즉시할인 + 첫 구매 쿠폰 30%.</div><div class='pd'>04.20 ~ 04.27</div></div></div>
+    <div class='pi'><div class='pa' style='background:#2c3e50'></div><div class='pb'><div class='ph2'><span class='pn'>패션플러스</span><span class='badge bl'>진행중</span></div><div class='pt'>LF 브랜드 봄 시즌 기획전 — 헤지스·TNGT·질스튜어트 최대 50% 할인. 신규 회원 추가 쿠폰.</div><div class='pd'>04.15 ~ 04.30</div></div></div>
+  </div>
+  <div class='sl'>플랫폼별 패턴 비교</div>
+  <div class='g2'>
+    <div class='card'><div style='font-size:13px;font-weight:700;margin-bottom:10px;padding-bottom:9px;border-bottom:1px solid var(--border)'>포스티</div><div class='ai' style='padding:7px 0'><div><div class='ac' style='font-size:12px'>주기</div><div class='at'>월 2~3회 정기 + 명절 특집</div></div></div><div class='ai' style='padding:7px 0'><div><div class='ac' style='font-size:12px'>방식</div><div class='at'>카테고리 정률 + PB 쿠폰 이중 전략</div></div></div><div class='ai' style='padding:7px 0;border-bottom:none'><div><div class='ac' style='font-size:12px'>차별점</div><div class='at'>라이브커머스 연동 + 전 상품 무료배송</div></div></div></div>
+    <div class='card'><div style='font-size:13px;font-weight:700;margin-bottom:10px;padding-bottom:9px;border-bottom:1px solid var(--border)'>에이블리</div><div class='ai' style='padding:7px 0'><div><div class='ac' style='font-size:12px'>주기</div><div class='at'>상시 할인 + 주 1회 이벤트</div></div></div><div class='ai' style='padding:7px 0'><div><div class='ac' style='font-size:12px'>방식</div><div class='at'>쿠폰 중심(최대 50%), 신규 유입 특화</div></div></div><div class='ai' style='padding:7px 0;border-bottom:none'><div><div class='ac' style='font-size:12px'>차별점</div><div class='at'>상시 할인코드 + 5월 메가세일</div></div></div></div>
+    <div class='card'><div style='font-size:13px;font-weight:700;margin-bottom:10px;padding-bottom:9px;border-bottom:1px solid var(--border)'>지그재그</div><div class='ai' style='padding:7px 0'><div><div class='ac' style='font-size:12px'>주기</div><div class='at'>뷰티·패션 콜라보 월 1~2회</div></div></div><div class='ai' style='padding:7px 0'><div><div class='ac' style='font-size:12px'>방식</div><div class='at'>카테고리 크로스 묶음 + 쿠폰 랜덤뽑기</div></div></div><div class='ai' style='padding:7px 0;border-bottom:none'><div><div class='ac' style='font-size:12px'>차별점</div><div class='at'>직잭뷰티 GMV 확장 + 경품 이벤트</div></div></div></div>
+    <div class='card'><div style='font-size:13px;font-weight:700;margin-bottom:10px;padding-bottom:9px;border-bottom:1px solid var(--border)'>무신사·29CM</div><div class='ai' style='padding:7px 0'><div><div class='ac' style='font-size:12px'>주기</div><div class='at'>멤버스데이 매월 1~3일 + 시즌 빅세일</div></div></div><div class='ai' style='padding:7px 0'><div><div class='ac' style='font-size:12px'>방식</div><div class='at'>무신사머니 적립 + 카드사 즉시할인</div></div></div><div class='ai' style='padding:7px 0;border-bottom:none'><div><div class='ac' style='font-size:12px'>차별점</div><div class='at'>캠페인 기획 강점 (어스위크 등)</div></div></div></div>
+  </div>
+</div>
+
+<!-- 타임특가 -->
+<div id='page-flash' class='page'>
+  <div class='ph'><h2>타임특가 모니터링</h2><p>경쟁사 한정 타임특가·데일리딜 시간대별 현황</p></div>
+  <div class='sl'>진행 중 타임특가</div>
+  <div class='card' style='margin-bottom:13px'>
+    <div class='pi'><div class='pa' style='background:var(--purple)'></div><div class='pb'><div class='ph2'><span class='pn'>포스티</span><span class='badge bh'>🔥 매일특가</span><a href='https://posty.kr/events' target='_blank' style='margin-left:auto;font-size:11px;color:var(--purple);border:1px solid var(--purpleB);padding:2px 8px;border-radius:999px;text-decoration:none'>바로가기 →</a></div><div class='pt'>최대 90% 할인 상품 별도 섹션 매일 갱신. 재고 소진 시 자동 종료.</div><div class='pd'>매일 00:00 갱신</div></div></div>
+    <div class='pi'><div class='pa' style='background:var(--coral)'></div><div class='pb'><div class='ph2'><span class='pn'>에이블리</span><span class='badge bh'>🔥 하루특가</span><a href='https://m.a-bly.com' target='_blank' style='margin-left:auto;font-size:11px;color:var(--coral);border:1px solid rgba(214,59,59,.25);padding:2px 8px;border-radius:999px;text-decoration:none'>바로가기 →</a></div><div class='pt'>하루특가·50% 이상·아이코닉 특가 상시. 오전/오후 2회 오픈.</div><div class='pd'>매일 10:00 / 20:00</div></div></div>
+    <div class='pi'><div class='pa' style='background:var(--amber)'></div><div class='pb'><div class='ph2'><span class='pn'>지그재그</span><span class='badge bh'>🔥 선착순쿠폰</span><a href='https://zigzag.kr' target='_blank' style='margin-left:auto;font-size:11px;color:var(--amber);border:1px solid rgba(176,96,0,.25);padding:2px 8px;border-radius:999px;text-decoration:none'>바로가기 →</a></div><div class='pt'>99% 쿠폰 랜덤뽑기 + 선착순 1,000 포인트. 타임 한정.</div><div class='pd'>매일 12:00</div></div></div>
+    <div class='pi'><div class='pa' style='background:var(--blue)'></div><div class='pb'><div class='ph2'><span class='pn'>무신사</span><span class='badge bl'>진행중</span><a href='https://www.musinsa.com' target='_blank' style='margin-left:auto;font-size:11px;color:var(--blue);border:1px solid rgba(29,86,209,.25);padding:2px 8px;border-radius:999px;text-decoration:none'>바로가기 →</a></div><div class='pt'>멤버스데이 매월 1~3일 20% 쿠폰 + 10% 적립. 10만원↑ 8,000원 추가 혜택.</div><div class='pd'>매월 1~3일</div></div></div>
+    <div class='pi'><div class='pa' style='background:#555'></div><div class='pb'><div class='ph2'><span class='pn'>29CM</span><span class='badge bs'>시즌별</span><a href='https://www.29cm.co.kr/exhibition' target='_blank' style='margin-left:auto;font-size:11px;color:var(--blue);border:1px solid rgba(29,86,209,.25);padding:2px 8px;border-radius:999px;text-decoration:none'>바로가기 →</a></div><div class='pt'>이굿위크 — 브랜드 런칭 특가 + 디자이너 단독 발매.</div><div class='pd'>시즌별</div></div></div>
+    <div class='pi'><div class='pa' style='background:#e67e22'></div><div class='pb'><div class='ph2'><span class='pn'>GS샵</span><span class='badge bh'>🔥 방송특가</span><a href='https://www.gsshop.com' target='_blank' style='margin-left:auto;font-size:11px;color:#e67e22;border:1px solid rgba(230,126,34,.25);padding:2px 8px;border-radius:999px;text-decoration:none'>바로가기 →</a></div><div class='pt'>TV 방송 편성 시간대 타임특가 + 앱 전용 추가 5% 할인. 방송 종료 후 잔여재고 온라인 연장.</div><div class='pd'>방송 편성 시간대</div></div></div>
+    <div class='pi'><div class='pa' style='background:#c0392b'></div><div class='pb'><div class='ph2'><span class='pn'>롯데홈쇼핑</span><span class='badge bh'>🔥 방송특가</span><a href='https://www.lotteimall.com' target='_blank' style='margin-left:auto;font-size:11px;color:#c0392b;border:1px solid rgba(192,57,43,.25);padding:2px 8px;border-radius:999px;text-decoration:none'>바로가기 →</a></div><div class='pt'>방송 편성 시간대 단독 구성 타임특가. 엘포인트 적립 연동. 롯데ON 동시 진행.</div><div class='pd'>방송 편성 시간대</div></div></div>
+    <div class='pi'><div class='pa' style='background:#8e44ad'></div><div class='pb'><div class='ph2'><span class='pn'>현대홈쇼핑</span><span class='badge bh'>🔥 방송특가</span><a href='https://www.hyundaihmall.com' target='_blank' style='margin-left:auto;font-size:11px;color:#8e44ad;border:1px solid rgba(142,68,173,.25);padding:2px 8px;border-radius:999px;text-decoration:none'>바로가기 →</a></div><div class='pt'>프리미엄 단독 구성 방송 특가. H포인트 추가 적립. 현대백화점 온라인몰 연계 쿠폰.</div><div class='pd'>방송 편성 시간대</div></div></div>
+    <div class='pi'><div class='pa' style='background:#16a085'></div><div class='pb'><div class='ph2'><span class='pn'>CJ온스타일</span><span class='badge bh'>🔥 라이브특가</span><a href='https://www.cjonstyle.com' target='_blank' style='margin-left:auto;font-size:11px;color:#16a085;border:1px solid rgba(22,160,133,.25);padding:2px 8px;border-radius:999px;text-decoration:none'>바로가기 →</a></div><div class='pt'>모바일 라이브커머스 실시간 특가 + TV 방송 연동. 라이브 전용 즉시할인 + 첫 구매 30% 쿠폰.</div><div class='pd'>라이브 방송 시간대</div></div></div>
+    <div class='pi'><div class='pa' style='background:#2c3e50'></div><div class='pb'><div class='ph2'><span class='pn'>패션플러스</span><span class='badge bl'>진행중</span><a href='https://www.fashionplus.co.kr' target='_blank' style='margin-left:auto;font-size:11px;color:var(--text2);border:1px solid var(--border);padding:2px 8px;border-radius:999px;text-decoration:none'>바로가기 →</a></div><div class='pt'>LF 브랜드 봄 시즌 기획전 최대 50% 할인. 헤지스·TNGT·질스튜어트 등.</div><div class='pd'>04.15 ~ 04.30</div></div></div>
+  </div>
+  <div class='sl'>구조 비교</div>
+  <div class='card'>
+    <table class='dt'><thead><tr><th>플랫폼</th><th>방식</th><th>오픈 시간</th><th>최대 할인</th><th>특이사항</th></tr></thead>
+    <tbody>
+      <tr><td class='dn'>포스티</td><td>매일 갱신 섹션</td><td>00:00</td><td>최대 90%</td><td>재고 소진 자동 종료</td></tr>
+      <tr><td class='dn'>에이블리</td><td>하루특가 2회</td><td>10:00/20:00</td><td>50% 이상</td><td>카테고리별 2회</td></tr>
+      <tr><td class='dn'>지그재그</td><td>쿠폰 랜덤뽑기</td><td>12:00</td><td>99% 쿠폰</td><td>선착순 소진</td></tr>
+      <tr><td class='dn'>무신사</td><td>멤버스데이</td><td>매월 1~3일</td><td>20%+적립</td><td>무신사머니 연동</td></tr>
+      <tr><td class='dn'>29CM</td><td>이굿위크</td><td>시즌별</td><td>20% 쿠폰</td><td>디자이너 단독</td></tr>
+      <tr><td class='dn'>GS샵</td><td>방송 타임특가</td><td>방송 편성시간</td><td>최대 60%</td><td>앱 전용 추가 5%</td></tr>
+      <tr><td class='dn'>롯데홈쇼핑</td><td>방송 타임특가</td><td>방송 편성시간</td><td>최대 55%</td><td>엘포인트 연동</td></tr>
+      <tr><td class='dn'>현대홈쇼핑</td><td>방송 타임특가</td><td>방송 편성시간</td><td>최대 45%</td><td>H포인트 적립</td></tr>
+      <tr><td class='dn'>CJ온스타일</td><td>라이브커머스특가</td><td>라이브 시간</td><td>최대 60%</td><td>라이브 전용 쿠폰</td></tr>
+      <tr><td class='dn'>패션플러스</td><td>시즌 기획전</td><td>상시</td><td>최대 50%</td><td>LF 계열 단독</td></tr>
+    </tbody></table>
+  </div>
+  <div class='ins'><strong>MD 인사이트</strong> — 홈쇼핑 4사는 방송 편성 시간대 집중 운영. 포스티(00시)·에이블리(10·20시)·지그재그(12시)·홈쇼핑(저녁 황금시간대)이 각 시간대 점유 중. 퀸잇 타임특가 기획 시 오후 2~4시 공백 슬롯 검토 유효.</div>
+</div>
+
+<!-- 앱스토어 현황 (자동수집) -->
+<div id='page-appstore' class='page'>
+  <div class='ph'><h2>앱스토어 현황</h2><p>자동 수집 — 2026-04-20</p></div>
+  <div class='g2'>
+    <div style='background:#fff;border:1px solid #e5e7eb;border-radius:14px;
+                border-left:4px solid #6246ea;padding:18px 20px;
+                box-shadow:0 1px 3px rgba(0,0,0,0.04)'>
+      <div style='display:flex;justify-content:space-between;align-items:center;margin-bottom:11px'>
+        <span style='font-size:15px;font-weight:700'>포스티</span>
+        <span style='background:#6246ea18;color:#6246ea;font-size:11px;
+                     padding:3px 10px;border-radius:999px;font-weight:600'>iOS ★ —</span>
+      </div>
+      
+      <div style='font-size:11px;color:#aaa;margin-bottom:9px'>Android 최근 업데이트: 2026년 2월 4일</div>
+      <div style='font-size:12px;font-weight:600;color:#444;margin-bottom:3px'>최신 리뷰</div>
+      <div style='font-size:12px;color:#aaa;padding:8px 0'>리뷰 데이터를 가져오지 못했습니다</div>
+    </div>
+    <div style='background:#fff;border:1px solid #e5e7eb;border-radius:14px;
+                border-left:4px solid #d63b3b;padding:18px 20px;
+                box-shadow:0 1px 3px rgba(0,0,0,0.04)'>
+      <div style='display:flex;justify-content:space-between;align-items:center;margin-bottom:11px'>
+        <span style='font-size:15px;font-weight:700'>에이블리</span>
+        <span style='background:#d63b3b18;color:#d63b3b;font-size:11px;
+                     padding:3px 10px;border-radius:999px;font-weight:600'>iOS ★ —</span>
+      </div>
+      
+      <div style='font-size:11px;color:#aaa;margin-bottom:9px'>Android 최근 업데이트: —</div>
+      <div style='font-size:12px;font-weight:600;color:#444;margin-bottom:3px'>최신 리뷰</div>
+      <div style='font-size:12px;color:#aaa;padding:8px 0'>리뷰 데이터를 가져오지 못했습니다</div>
+    </div>
+    <div style='background:#fff;border:1px solid #e5e7eb;border-radius:14px;
+                border-left:4px solid #b06000;padding:18px 20px;
+                box-shadow:0 1px 3px rgba(0,0,0,0.04)'>
+      <div style='display:flex;justify-content:space-between;align-items:center;margin-bottom:11px'>
+        <span style='font-size:15px;font-weight:700'>지그재그</span>
+        <span style='background:#b0600018;color:#b06000;font-size:11px;
+                     padding:3px 10px;border-radius:999px;font-weight:600'>iOS ★ —</span>
+      </div>
+      
+      <div style='font-size:11px;color:#aaa;margin-bottom:9px'>Android 최근 업데이트: —</div>
+      <div style='font-size:12px;font-weight:600;color:#444;margin-bottom:3px'>최신 리뷰</div>
+      <div style='font-size:12px;color:#aaa;padding:8px 0'>리뷰 데이터를 가져오지 못했습니다</div>
+    </div></div>
+</div>
+
+<!-- 기획전 수집본 (자동수집) -->
+<div id='page-events' class='page'>
+  <div class='ph'><h2>기획전 수집본</h2><p>크롤러가 오늘 수집한 경쟁사 기획전 — 2026-04-20</p></div>
+  <div class='sl'>포스티</div><div class='card'>
+        <a href='https://posty.kr/events/cms/879fa67f-578c-4645-9b66-be2b3063c539' target='_blank'
+           style='display:block;padding:10px 13px;border:1px solid #e5e7eb;border-radius:8px;
+                  margin-bottom:7px;text-decoration:none;background:#fff'
+           onmouseover="this.style.borderColor='#6246ea'"
+           onmouseout="this.style.borderColor='#e5e7eb'">
+          <div style='font-size:13px;font-weight:500;color:#111'>지금 가입 시 20% 할인쿠폰을 드려요.쿠폰받기</div>
+          
+        </a></div>
+  <div class='sl'>에이블리</div><div class='card'>
+        <a href='https://m.a-bly.com/exhibitions' target='_blank'
+           style='display:block;padding:10px 13px;border:1px solid #e5e7eb;border-radius:8px;
+                  margin-bottom:7px;text-decoration:none;background:#fff'
+           onmouseover="this.style.borderColor='#d63b3b'"
+           onmouseout="this.style.borderColor='#e5e7eb'">
+          <div style='font-size:13px;font-weight:500;color:#111'>에이블리 기획전</div>
+          <div style='font-size:11px;color:#aaa;margin-top:2px'>앱 전용 — 상세 목록은 앱에서 확인</div>
+        </a></div>
+  <div class='sl'>29CM</div><div class='card'>
+        <a href='https://www.29cm.co.kr/store/event' target='_blank'
+           style='display:block;padding:10px 13px;border:1px solid #e5e7eb;border-radius:8px;
+                  margin-bottom:7px;text-decoration:none;background:#fff'
+           onmouseover="this.style.borderColor='#1d56d1'"
+           onmouseout="this.style.borderColor='#e5e7eb'">
+          <div style='font-size:13px;font-weight:500;color:#111'>Event</div>
+          
+        </a></div>
+  <div class='sl'>W컨셉</div><div class='card'>
+        <a href='https://www.wconcept.co.kr/Display/eventList' target='_blank'
+           style='display:block;padding:10px 13px;border:1px solid #e5e7eb;border-radius:8px;
+                  margin-bottom:7px;text-decoration:none;background:#fff'
+           onmouseover="this.style.borderColor='#555555'"
+           onmouseout="this.style.borderColor='#e5e7eb'">
+          <div style='font-size:13px;font-weight:500;color:#111'>W컨셉 기획전</div>
+          <div style='font-size:11px;color:#aaa;margin-top:2px'>앱 전용 — 상세 목록은 앱에서 확인</div>
+        </a></div>
+  <div class='ibox'><strong>안내</strong> — 포스티·에이블리는 앱 전용 서비스라 공개 웹 기획전 페이지 기반으로 수집합니다. 상세 내역은 앱에서 확인하세요.</div>
+</div>
+
+<!-- 가격 변동 알림 -->
+<div id='page-alerts' class='page'>
+  <div class='ph'><h2>가격 변동 알림</h2><p>경쟁사 가격·할인 변동 감지 내역</p></div>
+  <div class='sl'>최근 감지 내역</div>
+  <div class='card'>
+    <div class='ai'><div style='font-size:15px;flex-shrink:0'>🔻</div><div><div class='ac'>포스티</div><div class='at'>여름 신상 아우터 평균 5% 인하 — PB '잇파인' 런칭 연동. 쿠폰 적용 시 블라우스 2만원대.</div><div class='ad'>2026-04-18 · 보도자료</div></div></div>
+    <div class='ai'><div style='font-size:15px;flex-shrink:0'>🔖</div><div><div class='ac'>에이블리</div><div class='at'>세트 묶음 30% 추가 할인 + 봄 신상 대전 중복. 실질 할인율 최대 65%.</div><div class='ad'>2026-04-20 · 앱스토어 수집</div></div></div>
+    <div class='ai'><div style='font-size:15px;flex-shrink:0'>🏷</div><div><div class='ac'>지그재그</div><div class='at'>봄 아우터 재고 소진 40% 할인 — 동대문 기반 상품 위주.</div><div class='ad'>2026-04-18 · 수동 수집</div></div></div>
+    <div class='ai'><div style='font-size:15px;flex-shrink:0'>✨</div><div><div class='ac'>29CM</div><div class='at'>어스 위크 참여 브랜드 단독 특가 + 회원 쿠폰 20%.</div><div class='ad'>2026-04-20 · 공식 보도자료</div></div></div>
+    <div class='ai'><div style='font-size:15px;flex-shrink:0'>📊</div><div><div class='ac'>무신사</div><div class='at'>나이키 메가쇼케이스 12만원↑ 15,000원 혜택. 무신사 현대카드 5% 추가 청구할인.</div><div class='ad'>2026-04-15 · 수동 수집</div></div></div>
+    <div class='ai'><div style='font-size:15px;flex-shrink:0'>⚠️</div><div><div class='ac'>W컨셉</div><div class='at'>2025 적자 전환 후 마케팅 축소 기조. 할인 빈도 감소 추세.</div><div class='ad'>2026-04-15 · 업계 기사</div></div></div>
+    <div class='ai'><div style='font-size:15px;flex-shrink:0'>📺</div><div><div class='ac'>GS샵</div><div class='at'>봄 여성 패션 기획전 방송특가 최대 60% + 앱 전용 5% 추가 쿠폰. 단독 브랜드 구성 확대 중.</div><div class='ad'>2026-04-20 · 수동 수집</div></div></div>
+    <div class='ai'><div style='font-size:15px;flex-shrink:0'>📺</div><div><div class='ac'>롯데홈쇼핑</div><div class='at'>봄 패션 위크 PB 단독 특가 + 카드 즉시할인. 방송 타임특가 집중 운영 중.</div><div class='ad'>2026-04-18 · 수동 수집</div></div></div>
+    <div class='ai'><div style='font-size:15px;flex-shrink:0'>📺</div><div><div class='ac'>현대홈쇼핑</div><div class='at'>프리미엄 여성 패션 기획전 최대 45% + H포인트 추가 적립. 백화점 브랜드 단독 구성 강화.</div><div class='ad'>2026-04-19 · 수동 수집</div></div></div>
+    <div class='ai'><div style='font-size:15px;flex-shrink:0'>📺</div><div><div class='ac'>CJ온스타일</div><div class='at'>셀렙샵에디션 봄 신상 라이브 특가 + 첫 구매 30% 쿠폰. 모바일 라이브커머스 강화 기조.</div><div class='ad'>2026-04-20 · 수동 수집</div></div></div>
+    <div class='ai'><div style='font-size:15px;flex-shrink:0'>👗</div><div><div class='ac'>패션플러스</div><div class='at'>LF 브랜드 봄 시즌 최대 50% 할인 진행 중. 헤지스·TNGT·질스튜어트 가격대 퀸잇과 겹침 주의.</div><div class='ad'>2026-04-15 · 수동 수집</div></div></div>
+  </div>
+</div>
+
+<!-- 기사·내부 소식 (자동수집) -->
+<div id='page-news' class='page'>
+  <div class='ph'><h2>주요 기사 · 내부 소식</h2><p>경쟁사별 최신 뉴스 — 자동 수집 2026-04-20</p></div>
+  <div class='ng2'>
+    <div style='background:#fff;border:1px solid #e5e7eb;border-radius:14px;padding:18px 20px;
+                box-shadow:0 1px 3px rgba(0,0,0,0.04)'>
+      <div style='display:flex;align-items:center;gap:8px;margin-bottom:13px;
+                  padding-bottom:11px;border-bottom:1px solid #f0f0f0'>
+        <div style='width:8px;height:8px;border-radius:50%;background:#6246ea;flex-shrink:0'></div>
+        <span style='font-size:14px;font-weight:700'>포스티</span>
+        <span style='font-size:10px;background:#ede9fe;color:#6246ea;padding:2px 7px;
+                     border-radius:999px;font-weight:600;margin-left:auto'>최신 뉴스</span>
+      </div>
+      
+        <div style='padding:11px 0;border-bottom:1px solid #f0f0f0'>
+          <a href='https://news.google.com/rss/articles/CBMiUEFVX3lxTE9mX2JvWDdfTFpKVlJ5dUJsMFgwYUFLem9ST2c0ZXpiVGdteXhhckdTMW0wUXlxY0tua01vZVN2VHlnZ1lfaVhIN3k4MjF4ZUVn?oc=5' target='_blank'
+             style='font-size:13px;font-weight:500;color:#18191f;line-height:1.4;
+                    display:block;margin-bottom:3px;text-decoration:none'>
+            중장년 플랫폼 성장세 ‘뚜렷’… 포스티, 누적 회원 220만명 돌파
+          </a>
+          <div style='font-size:12px;color:#52546a;line-height:1.5'>중장년 플랫폼 성장세 ‘뚜렷’… 포스티, 누적 회원 220만명 돌파&nbsp;&nbsp;패션비즈</div>
+          <div style='font-size:10px;color:#aaa;margin-top:3px;font-family:monospace'>2026-01-27</div>
+        </div>
+        <div style='padding:11px 0;border-bottom:1px solid #f0f0f0'>
+          <a href='https://news.google.com/rss/articles/CBMiTkFVX3lxTE1UdU83TW1VSGs0eW9wenhpU3JKLTU3V3hFZXRBZlJwV05WSzZILWs5OWd3eFEyd3NtTDA1aGw1SzQ2RjRmXzd1aHlVZlU1dw?oc=5' target='_blank'
+             style='font-size:13px;font-weight:500;color:#18191f;line-height:1.4;
+                    display:block;margin-bottom:3px;text-decoration:none'>
+            카카오스타일, 지그재그·포스티 설맞이 대규모 프로모션 실시
+          </a>
+          <div style='font-size:12px;color:#52546a;line-height:1.5'>카카오스타일, 지그재그·포스티 설맞이 대규모 프로모션 실시&nbsp;&nbsp;전자신문</div>
+          <div style='font-size:10px;color:#aaa;margin-top:3px;font-family:monospace'>2026-02-12</div>
+        </div>
+        <div style='padding:11px 0;border-bottom:1px solid #f0f0f0'>
+          <a href='https://news.google.com/rss/articles/CBMiX0FVX3lxTE1TOHIwQ3JtbWRkQkNDbHJvMlgwTjA1MUM5YXp5U0Uxcy03YXRYSEkzZ1FFbXE2T0Q0aFJWeUdtdGpUNHk0WEs1UFZ4ZVJKN21UUndXbnVaam9WM2JpZTJJ?oc=5' target='_blank'
+             style='font-size:13px;font-weight:500;color:#18191f;line-height:1.4;
+                    display:block;margin-bottom:3px;text-decoration:none'>
+            포스티, 2025년 누적 회원 수 40% 증가…거래액 20% 성장
+          </a>
+          <div style='font-size:12px;color:#52546a;line-height:1.5'>포스티, 2025년 누적 회원 수 40% 증가…거래액 20% 성장&nbsp;&nbsp;뉴스1</div>
+          <div style='font-size:10px;color:#aaa;margin-top:3px;font-family:monospace'>2026-01-28</div>
+        </div>
+    </div>
+    <div style='background:#fff;border:1px solid #e5e7eb;border-radius:14px;padding:18px 20px;
+                box-shadow:0 1px 3px rgba(0,0,0,0.04)'>
+      <div style='display:flex;align-items:center;gap:8px;margin-bottom:13px;
+                  padding-bottom:11px;border-bottom:1px solid #f0f0f0'>
+        <div style='width:8px;height:8px;border-radius:50%;background:#d63b3b;flex-shrink:0'></div>
+        <span style='font-size:14px;font-weight:700'>에이블리</span>
+        <span style='font-size:10px;background:#fef2f2;color:#d63b3b;padding:2px 7px;
+                     border-radius:999px;font-weight:600;margin-left:auto'>최신 뉴스</span>
+      </div>
+      
+        <div style='padding:11px 0;border-bottom:1px solid #f0f0f0'>
+          <a href='https://news.google.com/rss/articles/CBMiUEFVX3lxTE5ydWVQbURBVFhPVHV6OGY5dW9LYndwajJfbU5WSm5qaW50SlViSTA5el9mWVBnTTJRSzRsWWVDUW8wV0c5anhGbXFrQjYxNi00?oc=5' target='_blank'
+             style='font-size:13px;font-weight:500;color:#18191f;line-height:1.4;
+                    display:block;margin-bottom:3px;text-decoration:none'>
+            에이블리, 1020 겨냥 뷰티 PB ‘바이블리’ 론칭… 가성비 시장 공략
+          </a>
+          <div style='font-size:12px;color:#52546a;line-height:1.5'>에이블리, 1020 겨냥 뷰티 PB ‘바이블리’ 론칭… 가성비 시장 공략&nbsp;&nbsp;패션비즈</div>
+          <div style='font-size:10px;color:#aaa;margin-top:3px;font-family:monospace'>2026-04-20</div>
+        </div>
+        <div style='padding:11px 0;border-bottom:1px solid #f0f0f0'>
+          <a href='https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBOcmhSWHR2MERRT0FMZFQ1Z05WbTJMSGJCYklnblJ2cXpVdVJLQ1ZnYkFwQTRkb1Zmck95cmFhY2ZLWk03WmVxWWVNcGxueTlQU1dZZUNENHNNVFhwdy1udDQ2cHV3RjA?oc=5' target='_blank'
+             style='font-size:13px;font-weight:500;color:#18191f;line-height:1.4;
+                    display:block;margin-bottom:3px;text-decoration:none'>
+            에이블리, 첫 자체 뷰티 브랜드 '바이블리' 론칭
+          </a>
+          <div style='font-size:12px;color:#52546a;line-height:1.5'>에이블리, 첫 자체 뷰티 브랜드 '바이블리' 론칭&nbsp;&nbsp;청년일보</div>
+          <div style='font-size:10px;color:#aaa;margin-top:3px;font-family:monospace'>2026-04-20</div>
+        </div>
+        <div style='padding:11px 0;border-bottom:1px solid #f0f0f0'>
+          <a href='https://news.google.com/rss/articles/CBMigAFBVV95cUxQTmdoVTM0aXNackUxUTJJVVNLdXdwVk9qR2pmNDNKUGJJTkJuNkRKU1VldzhpZUl6NVdCLUthLTRXaVZXNmd1QUhhWnpjZ2tZR1hhZDB4emNsMldTRnJza3FUNEdmTVc2TGRBdk01OENfaUh3bmlUZzNpTGxUcEdmNA?oc=5' target='_blank'
+             style='font-size:13px;font-weight:500;color:#18191f;line-height:1.4;
+                    display:block;margin-bottom:3px;text-decoration:none'>
+            "1020 이용자 겨냥"…에이블리, 첫 뷰티 PB '바이블리' 론칭
+          </a>
+          <div style='font-size:12px;color:#52546a;line-height:1.5'>"1020 이용자 겨냥"…에이블리, 첫 뷰티 PB '바이블리' 론칭&nbsp;&nbsp;이데일리</div>
+          <div style='font-size:10px;color:#aaa;margin-top:3px;font-family:monospace'>2026-04-20</div>
+        </div>
+    </div>
+    <div style='background:#fff;border:1px solid #e5e7eb;border-radius:14px;padding:18px 20px;
+                box-shadow:0 1px 3px rgba(0,0,0,0.04)'>
+      <div style='display:flex;align-items:center;gap:8px;margin-bottom:13px;
+                  padding-bottom:11px;border-bottom:1px solid #f0f0f0'>
+        <div style='width:8px;height:8px;border-radius:50%;background:#b06000;flex-shrink:0'></div>
+        <span style='font-size:14px;font-weight:700'>지그재그</span>
+        <span style='font-size:10px;background:#fffbeb;color:#b06000;padding:2px 7px;
+                     border-radius:999px;font-weight:600;margin-left:auto'>최신 뉴스</span>
+      </div>
+      
+        <div style='padding:11px 0;border-bottom:1px solid #f0f0f0'>
+          <a href='https://news.google.com/rss/articles/CBMid0FVX3lxTE9wQVl5dU5tV3VpNThxT19WSE10VHJtMHA5QUg5VS1jSnBpVTJfOW8tUFR2Q29xRkNJRnNtRGoydWFQYjVuSFhxbFRJc2hLeXF2aXhSNTBpU05HYVMybV95VktHel9RZWxuWHk2ZElibFloRkUycVZJ0gF3QVVfeXFMT3BBWXl1Tm1XdWk1OHFPX1ZITXRUcm0wcDlBSDlVLWNKcGlVMl85by1QVHZDb3FGQ0lGc21EajJ1YVBiNW5IWHFsVElzaEt5cXZpeFI1MGlTTkdhUzJtX3lWS0d6X1FlbG5YeTZkSWJsWWhGRTJxVkk?oc=5' target='_blank'
+             style='font-size:13px;font-weight:500;color:#18191f;line-height:1.4;
+                    display:block;margin-bottom:3px;text-decoration:none'>
+            지그재그, 흑자 이어 프로모션 대박…여성 패션 플랫폼 ‘독주’
+          </a>
+          <div style='font-size:12px;color:#52546a;line-height:1.5'>지그재그, 흑자 이어 프로모션 대박…여성 패션 플랫폼 ‘독주’&nbsp;&nbsp;핀포인트뉴스</div>
+          <div style='font-size:10px;color:#aaa;margin-top:3px;font-family:monospace'>2026-04-20</div>
+        </div>
+        <div style='padding:11px 0;border-bottom:1px solid #f0f0f0'>
+          <a href='https://news.google.com/rss/articles/CBMia0FVX3lxTE1URmlyZWItdmRIUnUxT3ROYWd1WFBoWEZhX2lMMGRHNEdoa2VzMDBGRk11ZlI5cGxoZ0FWRWhpUnFvaGl1dnBWdzFWMlFfMFdvNEF0NWRQbUIwa2Fmd0g2M05fZzdDbUZ5MzNZ0gFvQVVfeXFMTXZ6eDlKNUMweGRHcmlEcFNORXFKVEdHQTJjYk42WVVpd3QxNzc4SlAxR0VZc01NTTdvcjE1MVJKZGlKNjVYMUJhREVBX3VYVHJQOWtScFZqS2Vsb3l1THh3RW5ZdFZNY21lYXJ2VHE4?oc=5' target='_blank'
+             style='font-size:13px;font-weight:500;color:#18191f;line-height:1.4;
+                    display:block;margin-bottom:3px;text-decoration:none'>
+            “스파오 ‘쿨썸머카디건’ 2만6910원” 지그재그 ‘브랜드페스타’
+          </a>
+          <div style='font-size:12px;color:#52546a;line-height:1.5'>“스파오 ‘쿨썸머카디건’ 2만6910원” 지그재그 ‘브랜드페스타’&nbsp;&nbsp;catchnews.kr</div>
+          <div style='font-size:10px;color:#aaa;margin-top:3px;font-family:monospace'>2026-04-20</div>
+        </div>
+        <div style='padding:11px 0;border-bottom:1px solid #f0f0f0'>
+          <a href='https://news.google.com/rss/articles/CBMiTkFVX3lxTFBSWGxnWUU5ZlZpa0hPNmJTeTFBa1hlcUdkbjJFRU5aZ2gwYkZkMVpYT1YyNnNkWkl6c3NfcmVSd2FQQzlvRHVFMTEzdGxjdw?oc=5' target='_blank'
+             style='font-size:13px;font-weight:500;color:#18191f;line-height:1.4;
+                    display:block;margin-bottom:3px;text-decoration:none'>
+            카카오스타일, 지그재그 비핵심 서비스 손질…안정적 흑자 구조 구축
+          </a>
+          <div style='font-size:12px;color:#52546a;line-height:1.5'>카카오스타일, 지그재그 비핵심 서비스 손질…안정적 흑자 구조 구축&nbsp;&nbsp;전자신문</div>
+          <div style='font-size:10px;color:#aaa;margin-top:3px;font-family:monospace'>2025-12-05</div>
+        </div>
+    </div>
+    <div style='background:#fff;border:1px solid #e5e7eb;border-radius:14px;padding:18px 20px;
+                box-shadow:0 1px 3px rgba(0,0,0,0.04)'>
+      <div style='display:flex;align-items:center;gap:8px;margin-bottom:13px;
+                  padding-bottom:11px;border-bottom:1px solid #f0f0f0'>
+        <div style='width:8px;height:8px;border-radius:50%;background:#1d56d1;flex-shrink:0'></div>
+        <span style='font-size:14px;font-weight:700'>29CM</span>
+        <span style='font-size:10px;background:#eff6ff;color:#1d56d1;padding:2px 7px;
+                     border-radius:999px;font-weight:600;margin-left:auto'>최신 뉴스</span>
+      </div>
+      
+        <div style='padding:11px 0;border-bottom:1px solid #f0f0f0'>
+          <a href='https://news.google.com/rss/articles/CBMiUEFVX3lxTE1qTHFJbXJaVnZDbVk1SDlMaERmUGRaa0hDdlYzX2ZoQ203WktXNzJyUmVwRUF4azNNSm5WaVFsMjlUUFlkNnRicXd1NzRtQzFh?oc=5' target='_blank'
+             style='font-size:13px;font-weight:500;color:#18191f;line-height:1.4;
+                    display:block;margin-bottom:3px;text-decoration:none'>
+            무신사·29CM, 지구의 날 맞아 ‘어스 위크’… 지속가능 행보 강화
+          </a>
+          <div style='font-size:12px;color:#52546a;line-height:1.5'>무신사·29CM, 지구의 날 맞아 ‘어스 위크’… 지속가능 행보 강화&nbsp;&nbsp;패션비즈</div>
+          <div style='font-size:10px;color:#aaa;margin-top:3px;font-family:monospace'>2026-04-20</div>
+        </div>
+        <div style='padding:11px 0;border-bottom:1px solid #f0f0f0'>
+          <a href='https://news.google.com/rss/articles/CBMiVkFVX3lxTFAwSWMxbkJFMmV6MHJDY0xjb3hveFdJaVVWUXdNRHhDeW4zRmIzMmNwQ0JTc0lJdklwbm9xWkF5TldhaHh1bFdjanZCRXhXRTZ3OG43VFF3?oc=5' target='_blank'
+             style='font-size:13px;font-weight:500;color:#18191f;line-height:1.4;
+                    display:block;margin-bottom:3px;text-decoration:none'>
+            무신사·29CM, '지구의 날' 기념 공동 캠페인 전개
+          </a>
+          <div style='font-size:12px;color:#52546a;line-height:1.5'>무신사·29CM, '지구의 날' 기념 공동 캠페인 전개&nbsp;&nbsp;지디넷코리아</div>
+          <div style='font-size:10px;color:#aaa;margin-top:3px;font-family:monospace'>2026-04-19</div>
+        </div>
+        <div style='padding:11px 0;border-bottom:1px solid #f0f0f0'>
+          <a href='https://news.google.com/rss/articles/CBMiZEFVX3lxTE5VV2FkbmFZMmYwRkhqQVNXZjNwbFVQQl9IZ3BSVlJyakFpazBOcG5RTEdqX29fd2l3RXlJUndBUEJ2SkhvSGg3MXhBNE8zVEF0Ni10d0hiSjE5dEJ6OU9yeGxnU3I?oc=5' target='_blank'
+             style='font-size:13px;font-weight:500;color:#18191f;line-height:1.4;
+                    display:block;margin-bottom:3px;text-decoration:none'>
+            무신사·29CM, 지구의 날 기념 ‘어스 위크’ 전개
+          </a>
+          <div style='font-size:12px;color:#52546a;line-height:1.5'>무신사·29CM, 지구의 날 기념 ‘어스 위크’ 전개&nbsp;&nbsp;매일일보</div>
+          <div style='font-size:10px;color:#aaa;margin-top:3px;font-family:monospace'>2026-04-20</div>
+        </div>
+    </div>
+    <div style='background:#fff;border:1px solid #e5e7eb;border-radius:14px;padding:18px 20px;
+                box-shadow:0 1px 3px rgba(0,0,0,0.04)'>
+      <div style='display:flex;align-items:center;gap:8px;margin-bottom:13px;
+                  padding-bottom:11px;border-bottom:1px solid #f0f0f0'>
+        <div style='width:8px;height:8px;border-radius:50%;background:#555555;flex-shrink:0'></div>
+        <span style='font-size:14px;font-weight:700'>W컨셉</span>
+        <span style='font-size:10px;background:#f5f5f5;color:#555555;padding:2px 7px;
+                     border-radius:999px;font-weight:600;margin-left:auto'>최신 뉴스</span>
+      </div>
+      
+        <div style='padding:11px 0;border-bottom:1px solid #f0f0f0'>
+          <a href='https://news.google.com/rss/articles/CBMiUEFVX3lxTE5BVFFDQzg5Wkxlai16djJFZktmcnctbHoteTdVNlZZRzBkcVJVMWNPU3NWME1remU3VFlVNjc3ZmZvTWRXVUZTb1VLdHV0b0Yx?oc=5' target='_blank'
+             style='font-size:13px;font-weight:500;color:#18191f;line-height:1.4;
+                    display:block;margin-bottom:3px;text-decoration:none'>
+            W컨셉, 어린이날 맞아 ‘키즈 원더랜드’ 행사... 최대 77% 할인
+          </a>
+          <div style='font-size:12px;color:#52546a;line-height:1.5'>W컨셉, 어린이날 맞아 ‘키즈 원더랜드’ 행사... 최대 77% 할인&nbsp;&nbsp;패션비즈</div>
+          <div style='font-size:10px;color:#aaa;margin-top:3px;font-family:monospace'>2026-04-19</div>
+        </div>
+        <div style='padding:11px 0;border-bottom:1px solid #f0f0f0'>
+          <a href='https://news.google.com/rss/articles/CBMiogFBVV95cUxNQW10WlhuZExBd1BrMzlNREpxZ3BGSjZyWWZnMXFZXzhMT0I4QWRjX3FMNUtiRGYwaFAtNEJFeFZaZnNUb1RSQkZtd2lyV1UwY01FaFphNFJnbXN2MFo5VDY1ZWFMNklfYXNIZXd3SjBKdWRhVk5ZQzQzV1MyYlNhdHVEU010QnFjb2VMcHdTVzN2cE5SSXFqVXVJYl9od2RIdUE?oc=5' target='_blank'
+             style='font-size:13px;font-weight:500;color:#18191f;line-height:1.4;
+                    display:block;margin-bottom:3px;text-decoration:none'>
+            W컨셉, 어린이날 겨냥 ‘키즈 원더랜드’ 행사 개최… “텐포켓 트렌드에 키즈 매출 2배 증가”
+          </a>
+          <div style='font-size:12px;color:#52546a;line-height:1.5'>W컨셉, 어린이날 겨냥 ‘키즈 원더랜드’ 행사 개최… “텐포켓 트렌드에 키즈 매출 2배 증가”&nbsp;&nbsp;신세계그룹 뉴스룸</div>
+          <div style='font-size:10px;color:#aaa;margin-top:3px;font-family:monospace'>2026-04-20</div>
+        </div>
+        <div style='padding:11px 0;border-bottom:1px solid #f0f0f0'>
+          <a href='https://news.google.com/rss/articles/CBMiekFVX3lxTE5NMVRvV0RfSXRsQ2l4dWl0SlZMd1c4RHRRb1ktWXNCSmozNTAySjAxRjJyV2VyeGpFUThUZmdLOFA1OTVFb2Z4NW5rS0lzUUw5MnhEUVhSNEZ3UWgtaTN1bkdUUEFOempxSWZKXzM0RzBKSTZuS1NxejhR?oc=5' target='_blank'
+             style='font-size:13px;font-weight:500;color:#18191f;line-height:1.4;
+                    display:block;margin-bottom:3px;text-decoration:none'>
+            W컨셉, 어린이날 맞아 최대 77% 할인 행사…키즈 매출 전년比 2배↑
+          </a>
+          <div style='font-size:12px;color:#52546a;line-height:1.5'>W컨셉, 어린이날 맞아 최대 77% 할인 행사…키즈 매출 전년比 2배↑&nbsp;&nbsp;로이슈</div>
+          <div style='font-size:10px;color:#aaa;margin-top:3px;font-family:monospace'>2026-04-20</div>
+        </div>
+    </div>
+    <div style='background:#fff;border:1px solid #e5e7eb;border-radius:14px;padding:18px 20px;
+                box-shadow:0 1px 3px rgba(0,0,0,0.04)'>
+      <div style='display:flex;align-items:center;gap:8px;margin-bottom:13px;
+                  padding-bottom:11px;border-bottom:1px solid #f0f0f0'>
+        <div style='width:8px;height:8px;border-radius:50%;background:#222222;flex-shrink:0'></div>
+        <span style='font-size:14px;font-weight:700'>무신사</span>
+        <span style='font-size:10px;background:#f0f0f0;color:#222222;padding:2px 7px;
+                     border-radius:999px;font-weight:600;margin-left:auto'>최신 뉴스</span>
+      </div>
+      
+        <div style='padding:11px 0;border-bottom:1px solid #f0f0f0'>
+          <a href='https://news.google.com/rss/articles/CBMidEFVX3lxTE5IcnktMFRBWGQ4aDNtUXE2VzBPa0ZocURQYkdLQ0VrZlhhZWxiT1JmMVdodnM2MkEyd2drMUtDempGZC1vMkNyN3ZyUEM4QlktVkp2bmRHSHVmNllSY2NxSmRrTU5MZkZnNGFQcDdCQ0JBMGhI?oc=5' target='_blank'
+             style='font-size:13px;font-weight:500;color:#18191f;line-height:1.4;
+                    display:block;margin-bottom:3px;text-decoration:none'>
+            몸값 10조 노리는 무신사, 패션 플랫폼 넘어 ‘브랜드 콘텐츠 기업’으로
+          </a>
+          <div style='font-size:12px;color:#52546a;line-height:1.5'>몸값 10조 노리는 무신사, 패션 플랫폼 넘어 ‘브랜드 콘텐츠 기업’으로&nbsp;&nbsp;대한경제</div>
+          <div style='font-size:10px;color:#aaa;margin-top:3px;font-family:monospace'>2026-04-20</div>
+        </div>
+        <div style='padding:11px 0;border-bottom:1px solid #f0f0f0'>
+          <a href='https://news.google.com/rss/articles/CBMiWkFVX3lxTE5OdTZGeGtRbWhhdXM0YUxaTXgteWN4dmVPNWtaamxYMjEtTFBYbTNqb2lFNHdzSm81MVVjS0x1Y0prS1pud0toTTJDcjBhZlZnel93TWtEejlaZ9IBXkFVX3lxTE15ejludjZsb2dlYjUwQS1WWTNaRzNCSlRycGIyVFhnVmpCOVlVVTBNWWM2czhEMm5TYlV6a0tfVzYzQnV3MDdhWnZ0c2p3VFBQOXU4N0NLTXpyOTB5Z2c?oc=5' target='_blank'
+             style='font-size:13px;font-weight:500;color:#18191f;line-height:1.4;
+                    display:block;margin-bottom:3px;text-decoration:none'>
+            무신사 ‘매거진 B’ 인수… 글로벌 브랜드 확장 시동
+          </a>
+          <div style='font-size:12px;color:#52546a;line-height:1.5'>무신사 ‘매거진 B’ 인수… 글로벌 브랜드 확장 시동&nbsp;&nbsp;파이낸셜뉴스</div>
+          <div style='font-size:10px;color:#aaa;margin-top:3px;font-family:monospace'>2026-04-20</div>
+        </div>
+        <div style='padding:11px 0;border-bottom:1px solid #f0f0f0'>
+          <a href='https://news.google.com/rss/articles/CBMiTEFVX3lxTE5SWFZkanhSOEVXcV9tcGhDV29RUjBiY2JGd2FLTzdHN3J5ZnZCYVc3QXkzUEtUVTE1NjlVTnZBZFJMUUhBSjdvajE1Mno?oc=5' target='_blank'
+             style='font-size:13px;font-weight:500;color:#18191f;line-height:1.4;
+                    display:block;margin-bottom:3px;text-decoration:none'>
+            플랫폼 넘어 ‘글로벌 미디어’로…무신사, ‘매거진 B’ 지분 100% 인수
+          </a>
+          <div style='font-size:12px;color:#52546a;line-height:1.5'>플랫폼 넘어 ‘글로벌 미디어’로…무신사, ‘매거진 B’ 지분 100% 인수&nbsp;&nbsp;TENANT news</div>
+          <div style='font-size:10px;color:#aaa;margin-top:3px;font-family:monospace'>2026-04-19</div>
+        </div>
+    </div>
+    <div style='background:#fff;border:1px solid #e5e7eb;border-radius:14px;padding:18px 20px;
+                box-shadow:0 1px 3px rgba(0,0,0,0.04)'>
+      <div style='display:flex;align-items:center;gap:8px;margin-bottom:13px;
+                  padding-bottom:11px;border-bottom:1px solid #f0f0f0'>
+        <div style='width:8px;height:8px;border-radius:50%;background:#555;flex-shrink:0'></div>
+        <span style='font-size:14px;font-weight:700'>GS샵</span>
+        <span style='font-size:10px;background:#f5f5f5;color:#555;padding:2px 7px;
+                     border-radius:999px;font-weight:600;margin-left:auto'>최신 뉴스</span>
+      </div>
+      <div style='font-size:12px;color:#aaa;padding:10px 0'>수집된 뉴스가 없습니다</div>
+    </div>
+    <div style='background:#fff;border:1px solid #e5e7eb;border-radius:14px;padding:18px 20px;
+                box-shadow:0 1px 3px rgba(0,0,0,0.04)'>
+      <div style='display:flex;align-items:center;gap:8px;margin-bottom:13px;
+                  padding-bottom:11px;border-bottom:1px solid #f0f0f0'>
+        <div style='width:8px;height:8px;border-radius:50%;background:#555;flex-shrink:0'></div>
+        <span style='font-size:14px;font-weight:700'>롯데홈쇼핑</span>
+        <span style='font-size:10px;background:#f5f5f5;color:#555;padding:2px 7px;
+                     border-radius:999px;font-weight:600;margin-left:auto'>최신 뉴스</span>
+      </div>
+      <div style='font-size:12px;color:#aaa;padding:10px 0'>수집된 뉴스가 없습니다</div>
+    </div>
+    <div style='background:#fff;border:1px solid #e5e7eb;border-radius:14px;padding:18px 20px;
+                box-shadow:0 1px 3px rgba(0,0,0,0.04)'>
+      <div style='display:flex;align-items:center;gap:8px;margin-bottom:13px;
+                  padding-bottom:11px;border-bottom:1px solid #f0f0f0'>
+        <div style='width:8px;height:8px;border-radius:50%;background:#555;flex-shrink:0'></div>
+        <span style='font-size:14px;font-weight:700'>현대홈쇼핑</span>
+        <span style='font-size:10px;background:#f5f5f5;color:#555;padding:2px 7px;
+                     border-radius:999px;font-weight:600;margin-left:auto'>최신 뉴스</span>
+      </div>
+      <div style='font-size:12px;color:#aaa;padding:10px 0'>수집된 뉴스가 없습니다</div>
+    </div>
+    <div style='background:#fff;border:1px solid #e5e7eb;border-radius:14px;padding:18px 20px;
+                box-shadow:0 1px 3px rgba(0,0,0,0.04)'>
+      <div style='display:flex;align-items:center;gap:8px;margin-bottom:13px;
+                  padding-bottom:11px;border-bottom:1px solid #f0f0f0'>
+        <div style='width:8px;height:8px;border-radius:50%;background:#555;flex-shrink:0'></div>
+        <span style='font-size:14px;font-weight:700'>CJ온스타일</span>
+        <span style='font-size:10px;background:#f5f5f5;color:#555;padding:2px 7px;
+                     border-radius:999px;font-weight:600;margin-left:auto'>최신 뉴스</span>
+      </div>
+      <div style='font-size:12px;color:#aaa;padding:10px 0'>수집된 뉴스가 없습니다</div>
+    </div>
+    <div style='background:#fff;border:1px solid #e5e7eb;border-radius:14px;padding:18px 20px;
+                box-shadow:0 1px 3px rgba(0,0,0,0.04)'>
+      <div style='display:flex;align-items:center;gap:8px;margin-bottom:13px;
+                  padding-bottom:11px;border-bottom:1px solid #f0f0f0'>
+        <div style='width:8px;height:8px;border-radius:50%;background:#555;flex-shrink:0'></div>
+        <span style='font-size:14px;font-weight:700'>패션플러스</span>
+        <span style='font-size:10px;background:#f5f5f5;color:#555;padding:2px 7px;
+                     border-radius:999px;font-weight:600;margin-left:auto'>최신 뉴스</span>
+      </div>
+      <div style='font-size:12px;color:#aaa;padding:10px 0'>수집된 뉴스가 없습니다</div>
+    </div></div>
+</div>
+
+<!-- 크롤링 설정 -->
+<div id='page-crawl' class='page'>
+  <div class='ph'><h2>크롤링 설정</h2><p>자동 수집 현황 및 로드맵</p></div>
+  <div class='sl'>수집 대상 현황</div>
+  <div class='card'>
+    <table class='dt'><thead><tr><th>경쟁사</th><th>수집 항목</th><th>방법</th><th>상태</th></tr></thead>
+    <tbody>
+      <tr><td class='dn'>포스티</td><td>iOS 리뷰 5건, Android 업데이트, 기획전</td><td>앱스토어 RSS + 웹</td><td><span class='pill p-ok'>자동</span></td></tr>
+      <tr><td class='dn'>에이블리</td><td>iOS 리뷰 5건, 기획전 목록</td><td>앱스토어 RSS + 웹</td><td><span class='pill p-ok'>자동</span></td></tr>
+      <tr><td class='dn'>지그재그</td><td>iOS 리뷰 5건, Android 업데이트</td><td>앱스토어 RSS + 웹</td><td><span class='pill p-ok'>자동</span></td></tr>
+      <tr><td class='dn'>29CM</td><td>기획전 목록 + 링크</td><td>공개 웹페이지</td><td><span class='pill p-warn'>간헐 차단</span></td></tr>
+      <tr><td class='dn'>W컨셉</td><td>기획전, 신규 입점</td><td>공개 웹페이지</td><td><span class='pill p-ok'>자동</span></td></tr>
+      <tr><td class='dn'>뉴스 (전체)</td><td>네이버 뉴스 검색 3건</td><td>네이버 검색</td><td><span class='pill p-ok'>자동</span></td></tr>
+    </tbody></table>
+  </div>
+  <div class='sl'>자동화 로드맵</div>
+  <div class='card'>
+    <table class='dt'><thead><tr><th>단계</th><th>내용</th><th>상태</th></tr></thead>
+    <tbody>
+      <tr><td class='dn'>1단계 ✅</td><td>앱스토어 리뷰 자동 수집 + 대시보드 HTML 생성</td><td><span class='pill p-ok'>완료</span></td></tr>
+      <tr><td class='dn'>2단계 ✅</td><td>29CM·W컨셉 기획전 웹 크롤링</td><td><span class='pill p-ok'>완료</span></td></tr>
+      <tr><td class='dn'>3단계 ✅</td><td>네이버 뉴스 자동 수집 (경쟁사별 3건)</td><td><span class='pill p-ok'>완료</span></td></tr>
+      <tr><td class='dn'>4단계</td><td>공식 인스타그램 피드 자동 수집</td><td><span class='pill p-warn'>개발 예정</span></td></tr>
+      <tr><td class='dn'>5단계</td><td>앱 내 상품 가격 직접 크롤링</td><td><span class='pill p-block'>정책 검토</span></td></tr>
+    </tbody></table>
+  </div>
+  <div class='ibox'><strong>자동 실행</strong> — Mac cron에 등록되어 <strong>매일 오전 9:00</strong> 자동 실행됩니다.<br>
+  결과 파일: <code>reports/2026-04-20.html</code> + <code>reports/latest.html</code> (항상 최신본)<br>
+  수동 실행: <code>python3 crawler.py</code> &nbsp;|&nbsp; 최신 열기: <code>open reports/latest.html</code></div>
+</div>
+
+</main>
+</div>
+<script>
+function go(id, el) {
+  document.querySelectorAll('.page').forEach(p => p.classList.remove('on'));
+  document.getElementById('page-' + id).classList.add('on');
+  document.querySelectorAll('.ni').forEach(n => n.classList.remove('on'));
+  el.classList.add('on');
+  window.scrollTo({top:0, behavior:'smooth'});
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,484 @@
+"""
+퀸잇 경쟁사 트래킹 크롤러
+수집 대상: 포스티 앱스토어, 에이블리 앱스토어, 29CM 기획전
+실행: python3 crawler.py
+결과: data/latest.json + reports/YYYY-MM-DD.html
+"""
+
+import json
+import os
+import time
+import datetime
+import re
+import traceback
+from pathlib import Path
+
+import requests
+from bs4 import BeautifulSoup
+
+# ── 디렉토리 초기화 ──────────────────────────────────────────
+BASE_DIR = Path(__file__).parent
+DATA_DIR = BASE_DIR / "data"
+REPORT_DIR = BASE_DIR / "reports"
+DATA_DIR.mkdir(exist_ok=True)
+REPORT_DIR.mkdir(exist_ok=True)
+
+TODAY = datetime.date.today().isoformat()
+
+HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/124.0.0.0 Safari/537.36"
+    ),
+    "Accept-Language": "ko-KR,ko;q=0.9",
+}
+
+
+# ══════════════════════════════════════════════════════════════
+# 1. 앱스토어 크롤러 (포스티 · 에이블리 · 지그재그)
+# ══════════════════════════════════════════════════════════════
+
+APP_IDS = {
+    "포스티":   {"ios": "1570315038", "android": "com.kakaostyle.posty"},
+    "에이블리":  {"ios": "1361166884", "android": "com.ablyclothes"},
+    "지그재그":  {"ios": "976185078",  "android": "com.kakaostyle.store"},
+}
+
+
+def fetch_ios_review(app_id: str, app_name: str) -> dict:
+    """App Store RSS 피드에서 최신 리뷰 5건 수집"""
+    url = f"https://itunes.apple.com/kr/rss/customerreviews/id={app_id}/sortBy=mostRecent/json"
+    try:
+        r = requests.get(url, headers=HEADERS, timeout=10)
+        r.raise_for_status()
+        feed = r.json().get("feed", {})
+        entries = feed.get("entry", [])
+        if not entries:
+            return {"app": app_name, "platform": "iOS", "reviews": [], "rating": None}
+
+        # 첫 번째 entry는 앱 정보
+        reviews = []
+        for e in entries[1:6]:
+            reviews.append({
+                "title":   e.get("title", {}).get("label", ""),
+                "content": e.get("content", {}).get("label", ""),
+                "rating":  e.get("im:rating", {}).get("label", ""),
+                "author":  e.get("author", {}).get("name", {}).get("label", ""),
+                "date":    e.get("updated", {}).get("label", "")[:10],
+            })
+
+        avg = feed.get("entry", [{}])[0].get("im:ratingAverage", {}).get("label")
+        return {"app": app_name, "platform": "iOS", "reviews": reviews, "rating": avg}
+    except Exception as e:
+        return {"app": app_name, "platform": "iOS", "reviews": [], "error": str(e)}
+
+
+def fetch_android_version(package: str, app_name: str) -> dict:
+    """Google Play 페이지에서 버전·업데이트 정보 스크래핑"""
+    url = f"https://play.google.com/store/apps/details?id={package}&hl=ko"
+    try:
+        r = requests.get(url, headers=HEADERS, timeout=12)
+        r.raise_for_status()
+        soup = BeautifulSoup(r.text, "html.parser")
+
+        # 업데이트 날짜 — itemprop 또는 텍스트 패턴 탐색
+        updated = None
+        for tag in soup.find_all(string=re.compile(r"20\d{2}년 \d+월 \d+일")):
+            updated = tag.strip()
+            break
+
+        # 최근 업데이트 내용 (ds:4 JSON 블롭 파싱)
+        recent_changes = ""
+        scripts = soup.find_all("script")
+        for s in scripts:
+            if s.string and "recentChangesHtml" in s.string:
+                m = re.search(r'"recentChangesHtml","(.*?)"', s.string)
+                if m:
+                    recent_changes = m.group(1).replace("\\n", " ").replace("\\u003c", "<")[:300]
+                break
+
+        return {
+            "app": app_name,
+            "platform": "Android",
+            "updated": updated,
+            "recent_changes": recent_changes,
+        }
+    except Exception as e:
+        return {"app": app_name, "platform": "Android", "error": str(e)}
+
+
+def crawl_appstore() -> list:
+    print("\n[1/3] 앱스토어 수집 중...")
+    results = []
+    for name, ids in APP_IDS.items():
+        print(f"  · {name} iOS 리뷰...")
+        results.append(fetch_ios_review(ids["ios"], name))
+        time.sleep(1.5)
+        print(f"  · {name} Android 업데이트...")
+        results.append(fetch_android_version(ids["android"], name))
+        time.sleep(1.5)
+    return results
+
+
+# ══════════════════════════════════════════════════════════════
+# 2. 29CM 기획전 크롤러
+# ══════════════════════════════════════════════════════════════
+
+def crawl_29cm() -> list:
+    print("\n[2/3] 29CM 기획전 수집 중...")
+    url = "https://www.29cm.co.kr/exhibition"
+    events = []
+    try:
+        r = requests.get(url, headers=HEADERS, timeout=12)
+        r.raise_for_status()
+        soup = BeautifulSoup(r.text, "html.parser")
+
+        # 기획전 카드 탐색 (클래스 패턴 유연 탐색)
+        cards = soup.select("a[href*='/exhibition/']")
+        seen = set()
+        for card in cards[:20]:
+            href = card.get("href", "")
+            if href in seen or not href:
+                continue
+            seen.add(href)
+
+            title_tag = card.find(["h2", "h3", "p", "span"])
+            title = title_tag.get_text(strip=True) if title_tag else ""
+            if not title or len(title) < 2:
+                continue
+
+            img_tag = card.find("img")
+            img = img_tag.get("src", "") if img_tag else ""
+
+            events.append({
+                "title": title,
+                "url": "https://www.29cm.co.kr" + href if href.startswith("/") else href,
+                "image": img,
+                "source": "29CM",
+            })
+
+        # JSON-LD 백업 파싱
+        if not events:
+            for script in soup.find_all("script", type="application/ld+json"):
+                try:
+                    data = json.loads(script.string or "")
+                    if isinstance(data, list):
+                        for item in data:
+                            if item.get("@type") in ("Event", "Product"):
+                                events.append({
+                                    "title": item.get("name", ""),
+                                    "url": item.get("url", ""),
+                                    "source": "29CM",
+                                })
+                except Exception:
+                    pass
+
+        print(f"  · {len(events)}개 기획전 수집 완료")
+    except Exception as e:
+        print(f"  · 29CM 오류: {e}")
+        events.append({"error": str(e), "source": "29CM"})
+    return events
+
+
+# ══════════════════════════════════════════════════════════════
+# 3. 포스티 공식 인스타그램 대체 — 포스티 웹 기획전
+# ══════════════════════════════════════════════════════════════
+
+def crawl_posty_web() -> list:
+    """포스티 웹 기획전 페이지 수집 (앱 전용이라 제한적, 공개 웹 기반)"""
+    print("\n[3/3] 포스티 기획전 수집 중...")
+    url = "https://posty.kr/events"
+    events = []
+    try:
+        r = requests.get(url, headers=HEADERS, timeout=12)
+        r.raise_for_status()
+        soup = BeautifulSoup(r.text, "html.parser")
+
+        # 메타 태그에서 기본 정보 추출
+        og_title = soup.find("meta", property="og:title")
+        og_desc  = soup.find("meta", property="og:description")
+
+        title = og_title["content"] if og_title else "포스티 기획전"
+        desc  = og_desc["content"]  if og_desc  else ""
+
+        # 기획전 링크 수집
+        cards = soup.select("a[href*='/events/'], a[href*='/event/']")
+        seen = set()
+        for card in cards[:15]:
+            href = card.get("href", "")
+            if href in seen or not href:
+                continue
+            seen.add(href)
+            t = card.get_text(strip=True)
+            if t and len(t) > 2:
+                events.append({
+                    "title": t,
+                    "url": "https://posty.kr" + href if href.startswith("/") else href,
+                    "source": "포스티",
+                })
+
+        if not events:
+            events.append({
+                "title": title,
+                "description": desc,
+                "url": url,
+                "source": "포스티",
+                "note": "앱 전용 서비스로 상세 기획전 목록은 앱에서 확인 필요",
+            })
+
+        print(f"  · {len(events)}개 수집 완료")
+    except Exception as e:
+        print(f"  · 포스티 오류: {e}")
+        events.append({"error": str(e), "source": "포스티"})
+    return events
+
+
+# ══════════════════════════════════════════════════════════════
+# 4. 에이블리 기획전 (공개 웹)
+# ══════════════════════════════════════════════════════════════
+
+def crawl_ably() -> list:
+    print("     에이블리 기획전 수집 중...")
+    url = "https://m.a-bly.com/exhibitions"
+    events = []
+    try:
+        r = requests.get(url, headers={**HEADERS, "Accept": "text/html"}, timeout=12)
+        soup = BeautifulSoup(r.text, "html.parser")
+
+        cards = soup.select("a[href*='exhibition'], a[href*='event']")
+        seen = set()
+        for card in cards[:15]:
+            href = card.get("href", "")
+            if href in seen or not href:
+                continue
+            seen.add(href)
+            t = card.get_text(strip=True)
+            if t and len(t) > 2:
+                events.append({
+                    "title": t[:80],
+                    "url": href if href.startswith("http") else "https://m.a-bly.com" + href,
+                    "source": "에이블리",
+                })
+
+        if not events:
+            og_title = soup.find("meta", property="og:title")
+            events.append({
+                "title": og_title["content"] if og_title else "에이블리 기획전",
+                "url": url,
+                "source": "에이블리",
+                "note": "앱 전용으로 상세 목록은 앱에서 확인 필요",
+            })
+        print(f"     · {len(events)}개 수집 완료")
+    except Exception as e:
+        print(f"     · 에이블리 오류: {e}")
+        events.append({"error": str(e), "source": "에이블리"})
+    return events
+
+
+# ══════════════════════════════════════════════════════════════
+# 5. 결과 저장 및 HTML 리포트 생성
+# ══════════════════════════════════════════════════════════════
+
+def save_json(data: dict):
+    path = DATA_DIR / "latest.json"
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+
+    # 날짜별 백업
+    backup = DATA_DIR / f"{TODAY}.json"
+    with open(backup, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+    print(f"\n✅ 데이터 저장: {path}")
+
+
+def make_review_html(reviews: list) -> str:
+    if not reviews:
+        return "<p style='color:#999'>리뷰 없음</p>"
+    rows = ""
+    for rv in reviews[:3]:
+        stars = "★" * int(rv.get("rating", 0) or 0)
+        rows += f"""
+        <div style='padding:10px 0;border-bottom:1px solid #f0f0f0'>
+          <div style='font-size:12px;color:#f59e0b'>{stars}</div>
+          <div style='font-size:13px;font-weight:500;margin:3px 0'>{rv.get('title','')}</div>
+          <div style='font-size:12px;color:#666;line-height:1.5'>{rv.get('content','')[:120]}...</div>
+          <div style='font-size:11px;color:#aaa;margin-top:4px'>{rv.get('author','')} · {rv.get('date','')}</div>
+        </div>"""
+    return rows
+
+
+def generate_html_report(data: dict) -> str:
+    """수집 데이터를 바탕으로 일간 HTML 리포트 생성"""
+
+    # 앱스토어 데이터 분류
+    ios_data, android_data = {}, {}
+    for item in data.get("appstore", []):
+        name = item["app"]
+        if item.get("platform") == "iOS":
+            ios_data[name] = item
+        else:
+            android_data[name] = item
+
+    # 기획전 카드
+    def event_cards(events, color):
+        if not events:
+            return "<p style='color:#999'>수집된 기획전이 없습니다</p>"
+        cards = ""
+        for e in events[:6]:
+            if "error" in e:
+                cards += f"<div style='color:#ef4444;font-size:12px'>수집 오류: {e['error']}</div>"
+                continue
+            note = f"<div style='font-size:11px;color:#aaa;margin-top:4px'>{e.get('note','')}</div>" if e.get("note") else ""
+            cards += f"""
+            <a href='{e.get("url","#")}' target='_blank' style='display:block;padding:12px 14px;
+               border:1px solid #e5e7eb;border-radius:8px;margin-bottom:8px;text-decoration:none;
+               background:#fff;transition:border-color .15s' 
+               onmouseover="this.style.borderColor='{color}'" 
+               onmouseout="this.style.borderColor='#e5e7eb'">
+              <div style='font-size:13px;font-weight:500;color:#111'>{e.get("title","")}</div>
+              {note}
+            </a>"""
+        return cards
+
+    # 앱 카드 생성
+    def app_card(name, color):
+        ios  = ios_data.get(name, {})
+        andr = android_data.get(name, {})
+        rating = ios.get("rating", "—")
+        updated = andr.get("updated", "—")
+        changes = andr.get("recent_changes", "")
+        review_html = make_review_html(ios.get("reviews", []))
+        return f"""
+        <div style='background:#fff;border:1px solid #e5e7eb;border-radius:12px;
+                    border-left:4px solid {color};padding:18px 20px;margin-bottom:14px'>
+          <div style='display:flex;justify-content:space-between;align-items:center;margin-bottom:14px'>
+            <span style='font-size:15px;font-weight:700;color:#111'>{name}</span>
+            <span style='background:{color}18;color:{color};font-size:11px;
+                         padding:3px 10px;border-radius:999px;font-weight:500'>
+              iOS ★ {rating}
+            </span>
+          </div>
+          {'<div style="font-size:12px;color:#555;background:#f9f9f9;border-radius:6px;padding:10px;margin-bottom:12px">' + changes[:200] + '</div>' if changes else ''}
+          <div style='font-size:11px;color:#999;margin-bottom:10px'>Android 최근 업데이트: {updated}</div>
+          <div style='font-size:12px;font-weight:600;color:#444;margin-bottom:6px'>최신 리뷰</div>
+          {review_html}
+        </div>"""
+
+    html = f"""<!DOCTYPE html>
+<html lang='ko'>
+<head>
+<meta charset='UTF-8'>
+<meta name='viewport' content='width=device-width,initial-scale=1'>
+<title>퀸잇 경쟁사 일간 리포트 — {TODAY}</title>
+<link rel='preconnect' href='https://fonts.googleapis.com'>
+<link href='https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap' rel='stylesheet'>
+<style>
+  * {{ box-sizing:border-box; margin:0; padding:0 }}
+  body {{ font-family:'Noto Sans KR',sans-serif; background:#f5f6f8; color:#1a1b24; }}
+  .wrap {{ max-width:900px; margin:0 auto; padding:36px 24px }}
+  h1 {{ font-size:22px; font-weight:700; }}
+  h2 {{ font-size:15px; font-weight:700; margin:28px 0 12px; color:#111 }}
+  .chip {{ display:inline-block; font-size:11px; padding:2px 9px; border-radius:999px;
+           font-weight:500; margin-left:8px; vertical-align:middle }}
+  .meta {{ font-size:13px; color:#888; margin-top:6px; margin-bottom:28px }}
+  .grid {{ display:grid; grid-template-columns:1fr 1fr; gap:14px }}
+  .section {{ background:#fff; border:1px solid #e5e7eb; border-radius:14px;
+              padding:20px 22px; margin-bottom:16px }}
+  @media(max-width:640px) {{ .grid {{ grid-template-columns:1fr }} }}
+</style>
+</head>
+<body>
+<div class='wrap'>
+  <h1>퀸잇 경쟁사 일간 리포트
+    <span class='chip' style='background:#ede9fe;color:#6d28d9'>자동 수집</span>
+  </h1>
+  <div class='meta'>수집일: {TODAY} &nbsp;|&nbsp; 대상: 포스티 · 에이블리 · 지그재그 · 29CM</div>
+
+  <h2>📱 앱스토어 현황</h2>
+  <div class='grid'>
+    {app_card("포스티",  "#6d55e8")}
+    {app_card("에이블리", "#ef4444")}
+    {app_card("지그재그", "#f59e0b")}
+  </div>
+
+  <h2>🎪 기획전 현황</h2>
+  <div class='grid'>
+    <div class='section'>
+      <div style='font-size:14px;font-weight:700;color:#6d55e8;margin-bottom:12px'>포스티</div>
+      {event_cards(data.get("posty_events", []), "#6d55e8")}
+    </div>
+    <div class='section'>
+      <div style='font-size:14px;font-weight:700;color:#ef4444;margin-bottom:12px'>에이블리</div>
+      {event_cards(data.get("ably_events", []), "#ef4444")}
+    </div>
+  </div>
+  <div class='section' style='margin-top:0'>
+    <div style='font-size:14px;font-weight:700;color:#0d9e6e;margin-bottom:12px'>29CM</div>
+    <div style='display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:8px'>
+      {''.join([f"<a href='{e.get('url','#')}' target='_blank' style='display:block;padding:11px 13px;border:1px solid #e5e7eb;border-radius:8px;text-decoration:none;font-size:13px;color:#111;background:#fff'>{e.get('title','')}</a>" for e in data.get("cm29_events",[])[:8] if not e.get("error")])}
+    </div>
+  </div>
+
+  <div style='margin-top:28px;font-size:11px;color:#bbb;text-align:center'>
+    자동 생성 · queenit 경쟁사 크롤러 · {datetime.datetime.now().strftime("%Y-%m-%d %H:%M")}
+  </div>
+</div>
+</body>
+</html>"""
+    return html
+
+
+def save_report(html: str):
+    path = REPORT_DIR / f"{TODAY}.html"
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(html)
+    print(f"✅ 리포트 생성: {path}")
+    return path
+
+
+# ══════════════════════════════════════════════════════════════
+# MAIN
+# ══════════════════════════════════════════════════════════════
+
+def main():
+    print("=" * 50)
+    print(f"  퀸잇 경쟁사 크롤러 시작  {TODAY}")
+    print("=" * 50)
+
+    data = {"collected_at": TODAY}
+
+    try:
+        data["appstore"]     = crawl_appstore()
+    except Exception:
+        print("앱스토어 수집 실패:", traceback.format_exc())
+        data["appstore"] = []
+
+    try:
+        data["cm29_events"]  = crawl_29cm()
+    except Exception:
+        data["cm29_events"] = []
+
+    try:
+        data["posty_events"] = crawl_posty_web()
+    except Exception:
+        data["posty_events"] = []
+
+    try:
+        data["ably_events"]  = crawl_ably()
+    except Exception:
+        data["ably_events"] = []
+
+    save_json(data)
+
+    html = generate_html_report(data)
+    report_path = save_report(html)
+
+    print("\n" + "=" * 50)
+    print("  완료! 브라우저로 리포트를 열려면:")
+    print(f"  open {report_path}")
+    print("=" * 50)
+
+
+if __name__ == "__main__":
+    main()

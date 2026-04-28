@@ -1,0 +1,326 @@
+{
+  "collected_at": "2026-04-21",
+  "appstore": [
+    {
+      "app": "포스티",
+      "platform": "iOS",
+      "reviews": [],
+      "rating": null
+    },
+    {
+      "app": "포스티",
+      "platform": "Android",
+      "updated": "2026년 2월 4일",
+      "recent_changes": ""
+    },
+    {
+      "app": "에이블리",
+      "platform": "iOS",
+      "reviews": [],
+      "rating": null
+    },
+    {
+      "app": "에이블리",
+      "platform": "Android",
+      "error": "404 Client Error: Not Found for url: https://play.google.com/store/apps/details?id=com.ablyclothes.app&hl=ko"
+    },
+    {
+      "app": "지그재그",
+      "platform": "iOS",
+      "reviews": [],
+      "rating": null
+    },
+    {
+      "app": "지그재그",
+      "platform": "Android",
+      "error": "404 Client Error: Not Found for url: https://play.google.com/store/apps/details?id=com.kakaostyle.zigzag&hl=ko"
+    }
+  ],
+  "events": {
+    "posty": [
+      {
+        "title": "지금 가입 시 20% 할인쿠폰을 드려요.쿠폰받기",
+        "url": "https://posty.kr/events/cms/879fa67f-578c-4645-9b66-be2b3063c539",
+        "source": "포스티"
+      }
+    ],
+    "ably": [
+      {
+        "title": "에이블리 기획전",
+        "url": "https://m.a-bly.com/exhibitions",
+        "source": "에이블리",
+        "note": "앱 전용 — 상세 목록은 앱에서 확인"
+      }
+    ],
+    "cm29": [
+      {
+        "title": "Event",
+        "url": "https://www.29cm.co.kr/store/event",
+        "source": "29CM"
+      }
+    ],
+    "wconcept": [
+      {
+        "title": "W컨셉 기획전",
+        "url": "https://www.wconcept.co.kr/Display/eventList",
+        "source": "W컨셉",
+        "note": "앱 전용 — 상세 목록은 앱에서 확인"
+      }
+    ]
+  },
+  "news": {
+    "포스티": [
+      {
+        "title": "포스티, 입점 판매자 위한 ‘AI 상품형 광고’ 출시",
+        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9JeTVCNXpWX1g0bG1VNEhRdUZTeFA4b3BsNXNYX0ZBOFdhMU4tOHhmTHJqVER4enVjcmhhLUYyUXA4ckQwT0k2ZExkOHlEWWpxRE5FSXJhaDZib1p2UkZjdzhjdDJDdw?oc=5",
+        "desc": "포스티, 입점 판매자 위한 ‘AI 상품형 광고’ 출시&nbsp;&nbsp;싱글리스트",
+        "date": "2026-04-21",
+        "brand": "포스티"
+      },
+      {
+        "title": "중장년 플랫폼 성장세 ‘뚜렷’… 포스티, 누적 회원 220만명 돌파",
+        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9mX2JvWDdfTFpKVlJ5dUJsMFgwYUFLem9ST2c0ZXpiVGdteXhhckdTMW0wUXlxY0tua01vZVN2VHlnZ1lfaVhIN3k4MjF4ZUVn?oc=5",
+        "desc": "중장년 플랫폼 성장세 ‘뚜렷’… 포스티, 누적 회원 220만명 돌파&nbsp;&nbsp;패션비즈",
+        "date": "2026-01-27",
+        "brand": "포스티"
+      },
+      {
+        "title": "카카오스타일, 지그재그·포스티 설맞이 대규모 프로모션 실시",
+        "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1UdU83TW1VSGs0eW9wenhpU3JKLTU3V3hFZXRBZlJwV05WSzZILWs5OWd3eFEyd3NtTDA1aGw1SzQ2RjRmXzd1aHlVZlU1dw?oc=5",
+        "desc": "카카오스타일, 지그재그·포스티 설맞이 대규모 프로모션 실시&nbsp;&nbsp;전자신문",
+        "date": "2026-02-12",
+        "brand": "포스티"
+      }
+    ],
+    "에이블리": [
+      {
+        "title": "에이블리, 1020 겨냥 뷰티 PB ‘바이블리’ 론칭… 가성비 시장 공략",
+        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5ydWVQbURBVFhPVHV6OGY5dW9LYndwajJfbU5WSm5qaW50SlViSTA5el9mWVBnTTJRSzRsWWVDUW8wV0c5anhGbXFrQjYxNi00?oc=5",
+        "desc": "에이블리, 1020 겨냥 뷰티 PB ‘바이블리’ 론칭… 가성비 시장 공략&nbsp;&nbsp;패션비즈",
+        "date": "2026-04-20",
+        "brand": "에이블리"
+      },
+      {
+        "title": "흑자 전문몰 ‘무신사·에이블리·지그재그’, 카테고리 확장에 집착하는 이유",
+        "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9YLUw1VlEwaGtlZGdEZENndGotWHF3anRLbG9ybThhcmc0RHhxYW5lRE9VN1MtVUQ3QnhJQncxSWFYQjNJU3gxTms4enA?oc=5",
+        "desc": "흑자 전문몰 ‘무신사·에이블리·지그재그’, 카테고리 확장에 집착하는 이유&nbsp;&nbsp;TENANT news",
+        "date": "2026-04-20",
+        "brand": "에이블리"
+      },
+      {
+        "title": "‘여성 패션 플랫폼의 진화’…카카오스타일·에이블리, 사업 확장 속도",
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9OX3EtVklFYXNjV1FaNl9kQlE3R01XTkJDMjY2Qk1iWkFxSnVOQU5ZSkVrVHBRNXBHNlluZmpjVTdTN0RMNXhTUVN6TDdYQlpuTFFYYU9XWFI5enZRX2VrNC03cXlkbXBsZHMzZWhydHJWTm_SAXdBVV95cUxQUGFkTjlEMlNERl9xem5NOVRRWG1HdE9MZG5HOGVuSW93bXRCLV83WWZsRVlIUE1QbFVIY3h4TElnOXUwdFkzQVdfN0FqeENUT1pmYlZ3SlRCVGZ4ZWk0dW91bjNUNkRKaXJsYzlNcjRoZVUweUhxTQ?oc=5",
+        "desc": "‘여성 패션 플랫폼의 진화’…카카오스타일·에이블리, 사업 확장 속도&nbsp;&nbsp;인사이트코리아",
+        "date": "2026-04-17",
+        "brand": "에이블리"
+      }
+    ],
+    "지그재그": [
+      {
+        "title": "‘2년 연속 흑자’ 카카오스타일, 올해도 날개 단다",
+        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5fMkw3dVhzLWdNWnhtMmdoV1hPS2d0V0RnVm9tMm03dlNlX05mSmdIRnplaEpnZy00eTIwRlZGeWFxWTM2TUUtMUs2YlpBa3lSMzBERFZPM2RrMUNkd0piT3h1aE8?oc=5",
+        "desc": "‘2년 연속 흑자’ 카카오스타일, 올해도 날개 단다&nbsp;&nbsp;매일일보",
+        "date": "2026-04-21",
+        "brand": "지그재그"
+      },
+      {
+        "title": "카카오스타일, 지그재그 비핵심 서비스 손질…안정적 흑자 구조 구축",
+        "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBSWGxnWUU5ZlZpa0hPNmJTeTFBa1hlcUdkbjJFRU5aZ2gwYkZkMVpYT1YyNnNkWkl6c3NfcmVSd2FQQzlvRHVFMTEzdGxjdw?oc=5",
+        "desc": "카카오스타일, 지그재그 비핵심 서비스 손질…안정적 흑자 구조 구축&nbsp;&nbsp;전자신문",
+        "date": "2025-12-05",
+        "brand": "지그재그"
+      },
+      {
+        "title": "최대 92% 할인… 지그재그, ‘브랜드 페스타’ 첫 개최",
+        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE8ySnJhaUZaZDFGMEdaa2lFdUdNUFZ0NVI2NE1JY0dOYWJVNnJwTS0yRWV0RFdsN2xzS2NrVUdCTFl6NmprWDRRNzRJY3hlVVlD?oc=5",
+        "desc": "최대 92% 할인… 지그재그, ‘브랜드 페스타’ 첫 개최&nbsp;&nbsp;패션비즈",
+        "date": "2026-04-20",
+        "brand": "지그재그"
+      }
+    ],
+    "29CM": [
+      {
+        "title": "무신사·29CM, '지구의 날' 기념 공동 캠페인 전개",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAwSWMxbkJFMmV6MHJDY0xjb3hveFdJaVVWUXdNRHhDeW4zRmIzMmNwQ0JTc0lJdklwbm9xWkF5TldhaHh1bFdjanZCRXhXRTZ3OG43VFF3?oc=5",
+        "desc": "무신사·29CM, '지구의 날' 기념 공동 캠페인 전개&nbsp;&nbsp;지디넷코리아",
+        "date": "2026-04-19",
+        "brand": "29CM"
+      },
+      {
+        "title": "무신사·29CM, 지구의 날 맞아 ‘어스 위크’… 지속가능 행보 강화",
+        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1qTHFJbXJaVnZDbVk1SDlMaERmUGRaa0hDdlYzX2ZoQ203WktXNzJyUmVwRUF4azNNSm5WaVFsMjlUUFlkNnRicXd1NzRtQzFh?oc=5",
+        "desc": "무신사·29CM, 지구의 날 맞아 ‘어스 위크’… 지속가능 행보 강화&nbsp;&nbsp;패션비즈",
+        "date": "2026-04-20",
+        "brand": "29CM"
+      },
+      {
+        "title": "무신사·29CM, 지구의 날 기념 ‘어스 위크’ 전개",
+        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE50RDh1dTRxcjRtRkRpcVh4TzhiMDExaVFmY3JQdnlXNFRuSWFRMmhWSGlNRGpkQUxkT2xZazVHMTVGR0tBbU1fcGVNdVEyRXdQTzRnR3FPTjNiTVA1ZzNDYTBjWQ?oc=5",
+        "desc": "무신사·29CM, 지구의 날 기념 ‘어스 위크’ 전개&nbsp;&nbsp;매일일보",
+        "date": "2026-04-20",
+        "brand": "29CM"
+      }
+    ],
+    "W컨셉": [
+      {
+        "title": "W컨셉, 어린이날 맞아 ‘키즈 원더랜드’ 행사... 최대 77% 할인",
+        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5BVFFDQzg5Wkxlai16djJFZktmcnctbHoteTdVNlZZRzBkcVJVMWNPU3NWME1remU3VFlVNjc3ZmZvTWRXVUZTb1VLdHV0b0Yx?oc=5",
+        "desc": "W컨셉, 어린이날 맞아 ‘키즈 원더랜드’ 행사... 최대 77% 할인&nbsp;&nbsp;패션비즈",
+        "date": "2026-04-19",
+        "brand": "W컨셉"
+      },
+      {
+        "title": "W컨셉, 어린이날 겨냥 ‘키즈 원더랜드’ 행사 개최… “텐포켓 트렌드에 키즈 매출 2배 증가”",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQW10WlhuZExBd1BrMzlNREpxZ3BGSjZyWWZnMXFZXzhMT0I4QWRjX3FMNUtiRGYwaFAtNEJFeFZaZnNUb1RSQkZtd2lyV1UwY01FaFphNFJnbXN2MFo5VDY1ZWFMNklfYXNIZXd3SjBKdWRhVk5ZQzQzV1MyYlNhdHVEU010QnFjb2VMcHdTVzN2cE5SSXFqVXVJYl9od2RIdUE?oc=5",
+        "desc": "W컨셉, 어린이날 겨냥 ‘키즈 원더랜드’ 행사 개최… “텐포켓 트렌드에 키즈 매출 2배 증가”&nbsp;&nbsp;신세계그룹 뉴스룸",
+        "date": "2026-04-20",
+        "brand": "W컨셉"
+      },
+      {
+        "title": "무신사·지그재그 웃고, 에이블리·W컨셉 울었다···승부 가른 '수익 구조'",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB3LWJ1dEM4el9abXJzUk5xbEhxSURkVV9ULUxhT1ViekhYQUI2SnNsaGpCTnU0UEJ3Z2NDUUxOdHNpbzBRVGgtczdXY1V0Yi1Zb1h6dm43WUlGakxiWTZubkZ6OGRta0XSAWtBVV95cUxPVlllM1lSRTFxaThCd2c1azZMSVo4Nk1PZnNDWHBjakVzWXVkWE1FaGo0OFgzeHN2cTBKWF95aldfYzdleFRfVW9NZUI0YVVsWlpxeXpMVE02SjFydmZMV0t3a3o5aXlDZmI4aw?oc=5",
+        "desc": "무신사·지그재그 웃고, 에이블리·W컨셉 울었다···승부 가른 '수익 구조'&nbsp;&nbsp;현대경제신문",
+        "date": "2026-04-20",
+        "brand": "W컨셉"
+      }
+    ],
+    "무신사": [
+      {
+        "title": "무신사, 나홀로 호실적…'1강4약' 체제 굳히나",
+        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE44aU5mZWpObmYzTUJTZE41T2ZLaFNsY2FxZGdpaDlRcHZJN3dGZ2E1UHBONkRlelhPTnUyRzNsSWcwb29aX0FFYWZObko3bm9t?oc=5",
+        "desc": "무신사, 나홀로 호실적…'1강4약' 체제 굳히나&nbsp;&nbsp;톱데일리",
+        "date": "2026-04-21",
+        "brand": "무신사"
+      },
+      {
+        "title": "몸값 10조 노리는 무신사, 패션 플랫폼 넘어 ‘브랜드 콘텐츠 기업’으로",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5IcnktMFRBWGQ4aDNtUXE2VzBPa0ZocURQYkdLQ0VrZlhhZWxiT1JmMVdodnM2MkEyd2drMUtDempGZC1vMkNyN3ZyUEM4QlktVkp2bmRHSHVmNllSY2NxSmRrTU5MZkZnNGFQcDdCQ0JBMGhI?oc=5",
+        "desc": "몸값 10조 노리는 무신사, 패션 플랫폼 넘어 ‘브랜드 콘텐츠 기업’으로&nbsp;&nbsp;대한경제",
+        "date": "2026-04-20",
+        "brand": "무신사"
+      },
+      {
+        "title": "흑자 전문몰 ‘무신사·에이블리·지그재그’, 카테고리 확장에 집착하는 이유",
+        "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9YLUw1VlEwaGtlZGdEZENndGotWHF3anRLbG9ybThhcmc0RHhxYW5lRE9VN1MtVUQ3QnhJQncxSWFYQjNJU3gxTms4enA?oc=5",
+        "desc": "흑자 전문몰 ‘무신사·에이블리·지그재그’, 카테고리 확장에 집착하는 이유&nbsp;&nbsp;TENANT news",
+        "date": "2026-04-20",
+        "brand": "무신사"
+      }
+    ],
+    "GS샵": [
+      {
+        "title": "GS샵, 배송도 고객이 정한다… ‘수거일 선택’ 도입",
+        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5PRjhmLVBXZmFycmZVbkRGbkZVbEpHVGozQXdZenFQVDcyX0NzRmNsR0JzQkc0TEMtMVNMSTYyYlNVbDRBOGw5Q0pqUDJTcFlh?oc=5",
+        "desc": "GS샵, 배송도 고객이 정한다… ‘수거일 선택’ 도입&nbsp;&nbsp;패션비즈",
+        "date": "2026-04-21",
+        "brand": "GS샵"
+      },
+      {
+        "title": "GS샵, 한남동 보마켓서 패션 PB ‘라삐아프’ 팝업 연다",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9tZGRPcUZkNWhzRWp6OXJGTlZrcUx1LXVoVVM5aEMwcDR0NjRCMzVWUWFnZURrZVpfb3hUcHFyQWpXMkxOcUpvNjFVYi03RFo0RjRNTQ?oc=5",
+        "desc": "GS샵, 한남동 보마켓서 패션 PB ‘라삐아프’ 팝업 연다&nbsp;&nbsp;이투데이",
+        "date": "2026-04-16",
+        "brand": "GS샵"
+      },
+      {
+        "title": "GS샵, ‘라삐아프’에 ‘보마켓’ 공간 경험 접목",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBLdWE2QWNlMUNqZ2d4dmUyZDZWTGdmUnhWQVdSVkNGWTZzMGJuOW9ZaXVhWHFweEdTRlp6ZHlicGdZZHpkNXg4R3FhTll4eUxzMWlMQnh2Y0dlbGtISGdUX3hZeDBqTUFLdWNWUC1sbm9EUHdXbmc?oc=5",
+        "desc": "GS샵, ‘라삐아프’에 ‘보마켓’ 공간 경험 접목&nbsp;&nbsp;어패럴뉴스",
+        "date": "2026-04-16",
+        "brand": "GS샵"
+      }
+    ],
+    "롯데홈쇼핑": [
+      {
+        "title": "롯데홈쇼핑 ‘영스타일’ 7년…‘영스 패밀리’ 기반 누적 주문액 9000억 돌파",
+        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9sQnJNQmEyQUNfQkdjbXBkekd1SnhjLWhRa0RKQ09YOURfLU1keHJYLXZ6SVNfNkx3Nk4zZEdEQkhpOUVlN0xhUUF5eXdOQVF5ck5tVTlwM25BTjc5Znc?oc=5",
+        "desc": "롯데홈쇼핑 ‘영스타일’ 7년…‘영스 패밀리’ 기반 누적 주문액 9000억 돌파&nbsp;&nbsp;뉴스투데이",
+        "date": "2026-04-21",
+        "brand": "롯데홈쇼핑"
+      },
+      {
+        "title": "롯데홈쇼핑, SS 패션 전략 재편…‘시즌리스·협업’ 전면에",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE42a2szNVJaRFNBbzRacW9CbjlCVXgtVG5jRzRUaGMza1hhZTRIakpnTm9FbU1tdE1MQlpPZXJLSi1JWUItWjFlcjc1NlNLN2RuOERSQzZWTmZrenFMcE05OVRmeS1INldIS090WXNR?oc=5",
+        "desc": "롯데홈쇼핑, SS 패션 전략 재편…‘시즌리스·협업’ 전면에&nbsp;&nbsp;아시아투데이",
+        "date": "2026-02-23",
+        "brand": "롯데홈쇼핑"
+      },
+      {
+        "title": "TV 밖으로 나온 롯데홈쇼핑 \"패션 브랜드 직접 발굴할 것\"",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9FTmF5UmRNd3o2OWFTVGVOMmJ4d0tMdHBPOWZxVFk2LWdiNEhLaVNmaDYxcnNfTjZQbk5sU2pGaUR2RkNpQ2hVdUp1WXZDTkt5MkgzeFQtaURjUdIBVEFVX3lxTE1LSnN0QmEzYVVDU2h2blJwa1U0RXBRLW4yMG82b205eVdPYmg5WWdsS2pIcmZLU1BJZmMzYUNJNXRKM2otQmh6aXJMUHBLakxZaEFUQg?oc=5",
+        "desc": "TV 밖으로 나온 롯데홈쇼핑 \"패션 브랜드 직접 발굴할 것\"&nbsp;&nbsp;한국경제",
+        "date": "2025-12-07",
+        "brand": "롯데홈쇼핑"
+      }
+    ],
+    "현대홈쇼핑": [
+      {
+        "title": "현대홈쇼핑, 패션 특화 플랫폼 선보인다…\"가격 경쟁력으로 승부\"",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBLcUdrU1ZMZGl3R2dzNzk5MFRyQ0NpdHJlWlpTZmc5ejllOGNMckVxQzBlRlg2ZlJpT0pvalNmZGljS196SHFzbV9YMnFiX28yRVdYd1JvanktejhLX2dr?oc=5",
+        "desc": "현대홈쇼핑, 패션 특화 플랫폼 선보인다…\"가격 경쟁력으로 승부\"&nbsp;&nbsp;뉴스1",
+        "date": "2026-01-08",
+        "brand": "현대홈쇼핑"
+      },
+      {
+        "title": "현대홈쇼핑 온라인 초저가 할인 'D숍' 열어, 패션 이월상품 최저 9900원부터",
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB6YTJ4cmR1V1RJQnN5dkVZdW93bTJ2djBXdEJxWU5VdDRBNEFSZ3BIU2lhRmdYZy1yRjRvMTg5aW1fTzdBRlJjU2dDbHVWNUJjdEl1ajVOUHRiRDhCWGw4bk9Sb1JQVlluVHlLa0R0UjNWLUE?oc=5",
+        "desc": "현대홈쇼핑 온라인 초저가 할인 'D숍' 열어, 패션 이월상품 최저 9900원부터&nbsp;&nbsp;비즈니스포스트",
+        "date": "2026-01-19",
+        "brand": "현대홈쇼핑"
+      },
+      {
+        "title": "현대홈쇼핑, 패션 플랫폼·뷰티숍 등 채널 다각화 가속",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQd3JVajJhT2tuWnZ5VWJRQnVsYUVWNEtiN0hlLW82Y2xhM09xeTRGSHptakxsWlI2blBHbnNPNG5pOVV5RzdPTHJmWFR2WlpKaFFvWmxHM1ZOUEFaZ3AzYU05NmlrOWFKUXc0ZGlVLVlqY3RWczUtVEE4SFI2QnEtLUNOMWRjbVhJX3BR?oc=5",
+        "desc": "현대홈쇼핑, 패션 플랫폼·뷰티숍 등 채널 다각화 가속&nbsp;&nbsp;글로벌이코노믹",
+        "date": "2026-01-08",
+        "brand": "현대홈쇼핑"
+      }
+    ],
+    "CJ온스타일": [
+      {
+        "title": "CJ온스타일 '오늘도착', 패션 중심 급성장…프리미엄 상품까지 확대",
+        "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1lTjRBeUczcTMybVhQampTaEFLNGlsamNieGVXSjRWMUlYTmEzTGc0WFRqQzZXM2ozV1JScU5yaGZUaTlsSGJYenNySmFMdw?oc=5",
+        "desc": "CJ온스타일 '오늘도착', 패션 중심 급성장…프리미엄 상품까지 확대&nbsp;&nbsp;전자신문",
+        "date": "2026-03-30",
+        "brand": "CJ온스타일"
+      },
+      {
+        "title": "CJ온스타일, “패션 전문 사업자 입지 구축”",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPR29Nc2h5LXNucmtWU185VU9WTERudEZfd0ItbHpLZ19VMWNNYXo2RmlVcEZTa3VTakNFUU1OODdLUTgyT3hsRm56SmxZcFBWUDB5S08yVUgxTjd6Tm1ZQlctZ0E5bnF1UldsVDJEZDVFUDFPOFZveFVvWkk1cHo5ZG9QTF9CSzJRYWZJSXdMbDFZM2JhekNER2R2RTNfbkJR?oc=5",
+        "desc": "CJ온스타일, “패션 전문 사업자 입지 구축”&nbsp;&nbsp;패션포스트",
+        "date": "2026-04-14",
+        "brand": "CJ온스타일"
+      },
+      {
+        "title": "CJ온스타일, 패션 수요 폭발 ‘오늘도착’…전년동기 대비 252% 증가",
+        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE93NjhGYWtxZHk2Z3RNZTZJTXE1TWp4d2lsWnBBeHIyY3Q1MkFLaWRIS2RTX1dBc0lNMmpoX2VMcXRlQmJibHp0YnpXQkVTbi0yOVhxaDlKYXR2aHJjczlVaF8zR2l3S29saDZR?oc=5",
+        "desc": "CJ온스타일, 패션 수요 폭발 ‘오늘도착’…전년동기 대비 252% 증가&nbsp;&nbsp;백세시대",
+        "date": "2026-03-30",
+        "brand": "CJ온스타일"
+      }
+    ],
+    "패션플러스": [
+      {
+        "title": "[인사] LF·패션플러스 출신 이상훈 씨, 리컴퍼니 부사장 합류",
+        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9VOS1qS0VYcnlUc2hjZkF2cmZoZDBxNnR3eGZpb3h4Q1B1UE1PV245WmtrOHNxc3FFdmFoeWhHdzl0akNDVUdaV2FIOXJYaVVk?oc=5",
+        "desc": "[인사] LF·패션플러스 출신 이상훈 씨, 리컴퍼니 부사장 합류&nbsp;&nbsp;패션비즈",
+        "date": "2025-05-19",
+        "brand": "패션플러스"
+      },
+      {
+        "title": "[가성비 패션①]'가치소비' 트렌드 타고 '중고의류' 제도권 시장 '입성'",
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1ZYS16YVBIaEl0dlJ5ai05LVRIZFc3RmhyZGxJbTRRcmVSU3MtMUtXM1FrWnFLZjZTaDVfVDA3MnhVUTRnTWJkY0lQVHdub3NXVEppa0NTVURZaFloRHFTV2VBTlFLakw0V1FFaWZBNA?oc=5",
+        "desc": "[가성비 패션①]'가치소비' 트렌드 타고 '중고의류' 제도권 시장 '입성'&nbsp;&nbsp;비즈니스플러스",
+        "date": "2026-03-09",
+        "brand": "패션플러스"
+      },
+      {
+        "title": "LF 헤지스, ‘히스 헤지스’로 패션 감도 높은 2030대 공략",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPMjVJV3BkcWpaQTZUM1RrN3F4MXVEZndMODQ3NjZhbGlzX1I1azJybmw5SUNid1M2emw3RDBDbVlaWmFlR0EzMzk5NkhQM3VVZGlkRlJYZC1FeS1YbGJLSG83dzV0V3UyZDM0NUNlOS1BeDFpcUE3Sy1RZXZYWHRTUzFNWHpvNFk?oc=5",
+        "desc": "LF 헤지스, ‘히스 헤지스’로 패션 감도 높은 2030대 공략&nbsp;&nbsp;모바일한경",
+        "date": "2025-09-22",
+        "brand": "패션플러스"
+      }
+    ]
+  }
+}
