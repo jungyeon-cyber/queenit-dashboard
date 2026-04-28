@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
 퀸잇 경쟁사 트래킹 — 통합 크롤러 + 대시보드 생성기
 ------------------------------------------------------
@@ -514,16 +515,16 @@ def generate_dashboard(data):
 <div id='page-overview' class='page on'>
   <div class='ph'><h2>경쟁사 현황</h2><p>4050 여성 패션 시장 직·간접 경쟁사 전체 현황</p></div>
   <div class='g4'>
-    <div class='card'><div class='kl'>퀸잇 MAU</div><div class='kv'>270<span style='font-size:14px;color:var(--text3)'>만</span></div><div class='ks'>2025.09 기준</div><div class='ku'>▲ 4050 단독 사용률 1위</div></div>
-    <div class='card'><div class='kl'>직접 경쟁사</div><div class='kv'>3</div><div class='ks'>포스티·홈쇼핑·SK스토아</div></div>
-    <div class='card'><div class='kl'>간접 경쟁사</div><div class='kv'>5</div><div class='ks'>에이블리·지그재그·29CM·W컨셉·무신사</div></div>
+    <div class='card'><div class='kl'>퀸잇</div><div class='kv' style='font-size:16px;line-height:1.3'>4050 멋진 어른들의<br>라이프 스타일링샵</div><div class='ku' style='margin-top:8px'>▲ 4050 단독 사용률 1위</div></div>
+    <div class='card'><div class='kl'>직접 경쟁사</div><div class='kv'>6</div><div class='ks'>포스티·GS샵·롯데·현대·CJ·SK스토아</div></div>
+    <div class='card'><div class='kl'>간접 경쟁사</div><div class='kv'>6</div><div class='ks'>에이블리·지그재그·29CM·W컨셉·무신사·패션플러스</div></div>
     <div class='card'><div class='kl'>최대 가격 위협</div><div class='kv' style='font-size:17px;color:var(--coral)'>에이블리</div><div class='ks'>40대 유입 확대 중</div><div class='kd'>▼ 가격 하방 압박 최강</div></div>
   </div>
   <div class='sl'>직접 경쟁사</div>
   <div class='legend'><div class='li'><div class='ld2' style='background:var(--purple)'></div>직접경쟁</div><div class='li'><div class='ld2' style='background:var(--teal)'></div>간접경쟁</div></div>
   <div class='g3'>
     <div class='cc D'><div class='cn'>포스티</div><span class='ct td'>직접</span><div class='cd'>카카오스타일 운영. AI 개인화·라이브방송 강점. PB '잇파인' 운영. 전 상품 무료배송·무료반품 고정. 누적 회원 220만명 돌파.</div><div class='cs'>거래액 <strong>+20%</strong> (2025)</div></div>
-    <div class='cc D'><div class='cn'>홈쇼핑 채널</div><span class='ct td'>직접</span><div class='cd'>GS샵·CJ온스타일·현대홈쇼핑·KT알파. 4050 여성 핵심 구매 채널. KT알파 패션 카테고리 4050 구매 비중 46.2%.</div><div class='cs'>KT알파 4050 구매 비중 <strong>46.2%</strong></div></div>
+    <div class='cc D'><div class='cn'>GS샵</div><span class='ct td'>직접</span><div class='cd'>GS리테일 계열. TV·모바일 통합 채널. 4050 여성 패션 핵심 구매처. 시즌 기획전·단독 브랜드 운영.</div><div class='cs'>방송특가 최대 60%</div></div><div class='cc D'><div class='cn'>롯데홈쇼핑</div><span class='ct td'>직접</span><div class='cd'>롯데그룹 계열. TV·T커머스·모바일 멀티채널. 4050 여성 패션·뷰티·리빙 기획전 강점. PB·단독 브랜드 다수.</div><div class='cs'>멀티채널 4050 타깃</div></div><div class='cc D'><div class='cn'>현대홈쇼핑</div><span class='ct td'>직접</span><div class='cd'>현대백화점그룹 계열. 프리미엄 여성 패션 포지셔닝. 백화점 브랜드 연계 단독 기획전 강점. 4050 고소득 여성 타깃.</div><div class='cs'>프리미엄 4050 포지셔닝</div></div><div class='cc D'><div class='cn'>CJ온스타일</div><span class='ct td'>직접</span><div class='cd'>CJ그룹 계열. TV·모바일 라이브커머스 강점. 4050 여성 패션·뷰티 기획전 활발. 셀렙샵에디션 PB 운영.</div><div class='cs'>라이브커머스 강점</div></div>
     <div class='cc D'><div class='cn'>SK스토아</div><span class='ct td'>직접</span><div class='cd'>라포랩스 인수 진행 중(약 1100억). T커머스 기반. 통합 시 매출 3,734억 규모 대형 플랫폼 예정.</div><div class='cs'>매출 <strong>3,023억</strong> (2024)</div></div>
   </div>
   <div class='sl' style='margin-top:24px'>간접 경쟁사</div>
