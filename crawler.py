@@ -9,6 +9,7 @@
 """
 
 import json, time, datetime, re, traceback
+from zoneinfo import ZoneInfo
 from pathlib import Path
 import requests
 from bs4 import BeautifulSoup
@@ -16,8 +17,8 @@ from bs4 import BeautifulSoup
 BASE   = Path(__file__).parent
 DATA   = BASE / "data";    DATA.mkdir(exist_ok=True)
 REPORT = BASE / "reports"; REPORT.mkdir(exist_ok=True)
-TODAY  = datetime.date.today().isoformat()
-NOW    = datetime.datetime.now().strftime("%Y-%m-%d %H:%M")
+TODAY  = datetime.datetime.now(ZoneInfo('Asia/Seoul')).date().isoformat()
+NOW    = datetime.datetime.now(ZoneInfo('Asia/Seoul')).strftime("%Y-%m-%d %H:%M KST")
 
 HDR = {
     "User-Agent": ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "

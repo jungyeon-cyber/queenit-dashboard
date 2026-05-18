@@ -1,0 +1,23 @@
+name: keep-alive
+
+on:
+  schedule:
+    - cron: '0 9 * * 1'
+  workflow_dispatch:
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Touch
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          mkdir -p .keepalive
+          date > .keepalive/timestamp
+          git add .keepalive/timestamp
+          git diff --staged --quiet || git commit -m "keep-alive"
+          git push
