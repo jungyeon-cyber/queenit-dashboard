@@ -69,11 +69,143 @@
     ]
   },
   "news": {
-    "포스티": [],
-    "에이블리": [],
-    "지그재그": [],
-    "29CM": [],
-    "W컨셉": [],
-    "무신사": []
+    "포스티": [
+      {
+        "title": "카카오스타일 포스티, ‘비너스’ 균일가전 진행… 연중 최대 할인",
+        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE14TU9NbGRjNU1zb3V1ZVhYOUl4YVJVbHF6d1hsNTJHSmxONWVHcEpHcy1CX0pPVWhzdXNMT2Q3S0JZektuQVNpcFlKcXkzRzJf?oc=5",
+        "desc": "카카오스타일 포스티, ‘비너스’ 균일가전 진행… 연중 최대 할인&nbsp;&nbsp;패션비즈",
+        "date": "2026-02-10",
+        "brand": "포스티"
+      },
+      {
+        "title": "포스티, 2025년 누적 회원 수 40% 증가…거래액도 20% 성장",
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5YeThKaDZsWWdMU0s3WlpNc2FPNnV5cTZhQ2hzandsd01LTmtNcnRXOEVramdFSFRPUUNNVTVKR0RxRnlXT09jZmFUaFU4OUQzbVNRYTFzVVJQUjV5dVUtS3lXQzIxd2Vm?oc=5",
+        "desc": "포스티, 2025년 누적 회원 수 40% 증가…거래액도 20% 성장&nbsp;&nbsp;한국섬유신문",
+        "date": "2026-01-28",
+        "brand": "포스티"
+      },
+      {
+        "title": "포스티, 2025년 누적 회원 수 40% 증가…거래액 20% 성장",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1TOHIwQ3JtbWRkQkNDbHJvMlgwTjA1MUM5YXp5U0Uxcy03YXRYSEkzZ1FFbXE2T0Q0aFJWeUdtdGpUNHk0WEs1UFZ4ZVJKN21UUndXbnVaam9WM2JpZTJJ?oc=5",
+        "desc": "포스티, 2025년 누적 회원 수 40% 증가…거래액 20% 성장&nbsp;&nbsp;뉴스1",
+        "date": "2026-01-28",
+        "brand": "포스티"
+      }
+    ],
+    "에이블리": [
+      {
+        "title": "“테무서 1만원에 파는 옷이 2만원” 에이블리 '택갈이' 방조 논란",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1KR0JZM18xQllaQnU0eVRpbDhjbVlBNkpDcUx6aGxrbVRRS0p1UXZRak0tMVZBdmluR0g2bHgxTXZ6NEJCbVZqWTFMazNQS1Y4MVhqZ3loUmFLUHpsYUZMWXUtaE50R2NSd2VDOEdxNUpLMmUt0gF0QVVfeXFMTUpHQlkzXzFCWVpCdTR5VGlsOGNtWUE2SkNxTHpobGttVFFLSnVRdlFqTS0xVkF2aW5HSDZseDFNdno0QkJtVmpZMUxrM1BLVjgxWGpneWhSYUtQemxhRkxZdS1oTnRHY1J3ZUM4R3E1SksyZS0?oc=5",
+        "desc": "“테무서 1만원에 파는 옷이 2만원” 에이블리 '택갈이' 방조 논란&nbsp;&nbsp;IT조선",
+        "date": "2026-06-17",
+        "brand": "에이블리"
+      },
+      {
+        "title": "에이블리, 올여름 '풋 액세서리' 뜬다… 토우링·쪼리양말 거래액 최대 3000%↑",
+        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBxU3hwZHJ1eVJXQ2p1enJKeW9IVEdQbWRRTTctdVpNN21GRUJCWDBXT3Frd0d3ODBvQ1VnbEp1Z0YxS2VMTERhd2RXazBPSFpO?oc=5",
+        "desc": "에이블리, 올여름 '풋 액세서리' 뜬다… 토우링·쪼리양말 거래액 최대 3000%↑&nbsp;&nbsp;패션비즈",
+        "date": "2026-06-16",
+        "brand": "에이블리"
+      },
+      {
+        "title": "쪼리 양말·토우 링 뜬다…에이블리, '풋 액세서리' 거래액 급증",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5NOU90NFhFSUt1S1oxUklLak91dzh4RE0zZU5nOG5yNHp2cS1FbklqV3hoOEtmYm1GNXhFWGFWRWJLdnJ2elVmd0VxbjdwX2NGMmF0SmF3?oc=5",
+        "desc": "쪼리 양말·토우 링 뜬다…에이블리, '풋 액세서리' 거래액 급증&nbsp;&nbsp;지디넷코리아",
+        "date": "2026-06-17",
+        "brand": "에이블리"
+      }
+    ],
+    "지그재그": [
+      {
+        "title": "지그재그, ‘리빙’ 거래액 론칭 후 3년 만에 3배 '껑충'",
+        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9RUjNmVFVrcy0yblZhRWlmNUNKU3RrNEVIeVN3RDVoUUR4VnY2V3ROdTliUE8xaXVjNEtzcFVUblkxX01rak9jVFRpWkhVbEpKZ3IzWWVhV0xRSGlyU2lBNtIBkAJBVV95cUxNN3pxU3VSdWFVNFBQU1FUZEtvZHd3aHI2Z1UwQVRCTDdsRHBTNGNYdmFJNDdXbG1Udy10ZVhCR214YWxlRE9sR0NCTlJuUnV5ZWd5YTdyb3MxV1pWSmtZU1NKdVRieWtSd3p3dElBbWRTTEk2RUJiQWZuSVU3Wk56bUZPenNBVUZSOE0xVjc0R0xEN2l3cWFDeTQwZWVVV3YzT2pzUDhlVWJMdEVvWVNFQUZDbHI5UDlsc2FMdHRlOVdiaG5yd04wMEt0ODZnQ0J2YmluYVJOWEtkWnlGcUtFSjgxaVltUzhVRXV6UGZKVEJDTFNhRnM4TkRBaHlKVE5Xbm9XMmoxMUVQbHhvcXdzeg?oc=5",
+        "desc": "지그재그, ‘리빙’ 거래액 론칭 후 3년 만에 3배 '껑충'&nbsp;&nbsp;데일리안지그재그, '리빙' 카테고리 고속 성장…\"홈스타일링 수요 부응\"&nbsp;&nbsp;더팩트지그재그 '라이프' 고속 성장…리빙 브",
+        "date": "2026-06-17",
+        "brand": "지그재그"
+      },
+      {
+        "title": "지그재그, 29일까지 '여름 직잭팟'…6400개 스토어 대상",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE80cjhNZF8wN1FsTm1yX0UwMmU3TDQ1WS1EVVNsRERnLVhwc05TSmNZdHhmaHBybi03LW5PM001eFNJSzFaZG5sSm1LOGgtNExqMW1iX3RfbGstRGFRVm13?oc=5",
+        "desc": "지그재그, 29일까지 '여름 직잭팟'…6400개 스토어 대상&nbsp;&nbsp;뉴스1",
+        "date": "2026-06-14",
+        "brand": "지그재그"
+      },
+      {
+        "title": "지그재그, 올여름 '하이브리드템' 뜬다... 젤리슈즈 등 거래액 최대 70배↑",
+        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5yVXFHMWlBNl9LYktBWWpuTmJRQ1dhWFhBR01saURlSk5vTHhCbk0yRGxYMjMwM05VZU9lSnJaUVpnMmRRVXBwVkpoM1JEZ0N0?oc=5",
+        "desc": "지그재그, 올여름 '하이브리드템' 뜬다... 젤리슈즈 등 거래액 최대 70배↑&nbsp;&nbsp;패션비즈",
+        "date": "2026-06-16",
+        "brand": "지그재그"
+      }
+    ],
+    "29CM": [
+      {
+        "title": "“하루에 122억 넘게 팔렸다”... 29CM, 이구위크 거래액 1225억 원 돌파하며 여성 패션·라이프스타일 선두 굳혀",
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE45RWh0VEhiM1pHd0c4WjJlektweDlONUd2RGVDNnRYVlEyUElUQnhNcDd3N2trUFFIVzNoTXpxaWVvN1pyUm56SFJGcWNSSDlJVFRuZFQ3N1ZWX1RRNnVCVUt2bm5kbzJQ?oc=5",
+        "desc": "“하루에 122억 넘게 팔렸다”... 29CM, 이구위크 거래액 1225억 원 돌파하며 여성 패션·라이프스타일 선두 굳혀&nbsp;&nbsp;무신사 뉴스룸",
+        "date": "2026-06-14",
+        "brand": "29CM"
+      },
+      {
+        "title": "이틀 만에 동난 베이프 한정판…무신사 트레이딩 파트너십 효과 `톡톡`",
+        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAzdndJMFF5ZnFXTDJQMkFvdTI0dVNuNHB5SGJ6c0NQS1pJVGFmUU1UTFM5cjgzbVNsTDdrMkI5MWNPcllXZ28wZFVXZ3RMWFp6NWFRekdjY2JFMFVVdERBMVpFa2E?oc=5",
+        "desc": "이틀 만에 동난 베이프 한정판…무신사 트레이딩 파트너십 효과 `톡톡`&nbsp;&nbsp;디지털데일리",
+        "date": "2026-06-17",
+        "brand": "29CM"
+      },
+      {
+        "title": "무신사트레이딩, 베이프 한국 한정판 이틀 만에 완판… 월 거래액 118%↑",
+        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBHR3RpUlpRQnlYejI2eHBJQ3NuQnBPSmFYYkY1ZGd1OG5jbV95QUN1bWkzLU1pUk02VV9UckNWak1aSzZsTWhiR3Y4bUdocW9r?oc=5",
+        "desc": "무신사트레이딩, 베이프 한국 한정판 이틀 만에 완판… 월 거래액 118%↑&nbsp;&nbsp;패션비즈",
+        "date": "2026-06-17",
+        "brand": "29CM"
+      }
+    ],
+    "W컨셉": [
+      {
+        "title": "W컨셉, 22일마다 혜택 2배… '더블더블오늘' 월간 프로모션 론칭",
+        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE96ekMyUkFzdW9KZUV5azFydE1qcDI3MmI2SHhJenFUMnRYOW1XLVUteWE4VkFWVHFwNHpDVU5IazF3UG5tRHJnVEdlMlFWSUgw?oc=5",
+        "desc": "W컨셉, 22일마다 혜택 2배… '더블더블오늘' 월간 프로모션 론칭&nbsp;&nbsp;패션비즈",
+        "date": "2026-06-16",
+        "brand": "W컨셉"
+      },
+      {
+        "title": "W컨셉 정기 행사 '더블더블오늘' 론칭, 매달 22일에 쇼핑 혜택 두 배로 제공",
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE54R1FsRDNjREgtcWh3YmVCbW5DTHFqUDJGRU5uSUNIVG5HV3ZnVHV3NG95SDVEOGJseG5rWU52LTJiY3NwYUNoX1JIdUFVckpWZzFCN0dzWG9wZy1SSVQ5X3lYMmVLTHdLSDNoSWcwOG0xdlk?oc=5",
+        "desc": "W컨셉 정기 행사 '더블더블오늘' 론칭, 매달 22일에 쇼핑 혜택 두 배로 제공&nbsp;&nbsp;비즈니스포스트",
+        "date": "2026-06-16",
+        "brand": "W컨셉"
+      },
+      {
+        "title": "매달 22일, 혜택 2배…W컨셉, '더블더블오늘' 론칭",
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9FakZ1bnlTTkxiR3FYVUtqa19iNUZWNUNnSU9QZVRlYkhWTlIwdWlxWUZkbGJaeE5nTnFCSEFUSDBSZUw2bk5RMGo0QXlGbzRhQVhtcnl5MkRWcjBGVnJja3hnR3dOTS0wWXNHTjQ1ZXBtd1lZRjlCX9IBeEFVX3lxTE9FakZ1bnlTTkxiR3FYVUtqa19iNUZWNUNnSU9QZVRlYkhWTlIwdWlxWUZkbGJaeE5nTnFCSEFUSDBSZUw2bk5RMGo0QXlGbzRhQVhtcnl5MkRWcjBGVnJja3hnR3dOTS0wWXNHTjQ1ZXBtd1lZRjlCXw?oc=5",
+        "desc": "매달 22일, 혜택 2배…W컨셉, '더블더블오늘' 론칭&nbsp;&nbsp;뉴시스",
+        "date": "2026-06-15",
+        "brand": "W컨셉"
+      }
+    ],
+    "무신사": [
+      {
+        "title": "iM뱅크, 앱 신규고객에 무신사 할인이벤트…최대 2만2천원",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5GbU5VN1F5elBuQlpqb1A1Wnp2aDZSbkVBc0ZFV2xvd2Y0RkNZTWRxTnhKSWY4R0RsQ1J1aWdvT3RBM0tQYXlxaE9QamhpVlNtQk80eXo5dWhVRUnSAWBBVV95cUxNYXo3cVQwdkNzZGMzMENQOTF6dFM5Y1NabURxaERlNGRpOUFzNGdFa3g4YjJGbC1ncTlXLVl5dnphQnJ3ZXpwVnUyN3JoNDNyVzNNY0lXVUNlUFVnNXE1ZTE?oc=5",
+        "desc": "iM뱅크, 앱 신규고객에 무신사 할인이벤트…최대 2만2천원&nbsp;&nbsp;연합뉴스",
+        "date": "2026-06-15",
+        "brand": "무신사"
+      },
+      {
+        "title": "패션 플랫폼과 외식 브랜드의 만남… 동대문엽기떡볶이·무신사 제휴 프로모션 진행",
+        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBvdy1MRU1OVHJiUldIZVZxVnZ5eHA3UlprM1VFTDA5R3h4SU5McXh3MmNydm5oVXpjaEZ5QVQ3WEZ5cTkxbDZ2Z3pINU42OUxh?oc=5",
+        "desc": "패션 플랫폼과 외식 브랜드의 만남… 동대문엽기떡볶이·무신사 제휴 프로모션 진행&nbsp;&nbsp;패션비즈",
+        "date": "2026-06-15",
+        "brand": "무신사"
+      },
+      {
+        "title": "“세일도 놀이처럼, 재밌어야 산다”...MZ세대 겨냥하는 무신사·지그재그",
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBLdk1wRHF6emhjeV85NmRnanNuM2g3YWlxeFZEODU3YzFEazdkUl9WbVRlVmdOaTB3dm9VWndrRW5QRjk1aTFySXdVZGxVUjFDd2d0U3N1ZTFsZE91bkc0VGhRbmp0OW9E?oc=5",
+        "desc": "“세일도 놀이처럼, 재밌어야 산다”...MZ세대 겨냥하는 무신사·지그재그&nbsp;&nbsp;녹색경제신문",
+        "date": "2026-06-16",
+        "brand": "무신사"
+      }
+    ]
   }
 }
