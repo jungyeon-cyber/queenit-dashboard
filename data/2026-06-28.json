@@ -61,10 +61,9 @@
     ],
     "wconcept": [
       {
-        "title": "W컨셉 기획전",
-        "url": "https://www.wconcept.co.kr/Display/eventList",
+        "error": "HTTPSConnectionPool(host='www.wconcept.co.kr', port=443): Max retries exceeded with url: /Display/eventList (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.wconcept.co.kr', port=443) at 0x7fe93fc00390>, 'Connection to www.wconcept.co.kr timed out. (connect timeout=12)'))",
         "source": "W컨셉",
-        "note": "앱 전용 — 상세 목록은 앱에서 확인"
+        "url": "https://www.wconcept.co.kr/Display/eventList"
       }
     ]
   },
@@ -131,10 +130,10 @@
         "brand": "지그재그"
       },
       {
-        "title": "지그재그, ‘2026 여름 직잭팟’ 개최…신상 최대 92% 할인",
-        "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQbUVPaS1kZXRYeFNfTDV6N3pPdGxoUFctVTJ5TUxWaXI3elIwYnNrVF9kM0NvTHAzck9xVm5FMHFKUmVkTnFQU2JWOWtUdGdFY1kzRW0wbGd4Zm96c3RHVW5Rb21CdER5X0E1emFtb1hKU2pmMlBhTE5OSXQ2bHowcXZNQlRfeWx0THhwYlBDNVNFM2Fmakt6MFNNNklwUm1yOVBzUFZ0aTF5NHR5NGw3dzlOWG1TUmhqQ0NzTGJlRGZ1X29NQkh6LWh5R1Y4ckRXYXNHT0Z6blN4TzByU0hWbWo5RnhEdjgyVHB5X0dxWlZwR1FobFM5R2oyZ9IB-wFBVV95cUxQbUVPaS1kZXRYeFNfTDV6N3pPdGxoUFctVTJ5TUxWaXI3elIwYnNrVF9kM0NvTHAzck9xVm5FMHFKUmVkTnFQU2JWOWtUdGdFY1kzRW0wbGd4Zm96c3RHVW5Rb21CdER5X0E1emFtb1hKU2pmMlBhTE5OSXQ2bHowcXZNQlRfeWx0THhwYlBDNVNFM2Fmakt6MFNNNklwUm1yOVBzUFZ0aTF5NHR5NGw3dzlOWG1TUmhqQ0NzTGJlRGZ1X29NQkh6LWh5R1Y4ckRXYXNHT0Z6blN4TzByU0hWbWo5RnhEdjgyVHB5X0dxWlZwR1FobFM5R2oyZw?oc=5",
-        "desc": "지그재그, ‘2026 여름 직잭팟’ 개최…신상 최대 92% 할인&nbsp;&nbsp;데일리안",
-        "date": "2026-06-15",
+        "title": "카카오스타일, 지그재그 비핵심 서비스 손질…안정적 흑자 구조 구축",
+        "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBSWGxnWUU5ZlZpa0hPNmJTeTFBa1hlcUdkbjJFRU5aZ2gwYkZkMVpYT1YyNnNkWkl6c3NfcmVSd2FQQzlvRHVFMTEzdGxjdw?oc=5",
+        "desc": "카카오스타일, 지그재그 비핵심 서비스 손질…안정적 흑자 구조 구축&nbsp;&nbsp;전자신문",
+        "date": "2025-12-05",
         "brand": "지그재그"
       }
     ],
