@@ -71,6 +71,13 @@
   "news": {
     "포스티": [
       {
+        "title": "'포스티' 인기상품",
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA1U3BQdkpJTzJPRXRfMm5NazNDQWsxdkpMbElzbFU1M2ViRF9mRVhDRXFrNHF3Y1ZHMHlGVHVFQ1AzVHFLMmpoSjh0Ujc1NmlzS2p3cVA2cV9ZYVhKU0t4MzBSQnlrQXZZaVdNYWNqcUlJekE?oc=5",
+        "desc": "'포스티' 인기상품&nbsp;&nbsp;어패럴뉴스",
+        "date": "2026-08-24",
+        "brand": "포스티"
+      },
+      {
         "title": "포스티, 상반기 결산 페스타 개막… 200개 브랜드 최대 92% 할인",
         "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1Qd0VCTklPWldBc3FxbU1ndEhJaTlMVkFwSEFPd19JelplOXRwWVNKWmtqUU9fYUEwbnladmxrUUhfNnRQaHF3cnZDV2ZtVnRJ?oc=5",
         "desc": "포스티, 상반기 결산 페스타 개막… 200개 브랜드 최대 92% 할인&nbsp;&nbsp;패션비즈",
@@ -81,13 +88,6 @@
         "title": "포스티, 누적 회원 수 40% 증가…중장년 패션 플랫폼 성장세",
         "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBzV3BGMndYV1k2SFZZTlRiRWwxYmFjS2RLbm9UQ1BVaEVYVUMxZ19NaFVyQ3FZMmFvMWhCWV9WZzZGRnkzdzA3V0R1S2plSW9RRVV2QmRkN29CdTdu?oc=5",
         "desc": "포스티, 누적 회원 수 40% 증가…중장년 패션 플랫폼 성장세&nbsp;&nbsp;뉴스핌",
-        "date": "2026-01-28",
-        "brand": "포스티"
-      },
-      {
-        "title": "포스티, 2025년 누적 회원 수 40% 증가…거래액도 20% 성장",
-        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5YeThKaDZsWWdMU0s3WlpNc2FPNnV5cTZhQ2hzandsd01LTmtNcnRXOEVramdFSFRPUUNNVTVKR0RxRnlXT09jZmFUaFU4OUQzbVNRYTFzVVJQUjV5dVUtS3lXQzIxd2Vm?oc=5",
-        "desc": "포스티, 2025년 누적 회원 수 40% 증가…거래액도 20% 성장&nbsp;&nbsp;한국섬유신문",
         "date": "2026-01-28",
         "brand": "포스티"
       }
@@ -125,15 +125,15 @@
       },
       {
         "title": "지그재그, 하반기 ‘브랜드 페스타’ 진행…브랜드패션 거래 확대",
-        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9pbVhPYzI3NUl2aHF3RXRLSzMwbThhelJsLXN4MkFzZUxGRW1aVzNPdl9QNnA0NXloTzdpZkJ2NlhYVzdEazBWUlJfamdBZjA1SDQwRnU2cHFwbTE4WXdtMV9YWVlyNlAz?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB5a3RUdFVzd0JRU0l2MHBrZTRvZ3BhSWJWakdLbGVQVWdsX2xVbzF6S2w2V3ZRQVNkVEJwa1lDaVVOVC14VzhXVGI2aGlCSzFwM3hpNlRDMEpxU2N5SDI2aVhNVE1EbXM?oc=5",
         "desc": "지그재그, 하반기 ‘브랜드 페스타’ 진행…브랜드패션 거래 확대&nbsp;&nbsp;한국섬유신문",
         "date": "2026-08-31",
         "brand": "지그재그"
       },
       {
-        "title": "지그재그, '브랜드 페스타' 개막…'가을 옷장 채울 310개 브랜드 모았다'",
-        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBzOGxoOW91YWJfa1hmQjN3SlpvU3ZmeGlieFNiUlFoYmVBMzBSM01rSUU3dVJTakEyYnZoRmNfZFpJTWVuZVFPaVd4VWgybkt4cGRPNnNJUmQ0UU5RbzJZRg?oc=5",
-        "desc": "지그재그, '브랜드 페스타' 개막…'가을 옷장 채울 310개 브랜드 모았다'&nbsp;&nbsp;메트로신문",
+        "title": "지그재그, 하반기 ‘브랜드 페스타’ 개최… 최대 93% 할인",
+        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE8xWHRqREp1T2p5d2FaQjYzbEc5eGNSMWZyazQ1WWxQbXpaaDYxVU5TWEpjcHozajBua2VVanJMYlhaZTNBb2ZnX083N1c4VzI2?oc=5",
+        "desc": "지그재그, 하반기 ‘브랜드 페스타’ 개최… 최대 93% 할인&nbsp;&nbsp;패션비즈",
         "date": "2026-08-31",
         "brand": "지그재그"
       }
