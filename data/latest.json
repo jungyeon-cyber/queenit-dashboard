@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-11",
+  "collected_at": "2026-10-12",
   "appstore": [
     {
       "app": "포스티",
@@ -39,9 +39,10 @@
   "events": {
     "posty": [
       {
-        "title": "지금 가입 시 20% 할인쿠폰을 드려요.쿠폰받기",
-        "url": "https://posty.kr/events/cms/879fa67f-578c-4645-9b66-be2b3063c539",
-        "source": "포스티"
+        "title": "포스티 기획전",
+        "url": "https://posty.kr/events",
+        "source": "포스티",
+        "note": "앱 전용 — 상세 목록은 앱에서 확인"
       }
     ],
     "ably": [
@@ -79,16 +80,16 @@
         "brand": "포스티"
       },
       {
-        "title": "포스티, 2025년 누적 회원 수 40% 증가…거래액도 20% 성장",
-        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5YeThKaDZsWWdMU0s3WlpNc2FPNnV5cTZhQ2hzandsd01LTmtNcnRXOEVramdFSFRPUUNNVTVKR0RxRnlXT09jZmFUaFU4OUQzbVNRYTFzVVJQUjV5dVUtS3lXQzIxd2Vm?oc=5",
-        "desc": "포스티, 2025년 누적 회원 수 40% 증가…거래액도 20% 성장&nbsp;&nbsp;한국섬유신문",
-        "date": "2026-01-28",
+        "title": "포스티, 상반기 결산 페스타…200개 브랜드 최대 92% 할인",
+        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE41X0NsQUFyRnM5YmRTOElsWXMtM1JiMGlKb3o5VUJTdXdKRWd4N0NjZ2J1NHEwdHZWemtBd05XR2pGaVJ6eUNGTE5Ub3BDdmhqUFdxa2loUEJhMEZuckEyctIBeEFVX3lxTE1PVG9TZnZPTVBhR2xtZVVTaFM5VllhX3Y0bE0xaVpBdUhnUWMtS2J5cVVKamFnRVZpYUtHangyR0VRcGl1WTZsc19PbXRmOHhkdmhQT1U3TW81Mmp4MUtBbm1RMzE3S0Z4Ry1fOWZRZ181a3BCSVhlWA?oc=5",
+        "desc": "포스티, 상반기 결산 페스타…200개 브랜드 최대 92% 할인&nbsp;&nbsp;뉴시스",
+        "date": "2026-06-23",
         "brand": "포스티"
       },
       {
-        "title": "포스티, 2025년 누적 회원 수 40% 증가…거래액 20% 성장",
-        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1TOHIwQ3JtbWRkQkNDbHJvMlgwTjA1MUM5YXp5U0Uxcy03YXRYSEkzZ1FFbXE2T0Q0aFJWeUdtdGpUNHk0WEs1UFZ4ZVJKN21UUndXbnVaam9WM2JpZTJJ?oc=5",
-        "desc": "포스티, 2025년 누적 회원 수 40% 증가…거래액 20% 성장&nbsp;&nbsp;뉴스1",
+        "title": "포스티, 2025년 누적 회원 수 40% 증가…거래액도 20% 성장",
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5YeThKaDZsWWdMU0s3WlpNc2FPNnV5cTZhQ2hzandsd01LTmtNcnRXOEVramdFSFRPUUNNVTVKR0RxRnlXT09jZmFUaFU4OUQzbVNRYTFzVVJQUjV5dVUtS3lXQzIxd2Vm?oc=5",
+        "desc": "포스티, 2025년 누적 회원 수 40% 증가…거래액도 20% 성장&nbsp;&nbsp;한국섬유신문",
         "date": "2026-01-28",
         "brand": "포스티"
       }
@@ -132,10 +133,10 @@
         "brand": "지그재그"
       },
       {
-        "title": "[패션브리핑] 지그재그, 10월 쇼핑몰 신상품 쇼케이스 진행 외",
-        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBfcjZNWmZwSENWTXN3WlZVQmJ4TVA0V0ZsRGRnV2k3ckVRLWkxb09LRnlkWGdUYWN6VzdkLWtYRkVHZFJzM2hXakN2MmlJZ0twcVhDWV9CWW9DcXNabmRVZ2JnQ3MtVnNhS1E?oc=5",
-        "desc": "[패션브리핑] 지그재그, 10월 쇼핑몰 신상품 쇼케이스 진행 외&nbsp;&nbsp;서울파이낸스",
-        "date": "2026-10-06",
+        "title": "지그재그 운영사 카카오스타일, 해킹 정황 포착… KISA 조사 착수",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBvOXZlaks1QmU5d3FNbnRUVGRYUVNCZlFpak5IZWtMZEM0YVZtbV8wNEYzcXlkWkxvQk9uTDdhd3YwS0xUXzVwd0RtMklfRnNldmhBalRRU05MSUozcjNpY0VEVmJzek13RlVCZHlmQlbSAXRBVV95cUxQc2ZWWjBFeWtzT1ppeGJieUdHWmphQk9xdWxUdW9jT1FaUGdCWWtJYkh5eENFWU83NFY2UnZoczV1bVNFQzE4eVJmX0FVdmNGVkRvd2pQUFRUVDZXelhDSHZPZ3hULWFyUkFuV0xCczJKY1dESQ?oc=5",
+        "desc": "지그재그 운영사 카카오스타일, 해킹 정황 포착… KISA 조사 착수&nbsp;&nbsp;IT조선",
+        "date": "2026-07-09",
         "brand": "지그재그"
       }
     ],
@@ -164,35 +165,28 @@
     ],
     "W컨셉": [
       {
-        "title": "W컨셉, 6년 만에 남성 전문관 전면 개편… 3040 남성 겨냥",
-        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1oX0F1TkxYRW1aN1dfQlhjMERIUmJYMG1ENThPSmx2dHl4NEVHNFdUSnhDY3B1UldycWQ3dEl6SjI4a1RhcDVld3h4RDJhNzRh?oc=5",
-        "desc": "W컨셉, 6년 만에 남성 전문관 전면 개편… 3040 남성 겨냥&nbsp;&nbsp;패션비즈",
-        "date": "2026-10-07",
+        "title": "W컨셉, 전시 예매 사업 진출…패션 넘어 문화로 영역 확대",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBoeHZfbXlGckFreURSSzV2aGY4UEo5OVB3cXZLUXdaazhGNVJaa1AySmllblVqQ0IxczFtbmRET24wUVV1RkcxR3pCdjloYndkRUlzd3YyOFhJREZsX3dkMEUzVktYaWc?oc=5",
+        "desc": "W컨셉, 전시 예매 사업 진출…패션 넘어 문화로 영역 확대&nbsp;&nbsp;팍스경제TV",
+        "date": "2026-10-12",
         "brand": "W컨셉"
       },
       {
-        "title": "W컨셉 '고급 브랜드 뚝심' 해외 무대 관통, 이지은 '글로벌 플랫폼' 색깔 키운다",
-        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFAyUm5DWnBOTmhZUkFSSFloZTVIcFRYSko5M3VQWlNoNWd0S1VVQ042eDFUdE5JNHJNMUw1VXZhYnlKSlY2d0Vib0JvSEZ6VmprZEtPcTA4czlaRWd5VUxTOTM0a05DRjgtZUZwTEVlN3VnSkU?oc=5",
-        "desc": "W컨셉 '고급 브랜드 뚝심' 해외 무대 관통, 이지은 '글로벌 플랫폼' 색깔 키운다&nbsp;&nbsp;비즈니스포스트",
-        "date": "2026-10-08",
+        "title": "[똑똑한패션] 파크로, 이랜드 키디키디, W컨셉, 르무통, 시스템, 아이더, MLB",
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE15LW9XWnM0eEFWMnkzSW40ZDdMdzQ5b0ZJeUdCaTkwV2YwU0pyVE9pRFd0cW9yNGhLZFgxalNfbHdnb1F2NlllS1h4eS1IY01mbldLQkhET2tRbXZoTHJGd3lB?oc=5",
+        "desc": "[똑똑한패션] 파크로, 이랜드 키디키디, W컨셉, 르무통, 시스템, 아이더, MLB&nbsp;&nbsp;에너지경제신문",
+        "date": "2026-10-12",
         "brand": "W컨셉"
       },
       {
-        "title": "W컨셉, 6년 만에 남성 전문관 개편…3040 공략 강화",
-        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1velJVWFcyRGVLQV9lN3hxODA1dHZTUmctWVFxV19KQkxzY3ZlVXVRbXRseEpqb0JlMXZWd0xKMmJuYjJLOEpCZTJKYlVkOUgtVmtNcEtFOG9Rdw?oc=5",
-        "desc": "W컨셉, 6년 만에 남성 전문관 개편…3040 공략 강화&nbsp;&nbsp;한국경제",
-        "date": "2026-10-07",
+        "title": "W컨셉, 전시 예매 서비스..패션 넘어 문화 콘텐츠 확대",
+        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5ENzVDS0t0Y0QxRG83Y0czUTc1RFpISGtXMDJHWWFGSk9UWGZsSVpHeWt0R0ZlRWVuSWthS2pCXzd4Q1VrbE93c1dlRTJlcVBfRUFpU2ZaRUk3bUFzZkt2WUd0N2I?oc=5",
+        "desc": "W컨셉, 전시 예매 서비스..패션 넘어 문화 콘텐츠 확대&nbsp;&nbsp;포쓰저널",
+        "date": "2026-10-12",
         "brand": "W컨셉"
       }
     ],
     "무신사": [
-      {
-        "title": "무신사, 일본 최대급 패션 플랫폼 ‘조조타운’ 한국 첫 팝업 연다… “한·일 패션 잇는 파트너십 확대”",
-        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9ER2xCWkJkelZMaUdaMFlxMDByOGZOcF9jbkMyVUE0Yk1sMHhBRnBCNk5sOVBQdVVsX0FuZnVHa0c0TTBxMlZndzBBWENxYVJ3SlN0WXhZMHZZNDFpY0RvbU1Ea0tobHRhdDZWNg?oc=5",
-        "desc": "무신사, 일본 최대급 패션 플랫폼 ‘조조타운’ 한국 첫 팝업 연다… “한·일 패션 잇는 파트너십 확대”&nbsp;&nbsp;뉴스버즈",
-        "date": "2026-10-10",
-        "brand": "무신사"
-      },
       {
         "title": "무신사, 日 최대 패션 플랫폼 '조조타운' 국내 첫 팝업",
         "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB4ejAwZXVhNC1BVl85RHY1emU3NkxJX01aeVh0TUdhUjhSNjdQbGhka1JkOE1WVGRHZkwwY1BMQWk2SC1KQ2V0bDJoT1F0VlZHNmwyTGZFZDNVVlUxanlnRtIBeEFVX3lxTE1nV0t6Mzlfd1psLUE1OEZyWXRISXdzTHJ6TjdtNERjWDRhaFctRHpaVHBpY19hYlVTaC0tVVRqQUVZeTVzb0ZlcDFqUzdVcVhiS0V1bXRYNW5NT0dnSFJwbzNLM3A4eWRJVmVyeHNPWGcxTjY1RGxHTg?oc=5",
@@ -201,10 +195,17 @@
         "brand": "무신사"
       },
       {
-        "title": "무신사, 일본 패션 플랫폼 '조조타운' 국내에 첫 팝업 열고 현지 브랜드 선봬",
-        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5xWkhac2NsWnkzVEE4Z2RrQno5NVROeWdIQTFIZWJrSTUwc2pFWWZQZV9LaldMMU52N0RBamFaMGxBQmR5c3hjYTFWUEVyemFtbUxaSEJOTzI5b1ZqQU5KYWRJTVdPUG95ZXNqQld5bnlJSjQ?oc=5",
-        "desc": "무신사, 일본 패션 플랫폼 '조조타운' 국내에 첫 팝업 열고 현지 브랜드 선봬&nbsp;&nbsp;비즈니스포스트",
+        "title": "무신사, 日 패션 플랫폼 '조조타운' 국내 첫 팝업 개최",
+        "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5Vdms4THVqM2NCTUhWRjZpMTFGUTB6RnNCdTlRc0kzdGlsN29Wa3BDM0lvRnM0WWhGVThWLU5zcjJQTHlWYjJHUHpoZDFMZw?oc=5",
+        "desc": "무신사, 日 패션 플랫폼 '조조타운' 국내 첫 팝업 개최&nbsp;&nbsp;전자신문",
         "date": "2026-10-06",
+        "brand": "무신사"
+      },
+      {
+        "title": "무신사, 일본 최대급 패션 플랫폼 ‘조조타운’ 한국 첫 팝업 연다… “한·일 패션 잇는 파트너십 확대”",
+        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9ER2xCWkJkelZMaUdaMFlxMDByOGZOcF9jbkMyVUE0Yk1sMHhBRnBCNk5sOVBQdVVsX0FuZnVHa0c0TTBxMlZndzBBWENxYVJ3SlN0WXhZMHZZNDFpY0RvbU1Ea0tobHRhdDZWNg?oc=5",
+        "desc": "무신사, 일본 최대급 패션 플랫폼 ‘조조타운’ 한국 첫 팝업 연다… “한·일 패션 잇는 파트너십 확대”&nbsp;&nbsp;뉴스버즈",
+        "date": "2026-10-10",
         "brand": "무신사"
       }
     ]
