@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-13",
+  "collected_at": "2026-10-14",
   "appstore": [
     {
       "app": "포스티",
@@ -72,13 +72,6 @@
   "news": {
     "포스티": [
       {
-        "title": "'포스티' 인기상품",
-        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5BcHl2Y2xIS1lIdXk1M1Ayb1oyMUxxRG1DbllqN1Jad1BUQnhKNWIzX1dsOHZvY0hUWW55ZEdsSkhZN0ppSktoaVhockZqcGh2N3NjYmd1Qm54QkJlNFRoeTlYdGxxSFJZbENQcDR6U2Radmc?oc=5",
-        "desc": "'포스티' 인기상품&nbsp;&nbsp;어패럴뉴스",
-        "date": "2026-10-12",
-        "brand": "포스티"
-      },
-      {
         "title": "포스티, 상반기 결산 페스타 개막… 200개 브랜드 최대 92% 할인",
         "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1Qd0VCTklPWldBc3FxbU1ndEhJaTlMVkFwSEFPd19JelplOXRwWVNKWmtqUU9fYUEwbnladmxrUUhfNnRQaHF3cnZDV2ZtVnRJ?oc=5",
         "desc": "포스티, 상반기 결산 페스타 개막… 200개 브랜드 최대 92% 할인&nbsp;&nbsp;패션비즈",
@@ -91,9 +84,23 @@
         "desc": "포스티, 상반기 결산 페스타…200개 브랜드 최대 92% 할인&nbsp;&nbsp;뉴시스",
         "date": "2026-06-23",
         "brand": "포스티"
+      },
+      {
+        "title": "4050 패션 플랫폼 ‘포스티’, 런칭 4년만에 거래액 20배 성장",
+        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB3SkJyV0xUZ1ZMQk5TSXVhSy0tTjBEYXdnUFExNWNGelU0bG1BWnZFSnZTbE12U09VanZabldaS1ctTGFZekZwV2xSR0dZeFptUktsU3M2NFJQaWtseUhhSGltVQ?oc=5",
+        "desc": "4050 패션 플랫폼 ‘포스티’, 런칭 4년만에 거래액 20배 성장&nbsp;&nbsp;한국섬유신문",
+        "date": "2025-07-17",
+        "brand": "포스티"
       }
     ],
     "에이블리": [
+      {
+        "title": "[패션브리핑] 에이블리, '2027 다이어리 얼리버드 프로모션' 진행 외",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5tRlNENWVMcHV4NVNiN2JzSWd4MlBaUnFrdzdFanhJdEplc3ZSTW04N2tkZlVqUm9WZy1DOWlTa21hMjF2ekd4Ynd6N296OFZrQ0xmREtDdU1pN0pRd2JxRnZvVW54UjY0Z2c?oc=5",
+        "desc": "[패션브리핑] 에이블리, '2027 다이어리 얼리버드 프로모션' 진행 외&nbsp;&nbsp;서울파이낸스",
+        "date": "2026-10-13",
+        "brand": "에이블리"
+      },
       {
         "title": "에이블리, ‘2027 다이어리' 얼리버드 프로모션",
         "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5vTHBoaklJVlNrUHhLWkdlVUxPbVE5UHBINlBIVmhfS242NGwtLWdwU0h6VHlPWWhGdWpka1lGSThIcHNkd0E2MzZSSmIzOFE4SnZKUWtuWkpqTXh1S3V0dk4zeUlmZw?oc=5",
@@ -106,13 +113,6 @@
         "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8tNEhOa1N5ZFZDWlZFX2p6RmFLbUhPZ3k1STkyRWNDclJUcUV5Q2ZXN1c4RXRzNmJCNVJhUmRyMUszUk9oWmQwWDc2Y0praXJ5X0J4Z3NpM3ZiUQ?oc=5",
         "desc": "에이블리 '패션 창업 학교' 됐다&nbsp;&nbsp;한국경제",
         "date": "2026-05-01",
-        "brand": "에이블리"
-      },
-      {
-        "title": "\"온라인서 쌓은 역량 살려서\"...에이블리, '오프라인 패션' 도전장",
-        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBhX1dRVDduSnFxd3N1ejFrV1VaU2J2NkhXN2ZqTEFPdEtKMGdHSnNFTlJiSUxhZFdQODdyZ0VBN1RmMW9KSHVNQTRCUTBkRDZhT1VmNnB4bHFRWFphWl81bnJEYmhubTNI?oc=5",
-        "desc": "\"온라인서 쌓은 역량 살려서\"...에이블리, '오프라인 패션' 도전장&nbsp;&nbsp;www.ebn.co.kr",
-        "date": "2026-08-03",
         "brand": "에이블리"
       }
     ],
@@ -132,21 +132,14 @@
         "brand": "지그재그"
       },
       {
-        "title": "카카오스타일 지그재그, 성수동 이동형 팝업으로 뷰티 신상품 소개",
-        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE00QkJtSjRxN3lDX21CeHRNcHgzaW9xWUJvWDcyVi1DMXpzOGRleG1jMVJDLVQtN1JLR1cxdi1MZ0xadGJBLUZOY1MtM05LQkg4clRVZnI5X0dGQ0hSTDhBeWQtUWszWVFlM0EzWUNUWGd2a0VHTC1GeWlR?oc=5",
-        "desc": "카카오스타일 지그재그, 성수동 이동형 팝업으로 뷰티 신상품 소개&nbsp;&nbsp;로이슈",
+        "title": "지그재그, 성수동 달리는 '핑크카' 띄운다…'직잭뷰티 페스타' 시작",
+        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAzQ2RySEpkRGd3QzNGNW9jUnNfeGdWX3JyamswX1hlYTVRREVrYnlUb21DM1RBdkFQUnZkUmVkLVRNNi0tNl9MeW05Zi14dVZUUjhnOF9BbWtzX3lBT290b3JmenN0TER2OTln?oc=5",
+        "desc": "지그재그, 성수동 달리는 '핑크카' 띄운다…'직잭뷰티 페스타' 시작&nbsp;&nbsp;뉴스저널리즘",
         "date": "2026-10-13",
         "brand": "지그재그"
       }
     ],
     "29CM": [
-      {
-        "title": "[단독] 쏘카, 무신사 29CM와 유사한 공격으로 고객 248명 개인정보 유출…10분 만에 인지·차단해 추가 피해 방지",
-        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5PNlpNTHloS3Rma0lwVnZScUxPanFjMm9WSzJUMDRNREh4MUphMTN5QXNVb2dmbFV5bUl2aHdwNVNXRkxVZnFCbVFISTVsZjBxSElSa0lnU051Vi0tSlRuc1hOeHBiTUZwc3A5LQ?oc=5",
-        "desc": "[단독] 쏘카, 무신사 29CM와 유사한 공격으로 고객 248명 개인정보 유출…10분 만에 인지·차단해 추가 피해 방지&nbsp;&nbsp;데일리시큐",
-        "date": "2026-10-10",
-        "brand": "29CM"
-      },
       {
         "title": "[단독] 무신사 ‘29CM’서 개인정보 3만건 추가 유출",
         "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBWSGRyenh4T3ZZaEYzemNMWlRnRFZVZnozWndkZzNvcnJnb0dudXUyS1M2ZVNzRUhWWk1xUWVsZTN6aW5tZXk2c05BODUzRUhrbnZ3TEQ3bzZ5SUVhLVo1eDhJYmtwTEZVcXZqcG5QLTVKQQ?oc=5",
@@ -155,10 +148,17 @@
         "brand": "29CM"
       },
       {
-        "title": "중국 판 키우는 무신사 … 현지 진출 이끈 수장 떠났다",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE03Vkw3LU1CQkFPVGF5RlVDWG5hV1M3V0RHUlhqc1YxaW5wcFZ1bDRJVl9IUVc3UDBKZ3NKYUppeExwTHFXeUhDUzgxMkZSZUtJWEhEalloQWtUVzRveUZmTlVMT1RLQkY0anBrQjZTd0E3TnJsS0QxRzB5TdIBgAFBVV95cUxPNDRTSktfa21lYnpueDZlYjlEaWF4NWVZWG5HSExTY0YzMGx2SERXVnBLeFkxcHlnWWhveFg3Tm5BaG16eXNfYmZLWUYyQmk5UkN2QURDQ3J3QkN4d3BUOTBFbnNSU0tWdERGMTJaSU1FeXZlTldaUUR4Yjg4XzZmdw?oc=5",
-        "desc": "중국 판 키우는 무신사 … 현지 진출 이끈 수장 떠났다&nbsp;&nbsp;뉴데일리",
-        "date": "2026-10-13",
+        "title": "[단독] 쏘카, 무신사 29CM와 유사한 공격으로 고객 248명 개인정보 유출…10분 만에 인지·차단해 추가 피해 방지",
+        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5PNlpNTHloS3Rma0lwVnZScUxPanFjMm9WSzJUMDRNREh4MUphMTN5QXNVb2dmbFV5bUl2aHdwNVNXRkxVZnFCbVFISTVsZjBxSElSa0lnU051Vi0tSlRuc1hOeHBiTUZwc3A5LQ?oc=5",
+        "desc": "[단독] 쏘카, 무신사 29CM와 유사한 공격으로 고객 248명 개인정보 유출…10분 만에 인지·차단해 추가 피해 방지&nbsp;&nbsp;데일리시큐",
+        "date": "2026-10-10",
+        "brand": "29CM"
+      },
+      {
+        "title": "3년 전 과태료 부과 받은 무신사, 이번엔 29CM 개인정보 16만 건 유출",
+        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBZSFptamFNX0FWS0Z3N2VZb2J0cXRvZThHM3YwbEZYY0ExeDRjbTE1QmxTaVp5VzZzb2ZTMHB2Uk1QWl9yOGN5aUM3ODYtSzA?oc=5",
+        "desc": "3년 전 과태료 부과 받은 무신사, 이번엔 29CM 개인정보 16만 건 유출&nbsp;&nbsp;Daum",
+        "date": "2026-08-31",
         "brand": "29CM"
       }
     ],
@@ -187,10 +187,10 @@
     ],
     "무신사": [
       {
-        "title": "무신사, 日 최대 패션 플랫폼 '조조타운' 국내 첫 팝업",
-        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB4ejAwZXVhNC1BVl85RHY1emU3NkxJX01aeVh0TUdhUjhSNjdQbGhka1JkOE1WVGRHZkwwY1BMQWk2SC1KQ2V0bDJoT1F0VlZHNmwyTGZFZDNVVlUxanlnRtIBeEFVX3lxTE1nV0t6Mzlfd1psLUE1OEZyWXRISXdzTHJ6TjdtNERjWDRhaFctRHpaVHBpY19hYlVTaC0tVVRqQUVZeTVzb0ZlcDFqUzdVcVhiS0V1bXRYNW5NT0dnSFJwbzNLM3A4eWRJVmVyeHNPWGcxTjY1RGxHTg?oc=5",
-        "desc": "무신사, 日 최대 패션 플랫폼 '조조타운' 국내 첫 팝업&nbsp;&nbsp;뉴시스",
-        "date": "2026-10-05",
+        "title": "동국대 연구팀, ‘무신사 스탠다드’ 성장이 입점 브랜드 구매 촉진 긍정 영향",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1OSk9sWlBUYUFmcklLME1lMVdZQVFLUE9DNzNUaHQtcDUzdEZtUmlxeEJvYzlUdWlwME4wWEttbHJOQ3hPNVlxWV9IMHgzZ0E0UURKb3pkUHN1NGhiaEtYbGhiVDJ1NzAtN2NockJHT2xjQlVoRHJ2dUl3?oc=5",
+        "desc": "동국대 연구팀, ‘무신사 스탠다드’ 성장이 입점 브랜드 구매 촉진 긍정 영향&nbsp;&nbsp;패션포스트",
+        "date": "2026-10-12",
         "brand": "무신사"
       },
       {
@@ -201,9 +201,9 @@
         "brand": "무신사"
       },
       {
-        "title": "무신사, 日 패션 플랫폼 ‘조조타운’과 팝업…인기 브랜드 15개 참여",
-        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE41MzVEZ2hfZ2x1Tko0OUwxRWRqSkh6STdFT3ZYMDhVN19McWJYb2VxZ2hzT3d3SjVfdXNDSDJDT0JNRmpjLU00NFIzM0RkNGJQX1duNEdUWDJhbGZwTDZWRGY0Q2JDRkRieGc0Rg?oc=5",
-        "desc": "무신사, 日 패션 플랫폼 ‘조조타운’과 팝업…인기 브랜드 15개 참여&nbsp;&nbsp;ER 이코노믹리뷰",
+        "title": "무신사, 日 패션 플랫폼 '조조타운' 국내 첫 팝업 개최",
+        "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5Vdms4THVqM2NCTUhWRjZpMTFGUTB6RnNCdTlRc0kzdGlsN29Wa3BDM0lvRnM0WWhGVThWLU5zcjJQTHlWYjJHUHpoZDFMZw?oc=5",
+        "desc": "무신사, 日 패션 플랫폼 '조조타운' 국내 첫 팝업 개최&nbsp;&nbsp;전자신문",
         "date": "2026-10-06",
         "brand": "무신사"
       }
