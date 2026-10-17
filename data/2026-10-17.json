@@ -1,0 +1,212 @@
+{
+  "collected_at": "2026-10-17",
+  "appstore": [
+    {
+      "app": "포스티",
+      "platform": "iOS",
+      "reviews": [],
+      "rating": null
+    },
+    {
+      "app": "포스티",
+      "platform": "Android",
+      "updated": "2026년 8월 9일",
+      "recent_changes": ""
+    },
+    {
+      "app": "에이블리",
+      "platform": "iOS",
+      "reviews": [],
+      "rating": null
+    },
+    {
+      "app": "에이블리",
+      "platform": "Android",
+      "error": "404 Client Error: Not Found for url: https://play.google.com/store/apps/details?id=com.ablyclothes.app&hl=ko"
+    },
+    {
+      "app": "지그재그",
+      "platform": "iOS",
+      "reviews": [],
+      "rating": null
+    },
+    {
+      "app": "지그재그",
+      "platform": "Android",
+      "error": "404 Client Error: Not Found for url: https://play.google.com/store/apps/details?id=com.kakaostyle.zigzag&hl=ko"
+    }
+  ],
+  "events": {
+    "posty": [
+      {
+        "title": "지금 가입 시 20% 할인쿠폰을 드려요.쿠폰받기",
+        "url": "https://posty.kr/events/cms/879fa67f-578c-4645-9b66-be2b3063c539",
+        "source": "포스티"
+      }
+    ],
+    "ably": [
+      {
+        "title": "에이블리 기획전",
+        "url": "https://m.a-bly.com/exhibitions",
+        "source": "에이블리",
+        "note": "앱 전용 — 상세 목록은 앱에서 확인"
+      }
+    ],
+    "cm29": [
+      {
+        "title": "29CM 기획전",
+        "url": "https://www.29cm.co.kr/exhibition",
+        "source": "29CM",
+        "note": "앱 전용 — 상세 목록은 앱에서 확인"
+      }
+    ],
+    "wconcept": [
+      {
+        "title": "W컨셉 기획전",
+        "url": "https://www.wconcept.co.kr/Display/eventList",
+        "source": "W컨셉",
+        "note": "앱 전용 — 상세 목록은 앱에서 확인"
+      }
+    ]
+  },
+  "news": {
+    "포스티": [
+      {
+        "title": "포스티, 상반기 결산 페스타 개막… 200개 브랜드 최대 92% 할인",
+        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1Qd0VCTklPWldBc3FxbU1ndEhJaTlMVkFwSEFPd19JelplOXRwWVNKWmtqUU9fYUEwbnladmxrUUhfNnRQaHF3cnZDV2ZtVnRJ?oc=5",
+        "desc": "포스티, 상반기 결산 페스타 개막… 200개 브랜드 최대 92% 할인&nbsp;&nbsp;패션비즈",
+        "date": "2026-06-22",
+        "brand": "포스티"
+      },
+      {
+        "title": "포스티, 패션·뷰티·리빙 최대 92% 할인 행사 진행",
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE95cTlvTmg4TEZRb0p5WjV1YVhzQ2pYVkVYTzFKVDJYN0E1UFJvZkNJMGxjQU12d2c5QmhGRGFhMWp0TWZlcDVtRnpyRnVTY3FDVzJFaDVNR3NmZlQ5RVJqbnVmLXJqcC0tS3V0N3JhZG54REXSAXdBVV95cUxOMjJLemtRLU9vX2FEa3Z4REE4bF9pRnI2RTBfazdNM214aTZuXzlGLUlEamxiQS1GTjBuWkR3aFBNM2JNamZYOVNlb2M0WVNac0hxWFA3Z21VeHVrYi1LWWozc1hWLXJzZU95SGx2dm5idmJRRWJXSQ?oc=5",
+        "desc": "포스티, 패션·뷰티·리빙 최대 92% 할인 행사 진행&nbsp;&nbsp;핀포인트뉴스",
+        "date": "2026-06-23",
+        "brand": "포스티"
+      },
+      {
+        "title": "포스티, 2025년 누적 회원 수 40% 증가…거래액 20% 성장",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1TOHIwQ3JtbWRkQkNDbHJvMlgwTjA1MUM5YXp5U0Uxcy03YXRYSEkzZ1FFbXE2T0Q0aFJWeUdtdGpUNHk0WEs1UFZ4ZVJKN21UUndXbnVaam9WM2JpZTJJ?oc=5",
+        "desc": "포스티, 2025년 누적 회원 수 40% 증가…거래액 20% 성장&nbsp;&nbsp;뉴스1",
+        "date": "2026-01-28",
+        "brand": "포스티"
+      }
+    ],
+    "에이블리": [
+      {
+        "title": "에이블리, 140개 브랜드 참여 ‘아우터 페스타’ 개최…최대 87% 할인",
+        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9EdklsZjRoQzJ4b0xUS05GSUttdmxYT2RQWWRBSENodzZ1Z3QtTHpfUmlXcS1qc0wzY0ZaSEZ5ZE9sZHd6Skx0cGZSdWxKNVZkN2g5LTY0WDZXV2FTc3d0aTd2bEpGdlBEYm1nSw?oc=5",
+        "desc": "에이블리, 140개 브랜드 참여 ‘아우터 페스타’ 개최…최대 87% 할인&nbsp;&nbsp;뉴스탭",
+        "date": "2026-10-17",
+        "brand": "에이블리"
+      },
+      {
+        "title": "[오늘의 패션&뷰티] 무신사·에이블리·AGE20'S·푸드올로지·몽클로스",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBJRTVzVkt2S05abkJEYWZrMERSSm5kZm9TUjBTSld4TnhnWHNCOE5TTENvOFNnaEhxTFgwc1I4RXZ6R3FxTG4tYld6RGoxOGcxeVBaU1F3c1dtMFlTRjJUamxXTXhzbnlyZUpWYnlKWUMyZFJi?oc=5",
+        "desc": "[오늘의 패션&뷰티] 무신사·에이블리·AGE20'S·푸드올로지·몽클로스&nbsp;&nbsp;파이낸셜리뷰",
+        "date": "2026-10-16",
+        "brand": "에이블리"
+      },
+      {
+        "title": "[똑똑한패션] 인디텍스, 마리떼 프랑소와 저버, BYC, 에이블리",
+        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5takpJdE4tbnFFbUhfOGhJY1JFenItenp4Z0lEMjVRSnFwM3FMNmJDNDVaNmhSaFk3VmY3azFEUUtLdWl0emY4UThKY2lOREs0c1NtQjBBZFZHQUE1bUY2VDVnRQ?oc=5",
+        "desc": "[똑똑한패션] 인디텍스, 마리떼 프랑소와 저버, BYC, 에이블리&nbsp;&nbsp;에너지경제신문",
+        "date": "2026-10-16",
+        "brand": "에이블리"
+      }
+    ],
+    "지그재그": [
+      {
+        "title": "온라인 속 빠른 트렌드, '지그재그 익스프레스' 팝업서 경험[현장]",
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE90ZVNSclcxSk11SzJZRWNDdFRDNUJNOThxQWxybkpaRWc3dkhnaW5lck1OQklLSlNLSXhXUnZxS2IzSmRtOThIUkt0cVJkTDFIRnhpWDdTWm1nSWV5UzlpMUZjNG16SlpmRnVacnRyZnczY281VHVSd9IBeEFVX3lxTE90ZVNSclcxSk11SzJZRWNDdFRDNUJNOThxQWxybkpaRWc3dkhnaW5lck1OQklLSlNLSXhXUnZxS2IzSmRtOThIUkt0cVJkTDFIRnhpWDdTWm1nSWV5UzlpMUZjNG16SlpmRnVacnRyZnczY281VHVSdw?oc=5",
+        "desc": "온라인 속 빠른 트렌드, '지그재그 익스프레스' 팝업서 경험[현장]&nbsp;&nbsp;뉴시스",
+        "date": "2026-10-16",
+        "brand": "지그재그"
+      },
+      {
+        "title": "[현장] 화면 속 쇼핑몰이 성수로…지그재그, '입어보는 쇼핑' 열었다",
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9XZGFkSGE2aHdrMFk4QkFPenVJX0dwSm83cmxBMjM0Q09lZDVzOXR1OV84UEdRMTlwektfWDRDbnd2OHZXeHFmMWpQSnA1SnN2bGJXM000ZVV0MlB6cDZtbWlvZW02UENXS1dxb0RKNnlFZw?oc=5",
+        "desc": "[현장] 화면 속 쇼핑몰이 성수로…지그재그, '입어보는 쇼핑' 열었다&nbsp;&nbsp;프라임경제",
+        "date": "2026-10-16",
+        "brand": "지그재그"
+      },
+      {
+        "title": "지그재그, 16일부터 성수동서 팝업스토어…쇼핑몰 50곳 참여",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1QUzdRcTJLWFNJVzZhUHZiS3BGZEZkZEljNWVZUE80bGVrZ2RlcmhBTWNsclVFTzNrNDNwSDhuMmpuQkhRTmN2LXBtVTFoMzcwTkJMMzdOM2VNWjjSAWBBVV95cUxQTjJ1OEQyVlpjZkpIS3VOb3JjbGpOSFp4S2JXaE9JSGxOZGVkS3hsNmNCSlZfUjc1dV9YZzlCWG1jZmJubUh1NFpzeEFreS1OdVNVRU1XLVZSWDlmaUp5akM?oc=5",
+        "desc": "지그재그, 16일부터 성수동서 팝업스토어…쇼핑몰 50곳 참여&nbsp;&nbsp;연합뉴스",
+        "date": "2026-10-14",
+        "brand": "지그재그"
+      }
+    ],
+    "29CM": [
+      {
+        "title": "\"수십억 쓰고 모의해킹 통과했다더니\"…무신사 29CM 기본 취약점 뚫렸다",
+        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5lSV80eTVhem5Vc2hCbWV2cEJldzdwRGw0SENtSm9jVEtTRW4wb2hXWkNVQjhCV0hlaGcxNzlmZ2c3cXFXYXFYeVVKM25jYUI3N3J6VW5qaUpVTnR3YUpGNdIBeEFVX3lxTE9VRzVGUjlCQldVbzJBN0JmM2tILUpvNk1iSU93VWlYZklISU1GQUNYMnRpV3FYLXRkWXBkQXI4Qi1hT3JvRWtwTnlTa3JNdzFsMmV4OS1MOW9tX3JOT3p6SEJ2UU9HMWFqUV9fN051bmFEeUlYZzRGYg?oc=5",
+        "desc": "\"수십억 쓰고 모의해킹 통과했다더니\"…무신사 29CM 기본 취약점 뚫렸다&nbsp;&nbsp;뉴시스",
+        "date": "2026-10-15",
+        "brand": "29CM"
+      },
+      {
+        "title": "[단독] 무신사 ‘29CM’서 개인정보 3만건 추가 유출",
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBWSGRyenh4T3ZZaEYzemNMWlRnRFZVZnozWndkZzNvcnJnb0dudXUyS1M2ZVNzRUhWWk1xUWVsZTN6aW5tZXk2c05BODUzRUhrbnZ3TEQ3bzZ5SUVhLVo1eDhJYmtwTEZVcXZqcG5QLTVKQQ?oc=5",
+        "desc": "[단독] 무신사 ‘29CM’서 개인정보 3만건 추가 유출&nbsp;&nbsp;한겨레",
+        "date": "2026-10-06",
+        "brand": "29CM"
+      },
+      {
+        "title": "[ER현장] 동대문DDP에 펼쳐진 무신사 29CM의 홈리빙 ‘취향 장터’",
+        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1JbGNXUGsxMjA1NjRDcGRxMUZmRm1VeGRQOVNGQ0s2NDd0ZHFOX3BYdm5FaWEtVW1xVEpYQzViZzhtVHctZVBod214Mi1heDVZOW1qQmlZUnVZS3JWUWI2V1JKMHRGR3BOZ0llZw?oc=5",
+        "desc": "[ER현장] 동대문DDP에 펼쳐진 무신사 29CM의 홈리빙 ‘취향 장터’&nbsp;&nbsp;ER 이코노믹리뷰",
+        "date": "2026-10-14",
+        "brand": "29CM"
+      }
+    ],
+    "W컨셉": [
+      {
+        "title": "온라인서 보던 브랜드 직접 만난다…W컨셉, 한남동에 첫 매장 - 머니투데이",
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE83amRnZG00SU1IemhwdWd5LWlMSXZtQ2pjZk9mX2w3X3BDQXVRX2YzbmVtQUh0cVR2bkxTZ3N2OUo3RFNSaExfLVFhRl9TOVE3elIyNnpBYVM3Vkw0Y2lFS2pXS0RscjhPWWVvUGpPTdIBb0FVX3lxTE83amRnZG00SU1IemhwdWd5LWlMSXZtQ2pjZk9mX2w3X3BDQXVRX2YzbmVtQUh0cVR2bkxTZ3N2OUo3RFNSaExfLVFhRl9TOVE3elIyNnpBYVM3Vkw0Y2lFS2pXS0RscjhPWWVvUGpPTQ?oc=5",
+        "desc": "온라인서 보던 브랜드 직접 만난다…W컨셉, 한남동에 첫 매장 - 머니투데이&nbsp;&nbsp;머니투데이",
+        "date": "2026-10-16",
+        "brand": "W컨셉"
+      },
+      {
+        "title": "[르포]신진 K패션, 한남동서 글로벌 고객 만난다…W컨셉 오프라인 실험",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9GUF9XYlItQW1GeEpweG1qVHNEQTBpNndCVXdyS2JGVkxDN25WS002WEg4MjY4cl9Uay1FdnRZM3ZwZnVEYUhXaWJ4cng1RDhpcEpVSnZ4cTNGRF84RDJJ?oc=5",
+        "desc": "[르포]신진 K패션, 한남동서 글로벌 고객 만난다…W컨셉 오프라인 실험&nbsp;&nbsp;뉴스1",
+        "date": "2026-10-16",
+        "brand": "W컨셉"
+      },
+      {
+        "title": "W컨셉 서울 한남동에 첫 단독 플래그십 매장 열어, 패션에 뷰티·생활용품 선봬",
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9vaHFsS2ZPSUQxTmRSaXdoUTU5aUtzV1FKZXBJTWFKVGNOY2JUSlhJMlNRbHVIRDZ3SnQ1Z3RKamg1c0tSRlZEaWI4N3BUMThVMnhiblB6SjF2WHZoSHRCQXIzZDZydmNJU3FtVUZNN1Vjd00?oc=5",
+        "desc": "W컨셉 서울 한남동에 첫 단독 플래그십 매장 열어, 패션에 뷰티·생활용품 선봬&nbsp;&nbsp;비즈니스포스트",
+        "date": "2026-10-16",
+        "brand": "W컨셉"
+      }
+    ],
+    "무신사": [
+      {
+        "title": "'J패션' 들인 무신사…IPO 앞두고 조조타운과 일본 판로 다진다 [현장+]",
+        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE55NWNaNkFXbG1GcDJxSzBpYjFuQ3B5U1BiRFZYeEhZWW5odzcwUG8xb2hTMjJlWlNsZ0VIOWM4ODVzdFo1Mk1oM2U5Z2otSFpRaGRJV2tQajV1YmJFb3BfcEoxaGdJc3h0WWhiMtIBbEFVX3lxTE55NWNaNkFXbG1GcDJxSzBpYjFuQ3B5U1BiRFZYeEhZWW5odzcwUG8xb2hTMjJlWlNsZ0VIOWM4ODVzdFo1Mk1oM2U5Z2otSFpRaGRJV2tQajV1YmJFb3BfcEoxaGdJc3h0WWhiMg?oc=5",
+        "desc": "'J패션' 들인 무신사…IPO 앞두고 조조타운과 일본 판로 다진다 [현장+]&nbsp;&nbsp;블로터",
+        "date": "2026-10-16",
+        "brand": "무신사"
+      },
+      {
+        "title": "\"이제 도쿄 안 가도 살 수 있다\"…한국 상륙 소식에 '들썩' [현장+]",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAtdmhUcWUySWFOZlZZV0haaXpjekNEcUJYc3dNa18tS01QMXZGZE5zQUhvb2NzNk9WMG81SW92SERKYUxtTG9DdFEybGJHOV8tNi1PMmR2TlFzdw?oc=5",
+        "desc": "\"이제 도쿄 안 가도 살 수 있다\"…한국 상륙 소식에 '들썩' [현장+]&nbsp;&nbsp;한국경제",
+        "date": "2026-10-16",
+        "brand": "무신사"
+      },
+      {
+        "title": "[현장] '일본판 무신사' 조조타운과 윈윈 단단히, 무신사 J패션 알리며 K패션 영향력 넓힌다",
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE92cVp3bHp2Qllmd28yVkVTZWlzSnNwTUR1RTh6ejZlV09aWGtGYS1fdF8wWTAyYUdNZ2lzbkcxdlZuMzNuZTByNUd3QVJYM0hoSEV5NFNLX2xZdUc4eXQ4N3BnNDFLeF9MeFVUSDFma1k3MmM?oc=5",
+        "desc": "[현장] '일본판 무신사' 조조타운과 윈윈 단단히, 무신사 J패션 알리며 K패션 영향력 넓힌다&nbsp;&nbsp;비즈니스포스트",
+        "date": "2026-10-16",
+        "brand": "무신사"
+      }
+    ]
+  }
+}
