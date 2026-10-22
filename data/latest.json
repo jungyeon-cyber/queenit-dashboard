@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-21",
+  "collected_at": "2026-10-22",
   "appstore": [
     {
       "app": "포스티",
@@ -39,9 +39,10 @@
   "events": {
     "posty": [
       {
-        "title": "지금 가입 시 20% 할인쿠폰을 드려요.쿠폰받기",
-        "url": "https://posty.kr/events/cms/879fa67f-578c-4645-9b66-be2b3063c539",
-        "source": "포스티"
+        "title": "포스티 기획전",
+        "url": "https://posty.kr/events",
+        "source": "포스티",
+        "note": "앱 전용 — 상세 목록은 앱에서 확인"
       }
     ],
     "ably": [
@@ -102,26 +103,33 @@
         "brand": "에이블리"
       },
       {
-        "title": "에이블리, 140개 브랜드 참여 ‘브랜드 아우터 페스타’ 진행",
-        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBzNDhLNjBKMUEwM0QxeXlNNk5vX1Nna3IyVmtaS1JJQ203YWFPclU2NHZSaWVjVm14VHBzSWNfdHB1QkFTa0owT0xVMXBIYXdT?oc=5",
-        "desc": "에이블리, 140개 브랜드 참여 ‘브랜드 아우터 페스타’ 진행&nbsp;&nbsp;패션비즈",
+        "title": "[오늘의 패션&뷰티] 무신사·에이블리·AGE20'S·푸드올로지·몽클로스",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBJRTVzVkt2S05abkJEYWZrMERSSm5kZm9TUjBTSld4TnhnWHNCOE5TTENvOFNnaEhxTFgwc1I4RXZ6R3FxTG4tYld6RGoxOGcxeVBaU1F3c1dtMFlTRjJUamxXTXhzbnlyZUpWYnlKWUMyZFJi?oc=5",
+        "desc": "[오늘의 패션&뷰티] 무신사·에이블리·AGE20'S·푸드올로지·몽클로스&nbsp;&nbsp;파이낸셜리뷰",
         "date": "2026-10-16",
         "brand": "에이블리"
       },
       {
-        "title": "[오늘의 패션&뷰티] 무신사·에이블리·AGE20'S·푸드올로지·몽클로스",
-        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBJRTVzVkt2S05abkJEYWZrMERSSm5kZm9TUjBTSld4TnhnWHNCOE5TTENvOFNnaEhxTFgwc1I4RXZ6R3FxTG4tYld6RGoxOGcxeVBaU1F3c1dtMFlTRjJUamxXTXhzbnlyZUpWYnlKWUMyZFJi?oc=5",
-        "desc": "[오늘의 패션&뷰티] 무신사·에이블리·AGE20'S·푸드올로지·몽클로스&nbsp;&nbsp;파이낸셜리뷰",
+        "title": "에이블리, 140개 브랜드 참여 ‘브랜드 아우터 페스타’ 진행",
+        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBzNDhLNjBKMUEwM0QxeXlNNk5vX1Nna3IyVmtaS1JJQ203YWFPclU2NHZSaWVjVm14VHBzSWNfdHB1QkFTa0owT0xVMXBIYXdT?oc=5",
+        "desc": "에이블리, 140개 브랜드 참여 ‘브랜드 아우터 페스타’ 진행&nbsp;&nbsp;패션비즈",
         "date": "2026-10-16",
         "brand": "에이블리"
       }
     ],
     "지그재그": [
       {
-        "title": "20대 고객이 30대 됐으니…지그재그도 '동반 진화'",
-        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAwQjZzUUtsQjkyTzNmbEpNX2tLd1NnZXI0NlVLQmM4U2JCSDRodDR2Rmdwb0JBcGVuWjc5UzFVby1OZ0hHQmVqWFlweFZjUElDQkEtT1hPNnJCNTRsZHI4U2VZaGx5c2g0?oc=5",
-        "desc": "20대 고객이 30대 됐으니…지그재그도 '동반 진화'&nbsp;&nbsp;www.ebn.co.kr",
+        "title": "지그재그 ‘익스프레스’ 팝업 6500명 방문…피팅존 10개서 24개로",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5PSjhZM1B0X3VZZEUxdndtT1B5bE1DLVFiNzRVRzJ4cmEweWNGMDZoVUVyZ3B1QzBHQ0x0bHBHWDBCSUd2WG11RENCa19PbWRDZ1ZDallIb0t0WnlrSzRpR0RNdkJ4X2tTejYwbS0wdXRwQkcwTnJj0gF3QVVfeXFMTk9KOFkzUHRfdVlkRTF2d21PUHlsTUMtUWI3NFVHMnhyYTB5Y0YwNmhVRXJncHVDMEdDTHRscEdYMEJJR3ZYbXVEQ0JrX09tZENnVkNqWUhvS3RaeWtLNGlHRE12Qnhfa1N6NjBtLTB1dHBCRzBOcmM?oc=5",
+        "desc": "지그재그 ‘익스프레스’ 팝업 6500명 방문…피팅존 10개서 24개로&nbsp;&nbsp;핀포인트뉴스",
         "date": "2026-10-21",
+        "brand": "지그재그"
+      },
+      {
+        "title": "지그재그, '선물하기' 출시…900만개 상품 대상",
+        "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOSl92Uk9OaDlyaUJmaUo0TWpCWWhSUnJydlYyZXg5SW01amlESEg0TGdmOHZmRGFyRVNkM21admt3S1lGQnBNUXR4ZjNYVWlOOW9xdG5ON3kzLS11WkljWTQ0Q216RXQzckdjbEt0UXMyMzRjUFBaemljdm1ySGRXSC1XUEFVYXd5WDN1VnFnSUJ5bFRxdlBNVWVhYmZSRW1Rd2VSNGtqVzBIX2hoNnJrbmhjUks4VFRlUGRMZnRnSXVnak5KNzJtczZKa1E0a2o4VGc1ME8wc3p0MlplSHlfNEFVZWF2Y25zdEN5Z2wwYmZMNWRDSkpWT2JmVkN6YWJwdkhBb2NWZWZBTW1Wcmc?oc=5",
+        "desc": "지그재그, '선물하기' 출시…900만개 상품 대상&nbsp;&nbsp;데일리안",
+        "date": "2026-10-20",
         "brand": "지그재그"
       },
       {
@@ -130,81 +138,74 @@
         "desc": "지그재그, ‘선물하기’ 서비스 출시…900만개 상품·직진배송 연계&nbsp;&nbsp;바이라인네트워크",
         "date": "2026-10-20",
         "brand": "지그재그"
-      },
-      {
-        "title": "카카오스타일, 지그재그에 ‘선물하기’ 도입…직진배송도 연계",
-        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1WM1NBQUFsVU83YzNKdEdWTjdPTUJmcC1vcUgtTkVPTU0xbXNIZGEzMjlkakpDME1BdUVBWXAtRkdqZ2ZoZkJsdkk0YjFvbW52dF8tcXJjSTB2M1NFb0xtWkc2TVA2ZnN3R2tJZi0wSHVEaEU2YXhv0gF3QVVfeXFMTVYzU0FBQWxVTzdjM0p0R1ZON09NQmZwLW9xSC1ORU9NTTFtc0hkYTMyOWRqSkMwTUF1RUFZcC1GR2pnZmhmQmx2STRiMW9tbnZ0Xy1xcmNJMHYzU0VvTG1aRzZNUDZmc3dHa0lmLTBIdURoRTZheG8?oc=5",
-        "desc": "카카오스타일, 지그재그에 ‘선물하기’ 도입…직진배송도 연계&nbsp;&nbsp;핀포인트뉴스",
-        "date": "2026-10-19",
-        "brand": "지그재그"
       }
     ],
     "29CM": [
+      {
+        "title": "[진단] 무신사, 보안 취약점 75건 개선했다는데…29CM 유출 연관성 미확인",
+        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1oVzBnQ25EaE5RSl9JZmhBQTJydTE5UzI3Z29zSW9DMGlGSnk1VWw0ZVFUbHY5dXRvaU1TZlVWYTh2VzFzTFpZUlE1b2xZTWM0RENVR2ZwX3o5eFJrYllILWNzRDBJWEE0eWNzcA?oc=5",
+        "desc": "[진단] 무신사, 보안 취약점 75건 개선했다는데…29CM 유출 연관성 미확인&nbsp;&nbsp;이코노미톡뉴스",
+        "date": "2026-10-22",
+        "brand": "29CM"
+      },
+      {
+        "title": "[단독] 무신사 ‘29CM’서 개인정보 3만건 추가 유출",
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBWSGRyenh4T3ZZaEYzemNMWlRnRFZVZnozWndkZzNvcnJnb0dudXUyS1M2ZVNzRUhWWk1xUWVsZTN6aW5tZXk2c05BODUzRUhrbnZ3TEQ3bzZ5SUVhLVo1eDhJYmtwTEZVcXZqcG5QLTVKQQ?oc=5",
+        "desc": "[단독] 무신사 ‘29CM’서 개인정보 3만건 추가 유출&nbsp;&nbsp;한겨레",
+        "date": "2026-10-06",
+        "brand": "29CM"
+      },
       {
         "title": "무신사 29CM, 여성 패션 단독 협업 거래액 140억원 돌파",
         "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB2SFlCWm1IZ2J6SzNkaXpXN1dNU1ZYNU1ubmd6NWFoUGYyTGFrazN6RUxvVXExZ1Y3OFFfMEVjaEVDMTBDMTJWakNIZzlQdFZJTGw4ZTRacHFlV2VQdHlhbjczYUFqRDRIQlVROGxxYkxJOHRqMGpwajJn?oc=5",
         "desc": "무신사 29CM, 여성 패션 단독 협업 거래액 140억원 돌파&nbsp;&nbsp;로이슈",
         "date": "2026-10-21",
         "brand": "29CM"
-      },
-      {
-        "title": "29CM, 단독 협업으로 여성 패션 브랜드 성장 견인",
-        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBSUVNCb0NVdWQzbkp2QTJJUGlpbXk3amhNd3NheE5WeHZnM0ZNWUVEcFgwaWFSRVFEeFQwSWtna2c3Z1R5TkxYOUxSLTU2SkRwakNZaw?oc=5",
-        "desc": "29CM, 단독 협업으로 여성 패션 브랜드 성장 견인&nbsp;&nbsp;데일리안",
-        "date": "2026-10-21",
-        "brand": "29CM"
-      },
-      {
-        "title": "29CM, 브랜드 협업 상품 확대…1~9월 거래액 140억원",
-        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1JNkJLeEVkcFJXdTNuTVRsem5TUTFCQm1UOFR2b2hYREhnX2hDWFluNEQ3Q3pTc0FxMC10c1NCa2FQci1ZMEFkMEVGUzlMSzVud0E1SlViVGF0Q0ZYLWRQTXVVLTFwc01tUDZPczZCcEd5STR0ZnlB0gF3QVVfeXFMTUk2Qkt4RWRwUld1M25NVGx6blNRMUJCbVQ4VHZvaFhESGdfaENYWW40RDdDelNzQXEwLXRzU0JrYVByLVkwQWQwRUZTOUxLNW53QTVKVWJUYXRDRlgtZFBNdVUtMXBzTW1QNk9zNkJwR3lJNHRmeUE?oc=5",
-        "desc": "29CM, 브랜드 협업 상품 확대…1~9월 거래액 140억원&nbsp;&nbsp;핀포인트뉴스",
-        "date": "2026-10-20",
-        "brand": "29CM"
       }
     ],
     "W컨셉": [
       {
-        "title": "\"파리 팝업 효과 톡톡\"…W컨셉, 프랑스 온라인 거래액 103%↑",
-        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5BN3REU3I1XzBISnNwMkVtWjlwdE5sS2ZVdzY0SVVHdkxTdFVBQnk1OHBuMXJ3aFQwOUFVZWZtMG9oaHEyQWY3bElmOTUzcHRWdkJmd2NoZEpnZjI3ZXdycUpOQ0E3dHZUQmxSWUNkWG1saW9VSFBqTdIBeEFVX3lxTE5BN3REU3I1XzBISnNwMkVtWjlwdE5sS2ZVdzY0SVVHdkxTdFVBQnk1OHBuMXJ3aFQwOUFVZWZtMG9oaHEyQWY3bElmOTUzcHRWdkJmd2NoZEpnZjI3ZXdycUpOQ0E3dHZUQmxSWUNkWG1saW9VSFBqTQ?oc=5",
-        "desc": "\"파리 팝업 효과 톡톡\"…W컨셉, 프랑스 온라인 거래액 103%↑&nbsp;&nbsp;뉴시스",
-        "date": "2026-10-20",
+        "title": "W컨셉, 첫 플래그십 매장 'W한남'…온라인 큐레이션을 오프라인으로 [르포]",
+        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1xY24xcDN0aUkyOFNxY19ObnRMX1JyZGlnQjhwelBQZ2FSTVNaYmVyZVByOG1TS0VDMWxSLWtpeDR6ZDNtRmdiR3g1ZnN0dE81Z2pFYTNMdlNYRk9faWx5cTFiajM1NFNuT2FR?oc=5",
+        "desc": "W컨셉, 첫 플래그십 매장 'W한남'…온라인 큐레이션을 오프라인으로 [르포]&nbsp;&nbsp;뉴스저널리즘",
+        "date": "2026-10-21",
         "brand": "W컨셉"
       },
       {
-        "title": "W컨셉, 파리 팝업 기간 온라인 거래액 103%↑",
-        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9VQkNJSnpBeWwwdlVybEw4dlA2SG52TGdELUJGT1Rwb0RmTHd1a3B4Zm0tdE5LVUt5ZFFWUjFrb0lIalNkaHRrQXctMEZ4OHZ6VUJtNU9nNUNPTjlJTjFoNFJGdVphZw?oc=5",
-        "desc": "W컨셉, 파리 팝업 기간 온라인 거래액 103%↑&nbsp;&nbsp;싱글리스트",
-        "date": "2026-10-20",
+        "title": "W컨셉, 한남에 첫 오프라인 매장… 패션플랫폼 경쟁력 강화",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1FYy1WTFF2eWNWVEd4UEY1NC03RVhiWElmeUdnWTVMM2V4U2JTbkFIRnFyUm5TLVJ5Z1BvRXUxbWUxaldDc3ZrZUxqVlhET0MwWGhVdk1YOG1GSUlLQlEtVnJfZU85Q1FyRFYwdzdjWFN4a2pL?oc=5",
+        "desc": "W컨셉, 한남에 첫 오프라인 매장… 패션플랫폼 경쟁력 강화&nbsp;&nbsp;대한경제",
+        "date": "2026-10-19",
         "brand": "W컨셉"
       },
       {
-        "title": "W컨셉, 파리 팝업 기간 프랑스 온라인 거래액 103% 늘었다",
-        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE4zd2F0SmcwNFpDdWdoVGdkbldVUk04NWJfVkxxOFcyRzgxZWpUenFOZE9DZXRXYTBqQk00SVdNTG9heTNFNnJjcURBMkJBT09DcklMNkRPN2pmUzd3ZTVKZ1B2N3VDWkE?oc=5",
-        "desc": "W컨셉, 파리 팝업 기간 프랑스 온라인 거래액 103% 늘었다&nbsp;&nbsp;팍스경제TV",
+        "title": "W컨셉, 파리 팝업 기간 프랑스 온라인 거래액 103% 증가…K패션 해외 판로 확대",
+        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1KNW92akVCcVp1aTM0STdNODJWYndBUk9ZYm9ZR0pMdDlJZUZmdXZkX09ZaWxnaXJTUGR1c2pBSnhoeXFBUzM1VTdHbzYtMEVhVTV6b0tleGJwT3lxa2xQZNIBb0FVX3lxTE1lT2h3bWRLQkFyRFVPd3FTVmlrV0Q1Y1FKdEdLQTMyS2c4dFdlT2NqbEJ6RGVRQWlKVVFZcEg3NXRYNVBOdXlHNElON2RhNU1FbG5EcVZreGJPM2tpZk81MlFwZDM0a1gweERqbGZtQQ?oc=5",
+        "desc": "W컨셉, 파리 팝업 기간 프랑스 온라인 거래액 103% 증가…K패션 해외 판로 확대&nbsp;&nbsp;토요경제",
         "date": "2026-10-21",
         "brand": "W컨셉"
       }
     ],
     "무신사": [
       {
-        "title": "\"이제 도쿄 안 가도 살 수 있다\"…한국 상륙 소식에 '들썩' [현장+]",
-        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAtdmhUcWUySWFOZlZZV0haaXpjekNEcUJYc3dNa18tS01QMXZGZE5zQUhvb2NzNk9WMG81SW92SERKYUxtTG9DdFEybGJHOV8tNi1PMmR2TlFzdw?oc=5",
-        "desc": "\"이제 도쿄 안 가도 살 수 있다\"…한국 상륙 소식에 '들썩' [현장+]&nbsp;&nbsp;한국경제",
-        "date": "2026-10-16",
+        "title": "무신사, 가방·모자 94개 브랜드 한자리에…패션 플랫폼이 오프라인에 꽂힌 이유",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5ndWhQUF8tODdFTXEyM25UVC0yWTJBVGdNLXp1dmFPYUo3QXNFNFJpVWhzLUdHRjlBS0hiMkxkcVdHR0lOTXVSbWRfRGpXaDNLTjAyc9IBVEFVX3lxTE5ndWhQUF8tODdFTXEyM25UVC0yWTJBVGdNLXp1dmFPYUo3QXNFNFJpVWhzLUdHRjlBS0hiMkxkcVdHR0lOTXVSbWRfRGpXaDNLTjAycw?oc=5",
+        "desc": "무신사, 가방·모자 94개 브랜드 한자리에…패션 플랫폼이 오프라인에 꽂힌 이유&nbsp;&nbsp;세계일보",
+        "date": "2026-10-21",
         "brand": "무신사"
       },
       {
-        "title": "[르포] \"도쿄 최신 패션을 성수에서\" … 무신사에 상륙한 日 최대 패션 플랫폼 조조타운",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB1SG1XSEY0Y3E5bDVKcTNlM1p0MElFeWlyeG93MG9VTDBveUFLbnlpLTVXd3hZNUFheUN1bVJyNmtZamFTcFQ0Z1psNWxkM3ltRUhNeDhQZjFMRTNNZFJWNXR5WDlMX1ZCNm5ZTGR5eUE2amtCcGI3YTBFNNIBgAFBVV95cUxPR05ENHNLMHV0aVhrU3NCU0pkdkFUcXVNR1NYS3NxeWswd21QV1hWajFLeFhyZWlPMS1YSmhjNFBLbkxFU3Y0NTVPVWdwbG1kajcyQWowaEU3V19aUFpqclN5TlFwX1J2UDBLMlJlY3VRV3M2N2tsVEhtTGNPN0dRUA?oc=5",
-        "desc": "[르포] \"도쿄 최신 패션을 성수에서\" … 무신사에 상륙한 日 최대 패션 플랫폼 조조타운&nbsp;&nbsp;뉴데일리",
-        "date": "2026-10-16",
+        "title": "일본 닛케이도 주목한 무신사…글로벌 확장에 IPO '10조 몸값' 청신호",
+        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1jUTY0a2o4R0JIRS1td1MtVDdnQzdFeUJNSDczRDNiWmpUODEwMDRDb1p5UzJOUXNRQy0ydDYwT042RlhScXJkdEs0OEMyVUphTXpReUdCSDE5MndjYkNwMUktQ3JGUdIBakFVX3lxTE9kZEY0b0pIaVcycFl2ajRLcm40TmlfUlo4SXM2cVZoTlA0OG1YMUxvTnBVa2dXNWVpZ2dzTWZBaHZxVnltOUNYU0ZtZWdNZ1VBRGR4NHgxN1laVEJfa0E0bjdtYzZqLTR0cnc?oc=5",
+        "desc": "일본 닛케이도 주목한 무신사…글로벌 확장에 IPO '10조 몸값' 청신호&nbsp;&nbsp;테크M",
+        "date": "2026-10-21",
         "brand": "무신사"
       },
       {
-        "title": "[카드뉴스] 무신사·지그재그, 왜 성수동으로 나왔을까?...온라인 패션 플랫폼의 전략 변화",
-        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB5ME1wVGFxRVduOGZ0Z25tdTYyb0I0aUZicXVMUE1EWHVfZ2ZzaFdtNnotUE9kUFBXSWtDZzFNZ1JQNWhFUUZKampIT3VWXzhGdWhYV3ZuQTdraEVkNFdudXJZbGFoZ9IBakFVX3lxTE1ac2hSTGdPd3lNbG1GUUg2S2VMQkpuQmhQWlptWS03c1hpblRVTnJ4aGlkb0d2czB4eDNGWkpOT1VVQklPbVBENEVKV2xQS1lVbmZRWjNjMTlHY3FDS284c1plamZiMnpkc1E?oc=5",
-        "desc": "[카드뉴스] 무신사·지그재그, 왜 성수동으로 나왔을까?...온라인 패션 플랫폼의 전략 변화&nbsp;&nbsp;테크M",
-        "date": "2026-10-18",
+        "title": "日 패션 플랫폼 '조조타운', 무신사와 손잡고 한국 첫 팝업",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9xRnRKTXpuX3paMDhidFlUb3RKejRfZXNMTmFkVTAwN0RzQnlYS3JlNEpfQkpEc1V0TFBIZFIwdHYxQlFkUEpaUzJpaHRSUzJDY3FlalFmal9oWjNHMHhpMXN5SDJMNWU5dTk5dThJbUNPLVU0Ykg0?oc=5",
+        "desc": "日 패션 플랫폼 '조조타운', 무신사와 손잡고 한국 첫 팝업&nbsp;&nbsp;어패럴뉴스",
+        "date": "2026-10-21",
         "brand": "무신사"
       }
     ]
