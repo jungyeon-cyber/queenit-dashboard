@@ -1,0 +1,213 @@
+{
+  "collected_at": "2026-10-29",
+  "appstore": [
+    {
+      "app": "포스티",
+      "platform": "iOS",
+      "reviews": [],
+      "rating": null
+    },
+    {
+      "app": "포스티",
+      "platform": "Android",
+      "updated": "2026년 8월 9일",
+      "recent_changes": ""
+    },
+    {
+      "app": "에이블리",
+      "platform": "iOS",
+      "reviews": [],
+      "rating": null
+    },
+    {
+      "app": "에이블리",
+      "platform": "Android",
+      "error": "404 Client Error: Not Found for url: https://play.google.com/store/apps/details?id=com.ablyclothes.app&hl=ko"
+    },
+    {
+      "app": "지그재그",
+      "platform": "iOS",
+      "reviews": [],
+      "rating": null
+    },
+    {
+      "app": "지그재그",
+      "platform": "Android",
+      "error": "404 Client Error: Not Found for url: https://play.google.com/store/apps/details?id=com.kakaostyle.zigzag&hl=ko"
+    }
+  ],
+  "events": {
+    "posty": [
+      {
+        "title": "포스티 기획전",
+        "url": "https://posty.kr/events",
+        "source": "포스티",
+        "note": "앱 전용 — 상세 목록은 앱에서 확인"
+      }
+    ],
+    "ably": [
+      {
+        "title": "에이블리 기획전",
+        "url": "https://m.a-bly.com/exhibitions",
+        "source": "에이블리",
+        "note": "앱 전용 — 상세 목록은 앱에서 확인"
+      }
+    ],
+    "cm29": [
+      {
+        "title": "29CM 기획전",
+        "url": "https://www.29cm.co.kr/exhibition",
+        "source": "29CM",
+        "note": "앱 전용 — 상세 목록은 앱에서 확인"
+      }
+    ],
+    "wconcept": [
+      {
+        "title": "W컨셉 기획전",
+        "url": "https://www.wconcept.co.kr/Display/eventList",
+        "source": "W컨셉",
+        "note": "앱 전용 — 상세 목록은 앱에서 확인"
+      }
+    ]
+  },
+  "news": {
+    "포스티": [
+      {
+        "title": "'포스티' 인기상품",
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5iMU9xT0c1ZWFUZXhVeXFHN2R5eUVBSlJkZkV1Nkt4VUxuSEYxdU9TT09vTWR5UV9ZaWgyVnRPNjN6a1RwMDRiT0h5WDdfVXBtQVZZTDFNbmJlRU1QUG9KWkN3VE5sUUlod05aZW9aYUluQQ?oc=5",
+        "desc": "'포스티' 인기상품&nbsp;&nbsp;어패럴뉴스",
+        "date": "2026-10-12",
+        "brand": "포스티"
+      },
+      {
+        "title": "포스티, 상반기 결산 페스타 개막… 200개 브랜드 최대 92% 할인",
+        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1Qd0VCTklPWldBc3FxbU1ndEhJaTlMVkFwSEFPd19JelplOXRwWVNKWmtqUU9fYUEwbnladmxrUUhfNnRQaHF3cnZDV2ZtVnRJ?oc=5",
+        "desc": "포스티, 상반기 결산 페스타 개막… 200개 브랜드 최대 92% 할인&nbsp;&nbsp;패션비즈",
+        "date": "2026-06-22",
+        "brand": "포스티"
+      },
+      {
+        "title": "포스티, 2025년 누적 회원 수 40% 증가…거래액 20% 성장",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1TOHIwQ3JtbWRkQkNDbHJvMlgwTjA1MUM5YXp5U0Uxcy03YXRYSEkzZ1FFbXE2T0Q0aFJWeUdtdGpUNHk0WEs1UFZ4ZVJKN21UUndXbnVaam9WM2JpZTJJ?oc=5",
+        "desc": "포스티, 2025년 누적 회원 수 40% 증가…거래액 20% 성장&nbsp;&nbsp;뉴스1",
+        "date": "2026-01-28",
+        "brand": "포스티"
+      }
+    ],
+    "에이블리": [
+      {
+        "title": "\"뷰티·패션앱 사용자 1위 올리브영…2위 에이블리·3위 무신사\"",
+        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBPaTNJMERKOGMxb1ZIZTg4am5LX2VrbWFpeFdQVUpJVFo2Qm16N3MzX2F4c3o3dzBDM1I4V1dPQ0Y1Vkh3Qi1rcFUxRnlqcGw2cWNuanhfRkdIWHhndmZ1atIBYEFVX3lxTFBPaTNJMERKOGMxb1ZIZTg4am5LX2VrbWFpeFdQVUpJVFo2Qm16N3MzX2F4c3o3dzBDM1I4V1dPQ0Y1Vkh3Qi1rcFUxRnlqcGw2cWNuanhfRkdIWHhndmZ1ag?oc=5",
+        "desc": "\"뷰티·패션앱 사용자 1위 올리브영…2위 에이블리·3위 무신사\"&nbsp;&nbsp;연합뉴스",
+        "date": "2026-10-27",
+        "brand": "에이블리"
+      },
+      {
+        "title": "올리브영, 뷰티·패션 앱 사용자 1070만명 ‘역대 최대’…에이블리 2위",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5abjJSRUdhTklZQkRzWUlLcjRxQzNSMER5azVKZXh3ZnRzdi1ERlMyTGpjdGdEczBOc3RncHVPMXpGazFiZ2Y0dHNxWi1PZGM5MVB0NnFzck1ZcjFKU3h3?oc=5",
+        "desc": "올리브영, 뷰티·패션 앱 사용자 1070만명 ‘역대 최대’…에이블리 2위&nbsp;&nbsp;뉴스1",
+        "date": "2026-10-27",
+        "brand": "에이블리"
+      },
+      {
+        "title": "뷰티·패션 앱 사용자 올리브영 1위, 에이블리 근소한 차로 2위, 1년 새 가장 많이 늘어난 건 유니클로",
+        "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5OUHdZTFI2cTZyX254cFQ0NDJyR0xWR2U1THlXUTg3TlI2M1ZVOEdKbEtDLXhmTXE5QTJFY0RuVGRXSGVHdWdOOQ?oc=5",
+        "desc": "뷰티·패션 앱 사용자 올리브영 1위, 에이블리 근소한 차로 2위, 1년 새 가장 많이 늘어난 건 유니클로&nbsp;&nbsp;플래텀(Platum)",
+        "date": "2026-10-27",
+        "brand": "에이블리"
+      }
+    ],
+    "지그재그": [
+      {
+        "title": "카카오스타일 지그재그, ‘30대 쇼핑몰 연합 기획전’ 진행",
+        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1ORkV6ZU95WmozbXVYWmdSZThsYkNCTnhZRU11VzJ1U3JzbzlMMnJZaHZIOG0tY2ZHaW1vVXdycVFPN096TmVuX1lYbHdOTFpEdm5QUTZvZVNHWGk0cFRWUUZIdnpDRFZ0RHhj0gFuQVVfeXFMTjRkX2dYZGxQeXM5dVFpQjFwV21JdHJJaE00R3JCVy00cmFkNlJaY3E2SmlLSkEyQnBDVEsxU3BaNHZrSkN5RnBnWXVZbzhDcDEtVDRxd1poNTdpel9UT0ItVlFpQzFqQXlUaVVQN3c?oc=5",
+        "desc": "카카오스타일 지그재그, ‘30대 쇼핑몰 연합 기획전’ 진행&nbsp;&nbsp;파이낸셜투데이",
+        "date": "2026-10-26",
+        "brand": "지그재그"
+      },
+      {
+        "title": "지그재그, 30대 겨냥 쇼핑몰 28곳 모았다… 최대 58% 할인",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1RWEE0dmJhRU52b0dtNDRJMzlJYjExN3BBTDFObzlSck9yNUF3b0VXWVRtZ0tBYXBuLTdFWGhXbGFGaUM2THFrbVFEaTd4My1NUDc5ZG1Ccno2Zw?oc=5",
+        "desc": "지그재그, 30대 겨냥 쇼핑몰 28곳 모았다… 최대 58% 할인&nbsp;&nbsp;브릿지경제",
+        "date": "2026-10-26",
+        "brand": "지그재그"
+      },
+      {
+        "title": "지그재그, 30대 고객 취향저격 쇼핑몰 연합 기획전 실시",
+        "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9IU0tIY0RoT3dkWXNkN0RPRUhVTTZ5cGZ3RjJid09GRmplRFh4ejJBSjNtYXI5OW9MSDhSbWwzaXMxOFpjY1ZyWTd4NVNYQQ?oc=5",
+        "desc": "지그재그, 30대 고객 취향저격 쇼핑몰 연합 기획전 실시&nbsp;&nbsp;전자신문",
+        "date": "2026-10-26",
+        "brand": "지그재그"
+      }
+    ],
+    "29CM": [
+      {
+        "title": "무신사 29CM, 여성 패션 거래액 40% 성장…신진 브랜드·독점 상품이 견인",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE56YWdlOHJuMG1sRjlNM3k2ODQ4QUJOSVNDMEpkV3VkNmxVM3VVYU9NQkZSREZNaTg3bk1TQkozYy1uZXVySUlzOExIMDkyRmRzNTVlNmRWR1NUNHhsV0FKZWd3T00zYzBfNWxDXzlMcEo?oc=5",
+        "desc": "무신사 29CM, 여성 패션 거래액 40% 성장…신진 브랜드·독점 상품이 견인&nbsp;&nbsp;비즈트리뷴",
+        "date": "2026-10-28",
+        "brand": "29CM"
+      },
+      {
+        "title": "무신사, AI 이미지 검색 도입…사진 속 상품 바로 찾는다",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBtSmVyWU9UOE9aMi0xbkFKd3NRZFlONmIyWk1XWVp6VGhsZjBZTXdwLXpHaDFCRXVEZUEydkhRT1NQRjJlT1lYcV95aDhFdXVSeW9JNnVoR1NOZlBIQzNTYXdCUVY1RkFDaHNiZ19jQnh2bWNQUXVj0gF3QVVfeXFMUG1KZXJZT1Q4T1oyLTFuQUp3c1FkWU42YjJaTVdZWnpUaGxmMFlNd3AtekdoMUJFdURlQTJ2SFFPU1BGMmVPWVhxX3loOEV1dVJ5b0k2dWhHU05mUEhDM1Nhd0JRVjVGQUNoc2JnX2NCeHZtY1BRdWM?oc=5",
+        "desc": "무신사, AI 이미지 검색 도입…사진 속 상품 바로 찾는다&nbsp;&nbsp;핀포인트뉴스",
+        "date": "2026-10-28",
+        "brand": "29CM"
+      },
+      {
+        "title": "'리빙계 무신사' 된 29CM…10억 브랜드 42%↑",
+        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9lM25iZWVQNXc2Vi1fYzhUb3g0cnlZbkxld2tSdExnZkZ1QW03eGdndFVkc25NY2hQb05adTlyMUQtTHdiNUZWLUo1d3lURmNodGVMQU4yeTNVcFdDVVE?oc=5",
+        "desc": "'리빙계 무신사' 된 29CM…10억 브랜드 42%↑&nbsp;&nbsp;동행미디어 시대",
+        "date": "2026-10-26",
+        "brand": "29CM"
+      }
+    ],
+    "W컨셉": [
+      {
+        "title": "80개 K패션·뷰티 브랜드 한 곳에 오픈 첫 주 방문객 절반이 외국인",
+        "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE51ODhQLXJEWHVRTW5jYWRLR3VPM3BpbEZIXzExWnNZUkZSUC1kTC1TR3BaUGFHQ21MSjFWMTc0TUN1R2lCcHc?oc=5",
+        "desc": "80개 K패션·뷰티 브랜드 한 곳에 오픈 첫 주 방문객 절반이 외국인&nbsp;&nbsp;매일경제",
+        "date": "2026-10-28",
+        "brand": "W컨셉"
+      },
+      {
+        "title": "W컨셉, AWS Transform과 Kiro로 .NET 10까지 대규모 현대화 여정",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPX0dQQkV1WTVPMW5BLUlhYThaRkgxUGlfVG8xNUZhXzRoZmZrcjB2RHBNTWhCeUdEOVFSZjJIVXU0VXpoeFdkU1pMTG1POUt1M2RtY1hqU3I0MG9mdGo4dHJtUXY3TzNVTG9fN1l4d2F3b1RWQi1HdC1iT3gzS2RTNV9aMmI1RV9uWEI5blh2QQ?oc=5",
+        "desc": "W컨셉, AWS Transform과 Kiro로 .NET 10까지 대규모 현대화 여정&nbsp;&nbsp;Amazon Web Services (AWS)",
+        "date": "2026-10-23",
+        "brand": "W컨셉"
+      },
+      {
+        "title": "[르포] 상세페이지 속을 거닐다 (feat. W한남에서 '컨셉' 찾기)",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBQSXhYbV9JV1F3OTZMZ0Z4cVFnc2tZZHhDTjc2d0JJUEVwalFsMG1zdFl6X1FxODhrX1lUbDVxNy1QQjczQWpTX2RRaWRmNFBRRlkzSEJVb1VwaTVUb0x4N1VDeUkxazN3ZUE?oc=5",
+        "desc": "[르포] 상세페이지 속을 거닐다 (feat. W한남에서 '컨셉' 찾기)&nbsp;&nbsp;월요신문",
+        "date": "2026-10-26",
+        "brand": "W컨셉"
+      }
+    ],
+    "무신사": [
+      {
+        "title": "[현장] ‘온라인 강자’ 패션 플랫폼, 오프라인으로 뛰어든 이유",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0zY2M2cXZrNzZGX2YtNEQzbjEySTJ6TlJIM3BTRGdFcTdyRXRBaTZtdFZIb1RUTlJGREFFTk9ZSGk4MkNiVHZtQXh1MDBPUDVZaFNQWUVsWHN5X3pZYzNKVG5JcEtuUTJyVDRjMWdEeVDSAXRBVV95cUxQWlBLTXpGVGd4ZVhkWEMzbHBIZHFkU01pUVpZMjB0VHZTb0FseklXV0hvQ2tEWElQbTVzczNMZVBqWFlZYzdvODZ1SG9IQmJOcWZKbzlZMlhIS1RMOHM0M2N0cm9kakNyQnNYM1plU2NFTHFxcw?oc=5",
+        "desc": "[현장] ‘온라인 강자’ 패션 플랫폼, 오프라인으로 뛰어든 이유&nbsp;&nbsp;주간한국",
+        "date": "2026-10-29",
+        "brand": "무신사"
+      },
+      {
+        "title": "\"신진 브랜드 다양성이 패션 플랫폼의 활력 제고\" ···세종대 연구팀, 무신사 사례로 연구 결과 발표",
+        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBBMkxEV25pZ2pNbGFuSWpXSTdydlVEQTkwSlBtNEVLdno1ZFdvSGVKS0FrSlVWcmM3bzFXWXNJY181azVoZS1BN0F2bE9BOTlWTVlZdTZmMHEyU0RFU3h1Qw?oc=5",
+        "desc": "\"신진 브랜드 다양성이 패션 플랫폼의 활력 제고\" ···세종대 연구팀, 무신사 사례로 연구 결과 발표&nbsp;&nbsp;무신사",
+        "date": "2026-10-28",
+        "brand": "무신사"
+      },
+      {
+        "title": "검색어 몰라도 사진으로…무신사, AI 패션 검색 서비스 선봬 - 머니투데이",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1xeWZRc3VVdkc5WDlxa01Nd3pNN2VnM3ZTczQtT0hLXzd5cWhnaV9vYUlHMDhjb1FBTkRiLXBaU3RkTTRmcGN0ZWVmbzhSa3FGN1A1MGw0MlozZG4wT2hmeDF5Rk11S2lON2fSAW9BVV95cUxPSGczanJkWjdOUGpEVjhCYlRtMnc4dUVEYUlkVmdiN0FtZVRJdkpTaDB3Q2xHRXZleDRzZ2tMUGlIaC0tcGVocEEzSFF4OVBQQjV1RTBiUy1LZ3hPYmtxV1dQRGZHYUFScWpyMjZhX1U?oc=5",
+        "desc": "검색어 몰라도 사진으로…무신사, AI 패션 검색 서비스 선봬 - 머니투데이&nbsp;&nbsp;머니투데이",
+        "date": "2026-10-29",
+        "brand": "무신사"
+      }
+    ]
+  }
+}
