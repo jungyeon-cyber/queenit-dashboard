@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-30",
+  "collected_at": "2026-10-31",
   "appstore": [
     {
       "app": "포스티",
@@ -73,13 +73,6 @@
   "news": {
     "포스티": [
       {
-        "title": "'포스티' 인기상품",
-        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5iMU9xT0c1ZWFUZXhVeXFHN2R5eUVBSlJkZkV1Nkt4VUxuSEYxdU9TT09vTWR5UV9ZaWgyVnRPNjN6a1RwMDRiT0h5WDdfVXBtQVZZTDFNbmJlRU1QUG9KWkN3VE5sUUlod05aZW9aYUluQQ?oc=5",
-        "desc": "'포스티' 인기상품&nbsp;&nbsp;어패럴뉴스",
-        "date": "2026-10-12",
-        "brand": "포스티"
-      },
-      {
         "title": "포스티, 상반기 결산 페스타 개막… 200개 브랜드 최대 92% 할인",
         "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1Qd0VCTklPWldBc3FxbU1ndEhJaTlMVkFwSEFPd19JelplOXRwWVNKWmtqUU9fYUEwbnladmxrUUhfNnRQaHF3cnZDV2ZtVnRJ?oc=5",
         "desc": "포스티, 상반기 결산 페스타 개막… 200개 브랜드 최대 92% 할인&nbsp;&nbsp;패션비즈",
@@ -92,9 +85,23 @@
         "desc": "‘온라인판 아울렛’ 퀸잇·애슬러·포스티, 4050 지갑 열기 경쟁 뜨겁다&nbsp;&nbsp;인사이트코리아",
         "date": "2026-06-26",
         "brand": "포스티"
+      },
+      {
+        "title": "카카오스타일 포스티, 누적 회원 40% 증가…‘중장년’ 플랫폼 성장세",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE91bmpLTm5ubW9HTXJnWk00aGtwRWpiSlF3QTV6eXVickJJMjhacEhaRGhjX3FpR20zenVrZUJ0ZzJwQjc3SW5POEpnN2FWNEp4Wk5ULVdWYTNkZw?oc=5",
+        "desc": "카카오스타일 포스티, 누적 회원 40% 증가…‘중장년’ 플랫폼 성장세&nbsp;&nbsp;브릿지경제",
+        "date": "2026-01-28",
+        "brand": "포스티"
       }
     ],
     "에이블리": [
+      {
+        "title": "[똑똑한패션] 무신사, 에이블리, 코오롱FnC, 신세계인터내셔날",
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBkN25tbFUwRk9KZW5La2pfV20wclRid0ljMGJtSkFCQzNKN1RHaUNvSklIc2hZZXJ3VXdNVGtsaUxuRFZ4S3hiMXJuVHppc0VYbHFWSmJYNDEtOWNMTzFad3Vn?oc=5",
+        "desc": "[똑똑한패션] 무신사, 에이블리, 코오롱FnC, 신세계인터내셔날&nbsp;&nbsp;에너지경제신문",
+        "date": "2026-10-30",
+        "brand": "에이블리"
+      },
       {
         "title": "[패션브리핑] 에이블리, '메가세일' 거래액·주문 수 동반 성장 외",
         "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1mQzBYUWxyOHZoS1dHbFJ5N0RfNnIyMnN5M1hyZ1lHeDVIaUVRUXBWTGxDMkMzNW5jWEw4eTQtZEw0bml4bVMzV18tMFQ4MnA1MS1vTmZtMmNsNWtGVzZFSGFfRFVMeWlOSWc?oc=5",
@@ -103,17 +110,10 @@
         "brand": "에이블리"
       },
       {
-        "title": "방송 5분 만에 일평균 돌파… 에이블리 ‘메가세일’ 흥행",
-        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE4tR3hITDhVb3BqTVUxb0kwTnM0Tk56SHVCeWZ5a3ExUk1YVDdqc1FiblVtLW9MaWxjMW55bWMwYWhDSEpfTS03TGhWZVhJRmR1?oc=5",
-        "desc": "방송 5분 만에 일평균 돌파… 에이블리 ‘메가세일’ 흥행&nbsp;&nbsp;패션비즈",
-        "date": "2026-10-30",
-        "brand": "에이블리"
-      },
-      {
-        "title": "에이블리 '메가세일 거래액 증가...패션·뷰티·푸드 성장'",
-        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5TaF9xbXp5MXVQQ1Jrb1Fza2FxV2JTbkVqX25IaEU0STVLdEFWODNhaUJOUVhGOVRsWVIydF9KODE0SlhPRzVWbWxwZ2N0Tks2em1WZ2I3VmRNMGd6cERTa0l6elNyUWxTLXUxXzFySdIBc0FVX3lxTE93LWlTblZ4QkdXOGcxNlZQeXZzcWY5eVJ6cVlPQUVqalFKVFlXa3dHNUFiY2Q3U3Z4eEZSRl93TVRPZlRXa19uU21Gd1lyOWwyc2FVNzRvQm9FUEdqSDB5cUcxZEJEeGJmZlZtUHQxczNISDQ?oc=5",
-        "desc": "에이블리 '메가세일 거래액 증가...패션·뷰티·푸드 성장'&nbsp;&nbsp;데일리한국",
-        "date": "2026-10-30",
+        "title": "\"뷰티·패션앱 사용자 1위 올리브영…2위 에이블리·3위 무신사\"",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1uNWJBRUU1djVvZ1NNVGl5Q1J1X2VxOHZNSGtuRkN5ZVZqa2VwOFVaQ3dyUUlOSGJnRFd5eWFQaldMdEtQT0Z1YnZaam1PUGtnMlg3RjRPRGdtbGPSAWBBVV95cUxQT2kzSTBESjhjMW9WSGU4OGpuS19la21haXhXUFVKSVRaNkJtejdzM19heHN6N3cwQzNSOFdXT0NGNVZId0Ita3BVMUZ5anBsNnFjbmp4X0ZHSFh4Z3ZmdWo?oc=5",
+        "desc": "\"뷰티·패션앱 사용자 1위 올리브영…2위 에이블리·3위 무신사\"&nbsp;&nbsp;연합뉴스",
+        "date": "2026-10-27",
         "brand": "에이블리"
       }
     ],
@@ -133,26 +133,26 @@
         "brand": "지그재그"
       },
       {
-        "title": "지그재그, 30대 고객 취향저격 쇼핑몰 연합 기획전 실시",
-        "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9IU0tIY0RoT3dkWXNkN0RPRUhVTTZ5cGZ3RjJid09GRmplRFh4ejJBSjNtYXI5OW9MSDhSbWwzaXMxOFpjY1ZyWTd4NVNYQQ?oc=5",
-        "desc": "지그재그, 30대 고객 취향저격 쇼핑몰 연합 기획전 실시&nbsp;&nbsp;전자신문",
+        "title": "지그재그, 30대 고객 중심 쇼핑몰 28곳 연합 기획전 진행",
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB0U2cxbVN1RHNvRHgtYUlaQ0QtZHRqZXlNZkpqYmJVQU1LYVNxODFsdFZzSFdvMDdxcUxQdDZoekx6R2JQdzlwUHA3SHYyMmthSWh0VzdWLS03d3ZQOTdSdVNjUzRzN05P?oc=5",
+        "desc": "지그재그, 30대 고객 중심 쇼핑몰 28곳 연합 기획전 진행&nbsp;&nbsp;한국섬유신문",
         "date": "2026-10-26",
         "brand": "지그재그"
       }
     ],
     "29CM": [
       {
-        "title": "무신사 \"29CM 쇼룸 '이구성수'에 1년간 25만명 방문\"",
-        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1NbTdHVnk0VmlEYTFqWHI5YkVLbkEyTmVuM0hxQnEwdU5oVzhERDRxUmRQMVBVYXZ5Q1R3RHI3UUVsdUNBeTEyUm9JajVHb0c5?oc=5",
-        "desc": "무신사 \"29CM 쇼룸 '이구성수'에 1년간 25만명 방문\"&nbsp;&nbsp;매일경제 마켓",
-        "date": "2026-10-29",
-        "brand": "29CM"
-      },
-      {
         "title": "[단독] 무신사 ‘29CM’서 개인정보 3만건 추가 유출",
         "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBWSGRyenh4T3ZZaEYzemNMWlRnRFZVZnozWndkZzNvcnJnb0dudXUyS1M2ZVNzRUhWWk1xUWVsZTN6aW5tZXk2c05BODUzRUhrbnZ3TEQ3bzZ5SUVhLVo1eDhJYmtwTEZVcXZqcG5QLTVKQQ?oc=5",
         "desc": "[단독] 무신사 ‘29CM’서 개인정보 3만건 추가 유출&nbsp;&nbsp;한겨레",
         "date": "2026-10-06",
+        "brand": "29CM"
+      },
+      {
+        "title": "무신사 29CM, 여성 패션 거래액 40% 성장…신진 브랜드·독점 상품이 견인",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE56YWdlOHJuMG1sRjlNM3k2ODQ4QUJOSVNDMEpkV3VkNmxVM3VVYU9NQkZSREZNaTg3bk1TQkozYy1uZXVySUlzOExIMDkyRmRzNTVlNmRWR1NUNHhsV0FKZWd3T00zYzBfNWxDXzlMcEo?oc=5",
+        "desc": "무신사 29CM, 여성 패션 거래액 40% 성장…신진 브랜드·독점 상품이 견인&nbsp;&nbsp;비즈트리뷴",
+        "date": "2026-10-28",
         "brand": "29CM"
       },
       {
@@ -165,16 +165,9 @@
     ],
     "W컨셉": [
       {
-        "title": "W컨셉, 쓱데이 맞아 열흘간 대규모 할인… 겨울 아우터 최대 50%",
-        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9QZkplRnYtLUV0d2I3WklSYzBpMEJ3RDVsWUVOTG1wRnljdl9NQi1lMklnNV9WZVZBNHlJcFJ6aFNoeVlhd0h6NHVvdVFGQWxw?oc=5",
-        "desc": "W컨셉, 쓱데이 맞아 열흘간 대규모 할인… 겨울 아우터 최대 50%&nbsp;&nbsp;패션비즈",
-        "date": "2026-10-30",
-        "brand": "W컨셉"
-      },
-      {
-        "title": "'2조원 쓱데이' 개막…W컨셉 아우터 할인·스타벅스 한정 굿즈",
-        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5oLXhlYThoUUUzVi1wTndNQUVNRjg0MWZnMUdMd1huYlVlS3RPY05uNDNyMi1MVnpzdUZGdlpsd0EtSUo3NFN2NGloeW1oODl0S1NuMGdGVFNNYUoxM0RQdEVJS2ZRa0RsemRudTQwVQ?oc=5",
-        "desc": "'2조원 쓱데이' 개막…W컨셉 아우터 할인·스타벅스 한정 굿즈&nbsp;&nbsp;조세일보",
+        "title": "[똑똑한유통] W컨셉, 롯데마트, 롯데홈쇼핑, 롯데백화점, GS리테일, 우아한형제들",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0zTjc2dnUtOW4wdVZ5Y2Jjakh6Y21jUWNDbUkwdjJmLUNfSE1DSF8wQTJTc0Q1c08tMy13N1ExRjlJbTZrNzVMcVQwem1EblNjalduZlJIeU5vN1E?oc=5",
+        "desc": "[똑똑한유통] W컨셉, 롯데마트, 롯데홈쇼핑, 롯데백화점, GS리테일, 우아한형제들&nbsp;&nbsp;에너지경제신문",
         "date": "2026-10-30",
         "brand": "W컨셉"
       },
@@ -184,9 +177,23 @@
         "desc": "W컨셉, 온라인 할인전 오프라인으로 확대…겨울 패션 수요 공략&nbsp;&nbsp;팍스경제TV",
         "date": "2026-10-30",
         "brand": "W컨셉"
+      },
+      {
+        "title": "W컨셉, '쓱데이' 패션 특가전…겨울 아우터 최대 50% 할인",
+        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBDOU8zRTRnRE85N2dTX1ZtQlhkSGdiU190Zlc1TDJuNjNFUzd6OWl0clZsellPNjI4WkFMZFI4cG1Wa2xhZlNxNDdVT1R0THJ3OVdXcGlOSXJZcW1XektGYzR3eXFtQQ?oc=5",
+        "desc": "W컨셉, '쓱데이' 패션 특가전…겨울 아우터 최대 50% 할인&nbsp;&nbsp;싱글리스트",
+        "date": "2026-10-29",
+        "brand": "W컨셉"
       }
     ],
     "무신사": [
+      {
+        "title": "[기획] 과잠도 무신사에서 산다고?…대학과 패션 플랫폼의 새로운 동행",
+        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5KMzVtY3A2SlA0aTlpVlB0VzNrLXRtY1RQbUJVZndxT2pPR1VtaGx2bWg4bmkwdjZsZTdneFpvTmhNbGRGVGhxRENlQXFKRjU0M2hxa3lPbFdNZk1FSFJpMlFpaWo?oc=5",
+        "desc": "[기획] 과잠도 무신사에서 산다고?…대학과 패션 플랫폼의 새로운 동행&nbsp;&nbsp;서울경제TV",
+        "date": "2026-10-30",
+        "brand": "무신사"
+      },
       {
         "title": "\"신진 브랜드 다양성이 패션 플랫폼의 활력 제고\" ···세종대 연구팀, 무신사 사례로 연구 결과 발표",
         "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBBMkxEV25pZ2pNbGFuSWpXSTdydlVEQTkwSlBtNEVLdno1ZFdvSGVKS0FrSlVWcmM3bzFXWXNJY181azVoZS1BN0F2bE9BOTlWTVlZdTZmMHEyU0RFU3h1Qw?oc=5",
@@ -195,17 +202,10 @@
         "brand": "무신사"
       },
       {
-        "title": "[똑똑한패션&케어] 무신사, 아이더, 코스맥스, 아모레퍼시픽",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9CeEZaWm9aVEpMeVZlSlJ0aDBtallZWDI2U1lKZk1USWpWdF9zeVk5Z2JFOUw4dEVYWWhpZURCeFIyWDF5NFlQWmI3LVgweHdBakc0czBiQjFVWmM?oc=5",
-        "desc": "[똑똑한패션&케어] 무신사, 아이더, 코스맥스, 아모레퍼시픽&nbsp;&nbsp;에너지경제신문",
-        "date": "2026-10-28",
-        "brand": "무신사"
-      },
-      {
-        "title": "무신사 고객 분석한 대학 연구팀 \"신진 브랜드 다양성이 플랫폼 활력 제고\"",
-        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8tdkhPNjhUbUJ4OEtpM1d0M25rYTZyUmIzZUZmZC12cHhLZ3FOSVdwZi0xT0RGYzJESC1ab0QzWHJHbGtER2c4YnVpb0VRbTBiVk5EM3JESDBqd9IBVEFVX3lxTE40ZlY3dDJmeS1falhad0pTblFoX2xOS1dlNEd6VUNSUkhZX1JhRFdPVmdVaTRHOGF0US01alZsTnpqVFBNbHVJM0lWYXVCLXFoVkhGWg?oc=5",
-        "desc": "무신사 고객 분석한 대학 연구팀 \"신진 브랜드 다양성이 플랫폼 활력 제고\"&nbsp;&nbsp;더팩트",
-        "date": "2026-10-27",
+        "title": "[현장] ‘온라인 강자’ 패션 플랫폼, 오프라인으로 뛰어든 이유",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBaUEtNekZUZ3hlWGRYQzNscEhkcWRTTWlRWlkyMHRUdlNvQWx6SVdXSG9Da0RYSVBtNXNzM0xlUGpYWVljN284NnVIb0hCYk5xZkpvOVkyWEhLVEw4czQzY3Ryb2RqQ3JCc1gzWmVTY0VMcXFz0gF0QVVfeXFMUFpQS016RlRneGVYZFhDM2xwSGRxZFNNaVFaWTIwdFR2U29BbHpJV1dIb0NrRFhJUG01c3MzTGVQalhZWWM3bzg2dUhvSEJiTnFmSm85WTJYSEtUTDhzNDNjdHJvZGpDckJzWDNaZVNjRUxxcXM?oc=5",
+        "desc": "[현장] ‘온라인 강자’ 패션 플랫폼, 오프라인으로 뛰어든 이유&nbsp;&nbsp;주간한국",
+        "date": "2026-10-29",
         "brand": "무신사"
       }
     ]
