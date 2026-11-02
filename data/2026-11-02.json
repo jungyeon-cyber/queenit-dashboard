@@ -71,11 +71,143 @@
     ]
   },
   "news": {
-    "포스티": [],
-    "에이블리": [],
-    "지그재그": [],
-    "29CM": [],
-    "W컨셉": [],
-    "무신사": []
+    "포스티": [
+      {
+        "title": "포스티, 상반기 결산 페스타 개막… 200개 브랜드 최대 92% 할인",
+        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1Qd0VCTklPWldBc3FxbU1ndEhJaTlMVkFwSEFPd19JelplOXRwWVNKWmtqUU9fYUEwbnladmxrUUhfNnRQaHF3cnZDV2ZtVnRJ?oc=5",
+        "desc": "포스티, 상반기 결산 페스타 개막… 200개 브랜드 최대 92% 할인&nbsp;&nbsp;패션비즈",
+        "date": "2026-06-22",
+        "brand": "포스티"
+      },
+      {
+        "title": "카카오스타일 포스티, 누적 회원 40% 증가…‘중장년’ 플랫폼 성장세",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE91bmpLTm5ubW9HTXJnWk00aGtwRWpiSlF3QTV6eXVickJJMjhacEhaRGhjX3FpR20zenVrZUJ0ZzJwQjc3SW5POEpnN2FWNEp4Wk5ULVdWYTNkZw?oc=5",
+        "desc": "카카오스타일 포스티, 누적 회원 40% 증가…‘중장년’ 플랫폼 성장세&nbsp;&nbsp;브릿지경제",
+        "date": "2026-01-28",
+        "brand": "포스티"
+      },
+      {
+        "title": "4050 패션 플랫폼 ‘포스티’, 런칭 4년만에 거래액 20배 성장",
+        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB3SkJyV0xUZ1ZMQk5TSXVhSy0tTjBEYXdnUFExNWNGelU0bG1BWnZFSnZTbE12U09VanZabldaS1ctTGFZekZwV2xSR0dZeFptUktsU3M2NFJQaWtseUhhSGltVQ?oc=5",
+        "desc": "4050 패션 플랫폼 ‘포스티’, 런칭 4년만에 거래액 20배 성장&nbsp;&nbsp;한국섬유신문",
+        "date": "2025-07-17",
+        "brand": "포스티"
+      }
+    ],
+    "에이블리": [
+      {
+        "title": "[똑똑한패션] 무신사, 에이블리, 코오롱FnC, 신세계인터내셔날",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5kaWc4TFROcFFIRFpNUHM2dVNZN3V0Z3RrWkoyWFFtakZ1UDBpU2d1bGFXanB1YmxMc2RQTUU2aS1sVFBfNnRQWmdWRFN2bEJfWHhLY2x3Zy11NE0?oc=5",
+        "desc": "[똑똑한패션] 무신사, 에이블리, 코오롱FnC, 신세계인터내셔날&nbsp;&nbsp;에너지경제신문",
+        "date": "2026-10-30",
+        "brand": "에이블리"
+      },
+      {
+        "title": "[패션브리핑] 에이블리, '메가세일' 거래액·주문 수 동반 성장 외",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1mQzBYUWxyOHZoS1dHbFJ5N0RfNnIyMnN5M1hyZ1lHeDVIaUVRUXBWTGxDMkMzNW5jWEw4eTQtZEw0bml4bVMzV18tMFQ4MnA1MS1vTmZtMmNsNWtGVzZFSGFfRFVMeWlOSWc?oc=5",
+        "desc": "[패션브리핑] 에이블리, '메가세일' 거래액·주문 수 동반 성장 외&nbsp;&nbsp;서울파이낸스",
+        "date": "2026-10-30",
+        "brand": "에이블리"
+      },
+      {
+        "title": "‘옷 파는 앱’·‘밥 시키는 앱’은 옛말…패션·F&B 경계 지우는 플랫폼",
+        "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE11Wk5QUHg4SkhlMUpEVUUwVlg4aURBVEMtZmxBdnB1aUs0NlhqTUFWRVJ6cXd6b0xxZng0cExDdWJWaGptT0F3YVQ1ek0?oc=5",
+        "desc": "‘옷 파는 앱’·‘밥 시키는 앱’은 옛말…패션·F&B 경계 지우는 플랫폼&nbsp;&nbsp;TENANT news",
+        "date": "2026-11-01",
+        "brand": "에이블리"
+      }
+    ],
+    "지그재그": [
+      {
+        "title": "“색조 넘어 기초케어까지”…지그재그, ‘직잭뷰티’ 품목 확대",
+        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9FTFRac2NzY1Bicy1Sams5blM1cUdCUVFPellnWXJsQ2RZTlg0LXRrSXVwLUFwR2RpSV9icUJLSWtkaEZFMmhIUFp0M2xHUUxiUFJKVUZsNzBpaGNMdEZhanM2Nm4?oc=5",
+        "desc": "“색조 넘어 기초케어까지”…지그재그, ‘직잭뷰티’ 품목 확대&nbsp;&nbsp;서울경제TV",
+        "date": "2026-11-02",
+        "brand": "지그재그"
+      },
+      {
+        "title": "\"색조 다음은 기초케어\"… 지그재그, 뷰티 카테고리 영토 광폭 확장",
+        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9PRWpBSE5KSVdydkNlX0FtcDluTkhIaWdWQjI1cGtvX0RNSXJGMFpyUUZlcjdicnJTOWd5c3M1cDF5Wll3X0FhcHNQckNPa0xjaUFDZWRJTkt5cXFuRFJIeGRqTjZhVHIwcldJ?oc=5",
+        "desc": "\"색조 다음은 기초케어\"… 지그재그, 뷰티 카테고리 영토 광폭 확장&nbsp;&nbsp;맥스무비",
+        "date": "2026-11-02",
+        "brand": "지그재그"
+      },
+      {
+        "title": "지그재그, '직잭뷰티' 기초케어 상품 확대...뷰티 카테고리 경쟁력↑",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1HMEU4c3QzOFdxZEM5djJ3Z1dDbmRXTHFObXZ6NUwzZjczbzVxYS1ReGNMZTVuQTBhQmRoM2dLX1JzOUJ3bE1scm9qSG1ucnV2Z0RZV0dOMTR6NElTNkM3bVJSbEtPR1BKQ1NxYnM0c2fSAXRBVV95cUxPZVdxMG1hU2w1UzRoQ3VmSjVrcE1LaDlEQk5SNk5zSW5pelVrX0tnUWEzZU9YVVJrTHd1SFUzQXhQSHJWWUJOb3BzRGh5YTdobUJHWU5VZnNWcEZNdjludkhyS1BzRDNLbWFOd2JuVXZYeUN4eA?oc=5",
+        "desc": "지그재그, '직잭뷰티' 기초케어 상품 확대...뷰티 카테고리 경쟁력↑&nbsp;&nbsp;우먼타임스",
+        "date": "2026-11-02",
+        "brand": "지그재그"
+      }
+    ],
+    "29CM": [
+      {
+        "title": "무신사·29CM, 폴로 겨울 공략",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE81cmdjTW14TWVwZjdEaUE2clhTU3VIQy1XZTJWVURvNVUwbTY5QVFIUUN3R0NSOVNNek1KZEhsLWhIeXA5U3ZyeU9YT2U3RXhsQzZZWGZ6XzdIbUk2S0p3enkyTzAxbGsyUTJNWlVn?oc=5",
+        "desc": "무신사·29CM, 폴로 겨울 공략&nbsp;&nbsp;중소기업신문",
+        "date": "2026-11-02",
+        "brand": "29CM"
+      },
+      {
+        "title": "무신사·29CM, '폴로 랄프 로렌' 가을·겨울 시즌 캠페인 동시 실시",
+        "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1YMnhMN1pENkZvTzVNTWduTjMtdG8xbW1yMU1DOV95ZnFCLXZvR0FNYTZOM1pINnNPUEp1anlTZ1lKUEpBcWFiQWZVdnlRQQ?oc=5",
+        "desc": "무신사·29CM, '폴로 랄프 로렌' 가을·겨울 시즌 캠페인 동시 실시&nbsp;&nbsp;전자신문",
+        "date": "2026-11-02",
+        "brand": "29CM"
+      },
+      {
+        "title": "무신사-29CM, '폴로 랄프로렌' 신상품 캠페인…다운재킷 등 선봬",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9GWUFGUDlfWER3UkR5RTllUXUyZkxfdGxyMVBEdVp6LWRjNXNWTmZ2NXBiX0NIc1dpaW5VN1Y4Y1RhdjNIcGVjYnUwa0dwRU1uNWx1Wms0VENXNTTSAWBBVV95cUxOaG9wMTAwM2lJY3Z1MzIwTHZpajdWbDFpelp0Zy1aVkhBVmNBLS1YR0dvb243MzZGcmg1WGFfRHFXTUh6eUZGSG55a3kxdmdaQW0zZDQ4bDdYRkdxUUhPVU4?oc=5",
+        "desc": "무신사-29CM, '폴로 랄프로렌' 신상품 캠페인…다운재킷 등 선봬&nbsp;&nbsp;연합뉴스",
+        "date": "2026-11-02",
+        "brand": "29CM"
+      }
+    ],
+    "W컨셉": [
+      {
+        "title": "[현장] 한남동에 옮긴 패션 취향…W컨셉 첫 단독 플래그십 가보니",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFAtVXI0TlRhSnotZVpDZnJzakhWR08wOEplOVpzM2Z5dDBIbHVkWTRVOHpLRVE0UW1LZFdZYmRWVHJlaGNqdm0tQkNLaWM1eDROclQtSkZSLW1lOXpD?oc=5",
+        "desc": "[현장] 한남동에 옮긴 패션 취향…W컨셉 첫 단독 플래그십 가보니&nbsp;&nbsp;뉴스핌",
+        "date": "2026-10-31",
+        "brand": "W컨셉"
+      },
+      {
+        "title": "딘토 립밤부터 W컨셉 러닝웨어까지 … 이마트24 1800개점에 뷰티·패션 들였다",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5IdmJidmdwc2dJVkpYVmNKNEJ1WUMyZWZBZ01CLTBxbGJ1ZmRYTjFmbG5KTmxjNkM4cmNtWjJmblljQUpqT1I1UmRENWxUbnpSU2dISXZDQzJmV0FrNUVWZVd0S3JERlJybjBhSnZsYldnUjNmb1I2ejdqONIBgAFBVV95cUxPNWF0T0Q0V1Z1LWNUWENmYnBGSUU5VzJGVURhRkhaRzNPZjEwWVMxY0lybW9qWDVuQXZtYzEwdElGRE1qX2pOak5waUJ4RzRsel9wVUczVkd4Q0FqZnJMbnpoODRmTEZJOU9Ndm5MNUxCbXlmUlFMTEp3V2NMSjdvQw?oc=5",
+        "desc": "딘토 립밤부터 W컨셉 러닝웨어까지 … 이마트24 1800개점에 뷰티·패션 들였다&nbsp;&nbsp;뉴데일리",
+        "date": "2026-10-29",
+        "brand": "W컨셉"
+      },
+      {
+        "title": "'2조원 쓱데이' 개막…W컨셉 아우터 할인·스타벅스 한정 굿즈",
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5oLXhlYThoUUUzVi1wTndNQUVNRjg0MWZnMUdMd1huYlVlS3RPY05uNDNyMi1MVnpzdUZGdlpsd0EtSUo3NFN2NGloeW1oODl0S1NuMGdGVFNNYUoxM0RQdEVJS2ZRa0RsemRudTQwVQ?oc=5",
+        "desc": "'2조원 쓱데이' 개막…W컨셉 아우터 할인·스타벅스 한정 굿즈&nbsp;&nbsp;조세일보",
+        "date": "2026-10-30",
+        "brand": "W컨셉"
+      }
+    ],
+    "무신사": [
+      {
+        "title": "상장 카운트다운…패션 플랫폼 1위의 다음 도전 [무신사 IPO ①]",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBSQ0N1UDA1NHlYcjVhTndtb0k0QzlCTHVlaGJPS241N3dhMDlKOUJjeEt6MUU1eTV3VEFseXpWNmJMSi1ETGpPYllobTZHX1VHZFAwTDZpME9nb01tQzlQVDBsZXZOeVd0bXY2NUhHWGYyQzZXdW40cjZJaEM?oc=5",
+        "desc": "상장 카운트다운…패션 플랫폼 1위의 다음 도전 [무신사 IPO ①]&nbsp;&nbsp;금융신문",
+        "date": "2026-11-01",
+        "brand": "무신사"
+      },
+      {
+        "title": "\"신진 브랜드 다양성이 패션 플랫폼의 활력 제고\" ···세종대 연구팀, 무신사 사례로 연구 결과 발표",
+        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBBMkxEV25pZ2pNbGFuSWpXSTdydlVEQTkwSlBtNEVLdno1ZFdvSGVKS0FrSlVWcmM3bzFXWXNJY181azVoZS1BN0F2bE9BOTlWTVlZdTZmMHEyU0RFU3h1Qw?oc=5",
+        "desc": "\"신진 브랜드 다양성이 패션 플랫폼의 활력 제고\" ···세종대 연구팀, 무신사 사례로 연구 결과 발표&nbsp;&nbsp;무신사",
+        "date": "2026-10-28",
+        "brand": "무신사"
+      },
+      {
+        "title": "[똑똑한패션&케어] 무신사, 아이더, 코스맥스, 아모레퍼시픽",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9CeEZaWm9aVEpMeVZlSlJ0aDBtallZWDI2U1lKZk1USWpWdF9zeVk5Z2JFOUw4dEVYWWhpZURCeFIyWDF5NFlQWmI3LVgweHdBakc0czBiQjFVWmM?oc=5",
+        "desc": "[똑똑한패션&케어] 무신사, 아이더, 코스맥스, 아모레퍼시픽&nbsp;&nbsp;에너지경제신문",
+        "date": "2026-10-28",
+        "brand": "무신사"
+      }
+    ]
   }
 }
