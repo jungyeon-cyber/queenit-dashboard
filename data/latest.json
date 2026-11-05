@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-04",
+  "collected_at": "2026-11-05",
   "appstore": [
     {
       "app": "포스티",
@@ -73,13 +73,6 @@
   "news": {
     "포스티": [
       {
-        "title": "갑자기 추워졌다… 포스티, 중장년 겨울 아우터 최대 95% 할인",
-        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5DN3VrYllUMzBudFB2TjVjSjJtdEY5YWhFTWV6U2lweGI0QjNTOE9scDhMZGN4SUhOWGJ6enFNR29pbmx4bGxUQjhxZXY4RXRo?oc=5",
-        "desc": "갑자기 추워졌다… 포스티, 중장년 겨울 아우터 최대 95% 할인&nbsp;&nbsp;패션비즈",
-        "date": "2026-11-04",
-        "brand": "포스티"
-      },
-      {
         "title": "4050 패션 플랫폼 포스티, \"급추위에 중장년 겨울 아우터 선제 할인 돌입",
         "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBGS1Rscy1BdkpZekROcC1ZRXJIYnNuM1lHUno2b1lBZTlGbW5VWlFHZW0zeWVQMWNqR1U1aWJfeW0wTlhvellUZjRHLVlCYXg1eERXZVltQW1NNUQxbG0ydGhiWUM5bjFYZnY0?oc=5",
         "desc": "4050 패션 플랫폼 포스티, \"급추위에 중장년 겨울 아우터 선제 할인 돌입&nbsp;&nbsp;맥스무비",
@@ -87,21 +80,21 @@
         "brand": "포스티"
       },
       {
-        "title": "포스티, 겨울 아우터 기획전…수요 대응",
-        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAtcnZmeDZiVXpScXB6Uy1SYklsb29FbzQ3N2xDR0hMMFFEZGM4aUtHcjdQYkQ3RzR1bWt2Z0JWdTFuM1ZTVkNFcFVpUGdvTmVtVENKSURyaVRKR0hOYUUwRDBRWDhTTm9l?oc=5",
-        "desc": "포스티, 겨울 아우터 기획전…수요 대응&nbsp;&nbsp;한국섬유신문",
+        "title": "갑자기 추워졌다… 포스티, 중장년 겨울 아우터 최대 95% 할인",
+        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5DN3VrYllUMzBudFB2TjVjSjJtdEY5YWhFTWV6U2lweGI0QjNTOE9scDhMZGN4SUhOWGJ6enFNR29pbmx4bGxUQjhxZXY4RXRo?oc=5",
+        "desc": "갑자기 추워졌다… 포스티, 중장년 겨울 아우터 최대 95% 할인&nbsp;&nbsp;패션비즈",
+        "date": "2026-11-04",
+        "brand": "포스티"
+      },
+      {
+        "title": "포스티, 겨울 아우터 최대 95% 할인…10일까지 기획전",
+        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBkU3lId1Jpc0doMjBQanZPMkl6bDNVYXEzblVmd21Db18xdEhET2hjRWF4eWhGd2F0NHI3Q2tONFRVdDVnNVJzSml5MA?oc=5",
+        "desc": "포스티, 겨울 아우터 최대 95% 할인…10일까지 기획전&nbsp;&nbsp;아이뉴스24",
         "date": "2026-11-04",
         "brand": "포스티"
       }
     ],
     "에이블리": [
-      {
-        "title": "무신사 32만·지그재그 31만 건 '초접전'…에이블리 26만 건, 패션 앱 경쟁 격화",
-        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFA5SjFoQm1tSlY4My1DOGtoVnZFVWVVaFBwWGR3UXNqbzF0Y3dudzYxTzhpbjJHRDh3RjdtV3pRSnhWRm1WOHp4VXh5a25XT1RncHpud1ZrX3FuOS1qUFo3UWlmbGJYLWZsWHJtTUhPZzllZw?oc=5",
-        "desc": "무신사 32만·지그재그 31만 건 '초접전'…에이블리 26만 건, 패션 앱 경쟁 격화&nbsp;&nbsp;톱스타뉴스",
-        "date": "2026-11-03",
-        "brand": "에이블리"
-      },
       {
         "title": "[똑똑한패션] 무신사, 에이블리, 코오롱FnC, 신세계인터내셔날",
         "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5kaWc4TFROcFFIRFpNUHM2dVNZN3V0Z3RrWkoyWFFtakZ1UDBpU2d1bGFXanB1YmxMc2RQTUU2aS1sVFBfNnRQWmdWRFN2bEJfWHhLY2x3Zy11NE0?oc=5",
@@ -115,35 +108,49 @@
         "desc": "\"뷰티·패션앱 사용자 1위 올리브영…2위 에이블리·3위 무신사\"&nbsp;&nbsp;연합뉴스",
         "date": "2026-10-27",
         "brand": "에이블리"
+      },
+      {
+        "title": "‘옷 파는 앱’·‘밥 시키는 앱’은 옛말…패션·F&B 경계 지우는 플랫폼",
+        "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE11Wk5QUHg4SkhlMUpEVUUwVlg4aURBVEMtZmxBdnB1aUs0NlhqTUFWRVJ6cXd6b0xxZng0cExDdWJWaGptT0F3YVQ1ek0?oc=5",
+        "desc": "‘옷 파는 앱’·‘밥 시키는 앱’은 옛말…패션·F&B 경계 지우는 플랫폼&nbsp;&nbsp;TENANT news",
+        "date": "2026-11-01",
+        "brand": "에이블리"
       }
     ],
     "지그재그": [
       {
-        "title": "지그재그, 자체 결제 서비스 '지그재그페이' 출시",
-        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9GVVI4OVNIcm10QnUzTGNsV05taklFa3VubmJPbnE0cDkybFFPOU5IdmgxY3lwQThNcHotQUgtREwxUWxkMkFVOG11d1V2cS12RTMxVTZRSExid0pLbk1SRXotdldYUC1jYnc?oc=5",
-        "desc": "지그재그, 자체 결제 서비스 '지그재그페이' 출시&nbsp;&nbsp;서울파이낸스",
-        "date": "2026-11-02",
+        "title": "지그재그 운영사 카카오스타일, 해킹 정황 포착… KISA 조사 착수",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBvOXZlaks1QmU5d3FNbnRUVGRYUVNCZlFpak5IZWtMZEM0YVZtbV8wNEYzcXlkWkxvQk9uTDdhd3YwS0xUXzVwd0RtMklfRnNldmhBalRRU05MSUozcjNpY0VEVmJzek13RlVCZHlmQlbSAXRBVV95cUxQc2ZWWjBFeWtzT1ppeGJieUdHWmphQk9xdWxUdW9jT1FaUGdCWWtJYkh5eENFWU83NFY2UnZoczV1bVNFQzE4eVJmX0FVdmNGVkRvd2pQUFRUVDZXelhDSHZPZ3hULWFyUkFuV0xCczJKY1dESQ?oc=5",
+        "desc": "지그재그 운영사 카카오스타일, 해킹 정황 포착… KISA 조사 착수&nbsp;&nbsp;IT조선",
+        "date": "2026-07-09",
         "brand": "지그재그"
       },
       {
-        "title": "지그재그, '뷰티' 역량 강화…품목 다변화",
-        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1vM0tQRDFWSW9SMHJ2cnJDckRDazFNbE1Sekx5dmYzczBoa1RFQVMtUVVZZF9IdDlCVUpHQWkwNlhuTjE1UVNrU2hST210MFBOdGdNaG4tMG5nWXZuaUN3aWhZU0VyQzNNU0J4Wg?oc=5",
-        "desc": "지그재그, '뷰티' 역량 강화…품목 다변화&nbsp;&nbsp;ER 이코노믹리뷰",
-        "date": "2026-11-02",
+        "title": "카카오스타일, 벤처캐피털과 인디 K-뷰티 발굴한다…\"브랜드 성장 지원\"",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBSSkExaFpWZEZRc01JaDByTllyUlhmbEctcFlfQWdXS09fSDNvTnBIRVJHRWpKdmZVdE1oZ1FISGotRWVqLTRDeHVhV0pGaWhhY3hDdDN3RG1vQdIBVEFVX3lxTFBzWU1nVlM0YWxGT0JhT2l3V3dnM3lVLU13b0QzTDA1ckZZNGtUU1ltSE9pYlJxWm5vV0NWQThGcmF2TXBFNWYwbDVCWlF3WmRndUQ5Yw?oc=5",
+        "desc": "카카오스타일, 벤처캐피털과 인디 K-뷰티 발굴한다…\"브랜드 성장 지원\"&nbsp;&nbsp;더팩트",
+        "date": "2026-07-08",
         "brand": "지그재그"
       },
       {
-        "title": "지그재그, ‘직잭뷰티’ 색조 이어 기초케어로 영역 확장",
-        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE81dklQTVE2bnhCd01iYzlrVzhLTDZhZ2RpQ25CUnRjQllBMUpHRDlxMlp3VFBENHExbURWekpqaUlwYkpEdjBYVEJLU2ktSGJ5TmZCb1liR2ZCWnNONDVIVmI4d3hFc24tOTNsWEN1ONIBc0FVX3lxTFA1Z2c4eUVTTlB3c1dNc0ppNjZ5NW1YTHJjZmZzVGsxQU5lV3piX0tIbEhFYXh4NFZYdnQ5QjNPUG45NmFYX0hLaGJQUEdSMkFoNzBKczltSHBucld3NTc3RUlvdmNlLTN1blZ5ZzMzNEFYSFE?oc=5",
-        "desc": "지그재그, ‘직잭뷰티’ 색조 이어 기초케어로 영역 확장&nbsp;&nbsp;데일리한국",
-        "date": "2026-11-02",
+        "title": "[유통 다이어리] 카카오스타일 서정훈, 초개인화 커머스 진화",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBSdklUTVpyUUp4anF5aE1aNjMyMGRjNUNFM1RKUmRvZDhFZi1fRUNiczVNRUxKY2swMDVxN3ZDNU4zMmE1c1M2c3NmZVA1TVJvUWktN2RTMGFsWDJOeFBxbm5NbzdlY0NxdmMyZElhTkM?oc=5",
+        "desc": "[유통 다이어리] 카카오스타일 서정훈, 초개인화 커머스 진화&nbsp;&nbsp;신아일보",
+        "date": "2026-06-01",
         "brand": "지그재그"
       }
     ],
     "29CM": [
       {
+        "title": "\"같은 폴로, 다른 매력\"···무신사·29CM, 폴로 랄프 로렌 FW 캠페인",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE90U3h4ajQtdmxrVjljOUc0Q2EtQ1JBbEF1YkZUZjRHd2pDRlhWS01halhOZktLM0FvWkdvc0x2dHJubHVvd3ptRmQ0MzVGR3UybUVhLUJSRGEya3pBbnBMSHhXb3pKYVZtUmhyZ3pyaFUyNkR3?oc=5",
+        "desc": "\"같은 폴로, 다른 매력\"···무신사·29CM, 폴로 랄프 로렌 FW 캠페인&nbsp;&nbsp;캠페인 인사이트",
+        "date": "2026-11-05",
+        "brand": "29CM"
+      },
+      {
         "title": "무신사·29CM, 폴로 겨울 공략",
-        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5ZQ2VfU05nbkdLRDFyQnYwNGk2UlZyWTZ3dnI3MDVpM2d1UUJ6ZXR2ckFkcEdDdl9uZjdEd2dUdUs3U0w5X195TEhfQ0hZbHo2cWljRHFJN3NLVUUwZTZncFZVWWpsNjJ2Q0J0Vg?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE81cmdjTW14TWVwZjdEaUE2clhTU3VIQy1XZTJWVURvNVUwbTY5QVFIUUN3R0NSOVNNek1KZEhsLWhIeXA5U3ZyeU9YT2U3RXhsQzZZWGZ6XzdIbUk2S0p3enkyTzAxbGsyUTJNWlVn?oc=5",
         "desc": "무신사·29CM, 폴로 겨울 공략&nbsp;&nbsp;중소기업신문",
         "date": "2026-11-02",
         "brand": "29CM"
@@ -154,46 +161,32 @@
         "desc": "무신사-29CM, '폴로 랄프로렌' 신상품 캠페인…다운재킷 등 선봬&nbsp;&nbsp;연합뉴스",
         "date": "2026-11-02",
         "brand": "29CM"
-      },
-      {
-        "title": "무신사·29CM, '폴로 랄프 로렌' FW 캠페인 동시 전개…단독 상품도",
-        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1UZHUtcGRLTmtaRi1WMTYxdEh0UnhwWkluXzA4S2pING0yNDBtZGV3REJKSElRek9GU2p1bUJMRl9mVDU0SEhDLVZ2Y0lGWG55bG1VWDhMaDNpeXNYcUZCUTZKZ1NGeDlhQ1lWSU9FdFJsRFdSUTZQV9IBeEFVX3lxTE1UZHUtcGRLTmtaRi1WMTYxdEh0UnhwWkluXzA4S2pING0yNDBtZGV3REJKSElRek9GU2p1bUJMRl9mVDU0SEhDLVZ2Y0lGWG55bG1VWDhMaDNpeXNYcUZCUTZKZ1NGeDlhQ1lWSU9FdFJsRFdSUTZQVw?oc=5",
-        "desc": "무신사·29CM, '폴로 랄프 로렌' FW 캠페인 동시 전개…단독 상품도&nbsp;&nbsp;뉴시스",
-        "date": "2026-11-01",
-        "brand": "29CM"
       }
     ],
     "W컨셉": [
       {
-        "title": "SSG닷컴·W컨셉, 8일까지 '쓱데이' 진행…\"생굴 반값·패션 최대 76% 할인\"",
-        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8tMjV0YmY1VFZ0RnBTSkFZYlJIaUFXTkxidzl0SzBLV2g1Q0c1cU9iSFpzOFFmakhnSEp6MFBwSDRFZmdDelhlODRvWG80N2lOb0JwUjdJSGs5bmZLVUMzVlBTWHdYWXpYTkRN?oc=5",
-        "desc": "SSG닷컴·W컨셉, 8일까지 '쓱데이' 진행…\"생굴 반값·패션 최대 76% 할인\"&nbsp;&nbsp;뉴스드림",
-        "date": "2026-11-04",
+        "title": "호주 스킨케어 30% 성장… W컨셉, 멜버른서 K-뷰티 팝업 연다",
+        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBUZk5LeDJzTzg2dFJ1a05VUjZud3hwWWxCOFdrSTAtVkNMYURYdGVMZ01VOGRUZnZON1YwRHpJajlQTG13OERNWENsX3RwdFhP?oc=5",
+        "desc": "호주 스킨케어 30% 성장… W컨셉, 멜버른서 K-뷰티 팝업 연다&nbsp;&nbsp;패션비즈",
+        "date": "2026-11-05",
         "brand": "W컨셉"
       },
       {
-        "title": "SSG닷컴·W컨셉 쓱데이 막바지 할인 행사, 신선식품·겨울 의류 최대 76% 할인",
-        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9KWFVGTEhQNDFBTWw2ai02QncyYk5hLWZpaE1NMXA4U3I3NUNwZGk0NGxETlowZWxabmtXM3Q4bi1mdkVTX2U1WUNIcDFtSzQ1aGRTRlY4REFHVEhXcWJfN1RTWXduTzJwZXU5U2w2aEdTWmM?oc=5",
-        "desc": "SSG닷컴·W컨셉 쓱데이 막바지 할인 행사, 신선식품·겨울 의류 최대 76% 할인&nbsp;&nbsp;비즈니스포스트",
-        "date": "2026-11-04",
+        "title": "[생생르포] 116평에 담아낸 큐레이션의 정수···신세계 ‘W한남’의 가을 풍경",
+        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE44Vnh5Q01tV3QxNExVcmhqcFM0VjZ1VVp3WWIwMDlMZ1ZfTkhvNGQzak9XQ2JhY1hIdHFDTXhHRlYzbEVIWUluY3owR052Yk9KTFppdVVCYnVPaU4tQzhmTkV5U0JleXZSbTBr?oc=5",
+        "desc": "[생생르포] 116평에 담아낸 큐레이션의 정수···신세계 ‘W한남’의 가을 풍경&nbsp;&nbsp;CNB뉴스",
+        "date": "2026-11-05",
         "brand": "W컨셉"
       },
       {
-        "title": "[현장] 한남동에 옮긴 패션 취향…W컨셉 첫 단독 플래그십 가보니",
-        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFAtVXI0TlRhSnotZVpDZnJzakhWR08wOEplOVpzM2Z5dDBIbHVkWTRVOHpLRVE0UW1LZFdZYmRWVHJlaGNqdm0tQkNLaWM1eDROclQtSkZSLW1lOXpD?oc=5",
-        "desc": "[현장] 한남동에 옮긴 패션 취향…W컨셉 첫 단독 플래그십 가보니&nbsp;&nbsp;뉴스핌",
-        "date": "2026-10-31",
+        "title": "W컨셉, 호주서 K-뷰티 팝업…미인실록 등 12개 브랜드 참여",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB5TnJjNjJ6RDAtTzdOcnhhWnZ3Ynpsb1lWeFpYZE0wMjZxVjlva05SZ1dBc1dGZ3hvWEt1bkxGUC1sZW1UR0hvWnhac1JSZUZtQnBNV1g4NGtSVTRyeURNWTk5RHY3UjBqVlE?oc=5",
+        "desc": "W컨셉, 호주서 K-뷰티 팝업…미인실록 등 12개 브랜드 참여&nbsp;&nbsp;월요신문",
+        "date": "2026-11-05",
         "brand": "W컨셉"
       }
     ],
     "무신사": [
-      {
-        "title": "'10조 IPO' 임박한 무신사, 중고 패션도 터졌다…유즈드 거래액 2.4배 급증",
-        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5ja3IwQ2tqUDF4TnJwVlY4ckdHdVVwZ0c0LUtlc2hhVk1MYURNLXA1OThJRnI1ZDdleVp3WmNVeEMyZFdNd2dHWk91SnduaUtkVlJ6VWduN3pnSHJFMmtISVVEbTNmTlZ4WFHSAWpBVV95cUxOY2tyMENralAxeE5ycFZWOHJHR3VVcGdHNC1LZXNoYVZNTGFETS1wNTk4SUZyNWQ3ZXlad1pjVXhDMmRXTXdnR1pPdUp3bmlLZFZSelVnbjd6Z0hyRTJrSElVRG0zZk5WeFhR?oc=5",
-        "desc": "'10조 IPO' 임박한 무신사, 중고 패션도 터졌다…유즈드 거래액 2.4배 급증&nbsp;&nbsp;테크M",
-        "date": "2026-11-04",
-        "brand": "무신사"
-      },
       {
         "title": "상장 카운트다운…패션 플랫폼 1위의 다음 도전 [무신사 IPO ①]",
         "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBSQ0N1UDA1NHlYcjVhTndtb0k0QzlCTHVlaGJPS241N3dhMDlKOUJjeEt6MUU1eTV3VEFseXpWNmJMSi1ETGpPYllobTZHX1VHZFAwTDZpME9nb01tQzlQVDBsZXZOeVd0bXY2NUhHWGYyQzZXdW40cjZJaEM?oc=5",
@@ -202,10 +195,17 @@
         "brand": "무신사"
       },
       {
-        "title": "무신사 유즈드 거래액 전분기보다 143%↑…분기 최대 실적",
-        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBzSV8tVWZmaXhNRHEwRklIbW15VDhtU1A1OWpjUVBFd3ZxQUxIa3BHcGI0NTNzSjJRbXp2VFc4cDBkSng1V2psS2xyNDlRc1hrMXR4SE5CWXhDa0xoSHJFX1JINVc?oc=5",
-        "desc": "무신사 유즈드 거래액 전분기보다 143%↑…분기 최대 실적&nbsp;&nbsp;서울경제TV",
+        "title": "[똑똑한유통] 무신사, 알레르망, 삼성물산 패션 SSG샵, LF 닥스, 카카오스타일 포스티, 우아한형제들, 제임스 다이슨 어워드, NS홈쇼핑",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBQSFVZNGlxZVlWVHlMYW1OS0J4NVZvTzZ4ZWNNVXlRbUg3cUtUclhoeHdCWmxLNFNodDJDTXVwQTN5c2hBOUJaenllakpYaGxzVUw3Q1hobHZjTjQ?oc=5",
+        "desc": "[똑똑한유통] 무신사, 알레르망, 삼성물산 패션 SSG샵, LF 닥스, 카카오스타일 포스티, 우아한형제들, 제임스 다이슨 어워드, NS홈쇼핑&nbsp;&nbsp;에너지경제신문",
         "date": "2026-11-04",
+        "brand": "무신사"
+      },
+      {
+        "title": "\"신진 브랜드 다양성이 패션 플랫폼의 활력 제고\" ···세종대 연구팀, 무신사 사례로 연구 결과 발표",
+        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBBMkxEV25pZ2pNbGFuSWpXSTdydlVEQTkwSlBtNEVLdno1ZFdvSGVKS0FrSlVWcmM3bzFXWXNJY181azVoZS1BN0F2bE9BOTlWTVlZdTZmMHEyU0RFU3h1Qw?oc=5",
+        "desc": "\"신진 브랜드 다양성이 패션 플랫폼의 활력 제고\" ···세종대 연구팀, 무신사 사례로 연구 결과 발표&nbsp;&nbsp;무신사",
+        "date": "2026-10-28",
         "brand": "무신사"
       }
     ]
