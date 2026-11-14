@@ -1,0 +1,213 @@
+{
+  "collected_at": "2026-11-14",
+  "appstore": [
+    {
+      "app": "포스티",
+      "platform": "iOS",
+      "reviews": [],
+      "rating": null
+    },
+    {
+      "app": "포스티",
+      "platform": "Android",
+      "updated": "2026년 11월 6일",
+      "recent_changes": ""
+    },
+    {
+      "app": "에이블리",
+      "platform": "iOS",
+      "reviews": [],
+      "rating": null
+    },
+    {
+      "app": "에이블리",
+      "platform": "Android",
+      "error": "404 Client Error: Not Found for url: https://play.google.com/store/apps/details?id=com.ablyclothes.app&hl=ko"
+    },
+    {
+      "app": "지그재그",
+      "platform": "iOS",
+      "reviews": [],
+      "rating": null
+    },
+    {
+      "app": "지그재그",
+      "platform": "Android",
+      "error": "404 Client Error: Not Found for url: https://play.google.com/store/apps/details?id=com.kakaostyle.zigzag&hl=ko"
+    }
+  ],
+  "events": {
+    "posty": [
+      {
+        "title": "포스티 기획전",
+        "url": "https://posty.kr/events",
+        "source": "포스티",
+        "note": "앱 전용 — 상세 목록은 앱에서 확인"
+      }
+    ],
+    "ably": [
+      {
+        "title": "에이블리 기획전",
+        "url": "https://m.a-bly.com/exhibitions",
+        "source": "에이블리",
+        "note": "앱 전용 — 상세 목록은 앱에서 확인"
+      }
+    ],
+    "cm29": [
+      {
+        "title": "29CM 기획전",
+        "url": "https://www.29cm.co.kr/exhibition",
+        "source": "29CM",
+        "note": "앱 전용 — 상세 목록은 앱에서 확인"
+      }
+    ],
+    "wconcept": [
+      {
+        "title": "W컨셉 기획전",
+        "url": "https://www.wconcept.co.kr/Display/eventList",
+        "source": "W컨셉",
+        "note": "앱 전용 — 상세 목록은 앱에서 확인"
+      }
+    ]
+  },
+  "news": {
+    "포스티": [
+      {
+        "title": "갑자기 추워졌다… 포스티, 중장년 겨울 아우터 최대 95% 할인",
+        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5DN3VrYllUMzBudFB2TjVjSjJtdEY5YWhFTWV6U2lweGI0QjNTOE9scDhMZGN4SUhOWGJ6enFNR29pbmx4bGxUQjhxZXY4RXRo?oc=5",
+        "desc": "갑자기 추워졌다… 포스티, 중장년 겨울 아우터 최대 95% 할인&nbsp;&nbsp;패션비즈",
+        "date": "2026-11-03",
+        "brand": "포스티"
+      },
+      {
+        "title": "4050 패션 플랫폼 포스티, \"급추위에 중장년 겨울 아우터 선제 할인 돌입",
+        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBGS1Rscy1BdkpZekROcC1ZRXJIYnNuM1lHUno2b1lBZTlGbW5VWlFHZW0zeWVQMWNqR1U1aWJfeW0wTlhvellUZjRHLVlCYXg1eERXZVltQW1NNUQxbG0ydGhiWUM5bjFYZnY0?oc=5",
+        "desc": "4050 패션 플랫폼 포스티, \"급추위에 중장년 겨울 아우터 선제 할인 돌입&nbsp;&nbsp;맥스무비",
+        "date": "2026-11-04",
+        "brand": "포스티"
+      },
+      {
+        "title": "겨울 아우터 할인전 여는 포스티···“40·50 모여라”",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0wX3Z1czhGR0xUVXlfT0g3d3M0WXVRVFdYX09keUtkaTM5alppejRtSW90ZVRZdXdNZ3k4YmhROWtKRVlmbEt1SndBN2h1VTR4S3dNM0dhT21PV2FTZnVBNWU1NHZMM2twTHR4M2hGWjDSAXRBVV95cUxQU0tsSHo2RmdaNlRrd0dVWVM3NU1LQ3BQb2JoTUhQX2JKVEpTVWpFSFVDZTc0TEY1dXFxQVdjY1g1ZjNSTmFhSUI5OHVvVXhSZkpLejBjTVlQdjg3akYtbVZBOTIzWVBUaUFmaUYxNXpGUUY4MA?oc=5",
+        "desc": "겨울 아우터 할인전 여는 포스티···“40·50 모여라”&nbsp;&nbsp;이뉴스투데이",
+        "date": "2026-11-04",
+        "brand": "포스티"
+      }
+    ],
+    "에이블리": [
+      {
+        "title": "에이블리 '패션 창업 학교' 됐다",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8tNEhOa1N5ZFZDWlZFX2p6RmFLbUhPZ3k1STkyRWNDclJUcUV5Q2ZXN1c4RXRzNmJCNVJhUmRyMUszUk9oWmQwWDc2Y0praXJ5X0J4Z3NpM3ZiUQ?oc=5",
+        "desc": "에이블리 '패션 창업 학교' 됐다&nbsp;&nbsp;한국경제",
+        "date": "2026-05-01",
+        "brand": "에이블리"
+      },
+      {
+        "title": "\"뷰티·패션앱 사용자 1위 올리브영…2위 에이블리·3위 무신사\"",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1uNWJBRUU1djVvZ1NNVGl5Q1J1X2VxOHZNSGtuRkN5ZVZqa2VwOFVaQ3dyUUlOSGJnRFd5eWFQaldMdEtQT0Z1YnZaam1PUGtnMlg3RjRPRGdtbGPSAWBBVV95cUxQT2kzSTBESjhjMW9WSGU4OGpuS19la21haXhXUFVKSVRaNkJtejdzM19heHN6N3cwQzNSOFdXT0NGNVZId0Ita3BVMUZ5anBsNnFjbmp4X0ZHSFh4Z3ZmdWo?oc=5",
+        "desc": "\"뷰티·패션앱 사용자 1위 올리브영…2위 에이블리·3위 무신사\"&nbsp;&nbsp;연합뉴스",
+        "date": "2026-10-27",
+        "brand": "에이블리"
+      },
+      {
+        "title": "에이블리·지그재그·W컨셉, 여성패션 플랫폼 유치경쟁 3파전",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE93YnZuRmVqSUptZVRvQXU0WFF5YlJFSHBkMjBkc3pJOEU4a0RCLThHQThac1NwV21YaXJzX3hZbUVOS1ktMkdQVTE0V1BMbUxVY0NCVEwyYWh6Vl9LOEItT3FPcTlSMm5weFpxa0dMXzU?oc=5",
+        "desc": "에이블리·지그재그·W컨셉, 여성패션 플랫폼 유치경쟁 3파전&nbsp;&nbsp;신아일보",
+        "date": "2026-10-20",
+        "brand": "에이블리"
+      }
+    ],
+    "지그재그": [
+      {
+        "title": "카카오스타일 지그재그, ‘쇼핑몰 AI 런웨이’ 영상 공개",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9fbzVPdDFWSUZseExJZW1ibENxX1EtUFFvYUdReFF3bWdHdnZWTGVsWTdiZmZ1d0wweWJuUnFfa0oteWxuWXZPaVNxOUIzN1lfSkxUV0ZEaE5oNVpuaW9HR3dzbzRqX1U3OGfSAW5BVV95cUxPdFFfeG1fXzV2WlE4c040SlNPSjRkbzJpTWtlZlRNd1VSNHN5ZTZocU1lME5SZVNyUG82djBMaEEyM1FyczFZV1YydDZpS0hXVU5lY2VLTW9XTFhZQWdLa3VkeVpRTW02cXdCb09sUQ?oc=5",
+        "desc": "카카오스타일 지그재그, ‘쇼핑몰 AI 런웨이’ 영상 공개&nbsp;&nbsp;파이낸셜투데이",
+        "date": "2026-11-08",
+        "brand": "지그재그"
+      },
+      {
+        "title": "카카오스타일 지그재그, AI 활용 쇼핑몰 런웨이 영상 공개",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE04M0lSYWZsYkVfMFQ0TjBmdHZaaFZpTXhBTkFIbnM2bW80TUhBVXY3UXZJU0FYOFBmd1kzZmF1d09uZHQzUUY3SzZTWlVjdHJGclBGam5CMzEtdG5YSWptSXRXdDRUTlhiWEJpemljbWRISm9qRW9rUmRn?oc=5",
+        "desc": "카카오스타일 지그재그, AI 활용 쇼핑몰 런웨이 영상 공개&nbsp;&nbsp;로이슈",
+        "date": "2026-11-09",
+        "brand": "지그재그"
+      },
+      {
+        "title": "지그재그, 쇼핑몰 패션을 AI 런웨이로",
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE12VXVXaktxdGozU0F6OUdFX1hobGg0ZzZPd1RZb0NCT085R3RJWkV6V0VXS2VVODEzMHNlSjBfUURlN0JubzBURFpnRDJEYW4yMWt3NUFlMFBBVVhFQ0k1dld1YzMxX3Qx?oc=5",
+        "desc": "지그재그, 쇼핑몰 패션을 AI 런웨이로&nbsp;&nbsp;한국섬유신문",
+        "date": "2026-11-09",
+        "brand": "지그재그"
+      }
+    ],
+    "29CM": [
+      {
+        "title": "한미사이언스 '아데시', 무신사·29CM 입점",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1aalpuYWZHQ0pRUHVuS0ZPZEhIZFIyWlhscHlLMDNOQWdkb0k4WEQ4dXNiaXN2Nk43SGN6akVMRXlMTE9xanh6Qk1pNUVUdEVTel9DY3AzeldUbnQwMWE1dUNMU1dzdWx3ZFM2YmR6alE?oc=5",
+        "desc": "한미사이언스 '아데시', 무신사·29CM 입점&nbsp;&nbsp;비즈트리뷴",
+        "date": "2026-11-13",
+        "brand": "29CM"
+      },
+      {
+        "title": "한미사이언스 아데시, 무신사·29CM 입점…유통망 확대",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB3OVdMZDN1d1lXTTdodUdjOVRSTXZ5VU1aM2t0T2VKZnlnbWdvbEE3WXJSWnNubEh0S09aOFJ0X2lTWEdPdnJPOWtiU2JUVVFyY3pDVENFLU9ncDJyZ05FVmI4ZFhpV3ZpTnc?oc=5",
+        "desc": "한미사이언스 아데시, 무신사·29CM 입점…유통망 확대&nbsp;&nbsp;의학신문",
+        "date": "2026-11-13",
+        "brand": "29CM"
+      },
+      {
+        "title": "‘ADESII’, 무신사·29CM 입점…온·오프라인 유통 채널 확장",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBhME54eUwteVNLRTdDa2tEVEh2MFQzUVlTdEo4b3E3S3FDeVVpWTlMVF9PWTA0RjFITU5ZR1lHZ0hJMnFlbXU0cDhVYnFrNGdBSVlzWkJvRGpwdw?oc=5",
+        "desc": "‘ADESII’, 무신사·29CM 입점…온·오프라인 유통 채널 확장&nbsp;&nbsp;한국경제",
+        "date": "2026-11-12",
+        "brand": "29CM"
+      }
+    ],
+    "W컨셉": [
+      {
+        "title": "[단독] 무신사·W컨셉 도쿄서 잇단 팝업…일본 열도 달구는 K패션",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE16YThYd2VaRUUxblVzYkxKUzB4NE8wbnpRVlNRY0szb2pwNW94SEVoV1FmVkVBR3R4TFJtWk5vRExEU3ZGTnYyVUZiZGNrNDdOTmfSAVNBVV95cUxNQzcxSFd5YkJzQzFScHFOVnJFaXQ1bzNJZVRGUTNPdHRoelJudGtzdENGUC1fUjJMNWpwM1RiX0pfdXBmYUVQby1JRzB4MnNDN0lMRQ?oc=5",
+        "desc": "[단독] 무신사·W컨셉 도쿄서 잇단 팝업…일본 열도 달구는 K패션&nbsp;&nbsp;서울경제",
+        "date": "2026-11-11",
+        "brand": "W컨셉"
+      },
+      {
+        "title": "W컨셉, 일본 거래액 1년 새 6배로…도쿄서 릴레이 팝업",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOVXhLUnlLeFo4MExMMzMwSnB0MU1rZmdtVzdpZFQxdWtCaURCcUp6cHU5QUZzOVZGVndnMm1PT2dnMTFaSFVVQkNxRVp4MjUwdjBSRnRXTGxkRExsQ0p5OVRwUnVFZHkxMEpsMTA5bWhDNVF4d0FiNVVLZUdOTUFCMHdVYzd1UGx3LXZuZkE4RVhtXzjSAacBQVVfeXFMTWk5bkxUUngwU2E4RXFGN2p3NFpPcVdDV2ZQRS16Wmx2U1FvVnAwRFhOQV95SW1VLVFFWDd4WHZ0MWVEXzBoclRTRG5FUTZEMVV0SEZfZEdwb2RzTDI5S21MTnVtSkVJaGx3d1F1UlhtMjZvR2pCaHg0YVhGU0dUbDkzaklqMFBPVkdQaFdoYzNOWTltZ3JsbkVWSWFVNE5VS3haMG5UY0E?oc=5",
+        "desc": "W컨셉, 일본 거래액 1년 새 6배로…도쿄서 릴레이 팝업&nbsp;&nbsp;Chosunbiz",
+        "date": "2026-11-12",
+        "brand": "W컨셉"
+      },
+      {
+        "title": "\"명품 로고 대신 캐시미어\"…'현백코어' 스타일 뜬다 [패션&뷰티]",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBmdEgwZ0wyNUdtWXVrUEZoMXdFQlhxNWpkMDRpY01sT1FMMlVkRlhXenhCTDI4OUVXTmtlUEVzUDZvTXVEdHBCaktZNXZyVng5aTE5bi12VWJfZGpHS1cw?oc=5",
+        "desc": "\"명품 로고 대신 캐시미어\"…'현백코어' 스타일 뜬다 [패션&뷰티]&nbsp;&nbsp;뉴스1",
+        "date": "2026-11-13",
+        "brand": "W컨셉"
+      }
+    ],
+    "무신사": [
+      {
+        "title": "[단독] 무신사·W컨셉 도쿄서 잇단 팝업…일본 열도 달구는 K패션",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE16YThYd2VaRUUxblVzYkxKUzB4NE8wbnpRVlNRY0szb2pwNW94SEVoV1FmVkVBR3R4TFJtWk5vRExEU3ZGTnYyVUZiZGNrNDdOTmfSAVNBVV95cUxNQzcxSFd5YkJzQzFScHFOVnJFaXQ1bzNJZVRGUTNPdHRoelJudGtzdENGUC1fUjJMNWpwM1RiX0pfdXBmYUVQby1JRzB4MnNDN0lMRQ?oc=5",
+        "desc": "[단독] 무신사·W컨셉 도쿄서 잇단 팝업…일본 열도 달구는 K패션&nbsp;&nbsp;서울경제",
+        "date": "2026-11-11",
+        "brand": "무신사"
+      },
+      {
+        "title": "몸값은 얼마?…‘성장 프리미엄’, 시험대 올랐다 [무신사 IPO ②]",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1QQ05kVDNDZVd6bDVHVUNaWFNla0ZJV1FvMUtKR3RDb0JrN3JFMENqaHBUbGR1TU1KbDRVNGp2LU10VzVTa2JRWnNMZWl4S3BjVmZ0WUdUVUNKUmhkbUI5RUcyMXRHNFpvLW9JcUFRaXpIb09qSHZTQV9kNEE?oc=5",
+        "desc": "몸값은 얼마?…‘성장 프리미엄’, 시험대 올랐다 [무신사 IPO ②]&nbsp;&nbsp;금융신문",
+        "date": "2026-11-08",
+        "brand": "무신사"
+      },
+      {
+        "title": "무신사, 100번째 오프라인 매장 ‘무신사 뷰티 성수’ 오픈",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5jSHBKM1BVYUR6QlRKc1NmNHZMbTljOFpLRC1wLTBqSVozMTlBckZJcVZ4cTFfUDVub1FuY1V6WmczWEFCTWl5WkJpMm50NXhNUi1ZRDdFQjRrcDZ2YmR6YWNZQ2tBYzJTQkdnZzdVUktGMVNr?oc=5",
+        "desc": "무신사, 100번째 오프라인 매장 ‘무신사 뷰티 성수’ 오픈&nbsp;&nbsp;부산일보",
+        "date": "2026-11-09",
+        "brand": "무신사"
+      }
+    ]
+  }
+}
