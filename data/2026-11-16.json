@@ -1,0 +1,213 @@
+{
+  "collected_at": "2026-11-16",
+  "appstore": [
+    {
+      "app": "포스티",
+      "platform": "iOS",
+      "reviews": [],
+      "rating": null
+    },
+    {
+      "app": "포스티",
+      "platform": "Android",
+      "updated": "2026년 11월 6일",
+      "recent_changes": ""
+    },
+    {
+      "app": "에이블리",
+      "platform": "iOS",
+      "reviews": [],
+      "rating": null
+    },
+    {
+      "app": "에이블리",
+      "platform": "Android",
+      "error": "404 Client Error: Not Found for url: https://play.google.com/store/apps/details?id=com.ablyclothes.app&hl=ko"
+    },
+    {
+      "app": "지그재그",
+      "platform": "iOS",
+      "reviews": [],
+      "rating": null
+    },
+    {
+      "app": "지그재그",
+      "platform": "Android",
+      "error": "404 Client Error: Not Found for url: https://play.google.com/store/apps/details?id=com.kakaostyle.zigzag&hl=ko"
+    }
+  ],
+  "events": {
+    "posty": [
+      {
+        "title": "포스티 기획전",
+        "url": "https://posty.kr/events",
+        "source": "포스티",
+        "note": "앱 전용 — 상세 목록은 앱에서 확인"
+      }
+    ],
+    "ably": [
+      {
+        "title": "에이블리 기획전",
+        "url": "https://m.a-bly.com/exhibitions",
+        "source": "에이블리",
+        "note": "앱 전용 — 상세 목록은 앱에서 확인"
+      }
+    ],
+    "cm29": [
+      {
+        "title": "29CM 기획전",
+        "url": "https://www.29cm.co.kr/exhibition",
+        "source": "29CM",
+        "note": "앱 전용 — 상세 목록은 앱에서 확인"
+      }
+    ],
+    "wconcept": [
+      {
+        "title": "W컨셉 기획전",
+        "url": "https://www.wconcept.co.kr/Display/eventList",
+        "source": "W컨셉",
+        "note": "앱 전용 — 상세 목록은 앱에서 확인"
+      }
+    ]
+  },
+  "news": {
+    "포스티": [
+      {
+        "title": "4050 패션 플랫폼 포스티, \"급추위에 중장년 겨울 아우터 선제 할인 돌입",
+        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBGS1Rscy1BdkpZekROcC1ZRXJIYnNuM1lHUno2b1lBZTlGbW5VWlFHZW0zeWVQMWNqR1U1aWJfeW0wTlhvellUZjRHLVlCYXg1eERXZVltQW1NNUQxbG0ydGhiWUM5bjFYZnY0?oc=5",
+        "desc": "4050 패션 플랫폼 포스티, \"급추위에 중장년 겨울 아우터 선제 할인 돌입&nbsp;&nbsp;맥스무비",
+        "date": "2026-11-04",
+        "brand": "포스티"
+      },
+      {
+        "title": "갑자기 추워졌다… 포스티, 중장년 겨울 아우터 최대 95% 할인",
+        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5DN3VrYllUMzBudFB2TjVjSjJtdEY5YWhFTWV6U2lweGI0QjNTOE9scDhMZGN4SUhOWGJ6enFNR29pbmx4bGxUQjhxZXY4RXRo?oc=5",
+        "desc": "갑자기 추워졌다… 포스티, 중장년 겨울 아우터 최대 95% 할인&nbsp;&nbsp;패션비즈",
+        "date": "2026-11-03",
+        "brand": "포스티"
+      },
+      {
+        "title": "겨울 아우터 할인전 여는 포스티···“40·50 모여라”",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0wX3Z1czhGR0xUVXlfT0g3d3M0WXVRVFdYX09keUtkaTM5alppejRtSW90ZVRZdXdNZ3k4YmhROWtKRVlmbEt1SndBN2h1VTR4S3dNM0dhT21PV2FTZnVBNWU1NHZMM2twTHR4M2hGWjDSAXRBVV95cUxQU0tsSHo2RmdaNlRrd0dVWVM3NU1LQ3BQb2JoTUhQX2JKVEpTVWpFSFVDZTc0TEY1dXFxQVdjY1g1ZjNSTmFhSUI5OHVvVXhSZkpLejBjTVlQdjg3akYtbVZBOTIzWVBUaUFmaUYxNXpGUUY4MA?oc=5",
+        "desc": "겨울 아우터 할인전 여는 포스티···“40·50 모여라”&nbsp;&nbsp;이뉴스투데이",
+        "date": "2026-11-04",
+        "brand": "포스티"
+      }
+    ],
+    "에이블리": [
+      {
+        "title": "[똑똑한패션] 지그재그, 에이블리, 듀베디카, 세정 웰메이드, 이랜드 로엠, 아디다스, 브룩스브라더스, MLB, 써코니, 몽돌",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBIQ1JQS3RfSzRqRnR2c1NtRWZfVUZ2UXBERmxmSk9TWGk2SmxqYkZCUDdhcmppTnNDLXVMWnRIQk05Qk9BaG4wbWE1dGZpNWZuZVRmZVZhWDIxWHM?oc=5",
+        "desc": "[똑똑한패션] 지그재그, 에이블리, 듀베디카, 세정 웰메이드, 이랜드 로엠, 아디다스, 브룩스브라더스, MLB, 써코니, 몽돌&nbsp;&nbsp;에너지경제신문",
+        "date": "2026-11-16",
+        "brand": "에이블리"
+      },
+      {
+        "title": "에이블리, 최대 93% 할인 블프 ‘에블프’ 진행",
+        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBfXzhUQTBPMDA4YzB0Vjc2eFc1Z0prQ2N1czNPR2otZGdUaGNxNW5WU2ZmbkRoUEdBNVZWSHRSUVljWTNIUVVwUm9KWVlwaV96UjFwTUJCMlNRSUN4MkgwVDZCcUI4QQ?oc=5",
+        "desc": "에이블리, 최대 93% 할인 블프 ‘에블프’ 진행&nbsp;&nbsp;싱글리스트",
+        "date": "2026-11-16",
+        "brand": "에이블리"
+      },
+      {
+        "title": "﻿에이블리, 블랙프라이데이 '에블프' 개최",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5ZcVNGenhCOERfdWl1WXRvRXRBX2NxM1lmdXBKTDB3RnVkWEtEVXJnOW11OVhZOHJ1dWRYME5zakJDRVNWelNZa0dUYWVXRzU2YjBaZlkyMHlnM3oxVEFHUEdoeXZzdkRqdTllNjB2bkbSAXRBVV95cUxOU09SZzFjZW1xaGlEQ09WWFl2ZXY1WkFYNXQ3SkhUeUpNeTZqdVBzMDFaY2hrRkUtZWlyLVVpYktneW9nb3E3b3hqRTh6ZlU3NWxhbUNUaG5PRXlkVGhIdlROUzFtak1FMTVCZ0xlWHdMeHlSNw?oc=5",
+        "desc": "﻿에이블리, 블랙프라이데이 '에블프' 개최&nbsp;&nbsp;포인트데일리",
+        "date": "2026-11-16",
+        "brand": "에이블리"
+      }
+    ],
+    "지그재그": [
+      {
+        "title": "지그재그, '블랙프라이데이 직잭팟' 최대 99% 할인 프로모션",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5BSjA1RGVHY0lFRzZEWDRaLUNuX0g0YlFNYjZwSXM5cUFGQjZseE1ZNXlTRzdzcVZnMV9xWVZzZHdxVVctdVJtR1RVVWFvYkJJWTVLVGxkYjU3Z9IBVEFVX3lxTE5NUHNtQVRSMFM0anc1dl9PMnJ2R2x0bjVtYWEzR1E0X2NaX1haRVlGXzk0alpuYlhYckpkYms2MkR6cGZzM3hxTjlNTjNqUGRpc21mdw?oc=5",
+        "desc": "지그재그, '블랙프라이데이 직잭팟' 최대 99% 할인 프로모션&nbsp;&nbsp;더팩트",
+        "date": "2026-11-15",
+        "brand": "지그재그"
+      },
+      {
+        "title": "지그재그, 블랙프라이데이 맞아 패션·뷰티·라이프 최대 99% 할인",
+        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9sOVl5Yy1Ncm9NakYyUlRTbWFULVJGSVpuUlBCNlRUbEVIT3dUTUJjdHZRczdjYWtZeGVlX01hcmQ5dzhxZlo4MmhDcnVhajMyTFctVnhuZHJwRlYteG9hUNIBeEFVX3lxTFBhX3AtOWFhN25XVUh2Y3JReVdxdW1BczdNVzJVTWhTdThnbjFZbXRvQU1TRFZMMUhVQUR1OGJXM1ZDRzJXM1R5V2hMeGpzODdRNXROck9wNWhwQVhnTm40QUZUakowcWt1VnZaTHJCLWFYc0t1dzZCNw?oc=5",
+        "desc": "지그재그, 블랙프라이데이 맞아 패션·뷰티·라이프 최대 99% 할인&nbsp;&nbsp;뉴시스",
+        "date": "2026-11-16",
+        "brand": "지그재그"
+      },
+      {
+        "title": "지그재그, 블랙프라이데이 맞춰 ‘겨울 직잭팟’",
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9LYUpwX3hHR3R2bnp5eElrYi15UnJ3MjBjajVfcjFkbmZfUE9jNVM1bVl5WGlQYzdxUHNPSVU2WDZxMUx3QW40alEwSld6Rk0xbE5MSlFlTHJNZGt4VU51WmE5OU8xNDdG?oc=5",
+        "desc": "지그재그, 블랙프라이데이 맞춰 ‘겨울 직잭팟’&nbsp;&nbsp;한국섬유신문",
+        "date": "2026-11-16",
+        "brand": "지그재그"
+      }
+    ],
+    "29CM": [
+      {
+        "title": "무신사 29CM '이구홈' 올해 방문객 300만 명 넘어, \"외국인 쇼핑 거점\"",
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBCbnF0VTBwc28tMTh5SkZJYmdrVXVvQnpPWmJIOW1OZnpZRFdYRG9UYTlXRFhZUnZaZDFrQXRSU2RCMEd5dkVZeU5Scy1waXBpNTFEREZJbEJYc1ZNa3JZZnhqRXJ3aElwZ2dZNWtWVHlvOFk?oc=5",
+        "desc": "무신사 29CM '이구홈' 올해 방문객 300만 명 넘어, \"외국인 쇼핑 거점\"&nbsp;&nbsp;비즈니스포스트",
+        "date": "2026-11-16",
+        "brand": "29CM"
+      },
+      {
+        "title": "무신사·29CM서 매출 51%↑…브룩스브라더스, MZ세대 공략",
+        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9VenhqeGNQa1JUc2xTUVRBSlhvbHJJSVBkYWRwTE92R3ZpSTBZcEhNNUhlc1h5MjNETk9kV1dTYjhWLVFoTVFBNGZEazE1V3IyYW1xY09PTkRWSkFkY0o4cWtJNVk?oc=5",
+        "desc": "무신사·29CM서 매출 51%↑…브룩스브라더스, MZ세대 공략&nbsp;&nbsp;서울경제TV",
+        "date": "2026-11-16",
+        "brand": "29CM"
+      },
+      {
+        "title": "한미사이언스 '아데시', 무신사·29CM·코오드로 판로 확대",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1zNkpUVjZFcmpRcGFyRmFWUWVUVjhtVXJfNG05Zld5U3M1MUhFcy1jNmh6WWZHVEtQajZ0VUlnZEx0SUxIQklsUDdHeFdsY1hWWFUyMjZMUzB1eEJYZDVuTnB6ZGlWQS1JeUE?oc=5",
+        "desc": "한미사이언스 '아데시', 무신사·29CM·코오드로 판로 확대&nbsp;&nbsp;비즈월드",
+        "date": "2026-11-16",
+        "brand": "29CM"
+      }
+    ],
+    "W컨셉": [
+      {
+        "title": "[단독] 무신사·W컨셉 도쿄서 잇단 팝업…일본 열도 달구는 K패션",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE16YThYd2VaRUUxblVzYkxKUzB4NE8wbnpRVlNRY0szb2pwNW94SEVoV1FmVkVBR3R4TFJtWk5vRExEU3ZGTnYyVUZiZGNrNDdOTmfSAVNBVV95cUxNQzcxSFd5YkJzQzFScHFOVnJFaXQ1bzNJZVRGUTNPdHRoelJudGtzdENGUC1fUjJMNWpwM1RiX0pfdXBmYUVQby1JRzB4MnNDN0lMRQ?oc=5",
+        "desc": "[단독] 무신사·W컨셉 도쿄서 잇단 팝업…일본 열도 달구는 K패션&nbsp;&nbsp;서울경제",
+        "date": "2026-11-11",
+        "brand": "W컨셉"
+      },
+      {
+        "title": "W컨셉, 일본 거래액 1년 새 6배로…도쿄서 릴레이 팝업",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOVXhLUnlLeFo4MExMMzMwSnB0MU1rZmdtVzdpZFQxdWtCaURCcUp6cHU5QUZzOVZGVndnMm1PT2dnMTFaSFVVQkNxRVp4MjUwdjBSRnRXTGxkRExsQ0p5OVRwUnVFZHkxMEpsMTA5bWhDNVF4d0FiNVVLZUdOTUFCMHdVYzd1UGx3LXZuZkE4RVhtXzjSAacBQVVfeXFMTWk5bkxUUngwU2E4RXFGN2p3NFpPcVdDV2ZQRS16Wmx2U1FvVnAwRFhOQV95SW1VLVFFWDd4WHZ0MWVEXzBoclRTRG5FUTZEMVV0SEZfZEdwb2RzTDI5S21MTnVtSkVJaGx3d1F1UlhtMjZvR2pCaHg0YVhGU0dUbDkzaklqMFBPVkdQaFdoYzNOWTltZ3JsbkVWSWFVNE5VS3haMG5UY0E?oc=5",
+        "desc": "W컨셉, 일본 거래액 1년 새 6배로…도쿄서 릴레이 팝업&nbsp;&nbsp;Chosunbiz",
+        "date": "2026-11-12",
+        "brand": "W컨셉"
+      },
+      {
+        "title": "옷값 최대 93% 내린다…에이블리·지그재그·29CM·W컨셉, 연말 할인전",
+        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBaYzlKdXFkNnpLMEw0NC1uVGZ6LTc1OVdJMkVOQ2EyRzVXYUZwTzM3Nnkwa2JXNG1QXzNFRHBKRzB4dUl0emJZOUowcjc0Y0hOMHpFRWlYelAzZkJnM3BoUUk2eVlSSklnZjlF0gFUQVVfeXFMTjBrZW5CR010dGNFaGNSVVNrMmtmNTVWTmU3WVRJeEJFbTcxem9GX0FRZzN0dm5EcjBUdHFIODRGSjA1akRBSTl3UVN1N09TeE0zMFEw?oc=5",
+        "desc": "옷값 최대 93% 내린다…에이블리·지그재그·29CM·W컨셉, 연말 할인전&nbsp;&nbsp;세계일보",
+        "date": "2026-11-16",
+        "brand": "W컨셉"
+      }
+    ],
+    "무신사": [
+      {
+        "title": "상장 이후가 진짜 승부…글로벌 성장 입증해야 [무신사 IPO ③]",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE53RGFaQmMyNTFPaVZKM2pIczhKQnplbFhtMW5VU0lZRlJsdERCUnAwa2Rubm5GYUNJOUpydUlmYTFRSmFJWmFtRjZDQ3VKZzhmeVUtMTM3ZERlb2tSUTlkVm4tNHFUYmFCSzZrbmx0Z2t5Y3BwbG5PRlZYNXU?oc=5",
+        "desc": "상장 이후가 진짜 승부…글로벌 성장 입증해야 [무신사 IPO ③]&nbsp;&nbsp;한국금융신문",
+        "date": "2026-11-15",
+        "brand": "무신사"
+      },
+      {
+        "title": "브룩스브라더스, 패션 플랫폼 매출 51% 증가…MZ세대 공략 성과",
+        "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5uMDVQNTd3bHV3aXRLNVhTYXJCXzRGRlpSVnRKM0x1TnlLcDFuTGtFNUJvczgtTGRTbTRtdzRIRFZuNUNCSnc?oc=5",
+        "desc": "브룩스브라더스, 패션 플랫폼 매출 51% 증가…MZ세대 공략 성과&nbsp;&nbsp;시사코리아",
+        "date": "2026-11-15",
+        "brand": "무신사"
+      },
+      {
+        "title": "브룩스브라더스, 패션 플랫폼 매출 50%↑…MZ세대 '클래식' 통했다",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9UMlBtWVotb2laUTlnYVRHZzh5aUY5bTY0ME1DcXVmM29BQVgyZG1sYWFtbmNlNktfY25JUnhSb3dwSjluUXFOU3J2dU1qZWVoekJ1OVQzcHZNU2JiSllN?oc=5",
+        "desc": "브룩스브라더스, 패션 플랫폼 매출 50%↑…MZ세대 '클래식' 통했다&nbsp;&nbsp;뉴스1",
+        "date": "2026-11-16",
+        "brand": "무신사"
+      }
+    ]
+  }
+}
