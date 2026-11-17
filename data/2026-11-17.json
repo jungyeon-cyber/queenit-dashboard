@@ -69,7 +69,29 @@
     ]
   },
   "news": {
-    "포스티": [],
+    "포스티": [
+      {
+        "title": "'포스티' 인기상품",
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1VeWY3cE93bTU2T3hJX2lMcUFhWUhCTlRwQjVSTHk4QkpGOEV4UjZmY250RG1HQmxfUkg2X2xFTmE0OGo0VkpQLWFtNlVfSEpEd3M4VGVOZThIblVpbGo3d1R5ekFRQWRoUUpaOVczRGhNcWc?oc=5",
+        "desc": "'포스티' 인기상품&nbsp;&nbsp;어패럴뉴스",
+        "date": "2026-11-16",
+        "brand": "포스티"
+      },
+      {
+        "title": "4050 패션 플랫폼 포스티, \"급추위에 중장년 겨울 아우터 선제 할인 돌입",
+        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBGS1Rscy1BdkpZekROcC1ZRXJIYnNuM1lHUno2b1lBZTlGbW5VWlFHZW0zeWVQMWNqR1U1aWJfeW0wTlhvellUZjRHLVlCYXg1eERXZVltQW1NNUQxbG0ydGhiWUM5bjFYZnY0?oc=5",
+        "desc": "4050 패션 플랫폼 포스티, \"급추위에 중장년 겨울 아우터 선제 할인 돌입&nbsp;&nbsp;맥스무비",
+        "date": "2026-11-04",
+        "brand": "포스티"
+      },
+      {
+        "title": "포스티, 겨울 아우터 기획전…수요 대응",
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAtcnZmeDZiVXpScXB6Uy1SYklsb29FbzQ3N2xDR0hMMFFEZGM4aUtHcjdQYkQ3RzR1bWt2Z0JWdTFuM1ZTVkNFcFVpUGdvTmVtVENKSURyaVRKR0hOYUUwRDBRWDhTTm9l?oc=5",
+        "desc": "포스티, 겨울 아우터 기획전…수요 대응&nbsp;&nbsp;한국섬유신문",
+        "date": "2026-11-04",
+        "brand": "포스티"
+      }
+    ],
     "에이블리": [
       {
         "title": "[똑똑한패션] 지그재그, 에이블리, 듀베디카, 세정 웰메이드, 이랜드 로엠, 아디다스, 브룩스브라더스, MLB, 써코니, 몽돌",
@@ -116,7 +138,29 @@
         "brand": "지그재그"
       }
     ],
-    "29CM": [],
+    "29CM": [
+      {
+        "title": "무신사 29CM '이구홈' 올해 방문객 300만 명 넘어서, \"외국인 쇼핑 거점\"",
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBCbnF0VTBwc28tMTh5SkZJYmdrVXVvQnpPWmJIOW1OZnpZRFdYRG9UYTlXRFhZUnZaZDFrQXRSU2RCMEd5dkVZeU5Scy1waXBpNTFEREZJbEJYc1ZNa3JZZnhqRXJ3aElwZ2dZNWtWVHlvOFk?oc=5",
+        "desc": "무신사 29CM '이구홈' 올해 방문객 300만 명 넘어서, \"외국인 쇼핑 거점\"&nbsp;&nbsp;비즈니스포스트",
+        "date": "2026-11-16",
+        "brand": "29CM"
+      },
+      {
+        "title": "무신사·29CM서 매출 51%↑…브룩스브라더스, MZ세대 공략",
+        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9VenhqeGNQa1JUc2xTUVRBSlhvbHJJSVBkYWRwTE92R3ZpSTBZcEhNNUhlc1h5MjNETk9kV1dTYjhWLVFoTVFBNGZEazE1V3IyYW1xY09PTkRWSkFkY0o4cWtJNVk?oc=5",
+        "desc": "무신사·29CM서 매출 51%↑…브룩스브라더스, MZ세대 공략&nbsp;&nbsp;서울경제TV",
+        "date": "2026-11-16",
+        "brand": "29CM"
+      },
+      {
+        "title": "29CM, 연중 최대 쇼핑 행사 ‘2026 겨울 이구위크’ 연다… “11일간 패션·홈·키즈 등 3000개 브랜드 총출동”",
+        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBhMmsyMzF4cWJqMnh6TThMUi1nNlRnUDBJTDlBTm1Bb1p1eVNkbmlJM3pOWmIxOWFYMTd0Tkl4R1drX3ZidWMtVFJObTVjNjdTejlRLUFqLVBBX1RZTC11QQ?oc=5",
+        "desc": "29CM, 연중 최대 쇼핑 행사 ‘2026 겨울 이구위크’ 연다… “11일간 패션·홈·키즈 등 3000개 브랜드 총출동”&nbsp;&nbsp;무신사",
+        "date": "2026-11-06",
+        "brand": "29CM"
+      }
+    ],
     "W컨셉": [
       {
         "title": "[단독] 무신사·W컨셉 도쿄서 잇단 팝업…일본 열도 달구는 K패션",
@@ -140,6 +184,28 @@
         "brand": "W컨셉"
       }
     ],
-    "무신사": []
+    "무신사": [
+      {
+        "title": "상장 이후가 진짜 승부…글로벌 성장 입증해야 [무신사 IPO ③]",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE53RGFaQmMyNTFPaVZKM2pIczhKQnplbFhtMW5VU0lZRlJsdERCUnAwa2Rubm5GYUNJOUpydUlmYTFRSmFJWmFtRjZDQ3VKZzhmeVUtMTM3ZERlb2tSUTlkVm4tNHFUYmFCSzZrbmx0Z2t5Y3BwbG5PRlZYNXU?oc=5",
+        "desc": "상장 이후가 진짜 승부…글로벌 성장 입증해야 [무신사 IPO ③]&nbsp;&nbsp;한국금융신문",
+        "date": "2026-11-15",
+        "brand": "무신사"
+      },
+      {
+        "title": "무신사 오프라인 매장 100개…이익 줄어도 늘리는 이유",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1aNmJ6dUttbDJ6TkZKYUFyRnROZjAxT1J5T01FUmpHNG5zd3EwbkZVZ0Nwb0VvT3pfRmhiYzBuUlhCNTRlU3hTSTEzZEJLNGs1WEptdFpBM24zbnRFTFlGbXQ2Ri1oaDg?oc=5",
+        "desc": "무신사 오프라인 매장 100개…이익 줄어도 늘리는 이유&nbsp;&nbsp;자본시장뉴스",
+        "date": "2026-11-16",
+        "brand": "무신사"
+      },
+      {
+        "title": "[단독] 무신사·W컨셉 도쿄서 잇단 팝업…일본 열도 달구는 K패션",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE16YThYd2VaRUUxblVzYkxKUzB4NE8wbnpRVlNRY0szb2pwNW94SEVoV1FmVkVBR3R4TFJtWk5vRExEU3ZGTnYyVUZiZGNrNDdOTmfSAVNBVV95cUxNQzcxSFd5YkJzQzFScHFOVnJFaXQ1bzNJZVRGUTNPdHRoelJudGtzdENGUC1fUjJMNWpwM1RiX0pfdXBmYUVQby1JRzB4MnNDN0lMRQ?oc=5",
+        "desc": "[단독] 무신사·W컨셉 도쿄서 잇단 팝업…일본 열도 달구는 K패션&nbsp;&nbsp;서울경제",
+        "date": "2026-11-11",
+        "brand": "무신사"
+      }
+    ]
   }
 }
