@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-16",
+  "collected_at": "2026-11-17",
   "appstore": [
     {
       "app": "포스티",
@@ -39,10 +39,9 @@
   "events": {
     "posty": [
       {
-        "title": "포스티 기획전",
-        "url": "https://posty.kr/events",
-        "source": "포스티",
-        "note": "앱 전용 — 상세 목록은 앱에서 확인"
+        "title": "지금 가입 시 20% 할인쿠폰을 드려요.쿠폰받기",
+        "url": "https://posty.kr/events/cms/879fa67f-578c-4645-9b66-be2b3063c539",
+        "source": "포스티"
       }
     ],
     "ably": [
@@ -55,10 +54,9 @@
     ],
     "cm29": [
       {
-        "title": "29CM 기획전",
-        "url": "https://www.29cm.co.kr/exhibition",
-        "source": "29CM",
-        "note": "앱 전용 — 상세 목록은 앱에서 확인"
+        "title": "Event",
+        "url": "https://www.29cm.co.kr/store/event",
+        "source": "29CM"
       }
     ],
     "wconcept": [
@@ -71,29 +69,7 @@
     ]
   },
   "news": {
-    "포스티": [
-      {
-        "title": "4050 패션 플랫폼 포스티, \"급추위에 중장년 겨울 아우터 선제 할인 돌입",
-        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBGS1Rscy1BdkpZekROcC1ZRXJIYnNuM1lHUno2b1lBZTlGbW5VWlFHZW0zeWVQMWNqR1U1aWJfeW0wTlhvellUZjRHLVlCYXg1eERXZVltQW1NNUQxbG0ydGhiWUM5bjFYZnY0?oc=5",
-        "desc": "4050 패션 플랫폼 포스티, \"급추위에 중장년 겨울 아우터 선제 할인 돌입&nbsp;&nbsp;맥스무비",
-        "date": "2026-11-04",
-        "brand": "포스티"
-      },
-      {
-        "title": "갑자기 추워졌다… 포스티, 중장년 겨울 아우터 최대 95% 할인",
-        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5DN3VrYllUMzBudFB2TjVjSjJtdEY5YWhFTWV6U2lweGI0QjNTOE9scDhMZGN4SUhOWGJ6enFNR29pbmx4bGxUQjhxZXY4RXRo?oc=5",
-        "desc": "갑자기 추워졌다… 포스티, 중장년 겨울 아우터 최대 95% 할인&nbsp;&nbsp;패션비즈",
-        "date": "2026-11-03",
-        "brand": "포스티"
-      },
-      {
-        "title": "겨울 아우터 할인전 여는 포스티···“40·50 모여라”",
-        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0wX3Z1czhGR0xUVXlfT0g3d3M0WXVRVFdYX09keUtkaTM5alppejRtSW90ZVRZdXdNZ3k4YmhROWtKRVlmbEt1SndBN2h1VTR4S3dNM0dhT21PV2FTZnVBNWU1NHZMM2twTHR4M2hGWjDSAXRBVV95cUxQU0tsSHo2RmdaNlRrd0dVWVM3NU1LQ3BQb2JoTUhQX2JKVEpTVWpFSFVDZTc0TEY1dXFxQVdjY1g1ZjNSTmFhSUI5OHVvVXhSZkpLejBjTVlQdjg3akYtbVZBOTIzWVBUaUFmaUYxNXpGUUY4MA?oc=5",
-        "desc": "겨울 아우터 할인전 여는 포스티···“40·50 모여라”&nbsp;&nbsp;이뉴스투데이",
-        "date": "2026-11-04",
-        "brand": "포스티"
-      }
-    ],
+    "포스티": [],
     "에이블리": [
       {
         "title": "[똑똑한패션] 지그재그, 에이블리, 듀베디카, 세정 웰메이드, 이랜드 로엠, 아디다스, 브룩스브라더스, MLB, 써코니, 몽돌",
@@ -103,16 +79,16 @@
         "brand": "에이블리"
       },
       {
-        "title": "에이블리, 최대 93% 할인 블프 ‘에블프’ 진행",
-        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBfXzhUQTBPMDA4YzB0Vjc2eFc1Z0prQ2N1czNPR2otZGdUaGNxNW5WU2ZmbkRoUEdBNVZWSHRSUVljWTNIUVVwUm9KWVlwaV96UjFwTUJCMlNRSUN4MkgwVDZCcUI4QQ?oc=5",
-        "desc": "에이블리, 최대 93% 할인 블프 ‘에블프’ 진행&nbsp;&nbsp;싱글리스트",
+        "title": "최대 93% 할인에 99% 쿠폰까지…에이블리, 2000개 입점사 참여 '에블프' 개최",
+        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBpSXc3eVVPUFN0VDVUM0ZYcFhRY0JLd0xWQ3RPNkRDRVpnbVQ1eHp1b0duTzZ0ekdhT19WNTVSd2xFTzFSaHNIVjlLWWU1aktycF9DNXk5eEJMMlhybkJuT1p6b3VYSjZ1M1I2aQ?oc=5",
+        "desc": "최대 93% 할인에 99% 쿠폰까지…에이블리, 2000개 입점사 참여 '에블프' 개최&nbsp;&nbsp;뉴스탭",
         "date": "2026-11-16",
         "brand": "에이블리"
       },
       {
-        "title": "﻿에이블리, 블랙프라이데이 '에블프' 개최",
-        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5ZcVNGenhCOERfdWl1WXRvRXRBX2NxM1lmdXBKTDB3RnVkWEtEVXJnOW11OVhZOHJ1dWRYME5zakJDRVNWelNZa0dUYWVXRzU2YjBaZlkyMHlnM3oxVEFHUEdoeXZzdkRqdTllNjB2bkbSAXRBVV95cUxOU09SZzFjZW1xaGlEQ09WWFl2ZXY1WkFYNXQ3SkhUeUpNeTZqdVBzMDFaY2hrRkUtZWlyLVVpYktneW9nb3E3b3hqRTh6ZlU3NWxhbUNUaG5PRXlkVGhIdlROUzFtak1FMTVCZ0xlWHdMeHlSNw?oc=5",
-        "desc": "﻿에이블리, 블랙프라이데이 '에블프' 개최&nbsp;&nbsp;포인트데일리",
+        "title": "에이블리, 최대 93% 할인 블프 ‘에블프’ 진행",
+        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBfXzhUQTBPMDA4YzB0Vjc2eFc1Z0prQ2N1czNPR2otZGdUaGNxNW5WU2ZmbkRoUEdBNVZWSHRSUVljWTNIUVVwUm9KWVlwaV96UjFwTUJCMlNRSUN4MkgwVDZCcUI4QQ?oc=5",
+        "desc": "에이블리, 최대 93% 할인 블프 ‘에블프’ 진행&nbsp;&nbsp;싱글리스트",
         "date": "2026-11-16",
         "brand": "에이블리"
       }
@@ -140,29 +116,7 @@
         "brand": "지그재그"
       }
     ],
-    "29CM": [
-      {
-        "title": "무신사 29CM '이구홈' 올해 방문객 300만 명 넘어, \"외국인 쇼핑 거점\"",
-        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBCbnF0VTBwc28tMTh5SkZJYmdrVXVvQnpPWmJIOW1OZnpZRFdYRG9UYTlXRFhZUnZaZDFrQXRSU2RCMEd5dkVZeU5Scy1waXBpNTFEREZJbEJYc1ZNa3JZZnhqRXJ3aElwZ2dZNWtWVHlvOFk?oc=5",
-        "desc": "무신사 29CM '이구홈' 올해 방문객 300만 명 넘어, \"외국인 쇼핑 거점\"&nbsp;&nbsp;비즈니스포스트",
-        "date": "2026-11-16",
-        "brand": "29CM"
-      },
-      {
-        "title": "무신사·29CM서 매출 51%↑…브룩스브라더스, MZ세대 공략",
-        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9VenhqeGNQa1JUc2xTUVRBSlhvbHJJSVBkYWRwTE92R3ZpSTBZcEhNNUhlc1h5MjNETk9kV1dTYjhWLVFoTVFBNGZEazE1V3IyYW1xY09PTkRWSkFkY0o4cWtJNVk?oc=5",
-        "desc": "무신사·29CM서 매출 51%↑…브룩스브라더스, MZ세대 공략&nbsp;&nbsp;서울경제TV",
-        "date": "2026-11-16",
-        "brand": "29CM"
-      },
-      {
-        "title": "한미사이언스 '아데시', 무신사·29CM·코오드로 판로 확대",
-        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1zNkpUVjZFcmpRcGFyRmFWUWVUVjhtVXJfNG05Zld5U3M1MUhFcy1jNmh6WWZHVEtQajZ0VUlnZEx0SUxIQklsUDdHeFdsY1hWWFUyMjZMUzB1eEJYZDVuTnB6ZGlWQS1JeUE?oc=5",
-        "desc": "한미사이언스 '아데시', 무신사·29CM·코오드로 판로 확대&nbsp;&nbsp;비즈월드",
-        "date": "2026-11-16",
-        "brand": "29CM"
-      }
-    ],
+    "29CM": [],
     "W컨셉": [
       {
         "title": "[단독] 무신사·W컨셉 도쿄서 잇단 팝업…일본 열도 달구는 K패션",
@@ -186,28 +140,6 @@
         "brand": "W컨셉"
       }
     ],
-    "무신사": [
-      {
-        "title": "상장 이후가 진짜 승부…글로벌 성장 입증해야 [무신사 IPO ③]",
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE53RGFaQmMyNTFPaVZKM2pIczhKQnplbFhtMW5VU0lZRlJsdERCUnAwa2Rubm5GYUNJOUpydUlmYTFRSmFJWmFtRjZDQ3VKZzhmeVUtMTM3ZERlb2tSUTlkVm4tNHFUYmFCSzZrbmx0Z2t5Y3BwbG5PRlZYNXU?oc=5",
-        "desc": "상장 이후가 진짜 승부…글로벌 성장 입증해야 [무신사 IPO ③]&nbsp;&nbsp;한국금융신문",
-        "date": "2026-11-15",
-        "brand": "무신사"
-      },
-      {
-        "title": "브룩스브라더스, 패션 플랫폼 매출 51% 증가…MZ세대 공략 성과",
-        "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5uMDVQNTd3bHV3aXRLNVhTYXJCXzRGRlpSVnRKM0x1TnlLcDFuTGtFNUJvczgtTGRTbTRtdzRIRFZuNUNCSnc?oc=5",
-        "desc": "브룩스브라더스, 패션 플랫폼 매출 51% 증가…MZ세대 공략 성과&nbsp;&nbsp;시사코리아",
-        "date": "2026-11-15",
-        "brand": "무신사"
-      },
-      {
-        "title": "브룩스브라더스, 패션 플랫폼 매출 50%↑…MZ세대 '클래식' 통했다",
-        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9UMlBtWVotb2laUTlnYVRHZzh5aUY5bTY0ME1DcXVmM29BQVgyZG1sYWFtbmNlNktfY25JUnhSb3dwSjluUXFOU3J2dU1qZWVoekJ1OVQzcHZNU2JiSllN?oc=5",
-        "desc": "브룩스브라더스, 패션 플랫폼 매출 50%↑…MZ세대 '클래식' 통했다&nbsp;&nbsp;뉴스1",
-        "date": "2026-11-16",
-        "brand": "무신사"
-      }
-    ]
+    "무신사": []
   }
 }

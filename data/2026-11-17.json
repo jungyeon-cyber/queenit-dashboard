@@ -1,0 +1,145 @@
+{
+  "collected_at": "2026-11-17",
+  "appstore": [
+    {
+      "app": "포스티",
+      "platform": "iOS",
+      "reviews": [],
+      "rating": null
+    },
+    {
+      "app": "포스티",
+      "platform": "Android",
+      "updated": "2026년 11월 6일",
+      "recent_changes": ""
+    },
+    {
+      "app": "에이블리",
+      "platform": "iOS",
+      "reviews": [],
+      "rating": null
+    },
+    {
+      "app": "에이블리",
+      "platform": "Android",
+      "error": "404 Client Error: Not Found for url: https://play.google.com/store/apps/details?id=com.ablyclothes.app&hl=ko"
+    },
+    {
+      "app": "지그재그",
+      "platform": "iOS",
+      "reviews": [],
+      "rating": null
+    },
+    {
+      "app": "지그재그",
+      "platform": "Android",
+      "error": "404 Client Error: Not Found for url: https://play.google.com/store/apps/details?id=com.kakaostyle.zigzag&hl=ko"
+    }
+  ],
+  "events": {
+    "posty": [
+      {
+        "title": "지금 가입 시 20% 할인쿠폰을 드려요.쿠폰받기",
+        "url": "https://posty.kr/events/cms/879fa67f-578c-4645-9b66-be2b3063c539",
+        "source": "포스티"
+      }
+    ],
+    "ably": [
+      {
+        "title": "에이블리 기획전",
+        "url": "https://m.a-bly.com/exhibitions",
+        "source": "에이블리",
+        "note": "앱 전용 — 상세 목록은 앱에서 확인"
+      }
+    ],
+    "cm29": [
+      {
+        "title": "Event",
+        "url": "https://www.29cm.co.kr/store/event",
+        "source": "29CM"
+      }
+    ],
+    "wconcept": [
+      {
+        "title": "W컨셉 기획전",
+        "url": "https://www.wconcept.co.kr/Display/eventList",
+        "source": "W컨셉",
+        "note": "앱 전용 — 상세 목록은 앱에서 확인"
+      }
+    ]
+  },
+  "news": {
+    "포스티": [],
+    "에이블리": [
+      {
+        "title": "[똑똑한패션] 지그재그, 에이블리, 듀베디카, 세정 웰메이드, 이랜드 로엠, 아디다스, 브룩스브라더스, MLB, 써코니, 몽돌",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBIQ1JQS3RfSzRqRnR2c1NtRWZfVUZ2UXBERmxmSk9TWGk2SmxqYkZCUDdhcmppTnNDLXVMWnRIQk05Qk9BaG4wbWE1dGZpNWZuZVRmZVZhWDIxWHM?oc=5",
+        "desc": "[똑똑한패션] 지그재그, 에이블리, 듀베디카, 세정 웰메이드, 이랜드 로엠, 아디다스, 브룩스브라더스, MLB, 써코니, 몽돌&nbsp;&nbsp;에너지경제신문",
+        "date": "2026-11-16",
+        "brand": "에이블리"
+      },
+      {
+        "title": "최대 93% 할인에 99% 쿠폰까지…에이블리, 2000개 입점사 참여 '에블프' 개최",
+        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBpSXc3eVVPUFN0VDVUM0ZYcFhRY0JLd0xWQ3RPNkRDRVpnbVQ1eHp1b0duTzZ0ekdhT19WNTVSd2xFTzFSaHNIVjlLWWU1aktycF9DNXk5eEJMMlhybkJuT1p6b3VYSjZ1M1I2aQ?oc=5",
+        "desc": "최대 93% 할인에 99% 쿠폰까지…에이블리, 2000개 입점사 참여 '에블프' 개최&nbsp;&nbsp;뉴스탭",
+        "date": "2026-11-16",
+        "brand": "에이블리"
+      },
+      {
+        "title": "에이블리, 최대 93% 할인 블프 ‘에블프’ 진행",
+        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBfXzhUQTBPMDA4YzB0Vjc2eFc1Z0prQ2N1czNPR2otZGdUaGNxNW5WU2ZmbkRoUEdBNVZWSHRSUVljWTNIUVVwUm9KWVlwaV96UjFwTUJCMlNRSUN4MkgwVDZCcUI4QQ?oc=5",
+        "desc": "에이블리, 최대 93% 할인 블프 ‘에블프’ 진행&nbsp;&nbsp;싱글리스트",
+        "date": "2026-11-16",
+        "brand": "에이블리"
+      }
+    ],
+    "지그재그": [
+      {
+        "title": "지그재그, '블랙프라이데이 직잭팟' 최대 99% 할인 프로모션",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5BSjA1RGVHY0lFRzZEWDRaLUNuX0g0YlFNYjZwSXM5cUFGQjZseE1ZNXlTRzdzcVZnMV9xWVZzZHdxVVctdVJtR1RVVWFvYkJJWTVLVGxkYjU3Z9IBVEFVX3lxTE5NUHNtQVRSMFM0anc1dl9PMnJ2R2x0bjVtYWEzR1E0X2NaX1haRVlGXzk0alpuYlhYckpkYms2MkR6cGZzM3hxTjlNTjNqUGRpc21mdw?oc=5",
+        "desc": "지그재그, '블랙프라이데이 직잭팟' 최대 99% 할인 프로모션&nbsp;&nbsp;더팩트",
+        "date": "2026-11-15",
+        "brand": "지그재그"
+      },
+      {
+        "title": "지그재그, 블랙프라이데이 맞아 패션·뷰티·라이프 최대 99% 할인",
+        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9sOVl5Yy1Ncm9NakYyUlRTbWFULVJGSVpuUlBCNlRUbEVIT3dUTUJjdHZRczdjYWtZeGVlX01hcmQ5dzhxZlo4MmhDcnVhajMyTFctVnhuZHJwRlYteG9hUNIBeEFVX3lxTFBhX3AtOWFhN25XVUh2Y3JReVdxdW1BczdNVzJVTWhTdThnbjFZbXRvQU1TRFZMMUhVQUR1OGJXM1ZDRzJXM1R5V2hMeGpzODdRNXROck9wNWhwQVhnTm40QUZUakowcWt1VnZaTHJCLWFYc0t1dzZCNw?oc=5",
+        "desc": "지그재그, 블랙프라이데이 맞아 패션·뷰티·라이프 최대 99% 할인&nbsp;&nbsp;뉴시스",
+        "date": "2026-11-16",
+        "brand": "지그재그"
+      },
+      {
+        "title": "지그재그, 블랙프라이데이 맞춰 ‘겨울 직잭팟’",
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9LYUpwX3hHR3R2bnp5eElrYi15UnJ3MjBjajVfcjFkbmZfUE9jNVM1bVl5WGlQYzdxUHNPSVU2WDZxMUx3QW40alEwSld6Rk0xbE5MSlFlTHJNZGt4VU51WmE5OU8xNDdG?oc=5",
+        "desc": "지그재그, 블랙프라이데이 맞춰 ‘겨울 직잭팟’&nbsp;&nbsp;한국섬유신문",
+        "date": "2026-11-16",
+        "brand": "지그재그"
+      }
+    ],
+    "29CM": [],
+    "W컨셉": [
+      {
+        "title": "[단독] 무신사·W컨셉 도쿄서 잇단 팝업…일본 열도 달구는 K패션",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE16YThYd2VaRUUxblVzYkxKUzB4NE8wbnpRVlNRY0szb2pwNW94SEVoV1FmVkVBR3R4TFJtWk5vRExEU3ZGTnYyVUZiZGNrNDdOTmfSAVNBVV95cUxNQzcxSFd5YkJzQzFScHFOVnJFaXQ1bzNJZVRGUTNPdHRoelJudGtzdENGUC1fUjJMNWpwM1RiX0pfdXBmYUVQby1JRzB4MnNDN0lMRQ?oc=5",
+        "desc": "[단독] 무신사·W컨셉 도쿄서 잇단 팝업…일본 열도 달구는 K패션&nbsp;&nbsp;서울경제",
+        "date": "2026-11-11",
+        "brand": "W컨셉"
+      },
+      {
+        "title": "W컨셉, 일본 거래액 1년 새 6배로…도쿄서 릴레이 팝업",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOVXhLUnlLeFo4MExMMzMwSnB0MU1rZmdtVzdpZFQxdWtCaURCcUp6cHU5QUZzOVZGVndnMm1PT2dnMTFaSFVVQkNxRVp4MjUwdjBSRnRXTGxkRExsQ0p5OVRwUnVFZHkxMEpsMTA5bWhDNVF4d0FiNVVLZUdOTUFCMHdVYzd1UGx3LXZuZkE4RVhtXzjSAacBQVVfeXFMTWk5bkxUUngwU2E4RXFGN2p3NFpPcVdDV2ZQRS16Wmx2U1FvVnAwRFhOQV95SW1VLVFFWDd4WHZ0MWVEXzBoclRTRG5FUTZEMVV0SEZfZEdwb2RzTDI5S21MTnVtSkVJaGx3d1F1UlhtMjZvR2pCaHg0YVhGU0dUbDkzaklqMFBPVkdQaFdoYzNOWTltZ3JsbkVWSWFVNE5VS3haMG5UY0E?oc=5",
+        "desc": "W컨셉, 일본 거래액 1년 새 6배로…도쿄서 릴레이 팝업&nbsp;&nbsp;Chosunbiz",
+        "date": "2026-11-12",
+        "brand": "W컨셉"
+      },
+      {
+        "title": "W컨셉, 일본 도쿄 2곳서 팝업…K-패션 80여 개 브랜드 총출동",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1LaXJXYUl2OUV5ZUthNFpCM0dfTEZLWHR6TVZWTl94UlpSLVBNLWJwQ1Nmd0ZEM3Y0d3FLckdtWG1Qa3diYkZ6RklqZDFXVWktdDB6cmZSMHZGd0Rw?oc=5",
+        "desc": "W컨셉, 일본 도쿄 2곳서 팝업…K-패션 80여 개 브랜드 총출동&nbsp;&nbsp;뉴스핌",
+        "date": "2026-11-11",
+        "brand": "W컨셉"
+      }
+    ],
+    "무신사": []
+  }
+}
