@@ -1,0 +1,167 @@
+{
+  "collected_at": "2026-11-18",
+  "appstore": [
+    {
+      "app": "포스티",
+      "platform": "iOS",
+      "reviews": [],
+      "rating": null
+    },
+    {
+      "app": "포스티",
+      "platform": "Android",
+      "updated": "2026년 11월 6일",
+      "recent_changes": ""
+    },
+    {
+      "app": "에이블리",
+      "platform": "iOS",
+      "reviews": [],
+      "rating": null
+    },
+    {
+      "app": "에이블리",
+      "platform": "Android",
+      "error": "404 Client Error: Not Found for url: https://play.google.com/store/apps/details?id=com.ablyclothes.app&hl=ko"
+    },
+    {
+      "app": "지그재그",
+      "platform": "iOS",
+      "reviews": [],
+      "rating": null
+    },
+    {
+      "app": "지그재그",
+      "platform": "Android",
+      "error": "404 Client Error: Not Found for url: https://play.google.com/store/apps/details?id=com.kakaostyle.zigzag&hl=ko"
+    }
+  ],
+  "events": {
+    "posty": [
+      {
+        "title": "지금 가입 시 20% 할인쿠폰을 드려요.쿠폰받기",
+        "url": "https://posty.kr/events/cms/879fa67f-578c-4645-9b66-be2b3063c539",
+        "source": "포스티"
+      }
+    ],
+    "ably": [
+      {
+        "title": "에이블리 기획전",
+        "url": "https://m.a-bly.com/exhibitions",
+        "source": "에이블리",
+        "note": "앱 전용 — 상세 목록은 앱에서 확인"
+      }
+    ],
+    "cm29": [
+      {
+        "title": "Event",
+        "url": "https://www.29cm.co.kr/store/event",
+        "source": "29CM"
+      }
+    ],
+    "wconcept": [
+      {
+        "title": "W컨셉 기획전",
+        "url": "https://www.wconcept.co.kr/Display/eventList",
+        "source": "W컨셉",
+        "note": "앱 전용 — 상세 목록은 앱에서 확인"
+      }
+    ]
+  },
+  "news": {
+    "포스티": [
+      {
+        "title": "'포스티' 인기상품",
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1VeWY3cE93bTU2T3hJX2lMcUFhWUhCTlRwQjVSTHk4QkpGOEV4UjZmY250RG1HQmxfUkg2X2xFTmE0OGo0VkpQLWFtNlVfSEpEd3M4VGVOZThIblVpbGo3d1R5ekFRQWRoUUpaOVczRGhNcWc?oc=5",
+        "desc": "'포스티' 인기상품&nbsp;&nbsp;어패럴뉴스",
+        "date": "2026-11-16",
+        "brand": "포스티"
+      },
+      {
+        "title": "4050 패션 플랫폼 포스티, \"급추위에 중장년 겨울 아우터 선제 할인 돌입",
+        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBGS1Rscy1BdkpZekROcC1ZRXJIYnNuM1lHUno2b1lBZTlGbW5VWlFHZW0zeWVQMWNqR1U1aWJfeW0wTlhvellUZjRHLVlCYXg1eERXZVltQW1NNUQxbG0ydGhiWUM5bjFYZnY0?oc=5",
+        "desc": "4050 패션 플랫폼 포스티, \"급추위에 중장년 겨울 아우터 선제 할인 돌입&nbsp;&nbsp;맥스무비",
+        "date": "2026-11-04",
+        "brand": "포스티"
+      },
+      {
+        "title": "포스티, 겨울 아우터 기획전…수요 대응",
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAtcnZmeDZiVXpScXB6Uy1SYklsb29FbzQ3N2xDR0hMMFFEZGM4aUtHcjdQYkQ3RzR1bWt2Z0JWdTFuM1ZTVkNFcFVpUGdvTmVtVENKSURyaVRKR0hOYUUwRDBRWDhTTm9l?oc=5",
+        "desc": "포스티, 겨울 아우터 기획전…수요 대응&nbsp;&nbsp;한국섬유신문",
+        "date": "2026-11-04",
+        "brand": "포스티"
+      }
+    ],
+    "에이블리": [
+      {
+        "title": "[똑똑한패션] 지그재그, 에이블리, 듀베디카, 세정 웰메이드, 이랜드 로엠, 아디다스, 브룩스브라더스, MLB, 써코니, 몽돌",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBIQ1JQS3RfSzRqRnR2c1NtRWZfVUZ2UXBERmxmSk9TWGk2SmxqYkZCUDdhcmppTnNDLXVMWnRIQk05Qk9BaG4wbWE1dGZpNWZuZVRmZVZhWDIxWHM?oc=5",
+        "desc": "[똑똑한패션] 지그재그, 에이블리, 듀베디카, 세정 웰메이드, 이랜드 로엠, 아디다스, 브룩스브라더스, MLB, 써코니, 몽돌&nbsp;&nbsp;에너지경제신문",
+        "date": "2026-11-16",
+        "brand": "에이블리"
+      },
+      {
+        "title": "패션 결제추정금액 1위 무신사, 2위 유니클로",
+        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE54azlFQloxbERDUGlkQWgtcDhONVJndy1qcXBiQWxDQ196N1d6Ym9NQmI0Q19fYTlLWkE2eE53YnU5LXlBRDJxVmQ1YzV0YWc?oc=5",
+        "desc": "패션 결제추정금액 1위 무신사, 2위 유니클로&nbsp;&nbsp;와우테일",
+        "date": "2026-11-18",
+        "brand": "에이블리"
+      },
+      {
+        "title": "에이블리, 최대 93% 할인 블프 ‘에블프’ 진행",
+        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBfXzhUQTBPMDA4YzB0Vjc2eFc1Z0prQ2N1czNPR2otZGdUaGNxNW5WU2ZmbkRoUEdBNVZWSHRSUVljWTNIUVVwUm9KWVlwaV96UjFwTUJCMlNRSUN4MkgwVDZCcUI4QQ?oc=5",
+        "desc": "에이블리, 최대 93% 할인 블프 ‘에블프’ 진행&nbsp;&nbsp;싱글리스트",
+        "date": "2026-11-16",
+        "brand": "에이블리"
+      }
+    ],
+    "지그재그": [],
+    "29CM": [
+      {
+        "title": "패션 브랜드 결제금액 1위 무신사·29CM…유니클로 2위",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5jWnVQcy1JZnJFX3Y5ZGdvdVExeTUtMndlQV9mOGlVZGVoZ1pfOWpGdlhKZkRVaXVWelVzUnZRWDdZQXcyREZVVWFvWGxhcFFKaVE1YkVxX3BXcmIwVVVZ?oc=5",
+        "desc": "패션 브랜드 결제금액 1위 무신사·29CM…유니클로 2위&nbsp;&nbsp;뉴스1",
+        "date": "2026-11-18",
+        "brand": "29CM"
+      },
+      {
+        "title": "무신사·29CM, 패션 브랜드 결제액 1위…2위는 유니클로",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBnY3R4elczeFpTOUNQbFg1VjlyRzFQNFRIanY3S1ZjTWR6SkVSc0poVG9hOUNWNVVITmxNYTB0bWZXQzEwNGxYdXFUVUZMdHhTOHJueEtLbw?oc=5",
+        "desc": "무신사·29CM, 패션 브랜드 결제액 1위…2위는 유니클로&nbsp;&nbsp;헤럴드경제",
+        "date": "2026-11-18",
+        "brand": "29CM"
+      },
+      {
+        "title": "패션 결제추정금액 1위 무신사, 2위 유니클로",
+        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE54azlFQloxbERDUGlkQWgtcDhONVJndy1qcXBiQWxDQ196N1d6Ym9NQmI0Q19fYTlLWkE2eE53YnU5LXlBRDJxVmQ1YzV0YWc?oc=5",
+        "desc": "패션 결제추정금액 1위 무신사, 2위 유니클로&nbsp;&nbsp;와우테일",
+        "date": "2026-11-18",
+        "brand": "29CM"
+      }
+    ],
+    "W컨셉": [],
+    "무신사": [
+      {
+        "title": "패션 브랜드 결제금액 1위 무신사·29CM…유니클로 2위",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5jWnVQcy1JZnJFX3Y5ZGdvdVExeTUtMndlQV9mOGlVZGVoZ1pfOWpGdlhKZkRVaXVWelVzUnZRWDdZQXcyREZVVWFvWGxhcFFKaVE1YkVxX3BXcmIwVVVZ?oc=5",
+        "desc": "패션 브랜드 결제금액 1위 무신사·29CM…유니클로 2위&nbsp;&nbsp;뉴스1",
+        "date": "2026-11-18",
+        "brand": "무신사"
+      },
+      {
+        "title": "무신사·29CM, 패션 브랜드 결제액 1위…2위는 유니클로",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBnY3R4elczeFpTOUNQbFg1VjlyRzFQNFRIanY3S1ZjTWR6SkVSc0poVG9hOUNWNVVITmxNYTB0bWZXQzEwNGxYdXFUVUZMdHhTOHJueEtLbw?oc=5",
+        "desc": "무신사·29CM, 패션 브랜드 결제액 1위…2위는 유니클로&nbsp;&nbsp;헤럴드경제",
+        "date": "2026-11-18",
+        "brand": "무신사"
+      },
+      {
+        "title": "농심, 무신사 스탠다드와 새우깡 55주년 기념 커스텀 티셔츠 운영",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9oekxGYzl1SVE1OVZna2oxV0tWcHMzNWJZOFZKQ09PLUNvVTEwZU5WV1QtX3NTT2ozbGgtenNhczJsWDAzdmNPbFY2ekZzb1BEOEdIRA?oc=5",
+        "desc": "농심, 무신사 스탠다드와 새우깡 55주년 기념 커스텀 티셔츠 운영&nbsp;&nbsp;현대건강신문",
+        "date": "2026-11-18",
+        "brand": "무신사"
+      }
+    ]
+  }
+}
