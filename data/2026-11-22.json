@@ -1,0 +1,211 @@
+{
+  "collected_at": "2026-11-22",
+  "appstore": [
+    {
+      "app": "포스티",
+      "platform": "iOS",
+      "reviews": [],
+      "rating": null
+    },
+    {
+      "app": "포스티",
+      "platform": "Android",
+      "updated": "2026년 11월 6일",
+      "recent_changes": ""
+    },
+    {
+      "app": "에이블리",
+      "platform": "iOS",
+      "reviews": [],
+      "rating": null
+    },
+    {
+      "app": "에이블리",
+      "platform": "Android",
+      "error": "404 Client Error: Not Found for url: https://play.google.com/store/apps/details?id=com.ablyclothes.app&hl=ko"
+    },
+    {
+      "app": "지그재그",
+      "platform": "iOS",
+      "reviews": [],
+      "rating": null
+    },
+    {
+      "app": "지그재그",
+      "platform": "Android",
+      "error": "404 Client Error: Not Found for url: https://play.google.com/store/apps/details?id=com.kakaostyle.zigzag&hl=ko"
+    }
+  ],
+  "events": {
+    "posty": [
+      {
+        "title": "지금 가입 시 20% 할인쿠폰을 드려요.쿠폰받기",
+        "url": "https://posty.kr/events/cms/879fa67f-578c-4645-9b66-be2b3063c539",
+        "source": "포스티"
+      }
+    ],
+    "ably": [
+      {
+        "title": "에이블리 기획전",
+        "url": "https://m.a-bly.com/exhibitions",
+        "source": "에이블리",
+        "note": "앱 전용 — 상세 목록은 앱에서 확인"
+      }
+    ],
+    "cm29": [
+      {
+        "title": "Event",
+        "url": "https://www.29cm.co.kr/store/event",
+        "source": "29CM"
+      }
+    ],
+    "wconcept": [
+      {
+        "title": "W컨셉 기획전",
+        "url": "https://www.wconcept.co.kr/Display/eventList",
+        "source": "W컨셉",
+        "note": "앱 전용 — 상세 목록은 앱에서 확인"
+      }
+    ]
+  },
+  "news": {
+    "포스티": [
+      {
+        "title": "'포스티' 인기상품",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9JcmUzTXViX3pfNkdWT2pLazJ0RWdFUmJzTnFPSDFibjNMU3VhNTdLTVh0MTNfUWJvWS0zV3FnUDJHOEc1bEluSzJyV1pVaUZraUE4Z04wUDZBcjl5U0tMVDZUeTdWTVY1eHlQaV9NMnVSblVOQ3c?oc=5",
+        "desc": "'포스티' 인기상품&nbsp;&nbsp;어패럴뉴스",
+        "date": "2026-11-15",
+        "brand": "포스티"
+      },
+      {
+        "title": "갑자기 추워졌다… 포스티, 중장년 겨울 아우터 최대 95% 할인",
+        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5DN3VrYllUMzBudFB2TjVjSjJtdEY5YWhFTWV6U2lweGI0QjNTOE9scDhMZGN4SUhOWGJ6enFNR29pbmx4bGxUQjhxZXY4RXRo?oc=5",
+        "desc": "갑자기 추워졌다… 포스티, 중장년 겨울 아우터 최대 95% 할인&nbsp;&nbsp;패션비즈",
+        "date": "2026-11-03",
+        "brand": "포스티"
+      },
+      {
+        "title": "포스티, 겨울 아우터 기획전…수요 대응",
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAtcnZmeDZiVXpScXB6Uy1SYklsb29FbzQ3N2xDR0hMMFFEZGM4aUtHcjdQYkQ3RzR1bWt2Z0JWdTFuM1ZTVkNFcFVpUGdvTmVtVENKSURyaVRKR0hOYUUwRDBRWDhTTm9l?oc=5",
+        "desc": "포스티, 겨울 아우터 기획전…수요 대응&nbsp;&nbsp;한국섬유신문",
+        "date": "2026-11-04",
+        "brand": "포스티"
+      }
+    ],
+    "에이블리": [
+      {
+        "title": "에이블리, 패션 넘어 오프라인 체험까지…예약 서비스 거래액 181% 증가",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1pQ3J3UE1qSDFmRG1tTElBWkNMNVhBZmxSb08yWGd1clFnaGhvRXN0Rng4TnUya016ZzJMZ1VvbEZ0T2c2alVydUY0UzFzTGlJWFHSAVNBVV95cUxPc21SbzBiVzVvVTgybWh4bUJ4b3diMkh3SnhSZWdwWGNyNGo0V2JleEcxT0J1UmxKSS1lUHlfYzBiNEFxb053SkRmLWFlaW5aNVBhQQ?oc=5",
+        "desc": "에이블리, 패션 넘어 오프라인 체험까지…예약 서비스 거래액 181% 증가&nbsp;&nbsp;서울경제",
+        "date": "2026-11-19",
+        "brand": "에이블리"
+      },
+      {
+        "title": "26년 10월 패션 앱/리테일 동향: 올해 가장 많이 성장한 패션 앱 & 리테일은?",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE53X3E5OUk4eTBfcmd5bEFTeFM5TTZ4cEJCSHBOQS1FajNFTzJUME44b3lIbmpIWkZSSlVfSGdQM3hVRlNQc25mYm13emM0TFctRC1YWHV5eXhURXU1NnhKV1dmME50aGhJSUJiM0lR?oc=5",
+        "desc": "26년 10월 패션 앱/리테일 동향: 올해 가장 많이 성장한 패션 앱 & 리테일은?&nbsp;&nbsp;오픈애즈",
+        "date": "2026-11-20",
+        "brand": "에이블리"
+      },
+      {
+        "title": "에이블리, 블랙프라이데이 ‘에블프’로 새 단장…",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBaRUF5bmtGMU9tZXpYTTBqcm4waUVKTEtGdFhGMVowV2g4aVZNX3RiM0NVaVQ2eHQxSEoxSUhxUVpaTk5yWjg5aU9LUHg1eWxmVzB4bWZkWXF0dFRMeGg5elRqSno1V2Fjazg5enVZeGlyaGwwbm5fMF9n?oc=5",
+        "desc": "에이블리, 블랙프라이데이 ‘에블프’로 새 단장…&nbsp;&nbsp;패션포스트",
+        "date": "2026-11-21",
+        "brand": "에이블리"
+      }
+    ],
+    "지그재그": [
+      {
+        "title": "지그재그, '블랙프라이데이 직잭팟' 최대 99% 할인 프로모션",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5BSjA1RGVHY0lFRzZEWDRaLUNuX0g0YlFNYjZwSXM5cUFGQjZseE1ZNXlTRzdzcVZnMV9xWVZzZHdxVVctdVJtR1RVVWFvYkJJWTVLVGxkYjU3Z9IBVEFVX3lxTE5NUHNtQVRSMFM0anc1dl9PMnJ2R2x0bjVtYWEzR1E0X2NaX1haRVlGXzk0alpuYlhYckpkYms2MkR6cGZzM3hxTjlNTjNqUGRpc21mdw?oc=5",
+        "desc": "지그재그, '블랙프라이데이 직잭팟' 최대 99% 할인 프로모션&nbsp;&nbsp;더팩트",
+        "date": "2026-11-15",
+        "brand": "지그재그"
+      },
+      {
+        "title": "지그재그, 서울 10곳서 '직잭팟 커피차' 운영…2030 고객 공략",
+        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBJZ09mS2dELXZyM25NSTFsNE5MWUhTMUROTEdxQ1Ffa0h3ZkIwNFl6eHhkOG5wRHZiQkdHWllhZFZ6YnVFTnhrQkhqQ3RjZXZCV1dwUUxkSnBNZXBqb0dLRC1Bd2dyNFVoLWQw?oc=5",
+        "desc": "지그재그, 서울 10곳서 '직잭팟 커피차' 운영…2030 고객 공략&nbsp;&nbsp;뉴스저널리즘",
+        "date": "2026-11-19",
+        "brand": "지그재그"
+      },
+      {
+        "title": "지그재그, 블랙프라이데이 맞아 패션·뷰티·라이프 최대 99% 할인",
+        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9sOVl5Yy1Ncm9NakYyUlRTbWFULVJGSVpuUlBCNlRUbEVIT3dUTUJjdHZRczdjYWtZeGVlX01hcmQ5dzhxZlo4MmhDcnVhajMyTFctVnhuZHJwRlYteG9hUNIBeEFVX3lxTFBhX3AtOWFhN25XVUh2Y3JReVdxdW1BczdNVzJVTWhTdThnbjFZbXRvQU1TRFZMMUhVQUR1OGJXM1ZDRzJXM1R5V2hMeGpzODdRNXROck9wNWhwQVhnTm40QUZUakowcWt1VnZaTHJCLWFYc0t1dzZCNw?oc=5",
+        "desc": "지그재그, 블랙프라이데이 맞아 패션·뷰티·라이프 최대 99% 할인&nbsp;&nbsp;뉴시스",
+        "date": "2026-11-16",
+        "brand": "지그재그"
+      }
+    ],
+    "29CM": [
+      {
+        "title": "패션 브랜드 결제금액 1위 무신사·29CM…유니클로 2위",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5jWnVQcy1JZnJFX3Y5ZGdvdVExeTUtMndlQV9mOGlVZGVoZ1pfOWpGdlhKZkRVaXVWelVzUnZRWDdZQXcyREZVVWFvWGxhcFFKaVE1YkVxX3BXcmIwVVVZ?oc=5",
+        "desc": "패션 브랜드 결제금액 1위 무신사·29CM…유니클로 2위&nbsp;&nbsp;뉴스1",
+        "date": "2026-11-18",
+        "brand": "29CM"
+      },
+      {
+        "title": "무신사·29CM, 패션 브랜드 결제액 1위…2위는 유니클로",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBPa2NVV2RPalNScnNCa3ZoUTNvTnpZMG1odGlLVGpST1A2WFFYRExMbjdmSGFJeHZkUHRQY3pWMHlBb2JOSlUzamw4cmVvQkRHRXVnSm5B?oc=5",
+        "desc": "무신사·29CM, 패션 브랜드 결제액 1위…2위는 유니클로&nbsp;&nbsp;헤럴드경제",
+        "date": "2026-11-18",
+        "brand": "29CM"
+      },
+      {
+        "title": "외국인도 반한 29CM 이구홈… 300만 명 몰리며 ‘K-라이프스타일 쇼핑 성지’ 우뚝",
+        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB4Z1RTemtXNmxKdXVxZFllbWIxNEFXX1dpMjUwcF9NSF9NTFBJQ2R2SjF0bU51VXY1b0NLT2xmbTd4RmRpQ0VELWlldDQ2R2lvVVpBQjU1NEk3SDBvVmlkUQ?oc=5",
+        "desc": "외국인도 반한 29CM 이구홈… 300만 명 몰리며 ‘K-라이프스타일 쇼핑 성지’ 우뚝&nbsp;&nbsp;무신사",
+        "date": "2026-11-16",
+        "brand": "29CM"
+      }
+    ],
+    "W컨셉": [
+      {
+        "title": "[똑똑한패션] W컨셉, LF몰, 형지엘리트 윌비플레이, 쉬인, 무신사 스탠다드, 와이드앵글, 휠라, MLB키즈, 그리티 르페",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB4UFg1a04tUUxSMmNJU05kY0FTWGRuUVVRbFpPR25TQlRQVThRVmRnYVpqRXJSMUFlcHk2cGZTYmp3c0lhbnZKN1RLUmVXSENpRkNYMURqazN3Z3M?oc=5",
+        "desc": "[똑똑한패션] W컨셉, LF몰, 형지엘리트 윌비플레이, 쉬인, 무신사 스탠다드, 와이드앵글, 휠라, MLB키즈, 그리티 르페&nbsp;&nbsp;에너지경제신문",
+        "date": "2026-11-18",
+        "brand": "W컨셉"
+      },
+      {
+        "title": "\"외국인이 더 많네\"…성수·한남동에 패션매장 열었더니 생긴 일",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5WdWVXTTVfbFhObF9SdGlnX0hZeVNDVFktRi1reUtQTng1LVQwNnlNV0JjeTczZi1jRVdiQWYyRHB1Y0EwOWE0T1JhSGNBenkzTk96TUp6LXpQUQ?oc=5",
+        "desc": "\"외국인이 더 많네\"…성수·한남동에 패션매장 열었더니 생긴 일&nbsp;&nbsp;한국경제",
+        "date": "2026-11-18",
+        "brand": "W컨셉"
+      },
+      {
+        "title": "[현장] 한남동에 옮긴 패션 취향…W컨셉 첫 단독 플래그십 가보니",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFAtVXI0TlRhSnotZVpDZnJzakhWR08wOEplOVpzM2Z5dDBIbHVkWTRVOHpLRVE0UW1LZFdZYmRWVHJlaGNqdm0tQkNLaWM1eDROclQtSkZSLW1lOXpD?oc=5",
+        "desc": "[현장] 한남동에 옮긴 패션 취향…W컨셉 첫 단독 플래그십 가보니&nbsp;&nbsp;뉴스핌",
+        "date": "2026-11-01",
+        "brand": "W컨셉"
+      }
+    ],
+    "무신사": [
+      {
+        "title": "SKT 에어, 무신사 ‘무진장’서 특가 선보여",
+        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1RSW9WYW55NFNWa0psUXpSczZTRVMwZXVma2txalNyV2UxYzlDQUljN1cyODdXUFJXa05LLVVzcHlyTnBFazJGS0Z0SFoxQjdEOEFwSXA4V1VScVMyNEJmYjhkeVBXcGZodkpqVQ?oc=5",
+        "desc": "SKT 에어, 무신사 ‘무진장’서 특가 선보여&nbsp;&nbsp;알티케이뉴스",
+        "date": "2026-11-22",
+        "brand": "무신사"
+      },
+      {
+        "title": "SKT, 무신사 블랙프라이데이서 '에어' 요금제 할인",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBVb0MwWUptSEFEbzkwZi1KXzI1M2NYRlMzSnNacWJLRVp0UV9uS0traWpBcEo2TUZHMHZHaXJhRi1jRGhTeXJFYjFCc2sza0dzRV9GbGNyMmZucTDSAWBBVV95cUxNRDFrbU91SV94alJHcUt0S0JhWGRuN0RFc0dxblNSOHBUX3dSUC1ld1l1V0xDdC1pVFRrRS1VQjJ4ZEJVQmlaNUF5M0lOd2Q1TVVZNXZxQldXUzJHLVNhQ3Y?oc=5",
+        "desc": "SKT, 무신사 블랙프라이데이서 '에어' 요금제 할인&nbsp;&nbsp;연합뉴스",
+        "date": "2026-11-22",
+        "brand": "무신사"
+      },
+      {
+        "title": "SKT, 무신사 블프 '무진장'서 '에어 5G 요금제' 할인 진행",
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1MSml6d2QzZTZPN0RMUVZnTjByaHM0MHZTS09tZGJTcC1qT2gzUW1ZVDY2UmpaRURod2NzWlNmQksybVNpM3J4NFRLcjFSWFAyV0tqX2lkQjRBbUstNXc3WTFjclpfcU9W?oc=5",
+        "desc": "SKT, 무신사 블프 '무진장'서 '에어 5G 요금제' 할인 진행&nbsp;&nbsp;테크월드",
+        "date": "2026-11-22",
+        "brand": "무신사"
+      }
+    ]
+  }
+}
