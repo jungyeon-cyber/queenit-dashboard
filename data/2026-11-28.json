@@ -1,0 +1,211 @@
+{
+  "collected_at": "2026-11-28",
+  "appstore": [
+    {
+      "app": "포스티",
+      "platform": "iOS",
+      "reviews": [],
+      "rating": null
+    },
+    {
+      "app": "포스티",
+      "platform": "Android",
+      "updated": "2026년 11월 6일",
+      "recent_changes": ""
+    },
+    {
+      "app": "에이블리",
+      "platform": "iOS",
+      "reviews": [],
+      "rating": null
+    },
+    {
+      "app": "에이블리",
+      "platform": "Android",
+      "error": "404 Client Error: Not Found for url: https://play.google.com/store/apps/details?id=com.ablyclothes.app&hl=ko"
+    },
+    {
+      "app": "지그재그",
+      "platform": "iOS",
+      "reviews": [],
+      "rating": null
+    },
+    {
+      "app": "지그재그",
+      "platform": "Android",
+      "error": "404 Client Error: Not Found for url: https://play.google.com/store/apps/details?id=com.kakaostyle.zigzag&hl=ko"
+    }
+  ],
+  "events": {
+    "posty": [
+      {
+        "title": "지금 가입 시 20% 할인쿠폰을 드려요.쿠폰받기",
+        "url": "https://posty.kr/events/cms/879fa67f-578c-4645-9b66-be2b3063c539",
+        "source": "포스티"
+      }
+    ],
+    "ably": [
+      {
+        "title": "에이블리 기획전",
+        "url": "https://m.a-bly.com/exhibitions",
+        "source": "에이블리",
+        "note": "앱 전용 — 상세 목록은 앱에서 확인"
+      }
+    ],
+    "cm29": [
+      {
+        "title": "Event",
+        "url": "https://www.29cm.co.kr/store/event",
+        "source": "29CM"
+      }
+    ],
+    "wconcept": [
+      {
+        "title": "W컨셉 기획전",
+        "url": "https://www.wconcept.co.kr/Display/eventList",
+        "source": "W컨셉",
+        "note": "앱 전용 — 상세 목록은 앱에서 확인"
+      }
+    ]
+  },
+  "news": {
+    "포스티": [
+      {
+        "title": "'포스티' 인기상품",
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1VeWY3cE93bTU2T3hJX2lMcUFhWUhCTlRwQjVSTHk4QkpGOEV4UjZmY250RG1HQmxfUkg2X2xFTmE0OGo0VkpQLWFtNlVfSEpEd3M4VGVOZThIblVpbGo3d1R5ekFRQWRoUUpaOVczRGhNcWc?oc=5",
+        "desc": "'포스티' 인기상품&nbsp;&nbsp;어패럴뉴스",
+        "date": "2026-11-16",
+        "brand": "포스티"
+      },
+      {
+        "title": "포스티, 상반기 결산 페스타 개막… 200개 브랜드 최대 92% 할인",
+        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1Qd0VCTklPWldBc3FxbU1ndEhJaTlMVkFwSEFPd19JelplOXRwWVNKWmtqUU9fYUEwbnladmxrUUhfNnRQaHF3cnZDV2ZtVnRJ?oc=5",
+        "desc": "포스티, 상반기 결산 페스타 개막… 200개 브랜드 최대 92% 할인&nbsp;&nbsp;패션비즈",
+        "date": "2026-06-22",
+        "brand": "포스티"
+      },
+      {
+        "title": "포스티, 겨울 아우터 기획전…수요 대응",
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAtcnZmeDZiVXpScXB6Uy1SYklsb29FbzQ3N2xDR0hMMFFEZGM4aUtHcjdQYkQ3RzR1bWt2Z0JWdTFuM1ZTVkNFcFVpUGdvTmVtVENKSURyaVRKR0hOYUUwRDBRWDhTTm9l?oc=5",
+        "desc": "포스티, 겨울 아우터 기획전…수요 대응&nbsp;&nbsp;한국섬유신문",
+        "date": "2026-11-04",
+        "brand": "포스티"
+      }
+    ],
+    "에이블리": [
+      {
+        "title": "무신사 IPO에 쏠린 눈…적자 줄인 에이블리·영업익 늘린 웍스아웃",
+        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB6cnl5WGZFRnVFQ2tGOFhsWGZNdG5XTjYzMjFpMndPbE0yVGVhME1GVlBLT1pnREdMdVFvR0dyS2dnMC1jN1EzUWdzX2ZFYjFtLVVXdzNQTWtOOEhpaVR3UNIBeEFVX3lxTE9TNlFQZ3F5ck1PV2RCS1F1SktWMEdIT1RvejJWMzNHZXdtTHBrdkJmbk54QnBVTnRhSVFzVnBrTGtHWDFzRGNtOUdWRWJyeFZhYVUxdHpXOUxhcTlEbGpwdmtSWUNyVjA4WWNJVDJ3OEhGVGM4cjNyMw?oc=5",
+        "desc": "무신사 IPO에 쏠린 눈…적자 줄인 에이블리·영업익 늘린 웍스아웃&nbsp;&nbsp;뉴시스",
+        "date": "2026-11-26",
+        "brand": "에이블리"
+      },
+      {
+        "title": "에이블리, 패션 넘어 오프라인 체험까지…예약 서비스 거래액 181% 증가",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1pQ3J3UE1qSDFmRG1tTElBWkNMNVhBZmxSb08yWGd1clFnaGhvRXN0Rng4TnUya016ZzJMZ1VvbEZ0T2c2alVydUY0UzFzTGlJWFHSAVNBVV95cUxPc21SbzBiVzVvVTgybWh4bUJ4b3diMkh3SnhSZWdwWGNyNGo0V2JleEcxT0J1UmxKSS1lUHlfYzBiNEFxb053SkRmLWFlaW5aNVBhQQ?oc=5",
+        "desc": "에이블리, 패션 넘어 오프라인 체험까지…예약 서비스 거래액 181% 증가&nbsp;&nbsp;서울경제",
+        "date": "2026-11-19",
+        "brand": "에이블리"
+      },
+      {
+        "title": "[단독] ‘1000만 패션 플랫폼’ 에이블리, 키즈 시장에 출사표…뷰티·푸드까지 판 넓힌다",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9FZUVWUE5udmVCNjhMclpmRGFqNzFqUXBtaHlBbjQ2b2o5NHJuYXp5ejVzb2VYQXlRNFota2M0WEo2d0Q3MVQwYUlfN0xRX3dWNDRNTw?oc=5",
+        "desc": "[단독] ‘1000만 패션 플랫폼’ 에이블리, 키즈 시장에 출사표…뷰티·푸드까지 판 넓힌다&nbsp;&nbsp;이투데이",
+        "date": "2026-11-18",
+        "brand": "에이블리"
+      }
+    ],
+    "지그재그": [
+      {
+        "title": "손님에 'XX년아' 원색적 욕설...지그재그 입점 업체 응대 논란",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9LNGxVRVRhZ3N5dXJ0OWxCb3hoWmVrUkZHTXl2MC1KWEtHSVBUdklHLW1rMVFuY0JDWGxpWGdPdTRDZFR0SDhjUHktMUltWDV5ME16c1ZHRzZmRV9yT2ZYd2YtZ01hb0t5VGswMUstMDfSAXRBVV95cUxNc2JodEhDcENFWUZKeUZuSy0zX2IzeU1xYjFlRVppT1VSMDBWdlFteHQzekJNUG9QQk5HeXozZ3M4X2hqZzlJNG0yM3RJV3NKSWwzUUNqakdoak9iazgyUU1kLWVWdkdVd29PTHRveW1YdW1fdg?oc=5",
+        "desc": "손님에 'XX년아' 원색적 욕설...지그재그 입점 업체 응대 논란&nbsp;&nbsp;뉴스워커",
+        "date": "2026-11-27",
+        "brand": "지그재그"
+      },
+      {
+        "title": "[AT 인터뷰]\"'검색·찜' 속 고객 취향 읽고\"…지그재그 MD ‘될 브랜드’ 키운다",
+        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5UNU8tLXNKc1ZvdGVLVHJlaEs5Z3J5dGVkOG42Mk9JTDZERFZVcGV3ZHhMWHlkVERRdDlhcHlGMEo3aUNlYXF4UGt3UjVBQnhCZy13Z1BrZlE3Tk1LRkE?oc=5",
+        "desc": "[AT 인터뷰]\"'검색·찜' 속 고객 취향 읽고\"…지그재그 MD ‘될 브랜드’ 키운다&nbsp;&nbsp;아시아타임즈",
+        "date": "2026-11-24",
+        "brand": "지그재그"
+      },
+      {
+        "title": "'지그재그' 카카오스타일, 현금흐름 '뚝'",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE81b096X3g3bktSbU9OSHQ4YW5PRVU1WGZ3eDFGeXhEUHpTR04yZXVYeExla292bmpHZmhKYnNZOTNxblUwQ1c5QTlaTUpMMUpFWnQ2Ukdn?oc=5",
+        "desc": "'지그재그' 카카오스타일, 현금흐름 '뚝'&nbsp;&nbsp;DealSite경제TV",
+        "date": "2026-05-15",
+        "brand": "지그재그"
+      }
+    ],
+    "29CM": [
+      {
+        "title": "29CM, 패션·홈 교차 구매로 카테고리 간 시너지 확대… “이구홈 첫 고객 2명 중 1명이 패션 재구매”",
+        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4zUFV6M28waHZxckVRbmpnRWJYQThIdVJLRjlDX084bzFjSmxzSGZTOVpsT1o4ZC0ybHdvemw0TnpHcWZGQ2ZxYXd3WVRpa0tkdWJhb1gtcXktV3FaWlkwTA?oc=5",
+        "desc": "29CM, 패션·홈 교차 구매로 카테고리 간 시너지 확대… “이구홈 첫 고객 2명 중 1명이 패션 재구매”&nbsp;&nbsp;무신사",
+        "date": "2026-11-18",
+        "brand": "29CM"
+      },
+      {
+        "title": "무신사 29CM '이구위크' 거래액 '역대최대' 1749억",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFAtZ1FUeVhWUTg0UnM1VjVfZGhYTjlCZ0t1SUc3VVdQU0k3ODRCckU4ZXEwVFkyNWo4dS0taHVlYUx5RFhvLWhLSVdScDV0YzRvTkVEaVRxN3R1V1ZE?oc=5",
+        "desc": "무신사 29CM '이구위크' 거래액 '역대최대' 1749억&nbsp;&nbsp;뉴스핌",
+        "date": "2026-11-22",
+        "brand": "29CM"
+      },
+      {
+        "title": "[단독] 무신사 ‘29CM’서 개인정보 3만건 추가 유출",
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBWSGRyenh4T3ZZaEYzemNMWlRnRFZVZnozWndkZzNvcnJnb0dudXUyS1M2ZVNzRUhWWk1xUWVsZTN6aW5tZXk2c05BODUzRUhrbnZ3TEQ3bzZ5SUVhLVo1eDhJYmtwTEZVcXZqcG5QLTVKQQ?oc=5",
+        "desc": "[단독] 무신사 ‘29CM’서 개인정보 3만건 추가 유출&nbsp;&nbsp;한겨레",
+        "date": "2026-10-06",
+        "brand": "29CM"
+      }
+    ],
+    "W컨셉": [
+      {
+        "title": "W컨셉, 더블유위크 단독상품 매출 250%↑…29일까지 추가 할인",
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5pZkVCYW1uOFVXTGFiSkxYNnhOSjhQZERoUWQxZ3FkWUhtQ3pva0RMTkM4STVfNERUY2Y1Z3JVTDlyTVdjMHZocThFcXo0bG0zTl9VREF5aVhoWm56Zy1oTXkzcXVMaDAwNUJUWFFQanZxMVpmaExGc9IBeEFVX3lxTE5pZkVCYW1uOFVXTGFiSkxYNnhOSjhQZERoUWQxZ3FkWUhtQ3pva0RMTkM4STVfNERUY2Y1Z3JVTDlyTVdjMHZocThFcXo0bG0zTl9VREF5aVhoWm56Zy1oTXkzcXVMaDAwNUJUWFFQanZxMVpmaExGcw?oc=5",
+        "desc": "W컨셉, 더블유위크 단독상품 매출 250%↑…29일까지 추가 할인&nbsp;&nbsp;뉴시스",
+        "date": "2026-11-27",
+        "brand": "W컨셉"
+      },
+      {
+        "title": "[패션브리핑] W컨셉, 'W기프트샵' 운영 외",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8wa0ZkcTNMQ1Q5Z1Z2VEJ0cVB6MGhXT29NSjViMllwbXRZNFFLakpzTzdVT2V4Mm5jNFBnUUltLWdxZzJGZEpISnpQVW1TcGRxZ0EwZEkzSE5XYzJFQzExdE5MVlFRZnVNdEE?oc=5",
+        "desc": "[패션브리핑] W컨셉, 'W기프트샵' 운영 외&nbsp;&nbsp;서울파이낸스",
+        "date": "2026-11-25",
+        "brand": "W컨셉"
+      },
+      {
+        "title": "W컨셉, '‘더블유위크’ 이어 ‘어게인 세일’...최대 30% 할인",
+        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE4zMGswVmo3UjlQN2FHNVhrQmt3OEJ6bWJDUGJTeGprOVBDNUpXY2pFNWlQYXlaWkVJajNlYnRvQ1hUeGNCQlFPUWxWRFJyVk5fcUtjRGpyZHlUeW8zc001Tm1iM1RZdw?oc=5",
+        "desc": "W컨셉, '‘더블유위크’ 이어 ‘어게인 세일’...최대 30% 할인&nbsp;&nbsp;싱글리스트",
+        "date": "2026-11-26",
+        "brand": "W컨셉"
+      }
+    ],
+    "무신사": [
+      {
+        "title": "[카드뉴스] 800평 매장에 담긴 무신사의 성장기...기업가치 10조원 바라본다",
+        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBKaXlyVXZMRm93UUNCVjAzNXhLZ29hck1PNFk3OUw4Rk9aWExkWl9EY1IxeURiX3NRMW9sTHZ6clQwajVjQi1Kc0FXNE9TOE1LSTdBYm5LdFNuZ0tua2k2SGpfUm9vd9IBakFVX3lxTE0weHM2VU1uc1hMazdENWxPWGJSajhDM19sOUEwNGlKV09hQm5iQmM3U2Q2RUVpVGtDeW83X1EzR2hGN1pudlBlVzZsYXR2Vy14a21kSWhmZGlfbGpsdzBXNmtoZUIyOUUzNGc?oc=5",
+        "desc": "[카드뉴스] 800평 매장에 담긴 무신사의 성장기...기업가치 10조원 바라본다&nbsp;&nbsp;테크M",
+        "date": "2026-11-27",
+        "brand": "무신사"
+      },
+      {
+        "title": "무신사, 오프라인 100호점·수출 9배 성장…플랫폼 넘어 글로벌 패션 유통망 구축",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE00YURWb1NBUzFRNlg1VHdkelM3Vm9nQkQySHhaOWhiTVpnSXg0Z2t0MXJGdnVBeUxtb3lodVZjUXpreFVxRnpQb29oUkwtM1QzMFN4aHRPTjlkUHJpakU3NE14RTRXZXh6Yy1IT093?oc=5",
+        "desc": "무신사, 오프라인 100호점·수출 9배 성장…플랫폼 넘어 글로벌 패션 유통망 구축&nbsp;&nbsp;업코리아",
+        "date": "2026-11-24",
+        "brand": "무신사"
+      },
+      {
+        "title": "배스킨라빈스, 국내 진출 40주년 기념 무신사 협업 컬렉션 출시",
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE55TUp4Q3I0UGNKZldsWm5yZ2NBREl4Sy1ueEt6UVR0X1N2YjlHWHUybTJtQUR6bWZQTnVGQlhWS3JIeEF2N2RsWk1qVTNLVVowM2h6NEZUNzFNZnRoclNaSHBqdjMta3dKVkR3ZWE1ejJGRDQ?oc=5",
+        "desc": "배스킨라빈스, 국내 진출 40주년 기념 무신사 협업 컬렉션 출시&nbsp;&nbsp;스페셜타임스",
+        "date": "2026-11-27",
+        "brand": "무신사"
+      }
+    ]
+  }
+}
